@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
+    "message": "Know Your Micro Storage System",
+    "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Daily Use": {
+    "message": "Daily Use",
+    "description": "The label for category Daily Use in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Energy Management": {
+    "message": "Energy Management",
+    "description": "The label for category Energy Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Information & Capabilities": {
+    "message": "Technical Information & Capabilities",
+    "description": "The label for category Technical Information & Capabilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Specification": {
+    "message": "Technical Specification",
+    "description": "The label for category Technical Specification in sidebar tutorialSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started": {
+    "message": "Prise en main",
+    "description": "The label for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Prise en main",
+    "description": "The generated-index page title for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Commencez avec INDEVOLT en installant l'application, en créant votre compte et en configurant votre premier appareil.",
+    "description": "The generated-index page description for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT": {
+    "message": "Utilisation d'INDEVOLT",
+    "description": "The label for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.title": {
+    "message": "Utilisation d'INDEVOLT",
+    "description": "The generated-index page title for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.description": {
+    "message": "Cette section explique les fonctions clés, de la surveillance de l'énergie aux paramètres personnels.",
+    "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
+  }
+}
