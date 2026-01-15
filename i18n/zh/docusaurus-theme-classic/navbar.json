@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "开发者",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.INDEVOLT App": {
+    "message": "INDEVOLT App",
+    "description": "Navbar item with label INDEVOLT App"
+  },
+  "item.label.Micro Storage": {
+    "message": "微型储能",
+    "description": "Navbar item with label Micro Storage"
+  }
+}

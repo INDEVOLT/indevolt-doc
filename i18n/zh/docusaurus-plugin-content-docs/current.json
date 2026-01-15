@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
+    "message": "认识微型储能系统",
+    "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Daily Use": {
+    "message": "日常使用",
+    "description": "The label for category Daily Use in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Energy Management": {
+    "message": "能量管理",
+    "description": "The label for category Energy Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Information & Capabilities": {
+    "message": "技术参数与扩展",
+    "description": "The label for category Technical Information & Capabilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Specification": {
+    "message": "技术参数",
+    "description": "The label for category Technical Specification in sidebar tutorialSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started": {
+    "message": "开始使用",
+    "description": "The label for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "开始使用",
+    "description": "The generated-index page title for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "本节将带您快速上手，完成INDEVOLT的安装与注册，并成功连接您的第一个设备。",
+    "description": "The generated-index page description for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT": {
+    "message": "使用INDEVOLT",
+    "description": "The label for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.title": {
+    "message": "使用INDEVOLT",
+    "description": "The generated-index page title for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.description": {
+    "message": "本节将依据底部标签栏的顺序，逐一详解INDEVOLT每个标签页下的详细功能。",
+    "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "link.title.Product": {
+    "message": "产品",
+    "description": "The title of the footer links column with title=Product in the footer"
+  },
+  "link.title.Company": {
+    "message": "公司",
+    "description": "The title of the footer links column with title=Company in the footer"
+  },
+  "link.item.label.INDEVOLT": {
+    "message": "INDEVOLT",
+    "description": "The label of footer link with label=INDEVOLT linking to https://www.indevolt.com/"
+  },
+  "link.item.label.About Us": {
+    "message": "关于我们",
+    "description": "The label of footer link with label=About Us linking to https://www.indevolt.com/pages/about-us"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Power Genius. All rights reserved.",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "INDEVOLT Developers",
+    "description": "The alt text of footer logo"
+  },
+  "link.title.Docs": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.item.label.Micro Storage": {
+    "message": "微型储能",
+    "description": "The label of footer link with label=Micro Storage linking to docs/hardware/doc-intro"
+  },
+  "link.item.label.INDEVOLT App": {
+    "message": "INDEVOLT App",
+    "description": "The label of footer link with label=INDEVOLT App linking to docs/app/introduction"
+  }
+}
