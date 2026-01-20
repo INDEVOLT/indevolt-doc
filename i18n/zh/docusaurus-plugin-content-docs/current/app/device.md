@@ -79,3 +79,16 @@ description: 集中管理家庭能源设备，实时监控设备状态与运行�
 
 <img src={require("./img/select_fw_update.png").default} width="240"/>
 <img src={require("./img/fw_update.png").default} width="240"/>
+
+## 5. 并机分组
+
+当多台储能设备通过并机连接后，它们将作为一个统一的能源集群进行管理和显示。集群由一台主机设备统一协调控制，自动分配电能，并同步应用运行模式、馈网限制等。
+<img src={require("./img/cluster_device_list.png").default} width="240"/>
+
+
+点击该并机分组卡片，即可进入集群详情页面，查看主从设备关系、集群的用能策略、实时功率数据。
+<img src={require("./img/cluster_info.png").default} width="240"/>
+
+
+点击详情页右上角的设置图标 ⚙，可修改集群配置以及解除并机关系。
+<img src={require("./img/cluster_settings.png").default} width="240"/>

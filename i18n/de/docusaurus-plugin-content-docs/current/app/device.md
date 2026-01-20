@@ -74,3 +74,14 @@ Tippen Sie auf **Netzwerk-Einstellungen**, um den Namen des WLANs anzuzeigen, mi
 Tippen Sie auf **Firmware-Update**, um die aktuelle Firmware-Version des Geräts und verfügbare Updates anzuzeigen. Wenn eine neue Version verfügbar ist, tippen Sie auf **Anwenden**, um das Online-Upgrade durchzuführen.
 
 <img src={require("./img/fw_update.jpg").default} width="240"/>
+
+## 5. Cluster
+
+Wenn mehrere Energiespeichergeräte parallel verbunden sind, werden sie als ein einheitlicher Energiecluster verwaltet und angezeigt. Der Cluster wird von einem Hauptgerät koordiniert, das die Energie automatisch verteilt und Betriebsmodi, Einspeisebegrenzungen und weitere Einstellungen synchron anwendet.
+<img src={require("./img/cluster_device_list.png").default} width="240"/>
+
+Tippen Sie auf die Cluster-Karte, um die Detailseite des Clusters zu öffnen. Dort können Sie die Haupt–Neben-Gerätebeziehung, die Energiestrategie des Clusters sowie die Echtzeit-Leistungsdaten einsehen.
+<img src={require("./img/cluster_info.png").default} width="240"/>
+
+Tippen Sie auf das Einstellungssymbol ⚙ oben rechts auf der Detailseite, um die Clusterkonfiguration zu ändern oder den Cluster aufzulösen.
+<img src={require("./img/cluster_settings.png").default} width="240"/>

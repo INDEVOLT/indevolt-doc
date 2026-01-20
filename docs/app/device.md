@@ -82,3 +82,14 @@ Tap **Firmware Update** to view the device’s current firmware version and avai
 
 <img src={require("./img/select_fw_update.png").default} width="240"/>
 <img src={require("./img/fw_update.png").default} width="240"/>
+
+## 5. Cluster
+
+When multiple energy storage devices are connected in parallel, they are managed and displayed as a unified energy cluster. The cluster is centrally coordinated by a main device, which automatically distributes energy and synchronizes operating modes, feed-in limits, and other settings.
+<img src={require("./img/cluster_device_list.png").default} width="240"/>
+
+Tap the cluster card to enter the cluster details page, where you can view the main–sub device relationship, the cluster’s energy management strategy, and real-time power data.
+<img src={require("./img/cluster_info.png").default} width="240"/>
+
+Tap the settings icon ⚙ in the upper-right corner of the details page to modify the cluster configuration or disband the cluster.
+<img src={require("./img/cluster_settings.png").default} width="240"/>

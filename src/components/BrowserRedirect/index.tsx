@@ -18,10 +18,18 @@ const RedirectLogic = () => {
     // 1. Only redirect if at the absolute root '/'
     if (pathname !== "/") return;
 
-    // 2. Detect browser language (zh-CN -> zh)
+    // 2. Prevent redirect if user explicitly navigated here (e.g. clicked "Home" or "English")
+    // 'PUSH' indicates a client-side navigation (link click)
+    if (history.action === "PUSH") return;
+
+    // 3. Prevent redirect loop if we already redirected in this session
+    const storageKey = "docusaurus.i18n.hasRedirected";
+    if (sessionStorage.getItem(storageKey)) return;
+
+    // 4. Detect browser language (zh-CN -> zh)
     const browserLang = navigator.language.split("-")[0].toLowerCase();
 
-    // 3. Check if we should redirect
+    // 5. Check if we should redirect
     const isSupported = i18n.locales.includes(browserLang);
     const isNotDefault = browserLang !== i18n.defaultLocale;
 
@@ -31,9 +39,10 @@ const RedirectLogic = () => {
     if (isSupported && isNotDefault && !hasManualChoice) {
       // IMPORTANT: Use window.location.href to switch between localized apps.
       // Do NOT use history.push/replace here.
+      sessionStorage.setItem(storageKey, "true");
       window.location.href = `/${browserLang}/`;
     }
-  }, [pathname, i18n]);
+  }, [pathname, i18n, history]);
   return null;
 };
 

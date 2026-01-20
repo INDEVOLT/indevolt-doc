@@ -73,3 +73,14 @@ Appuyez sur **Mise à jour du firmware** pour consulter la version actuelle du f
 
 <img src={require("./img/settings.png").default} width="240"/>
 <img src={require("./img/fw_update.png").default} width="240"/>
+
+## 5. Cluster
+
+Lorsque plusieurs dispositifs de stockage d’énergie sont connectés en parallèle, ils sont gérés et affichés comme un cluster énergétique unifié. Le cluster est coordonné par un appareil principal, qui répartit automatiquement l’énergie et applique de façon synchronisée les modes de fonctionnement, les limites d’injection et autres paramètres.
+<img src={require("./img/cluster_device_list.png").default} width="240"/>
+
+Appuyez sur la carte du cluster pour accéder à la page de détails, où vous pouvez consulter la relation principal–secondaire entre les appareils, la stratégie énergétique du cluster ainsi que les données de puissance en temps réel.
+<img src={require("./img/cluster_info.png").default} width="240"/>
+
+Appuyez sur l’icône de paramètres ⚙ située en haut à droite de la page de détails pour modifier la configuration du cluster ou dissoudre la connexion parallèle.
+<img src={require("./img/cluster_settings.png").default} width="240"/>
