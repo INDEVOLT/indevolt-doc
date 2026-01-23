@@ -388,7 +388,7 @@ Assurez-vous que le Bluetooth est activé et que l’appareil cible est sous ten
 Cette fonction aide les techniciens après-vente à localiser et résoudre rapidement les problèmes potentiels des appareils.
 
 :::tip Prérequis
-- Assurez-vous que l’appareil est sous tension et connecté à Internet via 4G/5G ou Wi-Fi.  
+- Assurez-vous que l’appareil est sous tension.  
 - Maintenez la connexion Bluetooth stable pendant le débogage. Il est recommandé de garder l’écran du téléphone allumé pour éviter la déconnexion.
 :::
 
@@ -400,6 +400,17 @@ Cette fonction aide les techniciens après-vente à localiser et résoudre rapid
 <img src={require("./img/remote_support.png").default} width="240"/>
 <img src={require("./img/scan_qr_code.png").default} width="240"/>
 <img src={require("./img/remote_id.png").default} width="240"/>
+
+**Quitter l'assistance à distance :**
+- Appuyez sur le bouton **Quitter Le Mode Assistance** pour mettre fin manuellement au débogage à distance.
+- Le mode assistance peut également être arrêté par un technicien. L’application vous informera automatiquement de la fin de la session.
+
+**Message d’échec de connexion de l’appareil :**
+- Veuillez vérifier que le **Bluetooth est activé** sur votre téléphone et qu’il est correctement connecté à l’appareil.
+- Appuyez sur **Réessayer** pour rétablir la connexion avec l’appareil.
+- Maintenez l’**écran du téléphone allumé** et restez sur la **page de assistance à distance**.
+
+<img src={require("./img/remote_connection_failed.png").default} width="240"/>
 
 :::info
 - Le processus de débogage n’affecte pas le fonctionnement normal de l’appareil.  

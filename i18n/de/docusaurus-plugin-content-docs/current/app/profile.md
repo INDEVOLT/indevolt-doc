@@ -410,7 +410,7 @@ Stellen Sie sicher, dass Bluetooth auf Ihrem Smartphone aktiviert ist und das Zi
 Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme schnell zu lokalisieren und zu beheben.
 
 :::tip Voraussetzung
-- Stellen Sie sicher, dass das Gerät eingeschaltet ist und über 4G/5G oder WLAN mit dem Internet verbunden ist.
+- Stellen Sie sicher, dass das Gerät eingeschaltet ist.
 - Halten Sie die Bluetooth-Verbindung während der Diagnose stabil. Es wird empfohlen, den Bildschirm Ihres Smartphones eingeschaltet zu lassen, um Unterbrechungen zu vermeiden.
 :::
 
@@ -422,6 +422,17 @@ Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme 
    <img src={require("./img/remote_support.png").default} width="240"/>
    <img src={require("./img/scan_qr_code.jpg").default} width="240"/>
    <img src={require("./img/remote_id.png").default} width="240"/>
+
+**Unterstützungsmodus Beenden:**
+- Tippen Sie auf die Schaltfläche **Unterstützungsmodus Beenden**, um das Remote-Debugging manuell zu beenden.
+- Alternativ kann der Techniker das Debugging beenden. Die App informiert Sie automatisch, sobald die Sitzung beendet ist.
+
+**Hinweis: Geräteverbindung fehlgeschlagen:**
+- Bitte stellen Sie sicher, dass **Bluetooth auf Ihrem Smartphone aktiviert** ist und eine erfolgreiche Verbindung zum Gerät besteht.
+- Tippen Sie auf **Wiederholen**, um die Geräteverbindung wiederherzustellen.
+- Halten Sie den **Bildschirm Ihres Smartphones eingeschaltet** und bleiben Sie auf der **Fernunterstützungsseite**.
+
+<img src={require("./img/remote_connection_failed.png").default} width="240"/>
 
 :::info
 - Der Diagnoseprozess beeinträchtigt den normalen Gerätebetrieb nicht.

@@ -408,7 +408,7 @@ description: 管理个人账户与个性化设置，定制专属的能源管理�
 本功能旨在协助售后技术人员快速定位并解决您设备的潜在问题。
 
 :::tip 准备工作
-- 确保待调试设备已通电，并能通过4G/5G/或Wi-Fi等方式正常接入互联网。
+- 确保待调试设备已通电。
 - 调试过程中，请保持手机与设备间的蓝牙连接稳定，建议将手机屏幕设置为常亮，避免休眠导致连接中断。
 :::
 
@@ -417,10 +417,21 @@ description: 管理个人账户与个性化设置，定制专属的能源管理�
 3. 扫描设备机身上的二维码，或手动输入设备SN码，以建立蓝牙连接。
 4. 系统将自动生成一个**远程调试ID**。请将此ID提供给技术支持人员，以便其远程接入并进行诊断。
 
-   <img src={require("./img/select_remote_support.png").default} width="240"/>
+   <img src={require("./img/profile_page.png").default} width="240"/>
    <img src={require("./img/remote_support.png").default} width="240"/>
    <img src={require("./img/scan_qr_code.png").default} width="240"/>
    <img src={require("./img/remote_id.png").default} width="240"/>
+
+**退出远程调试：**
+- 点击 **退出调试模式** 按钮，即可主动结束远程调试。
+- 或由技术人员结束调试，App 会自动提示本次调试已结束。  
+
+**提示设备连接失败：**
+- 请确认手机 **蓝牙已开启**，并已成功连接到设备。 
+- 点击 **重试**，重新建立设备连接。   
+- 请保持手机 **屏幕常亮**，并停留在 **远程调试界面**。
+  
+   <img src={require("./img/remote_connection_failed.png").default} width="240"/>
 
 :::info
 - 调试过程不会影响设备的正常运行。

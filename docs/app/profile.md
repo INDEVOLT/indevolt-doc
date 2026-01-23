@@ -420,7 +420,7 @@ Ensure Bluetooth is enabled on your phone and the target device is powered on an
 This function helps after-sales technicians quickly locate and resolve potential device issues.
 
 :::tip Prerequisite
-- Ensure the device is powered on and connected to the internet via 4G/5G or Wi-Fi.
+- Ensure the device is powered on.
 - Keep the Bluetooth connection stable during debugging. It is recommended to set your phone screen to stay awake to avoid disconnection.
 :::
 
@@ -433,6 +433,18 @@ This function helps after-sales technicians quickly locate and resolve potential
    <img src={require("./img/remote_support.png").default} width="240"/>
    <img src={require("./img/scan_qr_code.png").default} width="240"/>
    <img src={require("./img/remote_id.png").default} width="240"/>
+
+**Exit Remote Support:**
+- Tap the **Exit Support Mode** button to manually end the remote debugging session.
+- Alternatively, the technician can end the session, and the app will automatically notify you that the debugging has ended.
+
+**Device Connection Failed:**
+- Please make sure that **Bluetooth is enabled** on your phone and that it is successfully connected to the device.
+- Tap **Retry** to re-establish the device connection.
+- Keep your phone **screen on** and remain on the **Remote Support** page.
+
+<img src={require("./img/remote_connection_failed.png").default} width="240"/>
+
 
 :::info
 - The debugging process does not affect normal device operation.
