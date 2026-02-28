@@ -83,7 +83,7 @@ If the load curve is set too high or is unreasonable, grid feed-in may occur.
 1. Ensure your device has been added to your home in the **INDEVOLT App**  
 2. Tap the **Device** tab at the bottom and select the device card to enter the device details page  
 3. Tap the energy mode area (which dynamically displays the selected mode) to enter the mode selection page  
-4. Select **Self-Consumed Prioritized** and tap **Go to Settings**  
+4. Select **Self-Consumed Prioritized** and tap **Settings**  
 5. Select the appropriate [load type](#load-selection) based on actual conditions (Smart Plug / Smart Meter / Critical Load / Custom Configuration)  
 6. Tap **Save** to apply the settings immediately  
 
@@ -91,10 +91,7 @@ If the load curve is set too high or is unreasonable, grid feed-in may occur.
 <img src={require("./img/select_energy_mode.png").default} width="240"/>
 <img src={require("./img/self_consume_prioritized.png").default} width="240"/>
 <img src={require("./img/load_settings.png").default} width="240"/>
-<img src={require("./img/load_plug.png").default} width="240"/>
-<img src={require("./img/load_meter.png").default} width="240"/>
-<img src={require("./img/load_key_load.png").default} width="240"/>
-<img src={require("./img/load_custom.png").default} width="240"/>
+
 
 ## Recommended Device Parameter Settings
 

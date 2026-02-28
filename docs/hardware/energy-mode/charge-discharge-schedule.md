@@ -64,7 +64,7 @@ To prevent overload or abnormal operation, the system will automatically select 
 1. Ensure your device has been added to your home in the **INDEVOLT App**.  
 2. Tap the **Device** tab at the bottom and select the device card to enter the device details page.  
 3. Tap the energy mode area (which dynamically displays the currently selected mode) to enter the mode selection page.  
-4. Select **Charge/Discharge Schedule** and tap **Go to Settings**.  
+4. Select **Charge/Discharge Schedule** and tap **Settings**.  
 5. Tap **+ Add Plan**:
    - Set starting time / end time  
    - Select charging or discharging status  

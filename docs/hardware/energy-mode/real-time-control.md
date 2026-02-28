@@ -45,7 +45,7 @@ When the battery level reaches the configured **target SoC**, the system will au
 1. Ensure your device has been added to your home in the **INDEVOLT App**  
 2. Tap the **Device** tab at the bottom and select the device card to enter the device details page  
 3. Tap the energy mode area (which dynamically displays the selected mode) to enter the mode selection page  
-4. Select **Real-Time Control** and tap **Go to Settings**  
+4. Select **Real-Time Control** and tap **Settings**  
 5. Configure parameters according to your needs:  
    - Status: Standby / Charge / Discharge  
    - Power: 0–2400 W  
