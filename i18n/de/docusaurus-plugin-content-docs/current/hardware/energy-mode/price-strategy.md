@@ -1,7 +1,7 @@
 ---
-title: Price Strategy
+title: Dynamic Pricing Mode
 description: 说明
 ---
 
-# Price Strategy
+# Dynamic Pricing Mode
 
