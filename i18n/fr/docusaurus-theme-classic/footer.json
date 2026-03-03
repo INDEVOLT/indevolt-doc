@@ -13,7 +13,7 @@
   },
   "link.item.label.About Us": {
     "message": "À propos de nous",
-    "description": "The label of footer link with label=About Us linking to https://www.indevolt.com/pages/about-us"
+    "description": "The label of footer link with label=About Us linking to https://www.indevolt.com/pages/about-us/"
   },
   "copyright": {
     "message": "Copyright © 2025 Power Genius GmbH. Tous droits réservés.",

@@ -19,65 +19,72 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
 
   tutorialSidebar: [
-    // 'hardware/doc-intro',
-    // 'hardware/product-overview',
-    // 'hardware/safety',
-    // 'hardware/quick-start',
-    // {
-    //   type: 'category',
-    //   collapsed: false,
-    //   label: 'Know Your Micro Storage System',
-    //   items: [
-    //     'hardware/overview/product-models',
-    //     'hardware/overview/system-overview',
-    //     'hardware/overview/appearance-interface'
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   collapsed: false,
-    //   label: 'Daily Use',
-    //   items: [
-    //     'hardware/basic/power-on-off',
-    //     'hardware/basic/status-data',
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   collapsed: false,
-    //   label: 'Energy Management',
-    //   items: [
-    //     'hardware/advanced/self-consumption',
-    //     'hardware/advanced/charge-discharge-schedule',
-    //     'hardware/advanced/real-time-control',
-    //     'hardware/advanced/price-strategy',
-    //   ],
-    // },
-    // {
-    //   type: 'category',
-    //   collapsed: false,
-    //   label: 'Technical Information & Capabilities',
-    //   items: [
-    //     {
-    //       type: 'category',
-    //       collapsed: false,
-    //       label: 'Technical Specification',
-    //       items: [
-    //         'hardware/geek/power-tech-specs',
-    //         'hardware/geek/battery-tech-specs',
-    //       ],
-    //     },
-    //     'hardware/geek/open-data',
-    //     'hardware/geek/home-assistant',
-    //     'hardware/geek/device-integration'
-    //   ],
-    // },
-    // 'hardware/faq-troubleshooting',
-    // 'hardware/after-sales',
-    // 'hardware/maintenance',
-    // 'hardware/compliance',
-    // 'hardware/glossary',
-    // 'hardware/firmware'
+    'hardware/doc-intro',
+    'hardware/product-overview',
+    'hardware/safety',
+    'hardware/quick-start',
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Know Your Micro Storage System',
+      items: [
+        'hardware/overview/product-models',
+        'hardware/overview/system-overview',
+        'hardware/overview/appearance-interface'
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Daily Use',
+      items: [
+        'hardware/basic/power-on-off',
+        'hardware/basic/status-data',
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Advanced Settings',
+      items: [
+        // 'hardware/advanced/cluster',
+        'hardware/advanced/link-device',
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Energy Management',
+      link: {type: 'doc', id: 'hardware/energy-mode/energy-mode'},
+      items: [
+        'hardware/energy-mode/self-consumption',
+        'hardware/energy-mode/charge-discharge-schedule',
+        'hardware/energy-mode/real-time-control',
+        'hardware/energy-mode/price-strategy',
+      ],
+    },
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'Technical Information & Capabilities',
+      items: [
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'Technical Specification',
+          items: [
+            'hardware/geek/power-tech-specs',
+            'hardware/geek/battery-tech-specs',
+          ],
+        },
+        'hardware/geek/open-data',
+        'hardware/geek/home-assistant',
+      ],
+    },
+    'hardware/faq-troubleshooting',
+    'hardware/maintenance',
+    'hardware/glossary',
+    'hardware/firmware'
   ],
   appSidebar: [
     'app/introduction',

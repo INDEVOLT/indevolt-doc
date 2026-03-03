@@ -1,6 +1,6 @@
 ---
 title: 产品概述
-description: Indevolt阳台储能系统简介
+description: Indevolt储能系统简介
 ---
 
 # 产品概述

@@ -106,10 +106,10 @@ const config: Config = {
           label: "Docs",
           position: "left",
           items: [
-            // {
-            //   label: "Micro Storage",
-            //   to: "docs/hardware/doc-intro"
-            // },
+            {
+              label: "Micro Storage",
+              to: "docs/hardware/doc-intro"
+            },
             {
               label: "INDEVOLT App",
               to: "docs/app/introduction"
@@ -134,10 +134,10 @@ const config: Config = {
         {
           title: "Docs",
           items: [
-            // {
-            //   label: "Micro Storage",
-            //   to: "docs/hardware/geek/open-data"
-            // },
+            {
+              label: "Micro Storage",
+              to: "docs/hardware/doc-intro"
+            },
             {
               label: "INDEVOLT App",
               to: "docs/app/introduction"
@@ -165,7 +165,7 @@ const config: Config = {
         },
       ],
       copyright:
-        "Copyright © 2025 Power Genius. All rights reserved.",
+        "Copyright © 2026 Power Genius. All rights reserved.",
     },
     prism: {
       theme: prismThemes.github,

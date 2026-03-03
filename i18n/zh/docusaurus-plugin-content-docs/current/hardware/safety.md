@@ -1,6 +1,6 @@
 ---
 title: 安全须知
-description: 使用安全指南
+description: INDEVOLT储能设备使用安全指南
 ---
 
 # 安全须知

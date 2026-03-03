@@ -1,6 +1,6 @@
 ---
 title: 关于本手册
-description: INDEVOLT阳台储能系统用户指南概览。
+description: INDEVOLT储能设备用户指南概览。
 ---
 
 # 关于本手册
@@ -28,36 +28,20 @@ description: INDEVOLT阳台储能系统用户指南概览。
 
 如果你希望优化用能模式、查看设备参数或进行系统集成：
 
-👉 **[设置用能策略 →](./advanced/self-consumption.md)**  
+👉 **[设置用能策略 →](./energy-mode/self-consumption.md)**  
 👉 **[查看技术参数 →](./geek/power-tech-specs.md)**
-
----
-
-## 当前版本
-
-本文档基于最新设备固件版本及App版本：
-
-- **固件版本**： 
-- **App 版本**：
-
-👉 [查看固件更新记录](./firmware.md)
 
 ---
 
 ## 需要更多帮助？
 
-- 📖 [查看常见问题及故障排查（FAQ）](./faq-troubleshooting.md)
-- 📩 [联系售后支持](./after-sales.md)
+- 📖 **[查看常见问题及故障排查（FAQ）](./faq-troubleshooting.md)**
 
 ---
 
 ## 更多信息
 
-- [维护保养](./maintenance.md)
-- [产品合规与认证信息](./compliance.md)
-- [术语表](./glossary.md)
+- **[查看固件更新记录](./firmware.md)**
+- **[维护保养](./maintenance.md)**
+- **[术语表](./glossary.md)**
 
-
----
-
-_文档版本：V1.0 ｜ 最近更新时间：2026-01_

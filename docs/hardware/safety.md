@@ -1,6 +1,6 @@
 ---
 title: Safety Information
-description: Guide
+description: Safety Information for Indevolt Micro Energy Storage Devices
 ---
 
 # Safety Information

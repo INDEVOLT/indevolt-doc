@@ -46,5 +46,9 @@
   "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
     "message": "Know Your Micro Storage System",
     "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Settings": {
+    "message": "Advanced Settings",
+    "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
   }
 }

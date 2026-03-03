@@ -342,3 +342,16 @@ div[class^="announcementBar_"] {
     )::after {
     content: "";
 }
+
+.custom-details {
+  background-color: var(--ifm-color-emphasis-0);
+}
+
+.custom-details > summary {
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.custom-details > summary::-webkit-details-marker {
+  display: none;
+}

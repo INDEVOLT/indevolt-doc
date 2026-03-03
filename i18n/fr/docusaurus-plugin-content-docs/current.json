@@ -46,5 +46,9 @@
   "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.description": {
     "message": "Cette section explique les fonctions clés, de la surveillance de l'énergie aux paramètres personnels.",
     "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Settings": {
+    "message": "Advanced Settings",
+    "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
   }
 }
