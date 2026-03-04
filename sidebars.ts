@@ -49,6 +49,7 @@ const sidebars: SidebarsConfig = {
       items: [
         // 'hardware/advanced/cluster',
         'hardware/advanced/link-device',
+        'hardware/advanced/standby-power',
       ],
     },
     {
