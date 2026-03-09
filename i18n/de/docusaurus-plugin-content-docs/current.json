@@ -50,5 +50,9 @@
   "sidebar.tutorialSidebar.category.Advanced Settings": {
     "message": "Advanced Settings",
     "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Note": {
+    "message": "Technical Note",
+    "description": "The label for category Technical Note in sidebar tutorialSidebar"
   }
 }

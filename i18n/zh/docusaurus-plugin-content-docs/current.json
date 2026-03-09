@@ -50,5 +50,9 @@
   "sidebar.tutorialSidebar.category.Advanced Settings": {
     "message": "高级设置",
     "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Note": {
+    "message": "技术说明",
+    "description": "The label for category Technical Note in sidebar tutorialSidebar"
   }
 }
