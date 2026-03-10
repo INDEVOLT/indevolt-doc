@@ -86,7 +86,7 @@ Depending on whether the device is connected to the grid and how the system oper
 
 ### Grid-Tied Mode
 
-#### Bypass Enabled
+**Bypass Enabled**
 
 In this state, loads are typically powered by the grid and the main unit battery. **Power consumption remains the same regardless of whether deep standby is enabled or disabled.**
 
@@ -98,7 +98,7 @@ In this state, loads are typically powered by the grid and the main unit battery
 | SolidFlex 2000 (with AC auxiliary power) | 20                  | 0                      |
 
 
-#### Bypass Disabled
+**Bypass Disabled**
 
 <table>
 <thead>
@@ -153,7 +153,7 @@ In this state, loads are typically powered by the grid and the main unit battery
 
 When operating off-grid, the system cannot rely on the grid and must maintain its own power supply capability. Therefore, standby power consumption is usually higher than in grid-tied mode.
 
-#### Bypass Enabled
+**Bypass Enabled**
 
 The system needs to keep the inverter ready to supply power to loads at any time. **Power consumption remains the same regardless of whether deep standby is enabled or disabled.**
 
@@ -170,7 +170,7 @@ If bypass is enabled and the off-grid **Sleep Mode → Standby Shutdown Countdow
 
 
 
-#### Bypass Disabled
+**Bypass Disabled**
 
 When operating off-grid with bypass disabled, the device automatically enters deep standby mode.
 
