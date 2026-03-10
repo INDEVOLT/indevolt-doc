@@ -70,6 +70,7 @@ const sidebars: SidebarsConfig = {
       label: 'Technical Note',
       items: [
         'hardware/technical-note/standby-power',
+        'hardware/technical-note/recharge',
       ],
     },
     {

@@ -1,0 +1,175 @@
+---
+title: 补电逻辑说明
+description: todo
+---
+
+# 补电逻辑说明
+
+
+## 1. 概述
+
+为保障备电能力和系统可用性，微储产品会根据**电池剩余电量**（SOC）、**光伏输入情况**以及 **AC 充电开关状态**，自动执行不同的补电策略。补电逻辑的设计目标主要包括：
+- 保留最低应急电量，避免电池过度放电
+- 优先利用光伏进行补电
+- 在需要时引入 AC 补电，提高系统恢复能力
+- 避免电池在临界电量附近频繁切换
+
+系统补电逻辑根据以下两种充电来源区分：
+- **AC 充电开启时**（PV+AC）
+- **AC 充电关闭时**（仅PV）
+
+
+
+首先，设置**应急电量**，范围为5%~100%。
+
+👉 APP操作步骤：设备页面-点击对应的微储设备-点击<img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>图标-点击电量设置-设置应急电量
+
+<img src={require("../energy-mode/img/select_device.png").default} width="240"/>
+<img src={require("../energy-mode/img/device_info.png").default} width="240"/>
+<img src={require("../energy-mode/img/device_setting.png").default} width="240"/>
+<img src={require("./img/soc_settings.png").default} width="240"/>
+<img src={require("./img/backup_reserve.png").default} width="240"/>
+
+
+
+## 2. AC 充电开启时
+
+当 **AC 充电功能开启** 时，系统支持通过 AC 和 PV 共同参与补电。其中 AC 充电功率支持设定，范围为：**100W～2400W**
+
+👉 APP操作步骤：设备页面-点击对应的微储设备-点击<img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>图标-点击电量设置
+1. 设置充电来源-选择**PV+AC**
+2. 设置充电功率   
+🔥 **默认500w，可根据当地法规或电路承载能力设置（禁止超功率运行）**
+
+<img src={require("./img/charging_source_ac.png").default} width="240"/>
+<img src={require("./img/charging_power.png").default} width="240"/>
+
+
+### 2.1 正常运行阶段
+
+当电池 SOC 高于应急电量时，系统可按正常策略运行。
+
+当电池 SOC 下降至**应急电量**时：
+- 系统停止放电
+- 光伏功率仍可继续响应负载
+- 系统保留基础备电能力
+
+也就是说，在该阶段，系统不会再主动消耗应急电量，但仍允许光伏参与供负载。
+
+### 2.2 补电启动阶段
+
+当电池 SOC 继续下降至**比应急电量低 2%** 时，系统启动补电：
+- **PV + AC 共同补电**
+- AC 按设定充电功率参与补电
+- 光伏如有可用功率，也同步参与充电
+
+这一逻辑的目的，是在电量低于应急电量保护带后，尽快把电池电量恢复到安全区间。
+
+### 2.3 AC 充电停止阶段
+
+当电池 SOC 回升至**应急电量设定值**时：
+- **停止 AC 充电**
+- **仅保留 PV 继续充电**  
+
+这意味着 AC 补电只负责把电量拉回到备电门槛，不继续承担更高 SOC 区间的补电任务。
+
+### 2.4 放电恢复阶段
+
+当电池 SOC 继续由 PV 充至**比应急电量高 2%** 时：
+- 系统恢复正常放电能力
+
+设置这一恢复带的原因，是避免电池电量刚回到备电阈值就立即再次放电，导致在阈值附近反复切换。
+
+### 电量校准建议
+
+在 AC 充电开启场景下，建议：
+- **每 2 周进行一次电量校准**
+- 校准方式为：**PV + AC** 共同充电
+
+通过周期性校准，可提高 SOC 估算准确性，改善长期运行中的电量显示偏差。
+
+👉 APP操作步骤：设备页面-点击对应的微储设备-点击<img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>图标-点击电量设置
+1. 自定义设置校准周期（5~60天）
+2. 自定义设置校准开始时间
+
+<img src={require("./img/calibration_interval_ac.png").default} width="240"/>
+<img src={require("./img/calibration_start_time_ac.png").default} width="240"/>
+
+---
+
+
+## 3. AC 充电关闭时
+
+当 **AC 充电功能关闭** 时，系统优先通过光伏进行补电。
+
+:::info
+在一般情况下，不主动使用 AC 给电池充电；但在极低电量场景下，系统仍会触发保护性 AC 补电逻辑。
+:::
+
+👉 APP操作步骤：设备页面-点击对应的微储设备-点击<img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>图标-点击电量设置
+
+1. 设置充电来源-选择**仅PV**  
+<img src={require("./img/charging_source_pv.png").default} width="240"/>
+
+
+### 3.1 正常运行阶段
+
+当电池 SOC 高于应急电量时，系统按正常策略运行。
+
+当电池 SOC 下降至**应急电量**时：
+- 系统停止放电
+- 光伏功率仍可响应负载
+
+也就是说，虽然电池停止继续向负载放电，但光伏仍可直接用于负载供电。
+
+### 3.2 光伏补电阶段
+
+当电池 SOC 下降至**比应急电量低 2%** 时：
+- 系统启动补电
+- **仅通过 PV 补电**
+
+当电池SOC 回升至**比应急电量高 2%** 时：
+- 恢复放电能力
+
+这一逻辑说明，在 AC 充电关闭时，系统默认优先依赖光伏恢复电量。
+
+### 3.3 极低电量保护阶段
+
+如果光伏补电不足，且电池 SOC 继续下降至 **3%** 时，系统进入极低电量保护逻辑：
+- 触发 **PV + AC 共同回充**
+
+当电池 SOC 回升至 **5%** 时：
+- **停止 AC 充电**
+- 保留 **PV 继续充电**
+
+随后，当 SOC 继续回升至**比应急电量高 2%** 时：
+- 系统恢复放电能力
+
+这一保护机制的作用是：
+- 防止电池进入过度亏电状态
+- 提高系统在弱光、无光或长期低电量场景下的恢复能力
+- 在用户关闭 AC 充电功能的前提下，仍保留最底层安全兜底能力
+
+### 电量校准建议
+
+在 AC 充电关闭场景下，建议：
+- **每 2 周进行一次电量校准**
+- 校准方式为：**仅通过 PV 充电**
+
+该策略适用于以光伏自充为主的运行场景，有助于维持 SOC 管理精度。
+
+👉 APP操作步骤：设备页面-点击对应的微储设备-点击<img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>图标-点击电量设置
+
+1. 自定义设置校准周期（5~60天）
+2. 自定义设置校准开始时间
+
+<img src={require("./img/calibration_interval_pv.png").default} width="240"/>
+<img src={require("./img/calibration_start_time_pv.png").default} width="240"/>
+
+
+## 4. 两种补电模式的区别
+
+| 场景        | 到达应急电量           | 低于应急电量 2%  | 低电量保护                       | 恢复放电条件        |
+| ----------- | ---------------------- | ---------------- | -------------------------------- | ------------------- |
+| AC 充电开启 | 停止放电，PV可响应负载 | PV + AC 共同补电 | -               | 充至比应急电量高 2% |
+| AC 充电关闭 | 停止放电，PV可响应负载 | 仅 PV 补电       | 3% 触发 PV + AC 回充，5% 停止 AC | 充至比应急电量高 2% |
