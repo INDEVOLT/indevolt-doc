@@ -1,5 +1,5 @@
 ---
-title: Document Version History
+title: Documentation Version History
 description: Version history of INDEVOLT energy storage device documentation
 ---
 
