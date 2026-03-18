@@ -9,6 +9,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version        | Update Summary |
 |--------------|---------------|----------------|
+| 2026/3/3     | V1408.09.0031 | 1. Added support for Stromleser meter (infrared reader)<br />2. Added support for HomeWizard meter (P1)<br />3. Added support for Shelly Plug Gen1<br />4. Added meter offset setting<br />5. Optimized communication logic |
 | 2026/1/15    | V1407.08.002F | 1. Optimized OpenData logic |
 | 2026/1/15    | V1406.07.002E | 1. Optimized communication logic |
 | 2025/12/12   | V1406.07.002B | 1. Added support for Solarman smart plug, Shelly Plug S MTR Gen3, and Shelly 3EM <br /> 2. Optimized operating logic |
@@ -29,6 +30,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 |--------------|----------|----------------|
+| 2026/2/11    | V1.01.03  | 1. Optimized forced recharge logic<br />2. Optimized time schedule settings<br />3. Optimized low-temperature battery heating logic<br />4. Optimized parallel operation logic<br />5. Added support for PFA4000 battery pack<br />6. Fixed issue where system could not enter deep standby under certain conditions |
 | 2026/1/21    | V1.00.58 | 1. Optimized firmware upgrade duration <br /> 2. Optimized cluster power regulation <br /> 3. Added automatic switch to charging when feed-in is detected by the meter while AC charging is disabled <br /> 4. Added battery pack standby logic |
 | 2025/12/10   | V1.00.57 | 1. Optimized PV power distribution in cluster mode <br /> 2. Optimized PV priority in real-time control mode <br /> 3. Optimized upgrade logic <br /> 4. Added exit from deep standby via short press of the power button |
 | 2025/11/28   | V1.00.55 | 1. Optimized upgrade logic |
@@ -37,6 +39,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version  | Update Summary |
 |--------------|----------|----------------|
+| 2026/2/11    | 1.00.42 | 1. Optimized SoC algorithm |
 | 2026/1/21    | 1.00.38  | 1. Optimized SOC algorithm |
 | 2025/11/28   | 1.00.35  | 1. Optimized upgrade logic |
 | 2025/10/4    | 1.00.33  | / |
@@ -47,6 +50,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version  | Update Summary |
 |--------------|----------|----------------|
+| 2026/2/11    | 1.10.42 | 1. Optimized SoC algorithm |
 | 2026/1/21    | 1.10.38  | 1. Optimized SOC algorithm |
 | 2025/11/28   | 1.10.35  | 1. Optimized upgrade logic |
 | 2025/10/4    | 1.10.33  | / |
@@ -57,6 +61,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 |--------------|----------|----------------|
+| 2026/3/4     | V1.01.62  | 1. Optimized battery pack communication      |
+| 2026/2/11    | V1.01.61  | 1. Optimized battery pack communication      |
 | 2026/1/21    | V1.01.59 | 1. Fixed SOC imbalance caused by low-power discharge |
 | 2025/11/28   | V1.01.54 | 1. Fixed PV limitation under certain operating conditions <br /> 2. Optimized upgrade logic |
 | 2025/11/4    | V1.01.52 | / |
@@ -67,6 +73,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 |--------------|--------|----------------|
+| 2026/2/11    | V1.35   | 1. Optimized charging logic                  |
 | 2026/1/21    | V1.34  | 1. Fixed bypass disconnection issue under certain operating conditions |
 | 2025/12/10   | V1.32  | 1. Optimized real-time control mode |
 | 2025/11/4    | V1.30  | 1. Added support for a fifth expansion battery pack (not yet supported in the app, but hardware operates normally) |

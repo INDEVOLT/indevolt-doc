@@ -70,7 +70,8 @@ const sidebars: SidebarsConfig = {
       label: 'Technical Note',
       items: [
         'hardware/technical-note/standby-power',
-        // 'hardware/technical-note/recharge',
+        'hardware/technical-note/recharge',
+        'hardware/technical-note/energy-calibration',
       ],
     },
     {
@@ -94,7 +95,8 @@ const sidebars: SidebarsConfig = {
     'hardware/faq-troubleshooting',
     'hardware/maintenance',
     'hardware/glossary',
-    'hardware/firmware'
+    'hardware/firmware',
+    'hardware/doc-version'
   ],
   appSidebar: [
     'app/introduction',
