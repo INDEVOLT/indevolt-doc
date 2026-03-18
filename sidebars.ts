@@ -95,7 +95,8 @@ const sidebars: SidebarsConfig = {
     'hardware/faq-troubleshooting',
     'hardware/maintenance',
     'hardware/glossary',
-    'hardware/firmware'
+    'hardware/firmware',
+    'hardware/doc-version'
   ],
   appSidebar: [
     'app/introduction',
