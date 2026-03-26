@@ -32,7 +32,7 @@ toc_max_heading_level: 2
 在 App 设备设置中查看：
 
 <img src={require("./img/select-network.png").default} width="240"/>
-<img src={require("./img/view-ip.png").default} width="240"/>
+<img src={require("./img/view_ip.png").default} width="240"/>
 
 
 **🧩 方法 3 – 通过 UDP 广播获取（高级方式）**
@@ -67,7 +67,7 @@ toc_max_heading_level: 2
 OpenData 提供三种模式，但当前集成仅支持 **HTTP** 模式：
 
 - HTTP
-- HTTP + Digest Authentication
+- HTTP Digest
 - HTTPS（暂不支持，敬请期待）
 
 您可在 INDEVOLT App 中配置本地 API：
@@ -76,8 +76,8 @@ OpenData 提供三种模式，但当前集成仅支持 **HTTP** 模式：
 <img src={require("./img/scan_qr_code.png").default} width="200"/>
 <img src={require("./img/connect_device.png").default} width="200"/>
 <img src={require("./img/device_connected.png").default} width="200"/>
-<img src={require("./img/select-local-api.png").default} width="200"/>
-<img src={require("./img/local-api.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/local_api.png").default} width="200"/>
 
 
 ### 5️⃣ 固件版本要求

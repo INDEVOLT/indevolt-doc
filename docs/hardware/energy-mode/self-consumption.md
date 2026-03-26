@@ -84,7 +84,7 @@ If the load curve is set too high or is unreasonable, grid feed-in may occur.
 2. Tap the **Device** tab at the bottom and select the device card to enter the device details page  
 3. Tap the energy mode area (which dynamically displays the selected mode) to enter the mode selection page  
 4. Select **Self-Consumed Prioritized** and tap **Settings**  
-5. Select the appropriate [load type](#load-selection) based on actual conditions (Smart Plug / Smart Meter / Critical Load / Custom Configuration)  
+5. Select the appropriate [load type](#load-settings) based on actual conditions (Smart Plug / Smart Meter / Critical Load / Custom Configuration)  
 6. Tap **Save** to apply the settings immediately  
 
 <img src={require("./img/select_device.png").default} width="240"/>

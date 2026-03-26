@@ -29,7 +29,7 @@ Log in to your router. Find the device IP in the connected device list.
 
 Check in App device settings:
 <img src={require("./img/select-network.png").default} width="240"/>
-<img src={require("./img/view-ip.png").default} width="240"/>
+<img src={require("./img/view_ip.png").default} width="240"/>
 
 **🧩Method 3: Obtain IP via UDP broadcast**
 
@@ -55,7 +55,7 @@ Check in App device settings:
 
 Ensure the Indevolt device local API is enabled. OpenData provides three modes, but this integration only supports the HTTP method.
 - HTTP
-- HTTP+ Digest Authentication
+- HTTP Digest
 - HTTPS (Currently unsupported, coming soon)
 
 You can configure the local API in the INDEVOLT App:
@@ -63,8 +63,8 @@ You can configure the local API in the INDEVOLT App:
 <img src={require("./img/scan_qr_code.png").default} width="200"/>
 <img src={require("./img/connect_device.png").default} width="200"/>
 <img src={require("./img/device_connected.png").default} width="200"/>
-<img src={require("./img/select-local-api.png").default} width="200"/>
-<img src={require("./img/local-api.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/local_api.png").default} width="200"/>
    
 ### 5️⃣ Firmware requirement
 
