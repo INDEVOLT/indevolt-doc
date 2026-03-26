@@ -39,7 +39,7 @@ import TabItem from '@theme/TabItem';
 > - [HTTP Digest](#http-digest)
 > - HTTPS (Currently unsupported, coming soon)
 >
-> > You can configure the **Local API** in the INDEVOLT App:
+> You can configure the **Local API** in the INDEVOLT App:
 > - **Device is online**: It is recommended to use **Cloud Configuration**, which is simpler to operate  
 > - **Device is not online**: You can use **Local Bluetooth Configuration** to connect directly to the device and complete the setup
 > 
@@ -70,9 +70,8 @@ import TabItem from '@theme/TabItem';
 > | BK1600/BK1600Ultra          | V1.3.0A_R006.072_M4848_00000039           |
 > | SolidFlex2000/PowerFlex2000 | CMS：CMS：V1406.07.002E                   |
 >
-> You can check the device firmware version in the INDEVOLT app. Go to the device settings page and open **Firmware** to view the current version.
-> <img src={require("./img/select_firmware.png").default} width="240"/>
-> <img src={require("./img/view_firmware_version.png").default} width="240"/>
+> You can check the device firmware version in the INDEVOLT app. 
+> 
 > <Tabs>
 >   <TabItem value="cloud" label="Cloud" default>
 >     <img src={require("./img/select_device.png").default} width="200"/>
