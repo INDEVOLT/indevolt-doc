@@ -72,6 +72,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/standby-power',
         'hardware/technical-note/recharge',
         'hardware/technical-note/energy-calibration',
+        'hardware/technical-note/lora',
       ],
     },
     {

@@ -39,7 +39,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version  | Update Summary |
 |--------------|----------|----------------|
-| 2026/2/11    | 1.00.42 | 1. Optimized SoC algorithm |
+| 2026/2/11    | 1.00.42  | 1. Optimized SoC algorithm |
 | 2026/1/21    | 1.00.38  | 1. Optimized SOC algorithm |
 | 2025/11/28   | 1.00.35  | 1. Optimized upgrade logic |
 | 2025/10/4    | 1.00.33  | / |
@@ -50,7 +50,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version  | Update Summary |
 |--------------|----------|----------------|
-| 2026/2/11    | 1.10.42 | 1. Optimized SoC algorithm |
+| 2026/2/11    | 1.10.42  | 1. Optimized SoC algorithm |
 | 2026/1/21    | 1.10.38  | 1. Optimized SOC algorithm |
 | 2025/11/28   | 1.10.35  | 1. Optimized upgrade logic |
 | 2025/10/4    | 1.10.33  | / |
@@ -61,8 +61,9 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 |--------------|----------|----------------|
-| 2026/3/4     | V1.01.62  | 1. Optimized battery pack communication      |
-| 2026/2/11    | V1.01.61  | 1. Optimized battery pack communication      |
+| 2026/3/20    | V1.01.64 | 1. Fixed an issue where communication with battery packs could occasionally be lost when multiple battery packs entered deep standby mode  |
+| 2026/3/4     | V1.01.62 | 1. Optimized battery pack communication      |
+| 2026/2/11    | V1.01.61 | 1. Optimized battery pack communication      |
 | 2026/1/21    | V1.01.59 | 1. Fixed SOC imbalance caused by low-power discharge |
 | 2025/11/28   | V1.01.54 | 1. Fixed PV limitation under certain operating conditions <br /> 2. Optimized upgrade logic |
 | 2025/11/4    | V1.01.52 | / |
@@ -73,7 +74,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 |--------------|--------|----------------|
-| 2026/2/11    | V1.35   | 1. Optimized charging logic                  |
+| 2026/2/11    | V1.35  | 1. Optimized charging logic                  |
 | 2026/1/21    | V1.34  | 1. Fixed bypass disconnection issue under certain operating conditions |
 | 2025/12/10   | V1.32  | 1. Optimized real-time control mode |
 | 2025/11/4    | V1.30  | 1. Added support for a fifth expansion battery pack (not yet supported in the app, but hardware operates normally) |
