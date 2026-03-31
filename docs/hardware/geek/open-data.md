@@ -593,7 +593,7 @@ In HTTP + Digest mode:
 >       <td>Bypass power</td>
 >       <td></td>
 >       <td>`Indevolt.GetData`</td>
->       <td></td>
+>       <td>Real-time power flowing through the bypass path.<br/>- Grid-tied: power may come from the microinverter or be supplied directly to loads<br/>- Off-grid: power is directly supplied to loads</td>
 >     </tr>
 >     <tr>
 >       <td colspan="7" style={{ textAlign: 'center' }}>Electrical Energy Information</td>
@@ -605,7 +605,7 @@ In HTTP + Digest mode:
 >       <td>Total AC Input Energy</td>
 >       <td>  </td>
 >       <td>`Indevolt.GetData`</td>
->       <td>Comprehensive electrical energy, including (DC+AC+Bypass)</td>
+>       <td>Total energy imported from the grid. This energy can be used to charge the battery or directly supply loads through bypass.</td>
 >     </tr>
 >     <tr>
 >       <td>2104</td>
@@ -632,7 +632,7 @@ In HTTP + Digest mode:
 >       <td>Total bypass M-inv input energy</td>
 >       <td>  </td>
 >       <td>`Indevolt.GetData`</td>
->       <td>Total electrical energy of micro-inverter input for grid-connected access</td>
+>       <td>Total energy coming from the microinverter. This is only available in grid-tied mode, when the system is connected to a microinverter.</td>
 >     </tr>
 >     <tr>
 >     <td>11037</td>
