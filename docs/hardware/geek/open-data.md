@@ -623,7 +623,7 @@ In HTTP + Digest mode:
 >       <td>Daily bypass M-inv input energy</td>
 >       <td>  </td>
 >       <td>`Indevolt.GetData`</td>
->       <td>Daily electrical energy of micro-inverter input for grid-connected access</td>
+>       <td>Daily energy coming from the microinverter. This is only available in grid-tied mode, when the system is connected to a microinverter.</td>
 >     </tr>
 >     <tr>
 >       <td>11034</td>
