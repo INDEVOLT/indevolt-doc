@@ -73,6 +73,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/recharge',
         'hardware/technical-note/energy-calibration',
         'hardware/technical-note/lora',
+        'hardware/technical-note/bypass-mode',
       ],
     },
     {
