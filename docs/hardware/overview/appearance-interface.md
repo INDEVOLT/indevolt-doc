@@ -1,9 +1,9 @@
 ---
-title: Appearance & Interface Description
+title: Appearance & Interface
 description: Overview of the device’s external structure, interface layout, button functions, and LED status indicators for SolidFlex / PowerFlex micro energy storage.
 ---
 
-# Appearance & Interface Description
+# Appearance & Interface
 
 ## Appearance
 
@@ -41,12 +41,12 @@ The ECO model does not include ports 4–7.
 
 ## LED Indicators
 
-| LED | Description | Status |
-|:--:|-------------|--------|
-| <img src={require("./img/led-starting.png").default} style={{ height: 150 }}/> | Blue LED lights up from the center outward (up and down) | Starting |
-| <img src={require("./img/led-charging.png").default} style={{ height: 150 }}/> | Green LED lights upward from current battery level | Charging |
-| <img src={require("./img/led-discharging.png").default} style={{ height: 150 }}/> | Blue LED turns off downward from current battery level | Discharging |
-| <img src={require("./img/led-iot-failure.png").default} style={{ height: 150 }}/> | LED shows yellow | IoT connection failure |
-| <img src={require("./img/led-fault.png").default} style={{ height: 150 }}/> | LED shows red | Fault |
-| <img src={require("./img/led-shutdown.png").default} style={{ height: 150 }}/> | Blue LED lights from both sides toward the center | Shutting down |
-| <img src={require("./img/led-reset.png").default} style={{ height: 150 }}/> | Blue LED flashes three times | Device reset successful |
+| LED                                                                                         | Description                                              | Status                  |
+| ------------------------------------------------------------------------------------------- | -------------------------------------------------------- | ----------------------- |
+| <div class="table-img-box"><img src={require("./img/led-starting.png").default} /></div>    | Blue LED lights up from the center outward (up and down) | Starting                |
+| <div class="table-img-box"><img src={require("./img/led-charging.png").default} /></div>    | Green LED lights upward from current battery level       | Charging                |
+| <div class="table-img-box"><img src={require("./img/led-discharging.png").default} /></div> | Blue LED turns off downward from current battery level   | Discharging             |
+| <div class="table-img-box"><img src={require("./img/led-iot-failure.png").default} /></div> | LED shows yellow                                         | IoT connection failure  |
+| <div class="table-img-box"><img src={require("./img/led-fault.png").default} /></div>       | LED shows red                                            | Fault                   |
+| <div class="table-img-box"><img src={require("./img/led-shutdown.png").default} /></div>    | Blue LED lights from both sides toward the center        | Shutting down           |
+| <div class="table-img-box"><img src={require("./img/led-reset.png").default} /></div>       | Blue LED flashes three times                             | Device reset successful |

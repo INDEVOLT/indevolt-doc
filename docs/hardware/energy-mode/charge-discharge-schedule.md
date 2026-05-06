@@ -21,7 +21,7 @@ This mode is recommended if any of the following conditions apply:
 
 ## How the System Works
 
-In this mode, you can divide a day into up to 24 time segments and assign an operating behavior for each segment:
+In this mode, you can divide a day into time segments and assign an operating behavior for each segment:
 
 - Charging: The system charges the battery at the configured power level  
 - Discharging: The system supplies power based on load demand or preset power level  

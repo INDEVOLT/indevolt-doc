@@ -28,7 +28,7 @@
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.item.label.Micro Storage": {
-    "message": "Micro Storage",
+    "message": "Micro-stockage",
     "description": "The label of footer link with label=Micro Storage linking to docs/hardware/doc-intro"
   },
   "link.item.label.INDEVOLT App": {

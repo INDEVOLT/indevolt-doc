@@ -49,6 +49,10 @@ When the temperature of the internal PV conversion module (MPPT) rises, the syst
   - Example: total power `2400W × 60% = 1440W`; per PV channel `600W × 60% = 360W`  
   - Rated power is restored when temperature drops below **80°C**
 
+:::
+The current App does not support displaying the temperature of the photovoltaic conversion module (MPPT).
+:::
+
 ---
 
 ## Battery Temperature Derating
