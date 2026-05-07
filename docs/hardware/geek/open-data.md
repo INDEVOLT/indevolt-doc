@@ -152,7 +152,17 @@ where
   curl -g -X POST -H "Content-Type: application/json" "http://192.168.1.75:8080/rpc/Indevolt.GetData?config={\"t\":[6002]}"
   ```
 
-### 3.2 Errors {#errors}
+### 3.2 Rate Limit {#rate-limit}
+
+To ensure system stability, all HTTP APIs are subject to the following limits:
+
+| Type                         | Limit       |
+| ---------------------------- | ----------- |
+| Recommended request interval | ≥ 5 seconds |
+| Minimum interval             | 1 second    |
+
+
+### 3.3 Errors {#errors}
 
 | Status code | Description                | Explanation                                                                                                                         |
 | ----------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
