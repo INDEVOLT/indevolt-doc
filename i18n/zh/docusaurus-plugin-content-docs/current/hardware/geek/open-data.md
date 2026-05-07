@@ -20,6 +20,7 @@ OpenData是为基于WiFi的INDEVOLT物联网设备设计的轻量级通信框架
 
   <img src={require("./img/opendata-use-case.png").default} width="240"/>
 
+
 ---
 
 ## 2️⃣ 准备 {#preparations}
@@ -145,13 +146,20 @@ http://{IP_ADDRESS}:8080/rpc/{API}
 **cURL 命令示例**
 
 - 获取电池 SOC:
-
   ```
   curl -g -X POST -H "Content-Type: application/json" "http://192.168.1.75:8080/rpc/Indevolt.GetData?config={\"t\":[6002]}"
   ```
 
+### 3.2 请求频率限制 {#rate-limit}
 
-### 3.2 错误码 {#errors}
+为保障系统稳定性，所有 HTTP API 均受以下限制：
+
+| 类型         | 限制   |
+| ------------ | ------ |
+| 建议请求间隔 | ≥ 5 秒 |
+| 最小支持间隔 | 1 秒 |
+
+### 3.3 错误码 {#errors}
 
 | 状态码 | 描述                         | 说明                          |
 | --- | -------------------------- | --------------------------- |
