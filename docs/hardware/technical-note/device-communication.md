@@ -12,14 +12,14 @@ When you connect a smart meter, smart plug, or other device to the micro-storage
 
 Communication methods vary slightly across different brands, but the system automatically adapts—no manual configuration is required.
 
-| Brand | Local Communication | Cloud Communication |
-| ------------ | ------------------- | ------------------- |
-| Shelly       | HTTP                | Routed via Micro-Storage |
-| Ecotracker   | HTTP                | Routed via Micro-Storage |
-| Stromleser   | HTTP                | Routed via Micro-Storage |
-| HomeWizard   | HTTP                | Routed via Micro-Storage |
-| IGEN         | UDP broadcast       | Direct-to-Cloud     |
-| INDEVOLT     | Private protocol    | Routed via Micro-Storage |
+| Brand      | Local Communication | Cloud Communication      |
+| ---------- | ------------------- | ------------------------ |
+| Shelly     | HTTP                | Routed via Micro-Storage |
+| Ecotracker | HTTP                | Routed via Micro-Storage |
+| Stromleser | HTTP                | Routed via Micro-Storage |
+| HomeWizard | HTTP                | Routed via Micro-Storage |
+| SOLARMAN   | UDP broadcast       | Direct-to-Cloud          |
+| INDEVOLT   | Private protocol    | Routed via Micro-Storage |
 
 :::tip
 “Routed via Micro-Storage” means data is first sent to the micro-storage system and then uploaded to the cloud in a unified way.
@@ -111,9 +111,9 @@ The following devices are not yet integrated into the micro-storage system and d
 
 :::
 
-### 1.2 IGEN Devices
+### 1.2 SOLARMAN Devices
 
-IGEN devices actively send data via **local network broadcast**, without polling, enabling higher real-time performance.
+SOLARMAN devices actively send data via **local network broadcast**, without polling, enabling higher real-time performance.
 
 | Type           | Model                                                   | Default Interval | Minimum Interval |
 | -------------- | ------------------------------------------------------ | ---------------- | ----------------- |
