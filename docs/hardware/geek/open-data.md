@@ -20,6 +20,7 @@ OpenData is a lightweight communication framework designed for WiFi-based INDEVO
 
   <img src={require("./img/opendata-use-case.png").default} width="240"/>
 
+
 ---
 
 ## 2️⃣ Preparations {#preparations}
