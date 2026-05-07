@@ -9,6 +9,7 @@ description: Access local device data and control the INDEVOLT micro energy stor
 
 OpenData is a lightweight communication framework designed for WiFi-based INDEVOLT IoT devices. Devices connect to local networks via WiFi, supporting both active data push and response to external queries.
 
+
 **Core Features**
 
 - **Device data acquisition**: Real-time pulling of device data.
