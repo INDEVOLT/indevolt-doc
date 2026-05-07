@@ -20,6 +20,7 @@ OpenData是为基于WiFi的INDEVOLT物联网设备设计的轻量级通信框架
 
   <img src={require("./img/opendata-use-case.png").default} width="240"/>
 
+
 ---
 
 ## 2️⃣ 准备 {#preparations}
