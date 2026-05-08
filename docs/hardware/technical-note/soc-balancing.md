@@ -50,7 +50,7 @@ In traditional energy storage systems, multiple battery packs are usually connec
 
 In this structure, batteries are directly connected to each other, so the system requires a high level of battery consistency.
 
-### Series Connection
+**Series Connection**
 
 In a series connection, the overall system performance is limited by the weakest battery.
 
@@ -58,7 +58,7 @@ For example, if one battery has lower capacity or is more heavily aged, it will 
 
 When this happens, the entire system must stop charging or discharging in advance.
 
-### Parallel Connection
+**Parallel Connection**
 
 In a parallel connection, if there is a voltage difference between batteries:
 
