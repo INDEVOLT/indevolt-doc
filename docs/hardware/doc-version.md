@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-05-08 | V1.0.8 | Added [Battery SOC Balancing](./technical-note/soc-balancing.md) |
 | 2026-04-24 | V1.0.7  | 1. Added [Communication with External Devices](./technical-note/device-communication.md)<br />2. Added Micro-Storage firmware version history records |
 | 2026-04-23 | V1.0.6  | 1. Added [Bypass Socket guide](./technical-note/bypass.md)<br />2. Temporarily removed incorrect FAQ |
 | 2026-04-17 | V1.0.5  | Added [PV and battery temperature derating explanation](./technical-note/thermal-derating.md)    |

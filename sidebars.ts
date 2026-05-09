@@ -75,7 +75,8 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/lora',
         'hardware/technical-note/thermal-derating',
         'hardware/technical-note/bypass',
-        'hardware/technical-note/device-communication'
+        'hardware/technical-note/device-communication',
+        'hardware/technical-note/soc-balancing',
       ],
     },
     {

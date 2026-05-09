@@ -11,6 +11,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/7  | V140B.0B.0035 | 1. Optimized communication logic |
 | 2026/4/10 | V140A.0A.0034 | 1. Added minute-level custom scheduling<br />2. Added support for third-party MQTT integration (not yet supported in App)<br />3. Added Modbus TCP cloud access (not yet supported in App)<br />4. Changed dynamic electricity pricing interval to 15 minutes<br />5. Optimized Wi-Fi and LoRa communication logic<br />6. Removed 10s long-press Wi-Fi reset function and moved it to App (not yet supported in App) |
 | 2026/3/3 | V1408.09.0031 | 1. Added support for Stromleser energy meter (optical reader)<br />2. Added support for HomeWizard P1 meter<br />3. Added support for Shelly Plug Gen1<br />4. Added meter offset configuration<br />5. Optimized communication logic |
 | 2026/1/15 | V1407.08.002F | 1. Optimized OpenData API logic |
@@ -25,6 +26,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/6  | V0D.00.18 | 1. Optimized some parameters|
 | 2026/1/14 | V0D.00.14 | 1. Optimized battery temperature status display |
 | 2026/1/9 | V0D.00.13 | 1. Optimized battery temperature status display |
 | 2025/12/25 | V0D.00.11 | 1. Added AC charging power setting |
