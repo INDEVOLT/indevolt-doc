@@ -156,7 +156,7 @@ config directory/
 
 4. Configure Parameters​：
    - **host**: The device IP address can be obtained by checking the router or the companion app.​
-   - **scan_interval**: Used to control data update frequency, default: 30 seconds.​
+   - **scan_interval**: Used to control the data update frequency. The recommended setting is 5–30 seconds, with a default value of 30 seconds.
 
     <img src={require("./img/set-integration.png").default} width="300"/>
 
