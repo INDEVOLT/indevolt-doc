@@ -88,6 +88,7 @@ export default function ScenarioFinder() {
           padding: 12,
           fontSize: 15,
           borderRadius: 8,
+          border: '1px solid #e5e7eb',
         }}
       >
         <option value="">
