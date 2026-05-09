@@ -171,7 +171,7 @@ config directory/
 
 4. 配置参数：
    - **host**：设备IP地址，可通过查看路由器/App获取。
-   - **scan_interval**：用于控制数据更新频率，默认30s。
+   - **scan_interval**：用于控制数据更新频率，建议设置为 5～30 秒，默认值为 30 秒。
 
     <img src={require("./img/set-integration.png").default} width="300"/>
 
