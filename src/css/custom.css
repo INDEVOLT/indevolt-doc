@@ -223,6 +223,23 @@ article p > span > a {
     margin-bottom: 6px;
 }
 
+.usecase-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #1677ff, #4096ff);
+  color: white !important;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.usecase-button:hover {
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(22, 119, 255, 0.25);
+}
+
 .navbar {
     box-shadow: none;
 }
