@@ -141,8 +141,344 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'app/faq'
+  ],
+  scenarioSidebar: [
+    {
+      type: 'category',
+      label: 'Choose your setup',
+      collapsed: true,
+      link: {type: 'doc', id: 'scenario/introduction'},
+      items: [
+        {
+          type: 'category',
+          label: 'Grid-tied',
+          items: [
+            {
+              type: 'category',
+              label: 'Single-phase System',
+              items: [
+                {
+                  type: 'category',
+                  label: 'Standalone',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'No Existing PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/no-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/no-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Balcony PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/balcony-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/balcony-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Residential PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/residential-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/standalone/residential-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Cluster',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'No Existing PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/no-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/no-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Balcony PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/balcony-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/balcony-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Residential PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/residential-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/single-phase/cluster/residential-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Three-phase System',
+              items: [
+                {
+                  type: 'category',
+                  label: 'Standalone',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'No Existing PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/no-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/no-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Balcony PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/balcony-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/balcony-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Residential PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/residential-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/standalone/residential-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Cluster',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'No Existing PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/no-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/no-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Balcony PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/balcony-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/balcony-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Residential PV',
+                      items: [
+                        {
+                          type: 'category',
+                          label: 'Up to 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/residential-pv/up-to-800w/overview',
+                          ],
+                        },
+                        {
+                          type: 'category',
+                          label: 'Over 800 W',
+                          items: [
+                            'scenario/grid/three-phase/cluster/residential-pv/over-800w/overview',
+                          ],
+                        },
+                        
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Off-grid',
+          items: [
+            {
+              type: 'category',
+              label: 'Single-phase System',
+              items: [
+                {
+                  type: 'category',
+                  label: 'Portable',
+                  items: [
+                    'scenario/offgrid/single-phase/portable/overview',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Standalone',
+                  items: [
+                    'scenario/offgrid/single-phase/standalone/overview',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Cluster',
+                  items: [
+                    'scenario/offgrid/single-phase/cluster/overview',
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ]
-
 };
 
 export default sidebars;

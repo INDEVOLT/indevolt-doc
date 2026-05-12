@@ -7,12 +7,16 @@
     "message": "文档",
     "description": "Navbar item with label Docs"
   },
-  "item.label.INDEVOLT App": {
-    "message": "INDEVOLT App",
-    "description": "Navbar item with label INDEVOLT App"
+  "item.label.Micro Storage Guide": {
+    "message": "微储产品指南",
+    "description": "Navbar item with label Micro Storage Guide"
   },
-  "item.label.Micro Storage": {
-    "message": "微型储能",
-    "description": "Navbar item with label Micro Storage"
+  "item.label.INDEVOLT App Guide": {
+    "message": "INDEVOLT App 指南",
+    "description": "Navbar item with label INDEVOLT App Guide"
+  },
+  "item.label.Use Cases": {
+    "message": "应用场景",
+    "description": "Navbar item with label Use Cases"
   }
 }

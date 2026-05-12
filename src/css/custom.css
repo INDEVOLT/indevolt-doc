@@ -137,13 +137,11 @@ html[data-theme="dark"] .theme-code-block {
 
 .markdown ol {
     list-style-type: decimal; /* shows 1, 2, 3 */
-    margin-left: 0.5em; /* adds indentation */
 }
 
 /* For unordered lists (dots/discs) */
 .markdown ul {
     list-style-type: disc;
-    margin-left: 0.5em;
 }
 
 article .markdown a.link {
@@ -223,6 +221,23 @@ article p > span > a {
     border: 1px solid;
     font-size: 0.8rem;
     margin-bottom: 6px;
+}
+
+.usecase-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #1677ff, #4096ff);
+  color: white !important;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.usecase-button:hover {
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(22, 119, 255, 0.25);
 }
 
 .navbar {

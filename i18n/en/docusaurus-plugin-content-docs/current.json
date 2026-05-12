@@ -1,0 +1,106 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
+    "message": "Know Your Micro Storage System",
+    "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Daily Use": {
+    "message": "Daily Use",
+    "description": "The label for category Daily Use in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Energy Management": {
+    "message": "Energy Management",
+    "description": "The label for category Energy Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Settings": {
+    "message": "Advanced Settings",
+    "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Note": {
+    "message": "Technical Note",
+    "description": "The label for category Technical Note in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Information & Capabilities": {
+    "message": "Technical Information & Capabilities",
+    "description": "The label for category Technical Information & Capabilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Specification": {
+    "message": "Technical Specification",
+    "description": "The label for category Technical Specification in sidebar tutorialSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Getting Started",
+    "description": "The generated-index page title for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Get started with INDEVOLT by installing the app, creating your account, and setting up your first device.",
+    "description": "The generated-index page description for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT": {
+    "message": "Using INDEVOLT",
+    "description": "The label for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.title": {
+    "message": "Using INDEVOLT",
+    "description": "The generated-index page title for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.description": {
+    "message": "This section walks through key functions, from energy monitoring to personal settings.",
+    "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Choose your setup": {
+    "message": "Choose your setup",
+    "description": "The label for category Choose your setup in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Grid-tied": {
+    "message": "Grid-tied",
+    "description": "The label for category Grid-tied in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Single-phase System": {
+    "message": "Single-phase System",
+    "description": "The label for category Single-phase System in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Standalone": {
+    "message": "Standalone",
+    "description": "The label for category Standalone in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.No Existing PV": {
+    "message": "No Existing PV",
+    "description": "The label for category No Existing PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Up to 800 W": {
+    "message": "Up to 800 W",
+    "description": "The label for category Up to 800 W in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Over 800 W": {
+    "message": "Over 800 W",
+    "description": "The label for category Over 800 W in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Balcony PV": {
+    "message": "Balcony PV",
+    "description": "The label for category Balcony PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Residential PV": {
+    "message": "Residential PV",
+    "description": "The label for category Residential PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Cluster": {
+    "message": "Cluster",
+    "description": "The label for category Cluster in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Three-phase System": {
+    "message": "Three-phase System",
+    "description": "The label for category Three-phase System in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Off-grid": {
+    "message": "Off-grid",
+    "description": "The label for category Off-grid in sidebar scenarioSidebar"
+  }
+}

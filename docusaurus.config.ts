@@ -92,6 +92,7 @@ const config: Config = {
     docs: {
       sidebar: {
         hideable: true,
+        autoCollapseCategories: true
       },
     },
     navbar: {
@@ -107,12 +108,16 @@ const config: Config = {
           position: "left",
           items: [
             {
-              label: "Micro Storage",
+              label: "Micro Storage Guide",
               to: "docs/hardware/doc-intro"
             },
             {
-              label: "INDEVOLT App",
-              to: "docs/app/introduction"
+              label: "INDEVOLT App Guide",
+              to: "docs/app/introduction",
+            },
+            {
+              label: "Use Cases",
+              to: "docs/scenario/introduction",
             },
           ]
         },
@@ -135,14 +140,17 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Micro Storage",
+              label: "Micro Storage Guide",
               to: "docs/hardware/doc-intro"
             },
             {
-              label: "INDEVOLT App",
+              label: "INDEVOLT App Guide",
               to: "docs/app/introduction"
-            }
-            
+            },
+            {
+              label: 'Use Cases',
+              to: 'docs/scenario/introduction',
+            },
           ]
         },
         {

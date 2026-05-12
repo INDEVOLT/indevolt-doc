@@ -54,5 +54,57 @@
   "sidebar.tutorialSidebar.category.Technical Note": {
     "message": "技术说明",
     "description": "The label for category Technical Note in sidebar tutorialSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Grid-tied": {
+    "message": "并网",
+    "description": "The label for category Grid-tied in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Single-phase System": {
+    "message": "单相系统",
+    "description": "The label for category Single-phase System in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Standalone": {
+    "message": "单机",
+    "description": "The label for category Standalone in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.No Existing PV": {
+    "message": "无存量光伏",
+    "description": "The label for category No Existing PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Up to 800 W": {
+    "message": "不超过 800 W",
+    "description": "The label for category Up to 800 W in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Over 800 W": {
+    "message": "超过 800 W",
+    "description": "The label for category Over 800 W in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Balcony PV": {
+    "message": "阳台光伏",
+    "description": "The label for category Balcony PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Residential PV": {
+    "message": "户用光伏",
+    "description": "The label for category Residential PV in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Cluster": {
+    "message": "并机",
+    "description": "The label for category Cluster in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Three-phase System": {
+    "message": "三相系统",
+    "description": "The label for category Three-phase System in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Off-grid": {
+    "message": "离网",
+    "description": "The label for category Off-grid in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Choose your setup": {
+    "message": "选择您的配置",
+    "description": "The label for category Choose your setup in sidebar scenarioSidebar"
+  },
+  "sidebar.scenarioSidebar.category.Portable": {
+    "message": "便携",
+    "description": "The label for category Portable in sidebar scenarioSidebar"
   }
 }

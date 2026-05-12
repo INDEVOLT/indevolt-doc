@@ -333,5 +333,98 @@
   },
   "home.hero.subtitle": {
     "message": "探索我们的资源，了解更多关于我们产品的信息"
+  },
+  "scenarioFinder.select.placeholder": {
+    "message": "请选择..."
+  },
+  "scenarioFinder.page.title": {
+    "message": "应用场景选择向导"
+  },
+  "scenarioFinder.h1": {
+    "message": "应用场景选择向导"
+  },
+  "scenarioFinder.subtitle": {
+    "message": "根据实际系统配置，快速匹配对应应用场景"
+  },
+  "scenarioFinder.step1.title": {
+    "message": "1. 电网接入方式"
+  },
+  "scenarioFinder.step1.desc": {
+    "message": "请选择系统是否接入电网运行。"
+  },
+  "scenarioFinder.step1.option.grid": {
+    "message": "并网系统"
+  },
+  "scenarioFinder.step1.option.offgrid": {
+    "message": "离网系统"
+  },
+  "scenarioFinder.step2.title": {
+    "message": "2. 相数"
+  },
+  "scenarioFinder.step2.desc": {
+    "message": "请选择现场电气系统的相数配置。"
+  },
+  "scenarioFinder.step2.option.single": {
+    "message": "单相系统"
+  },
+  "scenarioFinder.step2.option.three": {
+    "message": "三相系统"
+  },
+  "scenarioFinder.step3.title": {
+    "message": "3. 设备配置方式"
+  },
+  "scenarioFinder.step3.desc": {
+    "message": "请选择设备是单机运行还是并机运行。"
+  },
+  "scenarioFinder.step3.option.standalone": {
+    "message": "单机"
+  },
+  "scenarioFinder.step3.option.cluster": {
+    "message": "并机"
+  },
+  "scenarioFinder.step4.title": {
+    "message": "4. 光伏接入情况"
+  },
+  "scenarioFinder.step4.desc": {
+    "message": "选择当前现场安装的光伏系统类型。"
+  },
+  "scenarioFinder.step4.option.nopv": {
+    "message": "无存量光伏"
+  },
+  "scenarioFinder.step4.option.balcony": {
+    "message": "阳台光伏"
+  },
+  "scenarioFinder.step4.option.residential": {
+    "message": "户用光伏"
+  },
+  "scenarioFinder.step5.title": {
+    "message": "5. 系统功率"
+  },
+  "scenarioFinder.step5.desc": {
+    "message": "选择系统总功率是否超过 800W。"
+  },
+  "scenarioFinder.step5.option.low": {
+    "message": "不超过 800 W"
+  },
+  "scenarioFinder.step5.option.high": {
+    "message": "超过 800 W"
+  },
+  "scenarioFinder.button.view": {
+    "message": "查看匹配场景 →"
+  },
+  "scenarioFinder.offgrid.step2.title": {
+    "message": "2. 设备配置方式"
+  },
+  "scenarioFinder.offgrid.step2.desc": {
+    "message": "选择设备工作方式：便携式、单机运行，或并机运行"
+  },
+  "scenarioFinder.offgrid.step2.option.portable": {
+    "message": "便携"
+  },
+  "scenarioFinder.offgrid.step2.option.standalone": {
+    "message": "单机"
+  },
+  "scenarioFinder.offgrid.step2.option.cluster": {
+    "message": "并机"
   }
 }
