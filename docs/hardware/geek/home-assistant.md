@@ -72,8 +72,8 @@ Ensure device firmware version meets or exceeds the minimum version listed in th
 
 | Model                       | Minimum applicable firmware version |
 | --------------------------- | ----------------------------------- |
-| BK1600/BK1600Ultra          | V1.3.0A_R006.072_M4848_00000039     |
-| SolidFlex2000/PowerFlex2000 | CMS：V1406.07.002E                  |
+| BK1600 / BK1600 Ultra          | V1.3.0A_R006.072_M4848_00000039     |
+| SolidFlex 2000 / PowerFlex 2000 | CMS：V1406.07.002E                  |
 
 
 

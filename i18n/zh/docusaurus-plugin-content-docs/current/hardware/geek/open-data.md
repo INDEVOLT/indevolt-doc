@@ -95,8 +95,8 @@ import TabItem from '@theme/TabItem';
 > 以下三种方法任选其一：
 > - 🧩方法 1：路由器管理后台查询；
 > - 🧩方法 2：App设备设置界面查看；
->   <img src={require("./img/select-network.png").default} width="240"/>
->   <img src={require("./img/view_ip.png").default} width="240"/>
+>   <img src={require("./img/select-network.png").default} width="200"/>
+>   <img src={require("./img/view_ip.png").default} width="200"/>
 > - 🧩方法 3: UDP广播获取IP
 > 
 >       (1) 确保设备接入的WiFi网络与电脑处于同一局域网。  

@@ -68,8 +68,8 @@ import TabItem from '@theme/TabItem';
 > 
 > | Model                       | Applicable firmware version               |
 > | --------------------------- | ----------------------------------------- |
-> | BK1600/BK1600Ultra          | V1.3.0A_R006.072_M4848_00000039           |
-> | SolidFlex2000/PowerFlex2000 | CMS：CMS：V1406.07.002E                   |
+> | BK1600 / BK1600 Ultra          | V1.3.0A_R006.072_M4848_00000039           |
+> | SolidFlex 2000 / PowerFlex 2000 | CMS：CMS：V1406.07.002E                   |
 >
 > You can check the device firmware version in the INDEVOLT app. 
 > 
@@ -290,7 +290,7 @@ In HTTP + Digest mode:
 > Device data in JSON format.
 >
 > <Tabs>
->   <TabItem value="sf2000" label="SolidFlex2000/PowerFlex2000" default>
+>   <TabItem value="sf2000" label="SolidFlex 2000 / PowerFlex 2000" default>
 > 
 >   <table><thead>
 >     <tr>
@@ -1380,7 +1380,7 @@ In HTTP + Digest mode:
 > | config    | Object | `f`: function code, **16** by default;<br />`t`: register address, see the **`cJSON Point`** column in the table below;<br />`v`: write value, see the **`Value`** column in the table below. |
 > 
 > <Tabs>
->   <TabItem value="sf2000" label="SolidFlex2000/PowerFlex2000" default>
+>   <TabItem value="sf2000" label="SolidFlex 2000 / PowerFlex 2000" default>
 >     | cJSON Point | cJSON Value Type | Unit | Point Description    | Value                                 |API|
 >     | ----------- | ---------------- | ---- | -------------------- | --------------------------------------|---|
 >     | 47005       | Enum             |      | Mode Setting| 1: Self-consumed Prioritized<br />4: Real-time control<br />5: Charge/Discharge Schedule |`Indevolt.SetData`|
