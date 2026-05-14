@@ -172,7 +172,7 @@ config directory/
 
 4. Configurez les paramètres :
    - `host` : adresse IP de l’appareil, disponible via le routeur ou l’application.
-   - `scan_interval` : fréquence de mise à jour des données, 30 s par défaut.
+   - `scan_interval` : fréquence de mise à jour des données. Il est recommandé de le définir entre 5 et 30 secondes. La valeur par défaut est de 30 secondes.
 
    <img src={require("./img/set-integration.png").default} width="300"/>
 
