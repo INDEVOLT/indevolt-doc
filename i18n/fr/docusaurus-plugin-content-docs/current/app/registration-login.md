@@ -19,46 +19,18 @@ Sur la page de connexion, appuyez sur le bouton **S'inscrire**.
 
 <img src={require("./img/register.png").default} alt="Bouton S'inscrire" width="240"/>
 
-### Étape 2 : Choisir une Méthode d'Inscription
-
-L'inscription **par email** est disponible pour tous les utilisateurs. L'inscription par téléphone est disponible pour les utilisateurs en Chine continentale.
-
-<img src={require("./img/register_email.png").default} width="240" />
-
-### Étape 3 : Remplir Vos Informations
+### Étape 2 : Remplir Vos Informations
 
 Entrez les informations requises comme indiqué à l'écran.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+1. Entrez votre **adresse email** utilisée fréquemment.  
+2. Appuyez sur **Envoyer le code**.  
+3. **Faites glisser** pour compléter la vérification de l'email.  
+4. Entrez le **code de vérification** envoyé à votre email.  
+5. Définissez un **mot de passe** sécurisé (au moins 8 caractères, incluant au moins 3 des éléments suivants: chiffres, lettres majuscules et minuscules, symboles).
 
-<Tabs>
-  <TabItem value="email" label="Inscription par Email" default>
-
-    1. Entrez votre **adresse email** utilisée fréquemment.  
-    2. Appuyez sur **Envoyer le code**.  
-    3. **Faites glisser** pour compléter la vérification de l'email.  
-    4. Entrez le **code de vérification** envoyé à votre email.  
-    5. Définissez un **mot de passe** sécurisé (au moins 8 caractères, incluant au moins 3 des éléments suivants: chiffres, lettres majuscules et minuscules, symboles).
-
-       <img src={require("./img/email_register1.png").default} width="240"/>
-       <img src={require("./img/email_register2.png").default} width="240"/>
-    
-  </TabItem>
-
-  <TabItem value="phone" label="Inscription par Téléphone">
-
-    1. Entrez votre **numéro de téléphone**.  
-    2. Appuyez sur **Envoyer le code**.  
-    3. **Faites glisser** pour compléter la vérification du téléphone.  
-    4. Entrez le **code de vérification** SMS reçu.  
-    5. Définissez un **mot de passe** sécurisé (au moins 8 caractères, incluant au moins 3 des éléments suivants : chiffres, lettres majuscules et minuscules, symboles).
-
-       <img src={require("./img/phone_register1.png").default} width="240"/>
-       <img src={require("./img/phone_register2.png").default} width="240"/>
-
-  </TabItem>
-</Tabs>
+   <img src={require("./img/email_register1.png").default} width="240"/>
+   <img src={require("./img/email_register2.png").default} width="240"/>
 
 :::info Ce compte est enregistré
 
@@ -72,7 +44,7 @@ Pour des raisons de sécurité, les mots de passe simples tels que “123456” 
 
 :::
 
-### Étape 4 : Finaliser l'Inscription
+### Étape 3 : Finaliser l'Inscription
 
 1. Lisez et acceptez les **Conditions de service** et la **Politique de confidentialité**.  
 2. Après avoir confirmé que toutes les informations sont correctes, appuyez sur le bouton **S'inscrire**.
@@ -86,12 +58,12 @@ Une fois la vérification terminée, l'application vous dirigera automatiquement
 Si vous avez déjà un compte, vous pouvez vous connecter en suivant les étapes ci-dessous.
 
 1. Appuyez sur **Plus d'options de connexion** pour choisir entre Connexion par Téléphone, Email ou ID.  
-   <img src={require("./img/login_methods.png").default} alt="Méthodes de connexion" width="240"/>
-
 2. Entrez le numéro de téléphone, l'email ou le nom d'utilisateur utilisé lors de l'inscription.  
 3. Entrez votre **mot de passe.**  
 4. Lisez et acceptez les **Conditions d'utilisation** et la **Politique de confidentialité**.  
-5. Appuyez sur le bouton **Se connecter**.  
+5. Appuyez sur le bouton **Se connecter**. 
+
+   <img src={require("./img/login_methods.png").default} alt="Méthodes de connexion" width="240"/> 
    <img src={require("./img/login_page.png").default} alt="Page de connexion" width="240"/>
 
 Après une connexion réussie, l'application vous dirigera vers l'interface principale.
@@ -115,5 +87,3 @@ Après une connexion réussie, l'application vous dirigera vers l'interface prin
    <img src={require("./img/reset_password.png").default} alt="Page de réinitialisation du mot de passe" width="240"/>
 
 Une fois votre mot de passe réinitialisé avec succès, appuyez sur **Se connecter** pour revenir à la page de connexion et vous connecter à nouveau.
-
-<img src={require("./img/reset_finished.png").default} alt="Réinitialisation du mot de passe terminée" width="240"/>
