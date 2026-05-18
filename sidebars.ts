@@ -59,7 +59,6 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       label: 'Advanced Settings',
       items: [
-        // 'hardware/advanced/cluster',
         'hardware/advanced/link-device',
         
       ],
@@ -77,6 +76,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/bypass',
         'hardware/technical-note/device-communication',
         'hardware/technical-note/soc-balancing',
+        'hardware/technical-note/cluster',
       ],
     },
     {
