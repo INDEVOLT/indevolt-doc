@@ -19,46 +19,18 @@ Tippen Sie auf der Anmeldeseite auf die Schaltfläche **Registrieren**.
 
 <img src={require("./img/register.png").default} alt="Schaltfläche Registrieren" width="240"/>
 
-### Schritt 2: Registrierungsart auswählen
-
-Die Registrierung per E-Mail steht allen Nutzern zur Verfügung. Die Registrierung per Telefonnummer ist für Nutzer auf dem chinesischen Festland verfügbar.
-
-<img src={require("./img/register_email.jpg").default} width="240" />
-
-### Schritt 3: Informationen eingeben
+### Schritt 2: Informationen eingeben
 
 Geben Sie die erforderlichen Informationen wie auf dem Bildschirm angezeigt ein.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+1. Geben Sie Ihre häufig verwendete E-Mail-Adresse ein.  
+2. Tippen Sie auf **Code senden**.  
+3. Wischen Sie, um die E-Mail-Verifizierung abzuschließen.  
+4. Geben Sie den an Ihre E-Mail gesendeten Verifizierungscode ein.  
+5. Legen Sie ein sicheres Passwort fest (mindestens 8 Zeichen, davon mindestens 3 der folgenden Kategorien: Zahlen, Groß- und Kleinbuchstaben, Symbole).
 
-<Tabs>
-  <TabItem value="email" label="E-Mail-Registrierung" default>
-
-    1. Geben Sie Ihre häufig verwendete E-Mail-Adresse ein.  
-    2. Tippen Sie auf **Code senden**.  
-    3. Wischen Sie, um die E-Mail-Verifizierung abzuschließen.  
-    4. Geben Sie den an Ihre E-Mail gesendeten Verifizierungscode ein.  
-    5. Legen Sie ein sicheres Passwort fest (mindestens 8 Zeichen, davon mindestens 3 der folgenden Kategorien: Zahlen, Groß- und Kleinbuchstaben, Symbole).
-
-       <img src={require("./img/email_register1.jpg").default} width="240"/>
-       <img src={require("./img/email_register2.jpg").default} width="240"/>
-    
-  </TabItem>
-
-  <TabItem value="phone" label="Telefonregistrierung">
-
-    1. Geben Sie Ihre Telefonnummer ein.  
-    2. Tippen Sie auf **Code senden**.  
-    3. Wischen Sie, um die Telefonverifizierung abzuschließen.  
-    4. Geben Sie den per SMS erhaltenen Verifizierungscode ein.  
-    5. Legen Sie ein sicheres Passwort fest (mindestens 8 Zeichen, davon mindestens 3 der folgenden Kategorien: Zahlen, Groß- und Kleinbuchstaben, Symbole).
-
-       <img src={require("./img/phone_register1.png").default} width="240"/>
-       <img src={require("./img/phone_register2.png").default} width="240"/>
-
-  </TabItem>
-</Tabs>
+   <img src={require("./img/email_register1.png").default} width="240"/>
+   <img src={require("./img/email_register2.png").default} width="240"/>
 
 :::info Dieses Konto ist bereits registriert
 
@@ -72,7 +44,7 @@ Aus Sicherheitsgründen sind einfache Passwörter wie „123456“ oder sich wie
 
 :::
 
-### Schritt 4: Registrierung abschließen
+### Schritt 3: Registrierung abschließen
 
 1. Lesen Sie die **Nutzungsbedingungen** und die **Datenschutzerklärung** und stimmen Sie ihnen zu.  
 2. Vergewissern Sie sich, dass alle Angaben korrekt sind, und tippen Sie anschließend auf **Registrieren**.
@@ -110,8 +82,8 @@ Nach erfolgreicher Anmeldung wird die App zur Hauptoberfläche weitergeleitet.
 8. Geben Sie auf der Seite **Passwort zurücksetzen** Ihr neues Passwort ein, bestätigen Sie es und tippen Sie anschließend auf **Speichern**.
 
    <img src={require("./img/forget_password.png").default} alt="Schaltfläche Passwort vergessen" width="240"/>
-   <img src={require("./img/confirm_account1.jpg").default} alt="Seite Konto bestätigen" width="240"/>
-   <img src={require("./img/confirm_account2.jpg").default} alt="Seite Konto bestätigen" width="240"/>
-   <img src={require("./img/reset_password.jpg").default} alt="Seite Passwort zurücksetzen" width="240"/>
+   <img src={require("./img/confirm_account1.png").default} alt="Seite Konto bestätigen" width="240"/>
+   <img src={require("./img/confirm_account2.png").default} alt="Seite Konto bestätigen" width="240"/>
+   <img src={require("./img/reset_password.png").default} alt="Seite Passwort zurücksetzen" width="240"/>
 
 Nachdem Ihr Passwort erfolgreich zurückgesetzt wurde, tippen Sie auf **Anmelden**, um zur Anmeldeseite zurückzukehren und sich erneut anzumelden.

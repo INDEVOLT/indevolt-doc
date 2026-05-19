@@ -11,6 +11,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/7  | V140B.0B.0035 | 1. Optimized communication logic |
 | 2026/4/10 | V140A.0A.0034 | 1. Added minute-level custom scheduling<br />2. Added support for third-party MQTT integration (not yet supported in App)<br />3. Added Modbus TCP cloud access (not yet supported in App)<br />4. Changed dynamic electricity pricing interval to 15 minutes<br />5. Optimized Wi-Fi and LoRa communication logic<br />6. Removed 10s long-press Wi-Fi reset function and moved it to App (not yet supported in App) |
 | 2026/3/3 | V1408.09.0031 | 1. Added support for Stromleser energy meter (optical reader)<br />2. Added support for HomeWizard P1 meter<br />3. Added support for Shelly Plug Gen1<br />4. Added meter offset configuration<br />5. Optimized communication logic |
 | 2026/1/15 | V1407.08.002F | 1. Optimized OpenData API logic |
@@ -25,6 +26,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/6  | V0D.00.18 | 1. Optimized some parameters|
 | 2026/1/14 | V0D.00.14 | 1. Optimized battery temperature status display |
 | 2026/1/9 | V0D.00.13 | 1. Optimized battery temperature status display |
 | 2025/12/25 | V0D.00.11 | 1. Added AC charging power setting |
@@ -36,6 +38,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/12 | V1.01.07 | 1. In parallel operation, when the master or a slave reaches the Backup SOC during discharge, that unit stops discharging while other units that can still discharge continue operating.<br />2. Added support for off-grid microinverters (max: 1200) (inv ≥ 1.36).<br />3. Added a reverse charging enable/disable switch (enabled by default) to support existing microinverter scenarios (currently not supported in the APP).<br />4. Optimized the SOC balancing logic during standby or recharge mode (not effective when PV generation is available).<br />5. Added support for SFA/PFA_G2 and SFA/PFA_G3 battery packs.<br />6. Fixed an issue where the system would not enter deep standby in off-grid mode when standby time was set to 0 and bypass was disabled.<br />7. Fixed an SOC imbalance issue caused by standby power consumption after entering standby when all SOC values were below the Backup SOC.<br />8. Increased the maximum feed-in power limit value to 10800 (currently not supported in the APP). |
 | 2026/2/11 | V1.01.03 | 1. Optimized forced charging logic<br />2. Optimized scheduling time slot configuration<br />3. Optimized low-temperature battery heating logic<br />4. Optimized parallel operation logic<br />5. Added support for PFA4000 battery pack<br />6. Fixed issue where deep standby could not be entered under certain conditions |
 | 2026/1/21 | V1.00.58 | 1. Optimized firmware upgrade timing<br />2. Optimized parallel power regulation<br />3. Added automatic charging when export is detected while AC charging is disabled<br />4. Added battery standby logic |
 | 2025/12/10 | V1.00.57 | 1. Optimized PV power allocation in parallel mode<br />2. Improved PV priority in real-time control mode<br />3. Optimized upgrade logic<br />4. Added exit from deep standby via short press |
@@ -52,6 +55,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/12  | 1.00.45 | 1. Optimized battery protection and operating logic     |
 | 2026/2/11 | 1.00.42 | 1. Optimized SOC algorithm |
 | 2026/1/21 | 1.00.38 | 1. Optimized SOC algorithm |
 | 2025/11/28 | 1.00.35 | 1. Optimized upgrade logic |
@@ -65,6 +69,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/12  | 1.00.45 | 1. Optimized battery protection and operating logic     |
 | 2026/2/11 | 1.10.42 | 1. Optimized SOC algorithm |
 | 2026/1/21 | 1.10.38 | 1. Optimized SOC algorithm |
 | 2025/11/28 | 1.10.35 | 1. Optimized upgrade logic |
@@ -78,6 +83,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/10  | V1.01.73 | 1. Optimized operating logic |
 | 2026/3/20 | V1.01.64 | 1. Fixed occasional communication loss of battery pack during deep standby in multi-pack systems |
 | 2026/3/4 | V1.01.62 | 1. Optimized battery pack communication |
 | 2026/2/11 | V1.01.61 | 1. Optimized battery pack communication |
@@ -95,6 +101,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/5/12  | V1.38  | 1. Added support for off-grid microinverters (max: 1200) (PCS ≥ 1.36).<br />2. Optimized the issue where the grid relay could occasionally fail to close under certain operating conditions.<br />3. Optimized the issue where an abnormal alarm could occasionally occur after PV charging reached full capacity. |
 | 2026/4/10 | V1.36 | 1. Optimized inverter issue where it may not charge/discharge during grid-tied operation |
 | 2026/2/11 | V1.35 | 1. Optimized charging logic |
 | 2026/1/21 | V1.34 | 1. Fixed issue where bypass may disconnect under certain conditions |
