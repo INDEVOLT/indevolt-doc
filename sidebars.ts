@@ -93,7 +93,16 @@ const sidebars: SidebarsConfig = {
             'hardware/geek/battery-tech-specs',
           ],
         },
-        'hardware/geek/open-data',
+        {
+          type: 'category',
+          collapsed: false,
+          label: 'OpenData',
+          items: [
+            'hardware/geek/open-data',
+            'hardware/geek/modbus-tcp',
+            'hardware/geek/mqtt',
+          ],
+        },
         'hardware/geek/home-assistant',
       ],
     },
