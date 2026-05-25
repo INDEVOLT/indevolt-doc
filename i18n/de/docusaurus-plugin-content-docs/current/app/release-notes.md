@@ -53,10 +53,10 @@ Bekannte Probleme behoben und die System­sicherheit sowie Stabilität verbesser
 
 ## V1.2.9
 
--Optimierung der Darstellung von Energiedaten und der Startseite für mehr Übersichtlichkeit
--Anpassung und Verbesserung der Energiestrategien für ein besseres Nutzungserlebnis
--Erweiterte und optimierte Unterstützung ausgewählter Geräte sowie des lokalen Modus
--Behebung bekannter Probleme und Verbesserung der Systemstabilität und -leistung
+- Optimierung der Darstellung von Energiedaten und der Startseite für mehr Übersichtlichkeit
+- Anpassung und Verbesserung der Energiestrategien für ein besseres Nutzungserlebnis
+- Erweiterte und optimierte Unterstützung ausgewählter Geräte sowie des lokalen Modus
+- Behebung bekannter Probleme und Verbesserung der Systemstabilität und -leistung
 
 ---
 
