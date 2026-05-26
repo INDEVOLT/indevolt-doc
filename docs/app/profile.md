@@ -239,76 +239,7 @@ Cluster settings allow you to combine multiple energy storage devices or inverte
 
 You must configure main-sub mode: designate one device as the main device, with the others acting as sub-devices, coordinated by the main.
 
-The following table shows which models support main/sub roles:
-
-
-<table><thead>
-  <tr>
-    <th></th>
-    <th colspan="2">Wired</th>
-    <th colspan="2">Wireless</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>Model</td>
-    <td>Main</td>
-    <td>Sub</td>
-    <td>Main</td>
-    <td>Sub</td>
-  </tr>
-  <tr>
-    <td>BK1600</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>BK1600 Ultra</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>PowerFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>SolidFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>Smart Plug</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✗</td>
-    <td>✓</td>
-  </tr>
-</tbody>
-</table>
-
-**Steps:**
-
-1. Tap **Cluster**.
-2. Tap **Create a Cluster**.
-3. Select **Cluster Mode**: wireless or wired. Press and hold device cards and drag them into the main or sub slots.
-4. Set the **AC Output Power Limitation** according to grid regulations and local policies.
-5. Tap **Save** to complete the cluster setup.
-
-   <img src={require("./img/profile_page.png").default} width="240"/>
-   <img src={require("./img/cluster.png").default} width="240"/>
-   <img src={require("./img/create_cluster.png").default} width="240"/>
-   <img src={require("./img/output_power_limit.png").default} width="240"/>
-   <img src={require("./img/cluster_created.png").default} width="240"/>
-   <img src={require("./img/view_cluster.png").default} width="240"/>
-
+👉 For detailed cluster setup and configuration instructions, please refer to the [Cluster Guide](../hardware/technical-note/cluster.md).
 
 ## 5. Data Source
 

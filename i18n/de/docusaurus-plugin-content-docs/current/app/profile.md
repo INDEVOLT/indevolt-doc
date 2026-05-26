@@ -295,7 +295,7 @@ Die folgende Tabelle zeigt, welche Modelle Haupt-/Unterrollen unterstützen:
 
 1. Tippen Sie auf **Cluster**.
 2. Tippen Sie auf **Einen Cluster erstellen**.
-3. Wählen Sie den **Cluster-Modus**: drahtlos oder kabelgebunden. Halten Sie Geräte-Karten gedrückt und ziehen Sie sie in die Haupt- oder Unter-Slots.
+3. Wählen Sie den **Cluster-Modus**: Zentralisiert oder Koordiniert. Halten Sie Geräte-Karten gedrückt und ziehen Sie sie in die Haupt- oder Unter-Slots.
 4. Legen Sie die **AC-Leistungsbegrenzung** gemäß Netzvorschriften und lokalen Richtlinien fest.
 5. Tippen Sie auf **Speichern**, um die Cluster-Einrichtung abzuschließen.
 

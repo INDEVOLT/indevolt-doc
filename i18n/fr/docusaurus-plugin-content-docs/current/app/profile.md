@@ -275,7 +275,7 @@ Le tableau suivant montre quels modèles supportent les rôles principal/subordo
 
 1. Touchez **Cluster**.  
 2. Touchez **Créer un cluster**.  
-3. Sélectionnez **Mode Cluster** : sans fil ou filaire. Maintenez les cartes des appareils et glissez-les dans les emplacements principal ou subordonné.  
+3. Sélectionnez **Mode Cluster** : Centralisé ou Coordonné. Maintenez les cartes des appareils et glissez-les dans les emplacements principal ou subordonné.  
 4. Définissez la **limitation de puissance de sortie AC** selon les règlements et politiques locales.  
 5. Touchez **Enregistrer** pour finaliser la configuration.
 
