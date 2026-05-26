@@ -55,4 +55,4 @@ With just a few simple steps, you can [start your smart energy journey](./instal
 :::
 
 
-We’re constantly improving the app to bring you the best energy management experience. If you have any questions or suggestions, feel free to reach out through the Suggestion Board in the app.
+We’re constantly improving the app to bring you the best energy management experience. If you have any questions or suggestions, feel free to reach out through the **Help Center** Board in the app.

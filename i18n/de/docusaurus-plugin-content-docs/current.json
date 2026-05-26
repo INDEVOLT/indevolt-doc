@@ -54,5 +54,17 @@
   "sidebar.tutorialSidebar.category.Technical Note": {
     "message": "Technical Note",
     "description": "The label for category Technical Note in sidebar tutorialSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection": {
+    "message": "Energie-Integrationen",
+    "description": "The label for category Brand Connection in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection.link.generated-index.title": {
+    "message": "Energie-Integrationen",
+    "description": "The generated-index page title for category Brand Connection in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection.link.generated-index.description": {
+    "message": "\n            Verbinden Sie Ihre Heimenergiegeräte mit unterstützten Marken. Tippen Sie auf der Profilseite auf „Energie-Integrationen“, wählen Sie die gewünschte Marke aus und folgen Sie der entsprechenden Anleitung unten, um die erforderlichen API-Zugangsdaten oder andere Autorisierungsinformationen zu erhalten.\n            ",
+    "description": "The generated-index page description for category Brand Connection in sidebar appSidebar"
   }
 }

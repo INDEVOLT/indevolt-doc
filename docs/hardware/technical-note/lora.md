@@ -90,11 +90,11 @@ If the device firmware version is lower than the minimum version listed in the t
 
 :::info Preparation
 Please ensure the following conditions are met:
-- The micro energy storage device has been added in the Indevolt App and is powered on and online  
+- The micro energy storage device has been added in the INDEVOLT App and is powered on and online  
 - The LoRa-supported terminal device has been installed and powered on  
 :::
 
-1. Open the Indevolt App, go to the device page, tap “+” in the top right corner, and select the device to add (taking a meter as an example).
+1. Open the INDEVOLT App, go to the device page, tap “+” in the top right corner, and select the device to add (taking a meter as an example).
    
    <img src={require("./img/click_add_device.png").default} width="200"/>
    <img src={require("./img/select_lora_device.png").default} width="200"/>

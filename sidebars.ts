@@ -59,7 +59,6 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       label: 'Advanced Settings',
       items: [
-        // 'hardware/advanced/cluster',
         'hardware/advanced/link-device',
         
       ],
@@ -77,6 +76,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/bypass',
         'hardware/technical-note/device-communication',
         'hardware/technical-note/soc-balancing',
+        'hardware/technical-note/cluster',
       ],
     },
     {
@@ -137,7 +137,25 @@ const sidebars: SidebarsConfig = {
         'app/report',
         'app/smart',
         'app/device',
-        'app/profile'
+        'app/profile',
+        {
+          type: 'category',
+          label: 'Brand Connection',
+          collapsed: false,
+          link: {
+            type: 'generated-index',
+            title: 'Brand Connection',
+            description: `
+            Connect your home energy devices to supported brands. On the Profile page, tap Brand Connection, select the brand you want to connect, and follow the corresponding guide below to obtain the required API credentials or other authorization information.
+            `,
+          },
+          items: [
+            'app/solaredge',
+            'app/growatt',
+            'app/goodwe',
+            'app/solax'
+          ],
+        },
       ],
     },
     'app/faq'

@@ -43,7 +43,89 @@ Appuyez sur le champ **Nom de l’appareil** pour modifier l’affichage du nom 
 
 <img src={require("./img/change_deivce_name.png").default} width="240"/>
 
-### 4.2 Lier appareil parent / sous-appareils
+### 4.2 Paramètres de puissance
+
+Sur la page des paramètres de puissance, vous pouvez définir les limites de puissance de l’appareil, notamment : la puissance de sortie AC max, la puissance d’entrée AC max et la limite d'injection au réseau.
+
+1. Accédez à la page des paramètres de l’appareil et cliquez sur **Paramètres De Puissance**.
+2. Sélectionnez le paramètre de puissance que vous souhaitez modifier.
+3. Faites glisser pour définir la valeur de puissance souhaitée.
+4. Cliquez sur **Enregistrer** pour appliquer les paramètres.
+
+<img src={require("./img/device_settings.png").default} width="240"/>
+<img src={require("./img/power_settings.png").default} width="240"/>
+<img src={require("./img/ac_output_power.png").default} width="240"/>
+
+#### Définir une puissance AC supérieure à 800W
+
+Si vous devez définir la puissance de sortie AC maximale ou la puissance d’entrée AC maximale au-delà de 800W, le système affichera différents messages ou processus de vérification en fonction du pays d’utilisation de l’appareil.
+
+:::info
+
+Selon les normes de sécurité **allemandes**, la puissance de sortie AC des systèmes de batteries enfichables ne doit pas dépasser **800W**. Par conséquent, lorsque les utilisateurs en Allemagne tentent de définir une valeur supérieure à 800W, une **vérification du mode professionnel** est requise afin de garantir la conformité de l’installation aux normes de sécurité.
+
+Les utilisateurs dans d’autres pays verront uniquement un message de sécurité lorsqu’ils définissent une valeur supérieure à 800W, sans nécessité de vérification.
+
+:::
+
+
+**Étape 1 : Définir le pays d’utilisation**
+
+Dans la page des paramètres de l’appareil, trouvez **Pays D’utilisation** et sélectionnez votre pays dans la liste.
+<img src={require("./img/device_settings.png").default} width="240"/>
+<img src={require("./img/device_country.png").default} width="240"/>
+
+**Étape 2 : Demander un code d’activation (uniquement pour l’Allemagne)**
+
+Lorsque les utilisateurs en Allemagne définissent pour la première fois une puissance supérieure à 800W, une **vérification en mode professionnel** est requise. L’obtention d’un code d’activation est nécessaire pour finaliser la configuration.
+
+1. Après avoir défini une valeur supérieure à 800W et cliqué sur Enregistrer, l’application affiche la page de vérification en mode professionnel.
+2. Cliquez sur **Demander un code d’activation**.
+3. Remplissez les informations suivantes puis cliquez sur **Enregistrer** pour soumettre la demande :
+   - Informations utilisateur
+   - Informations sur l’appareil
+   - Informations sur l’installateur
+   - Photos de contexte d’installation
+4. Après soumission, vous pouvez consulter l’état de la demande dans la section **Clé d’activation**. Si la page ne se met pas à jour à temps, revenez à la page de vérification en mode professionnel et cliquez pour consulter les informations de la demande :
+   - En cours de vérification : la demande est en cours d’examen
+   - Approuvé : le système affiche le code d’activation
+   - Échec de la vérification : vous devez soumettre à nouveau des photos conformément aux indications, par exemple :
+     - Image floue
+     - Angle de prise de vue ou contenu incomplet
+     - Impossible de confirmer la conformité de l’installation
+     - L’image ne correspond pas à l’appareil demandé
+     - L’image ne répond pas aux exigences d’authenticité
+5. Après approbation, copiez le code d’activation et collez-le dans le champ correspondant sur la page **Vérification du mode professionnel**, puis cliquez sur **Soumettre** pour terminer la vérification.
+  
+     <img src={require("./img/verification1.png").default} width="240"/>
+     <img src={require("./img/verification2.png").default} width="240"/>
+     <img src={require("./img/verification3.png").default} width="240"/>
+     <img src={require("./img/auth_failure.png").default} width="240"/>
+     <img src={require("./img/auth_success.png").default} width="240"/>
+
+
+**Étape 3 : Confirmer et enregistrer les paramètres de puissance**
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="german" label="Allemagne" default>
+
+    Une fois la vérification terminée, lorsque la puissance dépasse la valeur recommandée par la réglementation, l’application affiche un message de sécurité. Cliquez sur **Continuer** pour appliquer les paramètres.
+    <img src={require("./img/800w_confirmation.png").default} width="240"/>
+
+  </TabItem>
+  <TabItem value="others" label="Autres pays">
+    
+    Lorsque la puissance dépasse 800W, l’application affiche un message de sécurité réglementaire. Après confirmation du message, cliquez sur **Continuer** pour appliquer les paramètres.
+    <img src={require("./img/safety_note.png").default} width="240"/>
+
+  </TabItem>
+</Tabs>
+
+
+### 4.3 Lier appareil parent / sous-appareils
 
 Pour simplifier la consultation et la gestion des données, le système permet d’établir des relations parent-enfant entre les appareils :
 
@@ -60,14 +142,14 @@ Pour simplifier la consultation et la gestion des données, le système permet d
 Si aucun appareil n’est disponible pour le lien, veuillez cliquer sur **Ajouter un appareil** pour inclure l’appareil dans votre domicile en premier.  
 <img src={require("./img/link_new_device.png").default} width="240"/>  
 
-### 4.3 Paramètres réseau
+### 4.4 Paramètres réseau
 
 Appuyez sur **Paramètres du réseau** pour consulter le nom du Wi-Fi auquel l’appareil est connecté et son adresse IP attribuée.
 
 <img src={require("./img/settings.png").default} width="240"/>
 <img src={require("./img/network_settings.png").default} width="240"/>
 
-### 4.4 Mise à jour du firmware
+### 4.5 Mise à jour du firmware
 
 Appuyez sur **Mise à jour du firmware** pour consulter la version actuelle du firmware de l’appareil et les mises à jour disponibles. Si une nouvelle version est disponible, appuyez sur **Appliquer** pour effectuer la mise à jour en ligne.
 

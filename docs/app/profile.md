@@ -174,45 +174,48 @@ At the bottom of the home management page, tap **Delete**. After confirmation, t
 
 ## 3. Tariff
 
+After setting the electricity price in the app, the system can calculate energy costs and revenue, and enable features such as dynamic pricing mode and AI mode.
+
 Tap **Tariff** to enter the electricity price management interface.
 
 <img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/tariff.png").default} width="240"/>
 
 
-### 3.1 Add Tariff
+### 3.1 Add Electricity Price
 
-Tap **+ Add Electricity Price** to create a new **purchase or selling price** plan.
+Click the **+ Add Electricity Price** button to create a new **import or export price**.
 <img src={require("./img/add_price.png").default} width="240"/>
 <img src={require("./img/electricity_price.png").default} width="240"/>
 
-The setup process for purchase and selling prices is similar. The purchase price is used as an example below:
+The setup process for import and export prices is similar. The following uses the import price as an example:
 <img src={require("./img/configure_price.png").default} width="240"/>
 
-1. Set the **start and end time** for the tariff.
-
-   - The end time is set to “Now” by default, meaning the price will remain effective.
-
+1. Set the **start and end time** of the pricing plan.  
+   - The end time is set to "Now" by default, and the price will continue to apply.  
       <img src={require("./img/price_start_end_time1.png").default} width="240"/>
 
-   - To set electricity prices for a historical period, turn off the “Now” toggle and manually select the time range.
-
+   - To configure a historical time period, turn off the "Now" option and manually select the time range.  
       <img src={require("./img/price_start_end_time2.png").default} width="240"/>
 
-2. Select your home’s **area**.
-3. Choose your **electricity supplier** from the list.
-4. Configure the **electricity tariff** plan:
-   - **Dynamic**: Requires setting taxes and the monthly fixed base price.
+2. Select your **area**.  
+3. Choose your electricity **supplier** from the list.  
+4. According to your electricity contract, select the **pricing type** and complete the configuration:  
 
-     <img src={require("./img/dynamic_tariff.png").default} width="240"/>
+   - **Fixed Rate**: The price remains constant throughout the day and does not change over time. Set the current fixed import price.  
+       <img src={require("./img/fixed_rate.png").default} width="240"/>
 
-   - **Static**: Requires setting the base price and the time-of-use (TOU) rates for different periods.
+   - **TOU Rate**: Prices vary by time periods, with different rates for peak and off-peak hours. Set prices for each time period of the day.  
 
-     <img src={require("./img/static_tariff1.png").default} width="240"/>
-     <img src={require("./img/static_tariff2.png").default} width="240"/>
-     <img src={require("./img/static_tariff3.png").default} width="240"/>
+      <img src={require("./img/tou_rate1.png").default} width="240"/>
+      <img src={require("./img/tou_rate2.png").default} width="240"/>
 
-5. Tap **Save**.
+   - **Dynamic Rate**: Prices change in real time based on the market. Configure the pricing formula:  
+     > Custom tariff = (Wholesale price × Coefficient + Service fee) × (1 + VAT)
+      
+      <img src={require("./img/dynamic_rate.png").default} width="240"/>
+
+5. Click **Save** to complete the pricing configuration.
 
 :::info
 The tariff settings here are used for in-app visualization and estimation only. Actual billing is subject to your electricity provider’s official data.
@@ -236,76 +239,7 @@ Cluster settings allow you to combine multiple energy storage devices or inverte
 
 You must configure main-sub mode: designate one device as the main device, with the others acting as sub-devices, coordinated by the main.
 
-The following table shows which models support main/sub roles:
-
-
-<table><thead>
-  <tr>
-    <th></th>
-    <th colspan="2">Wired</th>
-    <th colspan="2">Wireless</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>Model</td>
-    <td>Main</td>
-    <td>Sub</td>
-    <td>Main</td>
-    <td>Sub</td>
-  </tr>
-  <tr>
-    <td>BK1600</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>BK1600 Ultra</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>PowerFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>SolidFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>Smart Plug</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✗</td>
-    <td>✓</td>
-  </tr>
-</tbody>
-</table>
-
-**Steps:**
-
-1. Tap **Cluster**.
-2. Tap **Create a Cluster**.
-3. Select **Cluster Mode**: wireless or wired. Press and hold device cards and drag them into the main or sub slots.
-4. Set the **AC Output Power Limitation** according to grid regulations and local policies.
-5. Tap **Save** to complete the cluster setup.
-
-   <img src={require("./img/profile_page.png").default} width="240"/>
-   <img src={require("./img/cluster.png").default} width="240"/>
-   <img src={require("./img/create_cluster.png").default} width="240"/>
-   <img src={require("./img/output_power_limit.png").default} width="240"/>
-   <img src={require("./img/cluster_created.png").default} width="240"/>
-   <img src={require("./img/view_cluster.png").default} width="240"/>
-
+👉 For detailed cluster setup and configuration instructions, please refer to the [Cluster Guide](../hardware/technical-note/cluster.md).
 
 ## 5. Data Source
 
@@ -355,28 +289,7 @@ Select your preferred decimal separator: dot or comma.
 Tap **Save** and all changes will take effect immediately. You can return anytime to adjust preferences.
 
 
-## 7. Suggestions Board
-
-The Suggestions Board is your direct channel to communicate with us - submit product suggestions or report issues encountered during use.
-
-Tap **Suggestions Board** to enter the feature.
-<img src={require("./img/profile_page.png").default} width="240"/>
-
-You can perform the following actions:
-
-- View suggestions: Browse feature suggestions and feedback from other users.
-   <img src={require("./img/suggestions.png").default} width="240"/>
-
-- Report an issue: Tap **Report it directly**, describe the problem, and submit it.
-   <img src={require("./img/tap_report_issue.png").default} width="240"/>
-   <img src={require("./img/report_issue.png").default} width="240"/>
-
-- Share suggestions: Tap **Share Suggestion** to provide your ideas for improvements or new features.
-   <img src={require("./img/share_suggestion1.png").default} width="240"/>
-   <img src={require("./img/share_suggestion2.png").default} width="240"/>
-
-
-## 8. Operation Services
+## 7. Operation Services
 
 For easier maintenance, you can add and manage service providers (such as retailer and installers) via **Operation Services**. After authorization, a provider can view your basic device information to offer more accurate support.
 
@@ -384,7 +297,7 @@ For easier maintenance, you can add and manage service providers (such as retail
 <img src={require("./img/operation_service.png").default} width="240"/>
 
 
-## 9. Direct Device Connection
+## 8. Direct Device Connection
 
 Direct Device Connection uses Bluetooth for nearby communication, allowing you to monitor and manage supported devices without connecting to the home network.
 
@@ -415,7 +328,7 @@ Ensure Bluetooth is enabled on your phone and the target device is powered on an
    <img src={require("./img/disconnect_device.png").default} width="240"/>
 
 
-## 10. Remote Support
+## 9. Remote Support
 
 This function helps after-sales technicians quickly locate and resolve potential device issues.
 
@@ -453,7 +366,7 @@ This function helps after-sales technicians quickly locate and resolve potential
 :::
 
 
-## 11. About INDEVOLT
+## 10. About INDEVOLT
 
 Tap **About INDEVOLT** to learn more about the app, including the current version, service and privacy agreements, third-party information sharing list, permission descriptions, and system permission management.
 

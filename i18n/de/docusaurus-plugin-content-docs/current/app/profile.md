@@ -173,45 +173,47 @@ Tippen Sie am unteren Rand der Zuhause-Verwaltungsseite auf **Löschen**. Nach d
 
 ## 3. Tarif
 
+Nachdem der Stromtarif in der App eingerichtet wurde, kann das System Energiekosten und Erträge berechnen sowie Funktionen wie den dynamischen Tarifmodus und den KI-Modus nutzen.
+
 Tippen Sie auf **Tarif**, um die Verwaltungsoberfläche für Strompreise zu öffnen.
 
-<img src={require("./img/profile_page.jpg").default} width="240"/>
+<img src={require("./img/profile_page.png").default} width="240"/>
 <img src={require("./img/tariff.jpg").default} width="240"/>
 
+### 3.1 Stromtarif hinzufügen
 
-### 3.1 Tarif hinzufügen
-
-Tippen Sie auf **+ Strompreis hinzufügen**, um einen neuen **Kauf- oder Verkaufspreisplan** zu erstellen.
+Klicken Sie auf die Schaltfläche **+ Strompreis hinzufügen**, um einen neuen **Strombezugspreis oder Stromverkaufspreis** zu erstellen.
 <img src={require("./img/tariff.jpg").default} width="240"/>
-<img src={require("./img/electricity_price.jpg").default} width="240"/>
+<img src={require("./img/electricity_price.png").default} width="240"/>
 
-Der Einrichtungsprozess für Kauf- und Verkaufspreise ist ähnlich. Im Folgenden wird der Kaufpreis als Beispiel verwendet:
-<img src={require("./img/configure_price.jpg").default} width="240"/>
+Der Einrichtungsprozess für Bezugs- und Einspeisetarife ist ähnlich. Im Folgenden wird der Bezugstarif als Beispiel verwendet:
+<img src={require("./img/configure_price.png").default} width="240"/>
 
-1. Legen Sie die **Start- und Endzeit** des Tarifs fest.
-
-   - Die Endzeit ist standardmäßig auf „Jetzt“ gesetzt, d. h. der Preis bleibt gültig.
-
+1. Legen Sie die **Start- und Endzeit** des Tarifs fest.  
+   - Die Endzeit ist standardmäßig auf „Jetzt“ gesetzt, und der Tarif gilt fortlaufend.  
       <img src={require("./img/price_start_end_time1.jpg").default} width="240"/>
 
-   - Um Strompreise für einen vergangenen Zeitraum festzulegen, deaktivieren Sie den Schalter „Jetzt“ und wählen Sie den Zeitraum manuell aus.
-
+   - Um einen Zeitraum in der Vergangenheit festzulegen, deaktivieren Sie „Jetzt“ und wählen Sie den Zeitraum manuell aus.  
       <img src={require("./img/price_start_end_time2.jpg").default} width="240"/>
 
-2. Wählen Sie den **Bereich** Ihres Zuhauses aus.
-3. Wählen Sie Ihren **Stromlieferanten** aus der Liste.
-4. Konfigurieren Sie den **Stromtarif**:
-   - **Dynamisch**: Erfordert die Festlegung von Steuern und des monatlichen festen Grundpreises.
+2. Wählen Sie Ihren **Bereich** aus.  
+3. Wählen Sie Ihren Strom**anbieter** aus der Liste.  
+4. Wählen Sie entsprechend Ihrem Stromvertrag den **Tariftyp** und nehmen Sie die Konfiguration vor:  
 
-     <img src={require("./img/dynamic_tariff.jpg").default} width="240"/>
+   - **Festtarif**: Der Preis bleibt über den Tag konstant und ändert sich nicht. Legen Sie den aktuellen festen Bezugspreis fest.  
+       <img src={require("./img/fixed_rate.png").default} width="240"/>
 
-   - **Statisch**: Erfordert die Festlegung des Grundpreises sowie der zeitabhängigen Tarife (TOU) für verschiedene Zeiträume.
+   - **Zeitabhängiger Tarif**: Der Preis variiert je nach Zeitfenster, mit unterschiedlichen Tarifen für Spitzen- und Nebenzeiten. Legen Sie die Preise für die einzelnen Zeiträume fest.  
 
-     <img src={require("./img/static_tariff1.jpg").default} width="240"/>
-     <img src={require("./img/static_tariff2.jpg").default} width="240"/>
-     <img src={require("./img/static_tariff3.jpg").default} width="240"/>
+      <img src={require("./img/tou_rate1.png").default} width="240"/>
+      <img src={require("./img/tou_rate2.png").default} width="240"/>
 
-5. Tippen Sie auf **Speichern**.
+   - **Dynamischer Tarif**: Der Preis ändert sich in Echtzeit entsprechend dem Markt. Konfigurieren Sie die Berechnungsparameter:  
+     > Benutzerdefinierter Tarif = (Großhandelspreis x Koeffizient + Servicegebühr) x (1 + Mehrwertsteuer)
+      
+      <img src={require("./img/dynamic_rate.png").default} width="240"/>
+
+5. Klicken Sie auf **Speichern**, um die Tarifkonfiguration abzuschließen.
 
 :::info
 Die hier vorgenommenen Tarifeinstellungen dienen ausschließlich der Anzeige und Schätzung innerhalb der App. Die tatsächliche Abrechnung richtet sich nach den offiziellen Daten Ihres Stromversorgers.
@@ -293,7 +295,7 @@ Die folgende Tabelle zeigt, welche Modelle Haupt-/Unterrollen unterstützen:
 
 1. Tippen Sie auf **Cluster**.
 2. Tippen Sie auf **Einen Cluster erstellen**.
-3. Wählen Sie den **Cluster-Modus**: drahtlos oder kabelgebunden. Halten Sie Geräte-Karten gedrückt und ziehen Sie sie in die Haupt- oder Unter-Slots.
+3. Wählen Sie den **Cluster-Modus**: Zentralisiert oder Koordiniert. Halten Sie Geräte-Karten gedrückt und ziehen Sie sie in die Haupt- oder Unter-Slots.
 4. Legen Sie die **AC-Leistungsbegrenzung** gemäß Netzvorschriften und lokalen Richtlinien fest.
 5. Tippen Sie auf **Speichern**, um die Cluster-Einrichtung abzuschließen.
 
@@ -348,33 +350,14 @@ Wählen Sie Ihr bevorzugtes Dezimaltrennzeichen: Punkt oder Komma.
 Tippen Sie auf **Speichern**, damit alle Änderungen sofort wirksam werden. Sie können die Einstellungen jederzeit erneut anpassen.
 
 
-## 7. Vorschlagsbrett
-
-Das Vorschlagsbrett ist Ihr direkter Kommunikationskanal zu uns – reichen Sie Produktvorschläge ein oder melden Sie Probleme, die während der Nutzung aufgetreten sind.
-
-Tippen Sie auf **Vorschlagsbrett**, um die Funktion zu öffnen.
-<img src={require("./img/profile_page.jpg").default} width="240"/>
-
-Sie können folgende Aktionen durchführen:
-
-- Vorschläge anzeigen: Durchsuchen Sie Funktionsvorschläge und Feedback anderer Nutzer.
-   <img src={require("./img/suggestions.jpg").default} width="240"/>
-
-- Problem melden: Tippen Sie auf **Es direkt melden**, beschreiben Sie das Problem und senden Sie es ab.
-   <img src={require("./img/report_issue.png").default} width="240"/>
-
-- Vorschläge teilen: Tippen Sie auf **Vorschlag teilen**, um Ihre Ideen für Verbesserungen oder neue Funktionen einzureichen.
-   <img src={require("./img/share_suggestion2.png").default} width="240"/>
-
-
-## 8. Betriebsservices
+## 7. Betriebsservices
 
 Für eine einfachere Wartung können Sie über **Betriebsservices** Dienstleister (z. B. Händler oder Installateure) hinzufügen und verwalten. Nach der Autorisierung kann ein Dienstleister grundlegende Geräteinformationen einsehen, um gezielteren Support zu bieten.
 
 <img src={require("./img/profile_page.jpg").default} width="240"/>
 <img src={require("./img/operation_service.png").default} width="240"/>
 
-## 9. Direktverbindung zum Gerät
+## 8. Direktverbindung zum Gerät
 
 Die Direktverbindung zum Gerät nutzt Bluetooth für die Kommunikation in der Nähe und ermöglicht es Ihnen, unterstützte Geräte auch ohne Verbindung zum Heimnetzwerk zu überwachen und zu verwalten.
 
@@ -405,7 +388,7 @@ Stellen Sie sicher, dass Bluetooth auf Ihrem Smartphone aktiviert ist und das Zi
    <img src={require("./img/disconnect_device.png").default} width="240"/>
 
 
-## 10. Fernunterstützung
+## 9. Fernunterstützung
 
 Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme schnell zu lokalisieren und zu beheben.
 
@@ -441,7 +424,7 @@ Diese Funktion unterstützt Servicetechniker dabei, potenzielle Geräteprobleme 
 :::
 
 
-## 11. Über INDEVOLT
+## 10. Über INDEVOLT
 
 Tippen Sie auf **Über INDEVOLT**, um weitere Informationen zur App zu erhalten, einschließlich der aktuellen Version, Nutzungsbedingungen, Datenschutzerklärung, Liste für die Weitergabe an Dritte, Beschreibung der Systemberechtigung, Systemberechtigungen.
 

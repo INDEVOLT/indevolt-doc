@@ -77,11 +77,11 @@ LoRa 则专门传输小数据，比如用电量或设备状态。它传输速度
 
 :::info 准备
 请先确认以下条件已满足：
-- 已在 Indevolt App 中添加微储设备，且设备已开机并在线  
+- 已在 INDEVOLT App 中添加微储设备，且设备已开机并在线  
 - 支持LoRa 的终端设备已安装完成并通电  
 :::
 
-1. 打开 Indevolt App，在设备页面点击右上角“+”，选择需要添加的设备（以电表为例）。
+1. 打开 INDEVOLT App，在设备页面点击右上角“+”，选择需要添加的设备（以电表为例）。
    
    <img src={require("./img/click_add_device.png").default} width="200"/>
    <img src={require("./img/select_lora_device.png").default} width="200"/>

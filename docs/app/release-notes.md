@@ -5,6 +5,83 @@ description: INDEVOLT App version update history and feature improvements.
 
 # Release Notes
 
+
+## V1.3.0
+
+- Added new device features and operation guidance
+- Optimized charging/discharging schedules and energy management experience
+- Improved electricity price notifications and device connection stability
+- Fixed known issues and enhanced overall user experience
+
+---
+
+## V1.2.13
+
+- Added Ethernet connection for more stable networking
+- Support for additional energy tariffs (e.g. Tempo)
+- Improved smart energy strategies for better performance
+- Enhanced device setup and user experience
+- General performance and stability improvements
+
+---
+
+## V1.2.12
+
+- Fixed known issues and improved system security and stability.
+
+---
+
+## V1.2.11
+
+- Added Ethernet connection for more stable networking
+- Support for additional energy tariffs (e.g. Tempo)
+- Improved smart energy strategies for better performance
+- Enhanced device setup and user experience
+- General performance and stability improvements
+
+---
+
+## V1.2.10
+
+- Added custom charge and discharge schedules with 15-minute intervals
+- Added 800W qualification application for Germany
+- Improved AI mode experience
+- Optimized meter data display and historical charts
+- Faster access to Local Mode when offline
+- Fixed known issues and improved stability
+
+---
+
+## V1.2.9
+
+- Optimized home energy data and home screen presentation for clearer insights
+- Improved energy strategy logic for a better user experience
+- Added and enhanced support for selected devices and local mode
+- Fixed known issues and improved overall system stability and performance 
+
+---
+
+## V1.2.8
+
+- Improve energy management experience
+- Add support for additional devices and features
+- Fix known issues and enhance system performance
+
+---
+
+## V1.2.7
+
+- Optimized AI energy strategies to improve overall user experience
+- Added support for additional devices and features
+- Improved device setup process and stability
+- Fixed known issues and enhanced system performance
+
+## V1.2.6
+
+- Fixed known issues and improved system security and stability.
+
+---
+
 ## V1.2.5
 
 - Improved home energy management and pricing experience

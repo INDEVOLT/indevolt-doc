@@ -12,7 +12,10 @@ INDEVOLT App 目前已支持的品牌：
 - SOLARMAN
 - Deye
 - EverHome
+- Homewizard
 - Shelly
+- Stromleser
+- VaySunic
 
 不同品牌或型号的设备，其添加与配置方式可能不同，建议您在实际操作中以实际界面和指引为准。
 

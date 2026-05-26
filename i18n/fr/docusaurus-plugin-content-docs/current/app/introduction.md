@@ -54,4 +54,4 @@ Avec quelques étapes simples, vous pouvez [commencer votre parcours d’énergi
 - Les instructions d’utilisation sont basées sur l’interface iOS ; le fonctionnement sur Android est généralement similaire.
 :::
 
-Nous améliorons constamment l’application pour vous offrir la meilleure expérience de gestion énergétique. Si vous avez des questions ou des suggestions, n’hésitez pas à nous contacter via le **Tableau de suggestions** dans l’application.
+Nous améliorons constamment l’application pour vous offrir la meilleure expérience de gestion énergétique. Si vous avez des questions ou des suggestions, n’hésitez pas à nous contacter via le **Centre d'aide** dans l’application.

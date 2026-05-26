@@ -54,4 +54,4 @@ Mit nur wenigen einfachen Schritten können Sie [Ihre intelligente Energienutzun
 - Die Bedienungsanleitungen basieren auf der iOS-Oberfläche; der Ablauf unter Android ist grundsätzlich identisch.
 :::
 
-Wir verbessern die App kontinuierlich, um Ihnen das bestmögliche Energiemanagement-Erlebnis zu bieten. Wenn Sie Fragen oder Anregungen haben, können Sie uns jederzeit über das Vorschlagsboard in der App kontaktieren.
+Wir verbessern die App kontinuierlich, um Ihnen das bestmögliche Energiemanagement-Erlebnis zu bieten. Wenn Sie Fragen oder Anregungen haben, können Sie uns jederzeit über das **Hilfezentrum** in der App kontaktieren.
