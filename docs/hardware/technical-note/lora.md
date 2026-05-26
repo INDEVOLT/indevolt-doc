@@ -36,29 +36,52 @@ In simple terms, Wi-Fi is for internet access, while LoRa allows devices to comm
 - Environments with strong interference, such as server rooms or power stations
 
 
-## Applicable Products
+## Supported Devices
 
-This guide applies to the following devices:
+If the device firmware version is lower than the minimum version listed in the table below, please upgrade the firmware in the Indevolt App under the device settings page.
 
-
-| Device | Model | Minimum Firmware Version |
-| ---- | ------------------------------------------------------------ | ----------------------------------------- |
-| Micro Energy Storage | SolidFlex 2000<br />PowerFlex 2000<br />SolidFlex 2000 Eco<br />PowerFlex 2000 Eco<br />PowerFlex 3000 Hybrid<br />PowerFlex 3000 AC<br />SolidFlex 3000 Hybrid<br />SolidFlex 3000 AC | **CMS**: V1406.07.002B <br/>**Pfile**: V0D.00.11 |
-| Smart Meter | MR3-D5-WR | V1.4.09_R01C.0C2_M0515_00000013 |
-
-
-:::note Upcoming Supported Models
-
-The following models are expected to support LoRa access in the specified versions:
-
-| Device      | Model      | Expected Support Time |
-| ----------- | ---------- | --------------------- |
-| Smart Meter | MR1-D5-WR  | 2026/03/27            |
-| Smart Meter | MR3-D4-WRE | 2026/04/03            |
-| P1 Reader   | P1-2WR     | 2026/03/27            |
-| IR Reader   | NIR-32-EU  | 2026/04/03            |
-
-:::
+<table>
+  <thead>
+    <tr>
+      <th>Device</th>
+      <th>Model</th>
+      <th>Minimum Firmware Version</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Micro Storage</td>
+      <td>
+        SolidFlex 2000<br />
+        PowerFlex 2000<br />
+        SolidFlex 2000 Eco<br />
+        PowerFlex 2000 Eco<br />
+        PowerFlex 3000 Hybrid<br />
+        PowerFlex 3000 AC<br />
+        SolidFlex 3000 Hybrid<br />
+        SolidFlex 3000 AC
+      </td>
+      <td>
+        CMS: V1406.07.002B<br />
+        Pfile: V0D.00.11
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Smart Meter</td>
+      <td>MR1-D5-WR</td>
+      <td>V1.4.09_R00B.082_M051A_00000037</td>
+    </tr>
+    <tr>
+      <td>MR3-D5-WR</td>
+      <td>V1.4.09_R01C.0D2_M0515_00000016</td>
+    </tr>
+    <tr>
+      <td>IR Reader</td>
+      <td>NIR-3</td>
+      <td>V1.4.09_R016.082_M0000_0000001E</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Operation Steps
 

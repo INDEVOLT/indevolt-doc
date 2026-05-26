@@ -36,30 +36,39 @@ LoRa 则专门传输小数据，比如用电量或设备状态。它传输速度
 - 存在强干扰的地方，如：机房、电站等
 
 
-## 适用产品
+## 适用设备
 
-本指南适用于以下设备：
+如果设备固件版本低于表格所列的最低版本要求，请在 Indevolt App 设备设置页升级固件。
 
+<table><thead>
+  <tr>
+    <th>设备</th>
+    <th>型号</th>
+    <th>最低固件版本</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>微储</td>
+    <td>SolidFlex 2000<br />PowerFlex 2000<br />SolidFlex 2000 Eco<br />PowerFlex 2000 Eco<br />PowerFlex 3000 Hybrid<br />PowerFlex 3000 AC<br />SolidFlex 3000 Hybrid<br />SolidFlex 3000 AC</td>
+    <td>CMS: V1406.07.002B <br/>Pfile: V0D.00.11</td>
+  </tr>
+  <tr>
+    <td rowspan="2">电表</td>
+    <td>MR1-D5-WR</td>
+    <td>V1.4.09_R00B.082_M051A_00000037</td>
+  </tr>
+  <tr>
+    <td>MR3-D5-WR</td>
+    <td>V1.4.09_R01C.0D2_M0515_00000016</td>
+  </tr>
+  <tr>
+    <td>近红外读表器</td>
+    <td>NIR-3</td>
+    <td>V1.4.09_R016.082_M0000_0000001E</td>
+  </tr>
+</tbody>
+</table>
 
-| 设备 | 型号                                                     | 最低固件版本                              |
-| ---- | ------------------------------------------------------------ | ----------------------------------------- |
-| 微储 | SolidFlex 2000<br />PowerFlex 2000<br />SolidFlex 2000 Eco<br />PowerFlex 2000 Eco<br />PowerFlex 3000 Hybrid<br />PowerFlex 3000 AC<br />SolidFlex 3000 Hybrid<br />SolidFlex 3000 AC | **CMS**: V1406.07.002B <br/>**Pfile**: V0D.00.11 |
-| 电表 |  MR3-D5-WR |  V1.4.09_R01C.0C2_M0515_00000013  |
-
-
-
-:::note 即将支持的型号
-
-以下型号预计将在对应时间版本中支持 LoRa 接入功能：
-
-| 型号       | 预计支持时间 |
-| ---------- | ------------ |
-| MR1-D5-WR  | 2026/03/27   |
-| MR3-D4-WRE | 2026/04/03   |
-| P1-2WR     | 2026/03/27   |
-| NIR-32-EU  | 2026/04/03   |
-
-:::
 
 ## 操作步骤
 

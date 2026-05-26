@@ -19,46 +19,19 @@ On the login page, tap the **Register** button.
 
 <img src={require("./img/register.png").default} alt="Register button" width="240"/>
 
-### Step 2: Choose a Registration Method
-
-Email registration is available for all users. Phone registration is available for users in Mainland China.
-
-<img src={require("./img/register_email.png").default} width="240" />
-
-### Step 3: Fill in Your Information
+### Step 2: Fill in Your Information
 
 Enter the required information as shown on the screen.
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+1. Enter your commonly-used email address.  
+2. Tap **Send Code**.  
+3. Slide to complete the email verification.  
+4. Enter the verification code sent to your email.  
+5. Set a secure password (at least 8 characters, including at least 3 of the following: numbers, uppercase and lowercase letters, symbols).
 
-<Tabs>
-  <TabItem value="email" label="Email Registration" default>
+   <img src={require("./img/email_register1.png").default} width="240"/>
+   <img src={require("./img/email_register2.png").default} width="240"/>
 
-    1. Enter your commonly-used email address.  
-    2. Tap **Send Code**.  
-    3. Slide to complete the email verification.  
-    4. Enter the verification code sent to your email.  
-    5. Set a secure password (at least 8 characters, including at least 3 of the following: numbers, uppercase and lowercase letters, symbols).
-
-       <img src={require("./img/email_register1.png").default} width="240"/>
-       <img src={require("./img/email_register2.png").default} width="240"/>
-    
-  </TabItem>
-
-  <TabItem value="phone" label="Phone Registration">
-
-    1. Enter your phone number.  
-    2. Tap **Send Code**.  
-    3. Slide to complete the phone verification.  
-    4. Enter the SMS verification code you received.  
-    5. Set a secure password (at least 8 characters, including at least 3 of the following: numbers, uppercase and lowercase letters, symbols).
-
-       <img src={require("./img/phone_register1.png").default} width="240"/>
-       <img src={require("./img/phone_register2.png").default} width="240"/>
-
-  </TabItem>
-</Tabs>
 
 :::info This account is registered
 
@@ -72,7 +45,7 @@ For security reasons, simple passwords such as “123456” or repeating charact
 
 :::
 
-### Step 4: Complete Registration
+### Step 3: Complete Registration
 
 1. Read and agree to the **Terms of Service** and **Privacy Policy**.  
 2. After confirming all information is correct, tap the **Register** button.
@@ -115,5 +88,3 @@ After successful login, the app will take you to the main interface.
    <img src={require("./img/reset_password.png").default} alt="Reset password page" width="240"/>
 
 Once your password is successfully reset, tap **Log in** to return to the login page and log in again.
-
-<img src={require("./img/reset_finished.png").default} alt="Reset password finished" width="240"/>
