@@ -359,8 +359,3 @@ div[class^="announcementBar_"] {
 .custom-details > summary::-webkit-details-marker {
   display: none;
 }
-
-.error-details > summary {
-  color: #ff0000;
-  font-weight: 600;
-}
