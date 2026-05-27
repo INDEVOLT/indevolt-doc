@@ -87,7 +87,7 @@ OpenData 提供三种模式，但当前集成仅支持 **HTTP** 模式：
 | 型号 | 最低适用固件版本 |
 | ---- | ---------------- |
 | BK1600/BK1600Ultra          | V1.3.0A_R006.072_M4848_00000039     |
-| SolidFlex2000/PowerFlex2000 | CMS：V1406.07.002E   
+| SolidFlex2000/PowerFlex2000 | CMS：V1406.07.002E |  
 
 
 

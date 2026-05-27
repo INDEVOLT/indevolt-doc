@@ -68,10 +68,10 @@ Modbus TCP 是基于家庭**局域网**（LAN）进行通信的 Modbus 方式。
 
 本功能适用于支持 Modbus TCP 的设备：
 
-- SolidFlex 2000
-- PowerFlex 2000
-- BK1600
-- BK1600 Ultra
+| 型号                         | 最低适用固件版本                      |
+| ---------------------------- | ------------------------------------- |
+| PowerFlex 2000<br />PowerFlex 2000 Eco<br />SolidFlex 2000<br />SolidFlex 2000 Eco | CMS: V140C.0B.0036<br />EMS：V1.01.08 |
+
 
 ---
 
@@ -146,7 +146,7 @@ Modbus TCP 是基于家庭**局域网**（LAN）进行通信的 Modbus 方式。
 | 起始地址 |      |
 | 读取数量 | 1    |
 
-发送请求后，即可获取寄存器数据。
+发送请求后，即可获取数据。
 
 ---
 

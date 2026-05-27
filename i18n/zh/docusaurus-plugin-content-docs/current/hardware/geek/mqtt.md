@@ -73,10 +73,10 @@ MQTT 使用“发布 / 订阅（Publish / Subscribe）”模式。你可以把 M
 
 本功能适用于支持 MQTT 的设备：
 
-- SolidFlex 2000
-- PowerFlex 2000
-- BK1600
-- BK1600 Ultra
+| 型号                         | 最低适用固件版本                      |
+| ---------------------------- | ------------------------------------- |
+| PowerFlex 2000<br />PowerFlex 2000 Eco<br />SolidFlex 2000<br />SolidFlex 2000 Eco | CMS: V140C.0B.0036<br />EMS：V1.01.08 |
+
 
 ---
 
@@ -107,18 +107,9 @@ MQTT 使用“发布 / 订阅（Publish / Subscribe）”模式。你可以把 M
 | 密码        | MQTT 登录密码，默认为空，支持自定义     |
 
 
-
 ### 4.4 Topic
 
-MQTT Topic 可以理解成消息的“分类名称”或“消息路径”。Broker 会根据 Topic 判断消息属于哪一类，再将消息转发给对应订阅者。
-
-**命名规范**
-
-Topic 结构类似文件目录：`energy/device1/soc`，建议使用统一命名规范：
-- 使用全小写
-- 使用 `/` 分层，但不要以`/`开头或结尾
-- 避免空格和特殊字符
-- 命名保持统一
+MQTT Topic 可以理解成消息的“分类名称”或“消息路径”，结构类似文件目录：如`energy/device1/soc`。Broker 会根据 Topic 判断消息属于哪一类，再将消息转发给对应订阅者。
 
 **通配符**
 
@@ -128,11 +119,6 @@ MQTT 支持在订阅时使用通配符，方便批量接收消息。
 | ------ | ------------ | ---- |
 | `+`    | 匹配单层     |  `energy/+/soc` <br />可以匹配 `energy/device1/soc`，`energy/device2/soc`；<br />但不能匹配 `energy/group/device1/soc`，因为多了一层   |
 | `#`    | 匹配所有层级 | `energy/#` <br />表示订阅 `energy` 下所有 Topic，包括：`energy/device1/soc`、`energy/device1/power`、`energy/device2/status`     |
-
-:::info
-发布消息时必须使用完整的 Topic，不允许使用通配符。
-:::
-
 
 ### 4.5 QoS
 
