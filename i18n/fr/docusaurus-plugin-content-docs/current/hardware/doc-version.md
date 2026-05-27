@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-05-18 | V1.0.9 | 1. Ajout de la documentation de [cluster](./technical-note/cluster.md) <br />2. Mise à jour de l’historique des versions du firmware du micro-stockage |
 | 2026-05-08 | V1.0.8 | 1. Ajout de l'[équilibrage du SOC des batteries](./technical-note/soc-balancing.md) |
 | 2026/04/24 | V1.0.7 | 1. Ajout de la [documentation sur la communication entre le micro-stockage et les équipements externes](./technical-note/device-communication.md)<br />2. Complément de l’historique des versions du firmware du micro-stockage |
 | 2026-04-23 | V1.0.6 | 1. Ajout de la [description du port bypass](./technical-note/bypass.md)<br />2. Suppression temporaire des FAQ erronées |
