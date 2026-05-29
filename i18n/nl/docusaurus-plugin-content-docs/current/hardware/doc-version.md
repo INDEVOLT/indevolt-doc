@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-05-18 | V1.0.9 | 1. Toegevoegd: [Clusterhandleiding](./technical-note/cluster.md) <br />2. Firmwareversiegeschiedenis van het micro-opslagsysteem bijgewerkt |
 | 2026-05-08 | V1.0.8 | Toegevoegd: [Uitleg batterij-SOC-balancering](./technical-note/soc-balancing.md) |
 | 2026-04-24 | V1.0.7 | 1. Toegevoegd: [Communicatie tussen micro-opslag en externe apparaten](./technical-note/device-communication.md)<br />2. Firmwareversiegeschiedenis van de micro-opslag aangevuld |
 | 2026-04-23 | V1.0.6 | 1. Toegevoegd: [Uitleg bypass-poort](./technical-note/bypass.md)<br />2. Tijdelijk foutieve FAQ verwijderd |

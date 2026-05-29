@@ -5,7 +5,6 @@ description: INDEVOLT App版本功能更新记录。
 
 # 版本更新说明
 
-
 ## V1.3.0
 
 - 新增部分设备功能与操作引导
