@@ -8,6 +8,7 @@ description: INDEVOLT储能设备文档版本记录
 
 | 更新日期   | 版本号 | 更新内容                       |
 | ---------- | ------ | ------------------------------ |
+| 2026-06-08 | V1.0.10 | 1. 新增[配件更换说明](./advanced/accessory-replacement.md) <br />2. 更新微储固件版本记录 |
 | 2026-05-18 | V1.0.9 | 1. 新增[并机说明](./technical-note/cluster.md) <br />2. 更新微储固件版本记录 |
 | 2026-05-08 | V1.0.8 | 新增[电池 SOC 均衡说明](./technical-note/soc-balancing.md) |
 | 2026-04-24 | V1.0.7 | 1. 新增[微储与外部设备通信说明](./technical-note/device-communication.md)<br />2. 补充微储固件版本记录                       |
