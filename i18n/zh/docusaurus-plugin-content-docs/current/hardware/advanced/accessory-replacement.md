@@ -13,7 +13,6 @@ description: 更换 WiFi+LAN 模块并迁移设备设置及历史数据。
 - SolidFlex 2000
 - SolidFlex 2000 Eco
 - SolidFlex 3000 AC
-- Titan 2400
 
 
 ## 准备

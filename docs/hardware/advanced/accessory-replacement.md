@@ -13,8 +13,6 @@ This guide applies to the following models:
 - SolidFlex 2000
 - SolidFlex 2000 Eco
 - SolidFlex 3000 AC
-- Titan 2400
-
 
 ## Before You Start
 
