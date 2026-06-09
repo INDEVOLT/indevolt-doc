@@ -132,7 +132,7 @@ flowchart LR
 
 PV[光伏组件]
 INV[逆变器]
-CT((CT电流互感器))
+CT((CT))
 METER[智能电表]
 
 CLOUD[INDEVOLT云平台]
