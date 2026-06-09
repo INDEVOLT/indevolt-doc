@@ -115,7 +115,7 @@ PV[光伏组件]
 INV[逆变器]
 PLUG[智能插座]
 
-CLOUD[INDEVOLT云平台]
+CLOUD[云平台]
 APP[INDEVOLT App]
 
 PV --> INV
@@ -135,7 +135,7 @@ INV[逆变器]
 CT((CT))
 METER[智能电表]
 
-CLOUD[INDEVOLT云平台]
+CLOUD[云平台]
 APP[INDEVOLT App]
 
 PV --> INV
