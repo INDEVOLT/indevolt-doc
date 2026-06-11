@@ -1,9 +1,9 @@
 ---
-title: OpenData API
+title: HTTP API
 description: 通过标准 HTTP 接口访问本地设备数据并控制 INDEVOLT 微型储能系统。
 ---
 
-# OpenData API
+# HTTP API
 
 ## 1️⃣ 介绍 {#introduction}
 
