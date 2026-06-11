@@ -1,64 +1,23 @@
 ---
-title: 第三方逆变器接入说明
+title: 第三方逆变器接入
 description: 接入第三方逆变器，实现光伏发电监测、余电充电和能源管理。
 ---
 
-# 第三方逆变器接入说明
+# 第三方逆变器接入
 
 如果您家中已安装其他品牌的光伏逆变器，可通过以下方式将逆变器数据接入配套云平台，从而实现：
 - 实时查看光伏发电情况
 - 分析家庭用电与余电流向
 - 优化储能充放电策略
 
-目前支持以下三种接入方式：
+目前支持以下两种接入方式：
 
-1. [通过 SOLARMAN 采集器接入](#方式一接入-solarman-设备)
-2. [云平台账号绑定（云云对接）](#方式二云云对接)
-3. [使用智能插座或智能电表采集发电数据](#方式三通过智能插座或电表采集数据)
-
----
-
-## 方式一：接入 SOLARMAN 设备
-
-```mermaid
-flowchart LR
-
-PV[光伏组件]
-INV[逆变器]
-LOGGER[SOLARMAN采集器]
-CLOUD[云平台]
-APP[SOLARMAN App/Web]
-
-PV --> INV
-INV -->|通信| LOGGER
-LOGGER -->|数据上传| CLOUD
-CLOUD --> APP
-```
-
-### 适用场景
-
-适用于已安装 SOLARMAN 数据采集器的逆变器。
-
-
-### 工作原理
-
-SOLARMAN 采集器会将逆变器运行数据上传到 SOLARMAN 云平台，您可以在 SOLARMAN Smart 或 SOLARMAN Business 上查看实时发电数据。
-
-### 配置步骤
-
-1. 将 SOLARMAN 采集器连接到逆变器的通信接口。
-2. 使用 SOLARMAN Smart App/Web 或 SOLARMAN Business App/Web 添加设备并完成联网配置。
-3. 在 App/Web 查看逆变器数据。
-
-**参考手册：**
-- [SOLARMAN Smart App 手册](https://1m29l9z267.k.topthink.com/@solarmansmart-app_en/1.xiaomaizhidianAPPyingyong.html)
-- [SOLARMAN Business App 手册](https://1m29l9z267.k.topthink.com/@solarmanbusiness-app_en/1.1zhuceyudenglu.html)
-- [SOLARMAN Smart Web 手册](https://1m29l9z267.k.topthink.com/@solarmansmart-web_en/1xiaomaizhidianWebyingyong.html)
-- [SOLARMAN Business Web 手册](https://1m29l9z267.k.topthink.com/@solarmanbusiness-web_en/xiaomaishangjiabanWebcaozuoshouce.html)
+1. [云平台账号绑定（云云对接）](#方式一云云对接)
+2. [使用智能插座或智能电表采集发电数据](#方式二通过智能插座或电表采集数据)
 
 ---
 
-## 方式二：云云对接
+## 方式一：云云对接
 
 ```mermaid
 flowchart LR
@@ -104,7 +63,7 @@ CLOUD --> APP
 
 ---
 
-## 方式三：通过智能插座或电表采集数据
+## 方式二：通过智能插座或电表采集数据
 
 **智能插座**
 
