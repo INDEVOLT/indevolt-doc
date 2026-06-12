@@ -217,68 +217,7 @@ Les paramètres de cluster permettent de combiner plusieurs dispositifs de stock
 
 Vous devez configurer le mode principal/subordonné : un appareil est désigné comme principal, les autres agissant comme subordonnés, coordonnés par le principal.
 
-Le tableau suivant montre quels modèles supportent les rôles principal/subordonné :
-
-<table><thead>
-  <tr>
-    <th></th>
-    <th colspan="2">Filaire</th>
-    <th colspan="2">Sans fil</th>
-  </tr></thead>
-<tbody>
-  <tr>
-    <td>Modèle</td>
-    <td>Principal</td>
-    <td>Subordonné</td>
-    <td>Principal</td>
-    <td>Subordonné</td>
-  </tr>
-  <tr>
-    <td>BK1600</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>BK1600 Ultra</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>PowerFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>SolidFlex 2000</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-    <td>✓</td>
-  </tr>
-  <tr>
-    <td>Smart Plug</td>
-    <td>✗</td>
-    <td>✓</td>
-    <td>✗</td>
-    <td>✓</td>
-  </tr>
-</tbody>
-</table>
-
-**Étapes :**
-
-1. Touchez **Cluster**.  
-2. Touchez **Créer un cluster**.  
-3. Sélectionnez **Mode Cluster** : Centralisé ou Coordonné. Maintenez les cartes des appareils et glissez-les dans les emplacements principal ou subordonné.  
-4. Définissez la **limitation de puissance de sortie AC** selon les règlements et politiques locales.  
-5. Touchez **Enregistrer** pour finaliser la configuration.
-
+👉 Pour les instructions détaillées de configuration et de mise en parallèle, veuillez consulter le [Guide du Cluster](../hardware/technical-note/cluster.md).
 
 ## 5. Source de données
 

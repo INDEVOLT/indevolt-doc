@@ -1,118 +1,134 @@
 ---
 title: Zuhause
-description: Überwachen Sie den Energiefluss Ihres Zuhauses in Echtzeit, einschließlich Erzeugung, Verbrauch und Speicherung.
+description: Überwachen Sie die Energieflüsse Ihres Haushalts in Echtzeit und verfolgen Sie Stromerzeugung, Verbrauch sowie Batteriespeicherung.
 ---
 
 # Zuhause
 
-Die Seite **Zuhause** dient als Hauptoberfläche zur Verwaltung der Energiedaten Ihres aktuellen Zuhauses. Sie bietet eine Übersicht über die Echtzeit-Erzeugung, den Verbrauch und den gesamten Energiefluss.
+Die Seite **Zuhause** ist die Startseite für die Anzeige und Verwaltung Ihrer Energiedaten. Hier können Sie die Stromerzeugung, den Stromverbrauch, das Laden und Entladen der Batterie sowie den Strombezug und die Einspeisung ins Netz in Echtzeit überwachen. Der Stromfluss zeigt dabei anschaulich die aktuellen Energieflüsse in Ihrem Haushalt.
 
 <img src={require("./img/home_intro.png").default} width="240"/>
 
-| Nr. | Funktion        | Beschreibung |
-| --- | --------------- | --- |
-| 1   | Zuhause      | Zeigt den aktuellen Namen des Zuhauses an. Tippen Sie darauf, um alle unter Ihrem Konto gespeicherten Zuhause anzuzeigen, zu wechseln oder zu verwalten. |
-| 2   | +               | Fügt ein neues Gerät zu Ihrem Zuhause hinzu. |
-| 3   | Dashboard       | Passen Sie das Design des Energiefluss-Diagramms an und wählen Sie aus, welche Daten angezeigt werden sollen. |
-| 4   | Wetter         | Zeigt das lokale Wetter und die Temperatur in Echtzeit an. |
-| 5   | Gehe zur Konfiguration| Wenn kein Tarifplan festgelegt ist, erscheint die Schaltfläche **Gehe zur Konfiguration** – tippen Sie darauf, um Kauf-/Verkaufspreise einzustellen. Ist ein Plan vorhanden, werden die heutigen Tarife angezeigt. |
-| 6   | Stromfluss     | Ein dynamisches Diagramm, das visualisiert, woher die Energie Ihres Zuhauses kommt und wohin sie fließt. |
-| 7   | Täglich           | Zeigt tägliche Zusammenfassungen der Energieerzeugung, des Verbrauchs und weiterer wichtiger Kennzahlen an. |
+| Nr. | Funktion                | Beschreibung                                                                                                                |
+| --- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Zuhause                 | Zeigt den aktuellen Haushaltsnamen an. Tippen Sie darauf, um zwischen Ihren Haushalten zu wechseln oder diese zu verwalten. |
+| 2   | +                       | Gerät hinzufügen                                                                                                            |
+| 3   | Wetter                  | Zeigt die aktuellen Wetterbedingungen und die Temperatur am Standort des Haushalts an.                                      |
+| 4   | Stromfluss    | Visualisiert die Energiequellen und Energieflüsse innerhalb des Haushalts in Echtzeit.                                      |
+| 5   | Dashboard | Individuelle Anpassung des Stromfluss und der angezeigten Kennzahlen.                                            |
+| 6   | Tagesdaten              | Anzeige der aktuellen Tagesstatistiken zu Energieerzeugung, Verbrauch und Erträgen.                                         |
 
----
+## 1. Zuhause
 
-## 1. My Zuhause
+Wenn Ihr Konto mehrere Haushalte verwaltet, können Sie hier jederzeit zwischen den einzelnen Haushalten wechseln.
 
-### 1.1 Zuhause wechseln
+### 1.1 Haushalt wechseln
 
-Tippen Sie oben links auf den Namen des Zuhauses, um die Liste aller mit Ihrem Konto verknüpften Zuhause zu öffnen. Wählen Sie ein Zuhause aus, um zur entsprechenden Energieansicht zu wechseln.
+Tippen Sie oben links auf den Haushaltsnamen, um alle in Ihrem Konto angelegten Haushalte anzuzeigen. Wählen Sie den gewünschten Haushalt aus, um dessen Energiedaten anzuzeigen.
 
 <img src={require("./img/tap_myhome.png").default} width="240"/>
 <img src={require("./img/select_home.jpg").default} width="240"/>
 
-### 1.2 Zuhause verwalten
+### 1.2 Haushaltsverwaltung
 
-Tippen Sie am unteren Rand der Liste auf **Verwalten**, um zur Verwaltungsseite zu gelangen.
+Tippen Sie unten in der Haushaltsliste auf **Verwalten**, um die Verwaltungsseite zu öffnen.
+
+#### Haushalt hinzufügen
+
+1. Tippen Sie auf der Seite „Haushaltsverwaltung“ oben rechts auf die Schaltfläche **+**.
+2. Geben Sie die erforderlichen Haushaltsinformationen gemäß den Anweisungen ein.
+
+Weitere Informationen finden Sie unter: [Haushalt hinzufügen](./profile.md#21-zuhause-hinzufügen)
+
+#### Haushalt bearbeiten oder löschen
+
+Wählen Sie auf der Seite „Haushaltsverwaltung“ den gewünschten Haushalt aus, um dessen Detailseite zu öffnen. Dort können Sie:
+
+* Den Haushaltsnamen, die Adresse und weitere Einstellungen [bearbeiten](./profile.md#22-zuhause-bearbeiten).
+* Den Haushalt [löschen](./profile.md#23-zuhause-löschen).
 
 <img src={require("./img/select_home.jpg").default} width="240"/>
 <img src={require("./img/manage_home.jpg").default} width="240"/>
 
-**Zuhause hinzufügen**
-
-1. Tippen Sie auf der Verwaltungsseite auf die **+**-Schaltfläche oben rechts.  
-2. Folgen Sie den Anweisungen auf dem Bildschirm, um die Informationen für das neue Zuhause einzugeben. Details finden Sie im Abschnitt **[Zuhause hinzufügen](./profile.md#21-zuhause-hinzufügen)**.
-
-**Zuhause bearbeiten**
-
-Wählen Sie das Zuhause aus, das Sie aktualisieren möchten, um dessen Informationsseite zu öffnen. Sie können:  
-- den Namen, die Adresse oder andere Einstellungen des Zuhauses [**bearbeiten**](./profile.md#22-zuhause-bearbeiten).  
-- das Zuhause [**löschen**](./profile.md#23-zuhause-löschen).
-
----
-
 ## 2. Gerät hinzufügen
 
-Lesen Sie die Anleitung **[Geräte hinzufügen](./add-device.md)**, um zu erfahren, wie Sie ein neues Gerät mit Ihrem Zuhause verbinden.
+Tippen Sie auf der Startseite oben rechts auf die Schaltfläche **+**, um ein neues Gerät hinzuzufügen.
 
----
+Detaillierte Anweisungen finden Sie unter: [Gerät hinzufügen](./add-device.md).
 
-## 3. Dashboard
+## 3. Wetter
 
-Tippen Sie auf die Dashboard-Einstellungs-Schaltfläche, um die Einstellungsseite zu öffnen.
+Die Wetterkarte zeigt die aktuellen Wetterbedingungen und die aktuelle Temperatur am Standort Ihres Haushalts an. So können Sie die Energieerzeugung und den Energieverbrauch besser im Zusammenhang mit den Wetterbedingungen beurteilen.
+
+## 4. Stromfluss
+
+Der Stromfluss stellt die Energiequellen und Energieflüsse Ihres Haushalts in Echtzeit grafisch dar. Die Richtung der animierten Energieflüsse entspricht der tatsächlichen Energierichtung.
+
+* Ansicht aktualisieren: Ziehen Sie die Startseite nach unten, um die Daten zu aktualisieren.
+* Design ändern: Das Erscheinungsbild des Stromflusses kann über die [Dashboard](#5-dashboard) angepasst werden.
+* Datenquelle festlegen: Die angezeigten Daten basieren auf den Einstellungen unter [Datenquellen](./profile.md#5-datenquelle). Tippen Sie auf die jeweiligen Felder, um die Konfiguration anzupassen.
+
+<img src={require("./img/power_flow.png").default} width="240"/>
+
+## 5. Dashboard
+
+Tippen Sie auf <img src={require("./img/config_icon.png").default} width="25" style={{verticalAlign: "middle"}}/>, um die Konfigurationsseite zu öffnen und die Inhalte der Startseite individuell anzupassen.
+
+Folgende Einstellungen sind möglich:
+
+* Design des Stromflusses auswählen
+* Sichtbare Tagesdatenkarten festlegen
+* Reihenfolge der Datenkarten anpassen
 
 <img src={require("./img/select_dashboard.png").default} width="240"/>
 <img src={require("./img/dashboard.png").default} width="240"/>
 
-- **Stromfluss**: Tippen Sie auf die Option **Stromfluss**, um ein Design auszuwählen.  
-  <img src={require("./img/configure_power_flow.jpg").default} width="240"/>
+### 5.1 Design des Stromflusses
 
-- **Täglich**: Wählen Sie die Daten aus, die auf der Zuhause-Seite angezeigt werden sollen.  
-  <img src={require("./img/configure_daily.jpg").default} width="240"/>
+Tippen Sie auf **Stromfluss**, um zwischen verschiedenen Darstellungsvarianten zu wählen.
 
----
+<img src={require("./img/configure_power_flow.png").default} width="240"/>
 
-## 4. Weather
+### 5.2 Anzeige der Tagesdaten
 
-In diesem Bereich werden das aktuelle Wetter und die Temperatur am Standort Ihres Zuhauses angezeigt.
+Sie können auswählen, welche [Tagesdaten](#6-tagesdaten) auf der Startseite angezeigt werden.
 
----
+#### Automatisch
 
-## 5. Gehe zur Konfiguration
+Das System zeigt automatisch die Datenkarten an, die den aktuell konfigurierten Datenquellen entsprechen.
 
-Dieser Bereich zeigt unterschiedliche Inhalte abhängig von Ihrer Tarifkonfiguration an:
+Für Daten ohne zugewiesene Datenquelle wird keine Karte angezeigt.
 
-- Wenn kein Tarifplan eingerichtet ist, erscheint die Schaltfläche **Gehe zur Konfiguration**. Tippen Sie darauf, um Kauf- und Verkaufspreise festzulegen.  
-- Wenn ein Plan vorhanden ist, werden die heutigen Preise angezeigt. Tippen Sie darauf, um frühere Preise anzuzeigen.
+<img src={require("./img/configure_daily1.png").default} width="240"/>
 
----
+#### Manuell
 
-## 6. Stromfluss
+Wählen Sie die gewünschten Datenkarten manuell aus.
 
-Das Energiefluss-Diagramm zeigt in Echtzeit anschaulich, woher die Energie Ihres Zuhauses stammt und wohin sie fließt.
+<img src={require("./img/configure_daily2.png").default} width="240"/>
 
-- Aktualisieren: Zum Aktualisieren der Daten nach unten ziehen.  
-- Design-Einstellungen: Um das Design zu ändern, gehen Sie zu **[Dashboard](#3-dashboard)**.
-- Datenquelle festlegen: Die im Flussdiagramm angezeigten Daten stammen aus den [Datenquelle](./profile.md#5-datenquelle). Sie können diese nach Bedarf anpassen.
+### 5.3 Reihenfolge der Daten anpassen
 
-<img src={require("./img/power_flow.png").default} width="240"/>
+Halten Sie eine Datenkarte gedrückt und ziehen Sie sie an die gewünschte Position, um die Reihenfolge anzupassen. Die Tagesdaten auf der Startseite werden anschließend entsprechend der neuen Reihenfolge angezeigt, sodass häufig genutzte Informationen schneller erreichbar sind.
 
----
+<img src={require("./img/configure_daily1.png").default} width="240"/>
+<img src={require("./img/data_order.png").default} width="240"/>
 
-## 7. Täglich
+## 6. Tagesdaten
 
-Die Tagesansicht fasst die gesamte Energieerzeugung und den Gesamtverbrauch des Tages zusammen.
-
-| Parameter           | Beschreibung |
-| ------------------- | --- |
-| Eigenverbrauch      | (Direkt aus PV genutzter Strom + PV-Strom zum Laden der Batterie) / gesamte PV-Erzeugung – zeigt, wie viel Solarstrom im Haushalt genutzt wurde. |
-| Autarkie            | (Last aus PV + Last aus Batterie) / Gesamtverbrauch – zeigt, wie viel des Strombedarfs aus eigener Energie gedeckt wurde. |
-| Erzeugung           | Gesamte PV-Erzeugung des Tages. |
-| Verbrauch           | Gesamter Stromverbrauch des Haushalts am Tag. |
-| Vom Netz        | Insgesamt heute aus dem Netz bezogener Strom. |
-| Ins Netz            | Insgesamt heute ins Netz eingespeister Strom. |
-| Ladung             | Insgesamt in die Batterie geladene Energie. |
-| Entladung            | Insgesamt aus der Batterie entladene Energie. |
+Der Bereich „Tagesdaten“ zeigt die kumulierten Energiedaten des aktuellen Tages bis zum aktuellen Zeitpunkt an und hilft Ihnen dabei, den Energieverbrauch Ihres Haushalts besser zu verstehen.
 
 <img src={require("./img/daily.png").default} width="240"/>
 
-Welche Parameter hier angezeigt werden, können Sie über die Einstellungen im **[Dashboard](#3-dashboard)** anpassen.
+| Datenpunkt     | Beschreibung                                                                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ersparnisse         | Der auf Basis der aktuellen Strompreise berechnete [Tagesertrag](./report.md#13-gewinn). Tippen Sie auf die Strompreiskarte, um detaillierte Ertragsdaten anzuzeigen.     |
+| Erzeugung      | Gesamte PV-Stromerzeugung des aktuellen Tages.                                                                                                                            |
+| Stromnetz           | Kumulierte Strombezugs- und Einspeisemenge des aktuellen Tages.                                                                                                           |
+| Verbrauch      | Gesamter Stromverbrauch des Haushalts am aktuellen Tag.                                                                                                                   |
+| Tarif     | Aktuell eingestellter Bezugspreis und Einspeisevergütung.                                                                                                                 |
+| Batterie       | Kumulierte Lade- und Entladeenergie der Batterie am aktuellen Tag.                                                                                                        |
+| Eigenverbrauch | (Direkt durch PV gedeckter Verbrauch + PV-Ladeenergie für die Batterie) / PV-Erzeugung. Gibt an, welcher Anteil der erzeugten Solarenergie selbst genutzt wird.           |
+| Autarkie   | (Verbrauch aus PV-Erzeugung + Verbrauch aus Batterieentladung) / Gesamtverbrauch. Gibt an, welcher Anteil des Stromverbrauchs durch selbst erzeugte Energie gedeckt wird. |
+
+Die hier angezeigten Kennzahlen können über die [Dashboard](#5-dashboard) individuell angepasst werden.

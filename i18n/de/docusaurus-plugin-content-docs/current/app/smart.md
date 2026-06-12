@@ -13,8 +13,8 @@ Die Smart-Funktion optimiert automatisch die Lade- und Entladestrategie der Batt
 Der Dynamische Tarifmodus steuert das Gerät intelligent anhand vordefinierter Preisschwellen: Laden bei niedrigen Preisen, Entladen bei hohen Preisen – für maximale Nutzung von Preisschwankungen.
 
 - Reduzierung der Stromkosten  
-- Höhere Nutzung von PV-Anlage und Batterie  
-- Mehr Ertrag durch Preisunterschiede  
+- Höherer Eigenverbrauch von PV-Energie und Batteriestrom  
+- Zusätzliche Einsparungen durch Strompreisunterschiede
 
 Einfach gesagt: Bei niedrigem Preis laden, bei hohem Preis entladen – vollautomatisch optimiert.
 
@@ -23,51 +23,36 @@ Einfach gesagt: Bei niedrigem Preis laden, bei hohem Preis entladen – vollauto
 2. Ein INDEVOLT-Energiespeicher ist installiert.  
 :::
 
-### 1.1 Gerätebetrieb
+### 1.1 Funktionsweise der Geräte
 
-#### 🔋 Laden (bei niedrigem Strompreis)
+#### 🔋 Laden (Niedrigpreiszeiten)
 
-Die tatsächliche Ladeleistung wird durch die maximale Eingangsleistung des Wechselrichters bestimmt.
+Wenn der Strompreis unter dem Zielpreis liegt, beginnt das System mit dem Laden der Batterie.
 
-- Das System nutzt vorrangig PV-Energie zum Laden der Batterie;  
-- Reicht die PV-Leistung nicht aus, wird automatisch Strom aus dem Netz bezogen;  
-- Ist die Batterie vollständig geladen, endet der Ladevorgang automatisch.  
-
-| Modus | Beschreibung |
+| Lademodus | Beschreibung |
 |------|------|
-| PV + AC | PV lädt die Batterie vorrangig, zusätzlich wird Netzstrom zur Unterstützung genutzt – ideal für Niedrigtarifzeiten. Die Ladeleistung ist durch den eingestellten Wert begrenzt. Nach vollständigem Laden wird kein Netzstrom mehr bezogen, und die PV-Leistung wird automatisch reduziert. |
-| Nur PV | Die Batterie wird ausschließlich durch PV geladen. Nach vollständigem Laden wird die Energie vorrangig im Haushalt genutzt, überschüssige Energie wird im zulässigen Rahmen eingespeist; bei Überschreitung der Einspeisegrenze wird die PV-Leistung reduziert. |
+| Laden über Solar + Netz | Die Batterie wird vorrangig über PV geladen, während Netzstrom zur Unterstützung genutzt werden kann. Geeignet für Zeiten mit niedrigen Strompreisen. Die Ladeleistung ist auf den eingestellten Maximalwert begrenzt. Sobald die Batterie voll ist, wird kein Netzstrom mehr verwendet und die PV-Leistung automatisch reduziert. |
+| Nur Solar laden | Die Batterie wird ausschließlich über PV geladen. Nach vollständiger Ladung wird der Verbrauch zuerst durch PV gedeckt, überschüssige Energie wird innerhalb der zulässigen Grenzen ins Netz eingespeist. Bei Überschreitung der Netzeinspeisegrenze wird die PV-Leistung automatisch reduziert. |
 
+#### ⚡ Entladen (Hochpreiszeiten)
 
-#### ⚡ Entladen (bei hohem Strompreis oder hohem Verbrauch)
+Wenn der Strompreis über dem Zielpreis liegt, nutzt das System vorrangig die in der Batterie gespeicherte Energie. Die tatsächliche Entladeleistung hängt von der aktuellen Lastquelle (Zähler / Steckdose / Standardlast) ab.
 
-Die tatsächliche Entladeleistung hängt von der aktuellen Lastquelle ab (Zähler/Steckdose/Standardlast).
-
-- PV wird vorrangig zur Versorgung genutzt;  
-- Reicht die PV-Leistung nicht aus, unterstützt die Batterie automatisch;  
-- Wird der Notfall-SOC erreicht, stoppt die Entladung automatisch.  
-
-| Modus | Beschreibung |
+| Entlademodus | Beschreibung |
 |------|------|
-| Feste AC-Leistung | Die Batterie entlädt konstant mit der eingestellten Leistung. Bei vorhandener PV wird diese bevorzugt genutzt. Ohne Last oder bei Überschreitung der Einspeisegrenze stoppt die Ausgabe und wird automatisch wieder aufgenommen. |
-| Bedarfsentladung | Die Batterie passt die Entladeleistung automatisch an den aktuellen Haushaltsverbrauch an, begrenzt durch den eingestellten Maximalwert. Ohne Last oder bei Überschreitung der Einspeisegrenze wird die Ausgabe gestoppt. |
+| Feste Ausgangsleistung | Die Batterie entlädt kontinuierlich mit der eingestellten Leistung. Falls PV-Mikrowechselrichter vorhanden sind, wird PV-Leistung bevorzugt genutzt. Bei fehlender Last oder Überschreitung der Netzeinspeisegrenze wird die Ausgabe gestoppt und regelmäßig automatisch neu geprüft und fortgesetzt. |
+| Eigenverbrauch | Die Batterie passt die Entladeleistung automatisch an den aktuellen Haushaltsverbrauch an, begrenzt durch den eingestellten Maximalwert. Bei fehlender Last oder Netzlimitüberschreitung wird die Ausgabe automatisch gestoppt. |
 
+#### ⏸️ Standby (Gleichpreiszeiten)
 
-#### ⏸️ Standardzeit (außerhalb der Strategiezeiten)
+Wenn der Strompreis weder die Lade- noch die Entladebedingungen erfüllt, wechselt das System in den Standby-Modus. Die Batterie wird weder aktiv geladen noch entladen.
 
-In der Standardzeit entlädt die Batterie nicht aktiv. Überschüssige PV-Energie wird automatisch zum Laden genutzt.
-
-- PV versorgt vorrangig die Haushaltsgeräte;  
-- Bei überschüssiger PV-Leistung und SOC < 100 % wird die Energie in die Batterie geladen;  
-- Ist die Batterie voll, wird die PV-Leistung begrenzt.  
-
-| Modus | Beschreibung |
+| Betriebsmodus | Beschreibung |
 |------|------|
-| Eigenverbrauch | PV versorgt zuerst die Lasten, überschüssige Energie lädt die Batterie. Nach vollständigem Laden wird überschüssige Energie im zulässigen Rahmen eingespeist. Bei Überschreitung der Einspeisegrenze wird die PV-Leistung reduziert. Dieser Modus ist Standard für nicht konfigurierte Zeiträume. |
-| PV-Ladevorrang | PV lädt zuerst die Batterie, danach werden Haushaltslasten versorgt. Überschüssige Energie wird begrenzt eingespeist und die PV-Leistung ggf. reduziert. |
+| Solar versorgt zuerst Haus | Dieser Modus wird standardmäßig für nicht konfigurierte Zeiträume verwendet.<br />1. PV versorgt zuerst die Haushaltslasten.<br />2. Überschüssige Energie wird in der Batterie gespeichert.<br />3. Nach vollständiger Ladung wird überschüssige Energie innerhalb der zulässigen Grenzen ins Netz eingespeist.<br />4. Bei Überschreitung der Einspeisegrenze reduziert das System automatisch die PV-Leistung. |
+| Solar lädt zuerst Batterie | 1. PV lädt vorrangig die Batterie.<br />2. Nach vollständiger Ladung wird der Haushalt versorgt.<br />3. Überschüssige Energie wird innerhalb der zulässigen Grenzen ins Netz eingespeist.<br />4. Bei Überschreitung der Einspeisegrenze reduziert das System automatisch die PV-Leistung. |
 
-
-:::info
+:::warning
 - Alle Leistungswerte sind durch die Hardware begrenzt.  
 - „Einspeisegrenze“ bezeichnet die maximal erlaubte Rückspeiseleistung ins Netz.  
 - In einigen Fällen wird die PV-Leistung automatisch reduziert, um diese Grenze einzuhalten; ein minimaler Standby-Verbrauch bleibt bestehen.  
@@ -76,44 +61,39 @@ In der Standardzeit entlädt die Batterie nicht aktiv. Überschüssige PV-Energi
 
 ### 1.2 Strategie aktivieren
 
-1. Klicken Sie im Modul **Dynamischer Tarifmodus** oben rechts auf <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>.  
-2. Stellen Sie sicher, dass folgende Konfigurationen abgeschlossen sind:  
+1. Tippen Sie oben rechts im Modul **Dynamischer Tarifmodus** auf <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>.
 
-   ✅ [**Dynamischer Strompreis**](./profile.md#31-stromtarif-hinzufügen) eingerichtet  
-   ✅ Geräte für die Strategie hinzugefügt  
+2. Bestätigen Sie:  
+   ✅ Der [**Strombezugspreis**](./profile.md#31-stromtarif-hinzufügen) wurde eingerichtet  
+   ✅ Geräte, die an der Strategie teilnehmen können, wurden hinzugefügt  
+   Falls dies noch nicht abgeschlossen ist, tippen Sie auf den entsprechenden Bereich, um die Einstellungen vorzunehmen, und klicken Sie anschließend auf **Weiter**.
 
-   Falls nicht, konfigurieren Sie diese und klicken Sie auf **Weiter**.  
+3. Legen Sie den **[Zielpreis](#zielpreis-anpassen)** fest, der das Lade- und Entladeverhalten der Geräte steuert. Unterstützt werden drei Modi: manuell / automatisch / intelligent. Klicken Sie nach der Einrichtung auf **Weiter**.
 
-3. Legen Sie den **[Zielpreis](#zielpreis-anpassen)** fest:  
-   - Manuell / Automatisch / Intelligent  
-   - Strategie bei Nichterfüllung wählen (Eigenverbrauch / Leerlauf)  
+4. Wählen Sie die **teilnehmenden Geräte** aus und klicken Sie auf **Weiter**.  
+   > (Optional) Tippen Sie auf <img src={require("./img/edit_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>, um die [Gerätebetriebsdetails](#11-funktionsweise-der-geräte).
 
-   Danach auf **Weiter** klicken.  
-
-4. Geräte auswählen und **Weiter** klicken.  
-   > (Optional) Über **⚙ Erweiterte Einstellungen** den [Betriebsmodus](#11-gerätebetrieb) konfigurieren  
-
-5. Lade-/Entladeplan prüfen und mit **Aktivieren** bestätigen.  
+5. Prüfen Sie den Lade- und Entladeplan in der Vorschau und klicken Sie auf **Aktivieren**, wenn alle Angaben korrekt sind.
 
 <img src={require("./img/smart.png").default} width="240"/>
 <img src={require("./img/strategy_requirements.png").default} width="240"/>
 <img src={require("./img/price_setting.png").default} width="240"/>
 <img src={require("./img/select_strategy_device.png").default} width="240"/>
+<img src={require("./img/device_advanced_mode.png").default} width="240"/>
 <img src={require("./img/preview_strategy.png").default} width="240"/>
 
 
 ### 1.3 Strategie anzeigen
 
-Nach Erstellung zeigt das Modul den aktuellen Status (Leerlauf/Laden/Entladen) und den Schalter.
+Nach Erstellung zeigt das Modul den aktuellen Status (Laden/Entladen/Standby) und den Schalter.
 
 <img src={require("./img/dynamic_pricing_strategy.png").default} width="240"/>
 
-Durch Klicken auf das Modul können Plan und Geräte eingesehen werden.
-
-<img src={require("./img/view_strategy.png").default} width="240"/>
+Tippen Sie auf das Modul, um den Zeitplan und die zugehörigen Geräte anzuzeigen.
 
 Über das Symbol <img src={require("./img/history_icon.png").default} width="24" style={{verticalAlign: "middle"}}/> lassen sich Strompreise, SOC und Strategielogs einsehen.
 
+<img src={require("./img/view_strategy.png").default} width="240"/>
 <img src={require("./img/strategy_log.png").default} width="240"/>
 
 
@@ -123,10 +103,10 @@ Auf der Seite zur dynamischen Strompreisoptimierung können Sie die Strategie je
 
 #### Geräte ändern
 
-1. Öffnen Sie die Strategiedetailseite und klicken Sie rechts im Modul **Gerätestatus** auf <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/>.  
-2. Es werden alle im Haushalt verfügbaren Geräte angezeigt, die intelligente Steuerung unterstützen. Wählen Sie die Zielgeräte erneut aus.  
-3. (Optional) Klicken Sie auf **Erweiterte Einstellungen**, um die Betriebsweise für verschiedene Strompreiszeiträume anzupassen.  
-4. Klicken Sie auf **Weiter**, prüfen Sie die Vorschau und klicken Sie anschließend auf **Aktivieren**.  
+1. Klicken Sie auf der Seite Strategiedetails rechts im Bereich **Gerätestatus** auf <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/>.
+2. Auf der Seite werden alle intelligent steuerbaren Geräte Ihres Haushalts angezeigt. Wählen Sie das gewünschte Zielgerät erneut aus.
+3. (Optional) Klicken Sie auf <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/>, um die [Betriebsmodi](#11-funktionsweise-der-geräte) für die verschiedenen Strompreistarifzeiträume anzupassen, und speichern Sie die Einstellungen.
+4. Klicken Sie auf **Weiter**, prüfen Sie die Vorschau und **aktivieren** Sie die Strategie.
 
 <img src={require("./img/view_strategy.png").default} width="240"/>
 <img src={require("./img/set_strategy_device.png").default} width="240"/>
@@ -135,16 +115,19 @@ Auf der Seite zur dynamischen Strompreisoptimierung können Sie die Strategie je
 
 #### Zielpreis anpassen
 
-1. Öffnen Sie die Strategiedetailseite und klicken Sie rechts im Modul **Marktpreise** auf <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/>.  
-2. Legen Sie den **Zielpreis** fest:  
-   - Manuell: Direktes Festlegen der Lade-/Entladepreise, geeignet bei klar definierten Zielpreisen.  
-   - Automatisch: Festlegen von Preisbereich und Preisdifferenz; das System berechnet automatisch die optimalen Auslösepreise.  
-   - Intelligent: Nur die Preisdifferenz festlegen; das System optimiert automatisch.  
-   > 💡 Je größer die Preisdifferenz, desto seltener wird geladen/entladen; je kleiner die Differenz, desto häufiger erfolgt dies.  
-3. Legen Sie die **Ausweichstrategie** fest:  
-   - Eigenverbrauch priorisieren: PV und Batterie werden bevorzugt für den Haushaltsverbrauch genutzt.  
-   - Ruhemodus: Laden/Entladen pausieren, PV versorgt vorrangig den Haushalt.  
-4. Klicken Sie auf **Weiter**, prüfen Sie die Vorschau und klicken Sie anschließend auf **Aktivieren**.
+1. Klicken Sie auf der Seite Strategiedetails rechts im Bereich **Marktpreise** auf <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/>.
+
+2. Legen Sie den **Zielpreis** fest:
+
+   - **Manuell**: Definieren Sie direkt einen Preis, unter dem der Akku geladen wird, und einen Preis, über dem der Akku entladen wird. Geeignet, wenn Sie konkrete Zielstrompreise vorgeben möchten.
+   - **Automatisch**: Legen Sie einen Hochpreisbereich, einen Niedrigpreisbereich sowie die Preisdifferenz fest. Das System berechnet automatisch die optimalen Auslösepreise.
+   - **Intelligent**: Legen Sie lediglich die Preisdifferenz fest. Das System optimiert die Auslösepreise automatisch.
+
+   :::tip
+   Je größer die Preisdifferenz, desto seltener werden Lade- und Entladevorgänge ausgelöst, da nur deutliche Preisunterschiede berücksichtigt werden. Je kleiner die Preisdifferenz, desto häufiger reagiert das System mit Lade- und Entladevorgängen.
+   :::
+
+3. Klicken Sie auf **Weiter**, prüfen Sie die Vorschau und **aktivieren** Sie die Strategie.
 
 <img src={require("./img/view_strategy.png").default} width="240"/>
 <img src={require("./img/strategy_price1.png").default} width="240"/>

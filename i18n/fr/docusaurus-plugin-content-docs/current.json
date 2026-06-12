@@ -4,23 +4,23 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
-    "message": "Know Your Micro Storage System",
+    "message": "Découvrez votre système de micro-stockage",
     "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Daily Use": {
-    "message": "Daily Use",
+    "message": "Utilisation quotidienne",
     "description": "The label for category Daily Use in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Energy Management": {
-    "message": "Energy Management",
+    "message": "Gestion de l’énergie",
     "description": "The label for category Energy Management in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical Information & Capabilities": {
-    "message": "Technical Information & Capabilities",
+    "message": "Informations techniques et capacités",
     "description": "The label for category Technical Information & Capabilities in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical Specification": {
-    "message": "Technical Specification",
+    "message": "Caractéristiques techniques",
     "description": "The label for category Technical Specification in sidebar tutorialSidebar"
   },
   "sidebar.appSidebar.category.Getting Started": {
@@ -48,11 +48,11 @@
     "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
   },
   "sidebar.tutorialSidebar.category.Advanced Settings": {
-    "message": "Advanced Settings",
+    "message": "Paramètres avancés",
     "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Technical Note": {
-    "message": "Technical Note",
+    "message": "Note technique",
     "description": "The label for category Technical Note in sidebar tutorialSidebar"
   },
   "sidebar.appSidebar.category.Brand Connection": {

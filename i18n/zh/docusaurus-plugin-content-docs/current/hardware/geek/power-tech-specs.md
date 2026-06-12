@@ -51,7 +51,7 @@ description: 深入了解 Indevolt 微型储能主机的详细技术参数与核
     <td  colspan="4"> 3600W±5%</td>
   </tr>
   <tr>
-    <td>功率因数PF  </td>
+    <td>功率因数（PF） </td>
     <td  colspan="4"> 额定功率下PF＞0.99，0.8lagging～0.8leading范围内连续可调</td>
   </tr>
   <tr>
@@ -76,7 +76,7 @@ description: 深入了解 Indevolt 微型储能主机的详细技术参数与核
     <td  colspan="4"> 50Hz±0.5Hz</td>
   </tr>
    <tr>
-    <td> 功率因数PF </td>
+    <td> 功率因数（PF） </td>
     <td  colspan="4"> 0.8～1.0，兼容阻性负载和感性负载 </td>
   </tr>
    <tr>

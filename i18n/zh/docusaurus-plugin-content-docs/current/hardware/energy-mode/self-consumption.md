@@ -90,16 +90,12 @@ description: 优先使用光伏电能，提升自发自用比例
 <img src={require("./img/select_energy_mode.png").default} width="240"/>
 <img src={require("./img/self_consume_prioritized.png").default} width="240"/>
 <img src={require("./img/load_settings.png").default} width="240"/>
-<img src={require("./img/load_plug.png").default} width="240"/>
-<img src={require("./img/load_meter.png").default} width="240"/>
-<img src={require("./img/load_key_load.png").default} width="240"/>
-<img src={require("./img/load_custom.png").default} width="240"/>
 
 
 
 ## 推荐设备参数设置
 
-在设备详情页，点击右上角 **⚙ 设置** 图标进入设置页面。
+在设备详情页，点击右上角 **⚙** 图标进入设置页面。
 
 <img src={require("./img/device_info.png").default} width="240"/>
 <img src={require("./img/device_setting.png").default} width="240"/>
@@ -110,7 +106,7 @@ description: 优先使用光伏电能，提升自发自用比例
 | 设置项             | 建议配置                               |
 | ------------------ | -------------------------------------- |
 | 最大交流输出功率（放电）   | 不低于家庭实际负载功率，并符合当地法规 |
-| 逆变器最大输入功率（充电） | 不低于期望的充电功率                   |
+| 最大交流输入功率（充电） | 不低于期望的充电功率                   |
 | 最大馈网功率       | 建议设置为 `0`（开启防逆流）           |
 | 旁路开关           | 无特殊需求时保持关闭                   |
 | 应急电量           | 建议设置为 20%                         |

@@ -191,7 +191,7 @@ Control method depends on network status:
 
 ### Method 1: App Remote Control
 
-Indevolt App → Device → <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> → Bypass Socket → Enable Status → Select connected device type
+INDEVOLT App → Device → <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> → Bypass Socket → Enable Status → Select connected device type
 
 <img src={require("../energy-mode/img/select_device.png").default} width="240"/>
 <img src={require("../energy-mode/img/device_info.png").default} width="240"/>

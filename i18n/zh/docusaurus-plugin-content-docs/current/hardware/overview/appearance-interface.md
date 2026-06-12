@@ -1,6 +1,6 @@
 ---
 title: 设备外观与接口说明
-description: Guide
+description: 介绍Indevolt设备外观结构、接口定义、按键操作及LED指示状态说明
 ---
 
 # 设备外观与接口说明
@@ -40,12 +40,12 @@ ECO型号无 4–7 端口。
 ## LED
 
 
-|                                  LED                                   | 描述                      | 状态         |
-| :--------------------------------------------------------------------: | ------------------------- | ------------ |
-|  <img src={require("./img/led-starting.png").default} style={{ height: 150 }}/>   | 蓝色LED从中心向上下点亮   | 启动中       |
-|  <img src={require("./img/led-charging.png").default} style={{ height: 150 }}/>   | 绿色LED从当前电量向上点亮 | 充电中       |
-| <img src={require("./img/led-discharging.png").default} style={{ height: 150 }}/> | 蓝色LED从当前电量向下熄灭 | 放电中       |
-| <img src={require("./img/led-iot-failure.png").default} style={{ height: 150 }}/> | LED显示黄色               | IoT连接失败  |
-|    <img src={require("./img/led-fault.png").default} style={{ height: 150 }}/>    | LED显示红色               | 故障         |
-|  <img src={require("./img/led-shutdown.png").default} style={{ height: 150 }}/>   | 蓝色LED从两侧向中心点亮   | 关闭中       |
-|    <img src={require("./img/led-reset.png").default} style={{ height: 150 }}/>    | 蓝色LED闪烁三次           | 设备重置成功 |
+| LED                                                                                         | 描述                      | 状态         |
+| ------------------------------------------------------------------------------------------- | ------------------------- | ------------ |
+| <div class="table-img-box"><img src={require("./img/led-starting.png").default} /></div>    | 蓝色LED从中心向上下点亮   | 启动中       |
+| <div class="table-img-box"><img src={require("./img/led-charging.png").default} /></div>    | 绿色LED从当前电量向上点亮 | 充电中       |
+| <div class="table-img-box"><img src={require("./img/led-discharging.png").default} /></div> | 蓝色LED从当前电量向下熄灭 | 放电中       |
+| <div class="table-img-box"><img src={require("./img/led-iot-failure.png").default} /></div> | LED显示黄色               | IoT连接失败  |
+| <div class="table-img-box"><img src={require("./img/led-fault.png").default} /></div>       | LED显示红色               | 故障         |
+| <div class="table-img-box"><img src={require("./img/led-shutdown.png").default} /></div>    | 蓝色LED从两侧向中心点亮   | 关闭中       |
+| <div class="table-img-box"><img src={require("./img/led-reset.png").default} /></div>       | 蓝色LED闪烁三次           | 设备重置成功 |

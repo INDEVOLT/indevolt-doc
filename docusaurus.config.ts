@@ -42,7 +42,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["de", "en", "fr", "zh"],
+    locales: ["de", "en", "fr", "nl", "zh"],
     localeConfigs: {
       de: {
         label: "Deutsch",
@@ -52,6 +52,9 @@ const config: Config = {
       },
       fr: {
         label: "Français"
+      },
+      nl: {
+        label: "Nederlands"
       },
       zh: {
         label: "简体中文",
@@ -89,7 +92,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social car
-    image: "img/docusaurus-social-card.jpg",
+    // image: "img/docusaurus-social-card.jpg",
     docs: {
       sidebar: {
         hideable: true,

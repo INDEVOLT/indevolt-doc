@@ -132,7 +132,7 @@ When the overall battery level is low, the system prioritizes safety and essenti
 <details className="custom-details">
   <summary className="custom-details__summary">How to View / Configure Backup Reserve</summary>
 
-  App navigation path:
+  App steps:
 
   Device Page → Select Device → Tap <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> → SoC Settings → Backup Reserve (5%–100%)
 

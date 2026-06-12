@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Ontwikkelaars",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Documentatie",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Micro Storage": {
+    "message": "Micro-opslag",
+    "description": "Navbar item with label Micro Storage"
+  },
+  "item.label.INDEVOLT App": {
+    "message": "INDEVOLT-app",
+    "description": "Navbar item with label INDEVOLT App"
+  }
+}

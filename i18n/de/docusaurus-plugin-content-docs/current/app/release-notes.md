@@ -5,6 +5,17 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V1.4.0
+
+- Neue intelligente Energiemanagement-Funktionen hinzugefügt
+- Strompreisstrategien und KI-Erlebnis optimiert
+- Startseite und Strompreisanzeige verbessert
+- Unterstützung für weitere Geräte- und Zubehörkonfigurationen hinzugefügt
+- Systemstabilität und Benutzererfahrung verbessert
+- Bekannte Probleme behoben
+
+---
+
 ## V1.3.0
 
 - Neue Gerätefunktionen und Bedienhilfen hinzugefügt

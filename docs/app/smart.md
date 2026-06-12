@@ -5,7 +5,7 @@ description: Intelligently optimize energy usage to maximize savings and earning
 
 # Smart
 
-The Smart feature automatically adjusts battery charging and discharging strategies through **Dynamic Pricing Mode** or **AI Mode**, making full use of electricity price differences and photovoltaic (PV) generation to improve energy efficiency and increase savings.
+The Smart feature automatically adjusts battery charging and discharging strategies through **[Dynamic Pricing Mode](#1-dynamic-pricing-mode)** or **[AI Mode](#2-ai-mode)**, making full use of electricity price differences and photovoltaic (PV) generation to improve energy efficiency and increase savings.
 
 
 ## 1. Dynamic Pricing Mode
@@ -25,50 +25,37 @@ In short: charge when prices are low, discharge when prices are high — fully a
 
 ### 1.1 How the Device Operates
 
-#### 🔋 Charging (during low-price periods)
+#### 🔋 Charging (Off-Peak Periods)
 
-Actual charging power is limited by the inverter’s maximum input capacity.
+When the electricity price falls below the target price, the system will start charging the battery.
 
-- PV power is used first to charge the battery;  
-- If PV is insufficient, the system automatically draws power from the grid;  
-- Charging stops automatically once the battery is full.  
+| Mode | Description |
+|------|------|
+| Solar + Grid charging | Prioritizes PV charging while allowing grid power to assist. Ideal for storing energy during low-price periods. Charging power is capped at the configured limit. Once the battery is full, grid charging stops and PV output is automatically reduced. |
+| Solar only charging | Uses only PV to charge the battery. Once fully charged, PV power supplies household loads first, with excess energy fed into the grid within allowed limits. If limits are exceeded, PV output is automatically reduced. |
+
+
+#### ⚡ Discharging (Peak Periods)
+
+When the electricity price rises above the target price, the system will prioritize using energy stored in the battery. The actual discharge power depends on the current load source (meter, smart plug, or default load).
 
 
 | Mode | Description |
 |------|------|
-| PV + AC | Prioritizes PV charging while allowing grid power to assist. Ideal for storing energy during low-price periods. Charging power is capped at the configured limit. Once the battery is full, grid charging stops and PV output is automatically reduced. |
-| PV Only | Uses only PV to charge the battery. Once fully charged, PV power supplies household loads first, with excess energy fed into the grid within allowed limits. If limits are exceeded, PV output is automatically reduced. |
+| Fixed power output | The battery discharges at a constant configured power. If PV microinverters are present, PV supply is prioritized. Output stops when there is no load or when grid limits are exceeded, and the system periodically checks and resumes automatically. |
+| Self-consumption | The battery dynamically adjusts output based on real-time household demand, capped at the configured power. Output stops automatically when there is no load or grid limits are exceeded. |
 
 
-#### ⚡ Discharging (during high-price periods or high demand)
+#### ⏸️ Idle (Mid-Peak Periods)
 
-Actual discharging power depends on the current load source (meter / smart plug / default load).
+When the electricity price does not meet either the charging or discharging conditions, the system enters standby mode, and the battery will neither actively charge nor discharge.
 
-- PV power is prioritized for supplying loads;  
-- If PV is insufficient, the battery automatically supplements power;  
-- Discharging stops automatically when the battery reaches the reserve SOC level.  
-
-| Mode | Description |
+| Operation Mode | Description |
 |------|------|
-| Fixed AC Power | The battery discharges at a constant configured power. If PV microinverters are present, PV supply is prioritized. Output stops when there is no load or when grid limits are exceeded, and the system periodically checks and resumes automatically. |
-| On-Demand | The battery dynamically adjusts output based on real-time household demand, capped at the configured power. Output stops automatically when there is no load or grid limits are exceeded. |
+| Solar powers home first | This mode is used by default for periods not specifically set.<br />1. PV power is prioritized for household loads.<br />2. Excess electricity is stored in the battery.<br />3. Once the battery is full, any remaining electricity is fed to the grid within allowable limits.<br />4. If generation exceeds grid connection limits, the system will automatically reduce PV output. |
+| Solar charges battery first | 1. PV power is prioritized for charging the battery.<br />2. Once the battery is full, power is supplied to household loads.<br />3. If excess electricity remains, it is fed to the grid within allowable limits.<br />4. If generation exceeds grid connection limits, the system will automatically reduce PV output. |
 
-
-#### ⏸️ Idle (outside scheduled charging/discharging periods)
-
-In idle state, the battery does not actively discharge, and surplus PV energy is used to charge the battery.
-
-- PV generation is prioritized for household consumption;  
-- If PV exceeds load demand and the battery SOC is below 100%, excess energy charges the battery;  
-- Once the battery is full, PV output is automatically limited.  
-
-| Mode | Description |
-|------|------|
-| Self-Consumption | PV power is used for household loads first, with excess stored in the battery. Once the battery is full, remaining energy is fed into the grid within allowed limits. If generation exceeds grid limits, PV output is reduced automatically. This is the default mode for unspecified time periods. |
-| PV Priority Charging | PV prioritizes charging the battery first, then supplies household loads after the battery is full. Any remaining surplus is handled within allowed limits, with PV output reduced if necessary. |
-
-
-:::info
+:::warning
 - All power settings are subject to hardware limitations.  
 - "Grid limit" refers to the maximum allowed export power to the grid.  
 - In some cases, PV output is automatically reduced to avoid exceeding grid limits. The system will still maintain basic standby consumption.  
@@ -79,20 +66,14 @@ In idle state, the battery does not actively discharge, and surplus PV energy is
 
 1. Tap the <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> icon in the top-right corner of the **Dynamic Pricing Mode** module.  
 2. Make sure the following are set up:  
-
    ✅ **[Dynamic tariff](./profile.md#31-add-electricity-price)** has been configured  
    ✅ Devices participating in the strategy have been added  
-
    If not, complete the setup and tap **Next**.  
 
-3. Set the **[target price](#adjust-target-price)** to trigger charging/discharging:  
-   - Manual / Auto / Smart modes are supported  
-   - Choose the **fallback strategy** (Self-consumption / Idle) when conditions are not met  
-
-   Then tap **Next**.  
+3. Set the **[target price](#adjust-target-price)** to trigger charging/discharging: Manual / Auto / Smart modes are supported; then tap **Next**.  
 
 4. Select the **device for the strategy**, then tap **Next**.  
-   > (Optional) Tap **⚙ Advanced Settings** to configure [operating modes](#11-how-the-device-operates) for different price periods  
+   > (Optional) Tap <img src={require("./img/edit_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> to configure [operating modes](#11-how-the-device-operates) for different price periods.  
 
 5. Preview the plan and tap **Enable** to activate it.  
 
@@ -100,22 +81,21 @@ In idle state, the battery does not actively discharge, and surplus PV energy is
 <img src={require("./img/strategy_requirements.png").default} width="240"/>
 <img src={require("./img/price_setting.png").default} width="240"/>
 <img src={require("./img/select_strategy_device.png").default} width="240"/>
+<img src={require("./img/mode.png").default} width="240"/>
 <img src={require("./img/preview_strategy.png").default} width="240"/>
 
 
 ### 1.3 View Strategy
 
-Once a strategy is created, the Dynamic Pricing Mode module displays the current status (Idle / Charging / Discharging) along with a toggle switch.
+Once a strategy is created, the Dynamic Pricing Mode module displays the current status (Charging / Discharging / Standby) along with a toggle switch.
 
 <img src={require("./img/dynamic_pricing_strategy.png").default} width="240"/>
 
 Tap the module to view the detailed schedule and participating devices.
 
-<img src={require("./img/view_strategy.png").default} width="240"/>
-
-
 Tap the <img src={require("./img/history_icon.png").default} width="24" style={{verticalAlign: "middle"}}/> icon in the top-right corner to view electricity market prices, SOC, and strategy logs (history of changes).
 
+<img src={require("./img/view_strategy.png").default} width="240"/>
 <img src={require("./img/strategy_log.png").default} width="240"/>
 
 
@@ -127,7 +107,7 @@ You can update the strategy at any time, including changing devices or adjusting
 
 1. On the strategy details page, tap the <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/> next to **Device Status**.  
 2. Select the desired devices from all available devices.  
-3. (Optional) Tap **Advanced Settings** to adjust operation modes for different price periods.  
+3. (Optional) Tap <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/> icon to adjust operation modes for different price periods.  
 4. Tap **Next**, review the changes, and tap **Enable**.  
 
 <img src={require("./img/view_strategy.png").default} width="240"/>
@@ -135,21 +115,17 @@ You can update the strategy at any time, including changing devices or adjusting
 <img src={require("./img/device_advanced_mode.png").default} width="240"/>
 <img src={require("./img/confirm_strategy.png").default} width="240"/>
 
-#### Adjust Target Price
+#### Adjust Price
 
 1. On the strategy details page, tap the <img src={require("./img/edit_icon.png").default} width="24" style={{verticalAlign: "middle"}}/> next to **Market Prices**.  
 2. Configure the **target price**:  
-   - Manual: directly set charge/discharge trigger prices  
-   - Auto: define high/low price ranges and price difference; the system calculates optimal trigger points  
-   - Smart: only set the price difference; the system optimizes automatically  
-
+   - **Manual**: Directly set a price below which charging starts and above which discharging starts. Suitable when you have a clear target electricity price.
+   - **Auto**: Set high/low price ranges and price difference; the system automatically calculates the optimal trigger price.
+   - **Smart**: Only set the price difference; the system optimizes automatically.
+  
    > 💡 A larger price difference results in fewer activations; a smaller difference leads to more frequent charging and discharging.  
 
-3. Set the **fallback strategy**:  
-   - Self-consumption: prioritize PV and battery for household usage  
-   - Idle: pause charging/discharging, PV supplies loads first  
-
-4. Tap **Next**, review, and tap **Enable**.  
+3. Tap **Next**, review, and tap **Enable**.  
 
 <img src={require("./img/view_strategy.png").default} width="240"/>
 <img src={require("./img/strategy_price1.png").default} width="240"/>

@@ -1,0 +1,70 @@
+{
+  "version.label": {
+    "message": "Volgende",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
+    "message": "Leer uw micro-opslagsysteem kennen",
+    "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Daily Use": {
+    "message": "Dagelijks gebruik",
+    "description": "The label for category Daily Use in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Energy Management": {
+    "message": "Energiebeheer",
+    "description": "The label for category Energy Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Settings": {
+    "message": "Geavanceerde instellingen",
+    "description": "The label for category Advanced Settings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Note": {
+    "message": "Technische notitie",
+    "description": "The label for category Technical Note in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Information & Capabilities": {
+    "message": "Technische informatie en mogelijkheden",
+    "description": "The label for category Technical Information & Capabilities in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Technical Specification": {
+    "message": "Technische specificaties",
+    "description": "The label for category Technical Specification in sidebar tutorialSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started": {
+    "message": "Aan de slag",
+    "description": "The label for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.title": {
+    "message": "Aan de slag",
+    "description": "The generated-index page title for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Ga aan de slag met INDEVOLT door de app te installeren, een account aan te maken en uw eerste apparaat in te stellen.",
+    "description": "The generated-index page description for category Getting Started in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT": {
+    "message": "INDEVOLT gebruiken",
+    "description": "The label for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.title": {
+    "message": "INDEVOLT gebruiken",
+    "description": "The generated-index page title for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Using INDEVOLT.link.generated-index.description": {
+    "message": "Dit gedeelte behandelt de belangrijkste functies, van energiemonitoring tot persoonlijke instellingen.",
+    "description": "The generated-index page description for category Using INDEVOLT in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection": {
+    "message": "Energie-integraties",
+    "description": "The label for category Brand Connection in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection.link.generated-index.title": {
+    "message": "Energie-integraties",
+    "description": "The generated-index page title for category Brand Connection in sidebar appSidebar"
+  },
+  "sidebar.appSidebar.category.Brand Connection.link.generated-index.description": {
+    "message": "Verbind uw energieapparaten thuis met ondersteunde merken. Tik op de profielpagina op Energie-integraties, selecteer het merk waarmee u verbinding wilt maken en volg de onderstaande handleiding om de vereiste API-referenties of andere autorisatiegegevens te verkrijgen.",
+    "description": "The generated-index page description for category Brand Connection in sidebar appSidebar"
+  }
+}

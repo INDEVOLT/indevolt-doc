@@ -5,6 +5,17 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V1.4.0
+
+- Ajout de nouvelles fonctionnalités intelligentes de gestion de l’énergie
+- Optimisation des stratégies tarifaires et de l’expérience IA
+- Amélioration de la page d’accueil et de l’affichage des prix de l’électricité
+- Prise en charge de davantage de configurations d’appareils et d’accessoires
+- Amélioration de la stabilité du système et de l’expérience utilisateur
+- Correction de problèmes connus
+
+---
+
 ## V1.3.0
 
 - Ajout de nouvelles fonctionnalités et guides d’utilisation pour les appareils

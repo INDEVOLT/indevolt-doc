@@ -38,7 +38,7 @@ In simple terms, Wi-Fi is for internet access, while LoRa allows devices to comm
 
 ## Supported Devices
 
-If the device firmware version is lower than the minimum version listed in the table below, please upgrade the firmware in the Indevolt App under the device settings page.
+If the device firmware version is lower than the minimum version listed in the table below, please upgrade the firmware in the INDEVOLT App under the device settings page.
 
 <table>
   <thead>

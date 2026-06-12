@@ -31,7 +31,7 @@ description: 如何将 Solax 光伏逆变器连接到 INDEVOLT
 :::note
 如果未显示 Token ID，请点击 **Get** 申请，然后返回步骤 3 复制。
 
-   <img src={require("./img/get_tokenid.png").default} width="480"/>
+<img src={require("./img/get_tokenid.png").default} width="480"/>
 :::
 
 ---
