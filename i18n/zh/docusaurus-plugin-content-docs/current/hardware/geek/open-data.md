@@ -2016,7 +2016,7 @@ curl "http://192.168.0.7:8080/rpc/WiFi.GetStatus"
 
 ---
 
-##  9️⃣ FAQ {#faq}
+## 9️⃣ FAQ {#faq}
 
 <details>
   <summary>**Q: HTTP 访问返回 401 Unauthorized。**</summary>
