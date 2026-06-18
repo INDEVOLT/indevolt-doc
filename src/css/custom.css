@@ -374,3 +374,24 @@ div[class^="announcementBar_"] {
 .custom-details > summary::-webkit-details-marker {
   display: none;
 }
+
+.tabs {
+  display: inline-flex;
+  background: #f3f4f6;
+  border-radius: 999px;
+  padding: 4px;
+  margin-bottom: 1rem;
+}
+
+.tabs__item {
+  border: none;
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-weight: 500;
+  color: #666;
+}
+
+.tabs__item.tabs__item--active {
+  background: var(--ifm-color-primary);
+  color: white;
+}

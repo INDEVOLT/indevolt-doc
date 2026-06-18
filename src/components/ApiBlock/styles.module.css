@@ -1,0 +1,97 @@
+.apiBlock {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 16px 0;
+  background: var(--ifm-background-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  letter-spacing: 0.3px;
+}
+
+.get {
+  color: #15803d;
+  background: rgba(34, 197, 94, 0.10);
+  border-color: rgba(34, 197, 94, 0.25);
+}
+
+.post {
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.10);
+  border-color: rgba(59, 130, 246, 0.25);
+}
+
+.put {
+  color: #b45309;
+  background: rgba(245, 158, 11, 0.10);
+  border-color: rgba(245, 158, 11, 0.25);
+}
+
+.patch {
+  color: #a16207;
+  background: rgba(234, 179, 8, 0.12);
+  border-color: rgba(234, 179, 8, 0.25);
+}
+
+.delete {
+  color: #b91c1c;
+  background: rgba(239, 68, 68, 0.10);
+  border-color: rgba(239, 68, 68, 0.25);
+}
+
+.options {
+  color: #374151;
+  background: rgba(107, 114, 128, 0.10);
+  border-color: rgba(107, 114, 128, 0.25);
+}
+
+.path {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  font-size: 13px;
+  color: var(--ifm-color-emphasis-900);
+  background: transparent;
+}
+
+.body {
+  padding: 12px;
+}
+
+.copy {
+  margin-left: auto;
+  font-size: 12px;
+  border: none;
+  background: transparent;
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+
+.copy:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.responseBlock {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 10px;
+  background: var(--ifm-background-color);
+}
