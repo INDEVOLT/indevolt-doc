@@ -64,7 +64,7 @@ Lorsque le prix de l'électricité ne remplit ni les conditions de charge ni cel
 1. Cliquez sur **Mode de tarification dynamique** en haut à droite <img src={require("./img/settings_icon.png").default} width="30" style={{verticalAlign: "middle"}}/>.
 2. Vérifiez que les configurations suivantes sont terminées：  
 
-   ✅ Le [**tarif dynamique**](./profile.md#31-ajouter-un-tarif-délectricité) est configuré  
+   ✅ Le [**tarif dynamique**](./profile.md#31-ajouter-un-tarif) est configuré  
    ✅ Des équipements pouvant participer à la stratégie ont été ajoutés  
 
    Si ce n’est pas le cas, cliquez sur la zone correspondante pour configurer, puis cliquez sur **Suivant**.

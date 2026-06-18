@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-06-18 | V1.0.12 | Ajout de la documentation sur le [Double comptage pour onduleurs tiers](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Ajout de la documentation sur l’[intégration d’un onduleur tiers](./advanced/third-party-inverter.md) |
 | 2026-06-08 | V1.0.10 | 1. Ajout des instructions de [remplacement d’accessoire](./advanced/accessory-replacement.md) <br />2. Mise à jour de l’historique des versions du firmware du micro-stockage |
 | 2026-05-18 | V1.0.9 | 1. Ajout de la documentation de [cluster](./technical-note/cluster.md) <br />2. Mise à jour de l’historique des versions du firmware du micro-stockage |

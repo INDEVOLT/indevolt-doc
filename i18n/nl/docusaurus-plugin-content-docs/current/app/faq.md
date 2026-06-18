@@ -17,10 +17,10 @@ description: Vind oplossingen voor veelvoorkomende problemen tijdens het gebruik
 
 ## Hoe kan ik mijn account verwijderen?
 
-Het verwijderen van een account is een onomkeerbare handeling. Ga hier zorgvuldig mee om. Zie voor de stappen: [Account verwijderen](./profile.md#13-账号注销).
+Het verwijderen van een account is een onomkeerbare handeling. Ga hier zorgvuldig mee om. Zie voor de stappen: [Account verwijderen](./profile.md#13-account-annuleren).
 
 ## Wat moet ik doen als het apparaat offline wordt weergegeven?
 
 1. Controleer of het apparaat is ingeschakeld, of de indicatielampjes normaal werken en of het verbonden WiFi-netwerk correct functioneert.
-2. Houd de apparaatkaart lang ingedrukt in de apparaatpagina, ga naar netwerkinstellingen en voer opnieuw een [netwerkconfiguratie](./add-device.md#步骤三配置网络) uit.
+2. Houd de apparaatkaart lang ingedrukt in de apparaatpagina, ga naar netwerkinstellingen en voer opnieuw een [netwerkconfiguratie](./add-device.md#stap-3-netwerkconfiguratie) uit.
 3. Als de configuratie mislukt, herstart het apparaat: schakel de voeding volledig uit, wacht 30 seconden en zet het apparaat daarna opnieuw aan.

@@ -70,7 +70,7 @@ When the electricity price does not meet either the charging or discharging cond
    ✅ Devices participating in the strategy have been added  
    If not, complete the setup and tap **Next**.  
 
-3. Set the **[target price](#adjust-target-price)** to trigger charging/discharging: Manual / Auto / Smart modes are supported; then tap **Next**.  
+3. Set the **[target price](#adjust-price)** to trigger charging/discharging: Manual / Auto / Smart modes are supported; then tap **Next**.  
 
 4. Select the **device for the strategy**, then tap **Next**.  
    > (Optional) Tap <img src={require("./img/edit_icon.png").default} width="30" style={{verticalAlign: "middle"}}/> to configure [operating modes](#11-how-the-device-operates) for different price periods.  
