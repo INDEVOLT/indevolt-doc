@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-06-18 | V1.0.12 | Added [Dual Metering for Third-Party Inverters](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Added [Third-Party Inverter Integration Guide](./advanced/third-party-inverter.md)   |
 | 2026-06-08 | V1.0.10 | 1. Added [Accessory Replacement](./advanced/accessory-replacement.md) guide <br />2. Added Micro-Storage Firmware Release Notes |
 | 2026-05-18 | V1.0.9 | 1. Added [Cluster](./technical-note/cluster.md) guide <br />2. Added Micro-Storage Firmware Release Notes |

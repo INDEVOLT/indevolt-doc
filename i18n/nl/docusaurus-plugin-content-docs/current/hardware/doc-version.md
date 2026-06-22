@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-06-18 | V1.0.12 | Toegevoegd: [Dubbel meten bij omvormers van derden](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Toegevoegd: [Integratie van een externe omvormer](./advanced/third-party-inverter.md) |
 | 2026-06-08 | V1.0.10 | 1. Toegevoegd: [Accessoire vervangen](./advanced/accessory-replacement.md) <br />2. Firmwareversiegeschiedenis van het micro-opslagsysteem bijgewerkt |
 | 2026-05-18 | V1.0.9 | 1. Toegevoegd: [Clusterhandleiding](./technical-note/cluster.md) <br />2. Firmwareversiegeschiedenis van het micro-opslagsysteem bijgewerkt |

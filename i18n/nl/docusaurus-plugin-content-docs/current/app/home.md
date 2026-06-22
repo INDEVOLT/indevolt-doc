@@ -142,4 +142,4 @@ Het gedeelte **Daggegevens** toont de totale energiegegevens vanaf middernacht t
 | Zelfverbruik  | (PV-verbruik + PV → batterij) / opwekking: aandeel van zelfgebruikte zonne-energie |
 | Zelfvoorzienend | (verbruik uit opwekking + verbruik uit batterij) / totaal verbruik: aandeel van eigen energievoorziening |
 
-U kunt deze sectie aanpassen via [Dashboardconfiguratie](#5-dashboardconfiguratie).
+U kunt deze sectie aanpassen via [Dashboardconfiguratie](#5-dashboard).

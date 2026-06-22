@@ -62,7 +62,7 @@ Afhankelijk van de apparaten die aan uw huis zijn gekoppeld, kunnen de weergegev
 
 ### 1.3 Winst
 
-De winst bestaat uit twee onderdelen: besparing door eigen verbruik en inkomsten uit teruglevering. De berekening is gebaseerd op het ingestelde [stroomtarief](./profile.md#3-stroomtarieven).
+De winst bestaat uit twee onderdelen: besparing door eigen verbruik en inkomsten uit teruglevering. De berekening is gebaseerd op het ingestelde [stroomtarief](./profile.md#3-tarief).
 
 1. <u>**Besparing eigen verbruik** = Bespaarde energie × afnametarief</u>
 
