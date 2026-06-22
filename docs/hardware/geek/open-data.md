@@ -1338,13 +1338,13 @@ The following cJSON Points are used to retrieve device operating data or configu
 
 <table><thead>
 <tr>
-    <th>cJSON 点位</th>
-    <th>cJSON 值类型</th>
-    <th>单位</th>
-    <th>说明</th>
-    <th>Enum 定义</th>
+    <th>cJSON Point</th>
+    <th>cJSON Value Type</th>
+    <th>Unit</th>
+    <th>Point Description</th>
+    <th>Enum Definition</th>
     <th>API</th>
-    <th>注释</th>
+    <th>Annotation</th>
 </tr></thead>
 <tbody>
 <tr>
