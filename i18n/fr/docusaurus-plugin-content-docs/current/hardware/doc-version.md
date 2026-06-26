@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-06-26 | V1.0.14 | Ajout de la documentation de [Surveillance multi-points des TC pour compteur triphasé](./advanced/three-phase-meter.md)         |
 | 2026-06-22 | V1.0.13 | Mise à jour de la documentation OpenData :<br /> 1. Ajout des points de données de la série BK1600 (SN de l'appareil, versions du firmware, température de la batterie, puissance/courant/tension PV) ainsi que des points de contrôle. |
 | 2026-06-18 | V1.0.12 | Ajout de la documentation sur le [Double comptage pour onduleurs tiers](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Ajout de la documentation sur l’[intégration d’un onduleur tiers](./advanced/third-party-inverter.md) |

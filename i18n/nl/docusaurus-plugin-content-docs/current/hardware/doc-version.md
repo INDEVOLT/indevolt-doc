@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-06-26 | V1.0.14 | Toegevoegd: [CT-monitoring op meerdere punten in een driefasige energiemeter](./advanced/three-phase-meter.md)         |
 | 2026-06-22 | V1.0.13 | OpenData-documentatie bijgewerkt:<br /> 1. Datapunten voor de BK1600-serie toegevoegd (apparaat-SN, firmwareversies, batterijtemperatuur, PV-vermogen/-stroom/-spanning) en besturingspunten. |
 | 2026-06-18 | V1.0.12 | Toegevoegd: [Dubbel meten bij omvormers van derden](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Toegevoegd: [Integratie van een externe omvormer](./advanced/third-party-inverter.md) |

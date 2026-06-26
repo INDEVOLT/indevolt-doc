@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-06-26 | V1.0.14 | Added [Multi-Position CT Monitoring for Three-Phase Meters](./advanced/three-phase-meter.md)         |
 | 2026-06-22 | V1.0.13 | Updated the OpenData documentation:<br /> 1. Added BK1600 Series data points (device SN, firmware versions, battery temperature, PV power/current/voltage) and control points. |
 | 2026-06-18 | V1.0.12 | Added [Dual Metering for Third-Party Inverters](./advanced/third-party-inverter-dual-metering.md)         |
 | 2026-06-11 | V1.0.11 | Added [Third-Party Inverter Integration Guide](./advanced/third-party-inverter.md)   |
