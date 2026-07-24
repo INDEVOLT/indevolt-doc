@@ -5,6 +5,30 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V1.4.5
+
+- Optimierte Verwaltung des Energiesystems zu Hause
+- Neue Funktionen für die Gerätekonfiguration für weitere Anwendungsszenarien hinzugefügt
+- Optimierte Energieauswertungen und Datenanzeige
+- Leistung und Stabilität der App verbessert
+
+---
+
+## V1.4.4
+
+Bekannte Probleme behoben und die System­sicherheit sowie Stabilität verbessert.
+
+---
+
+## V1.4.3
+
+- Neue Funktionen für die Gerätekonfiguration und -verwaltung hinzugefügt
+- Anzeige und Auswertung von Gerätedaten optimiert
+- Geräteverbindung und Einrichtungsprozesse vereinfacht
+- Leistung und Stabilität der App verbessert
+
+---
+
 ## V1.4.0
 
 - Neue intelligente Energiemanagement-Funktionen hinzugefügt

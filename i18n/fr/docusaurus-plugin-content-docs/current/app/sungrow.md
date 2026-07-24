@@ -25,7 +25,7 @@ Suivez les étapes ci-dessous pour créer une application dans le portail dével
 
 5. Renseignez les informations de l’application :
 
-   - **Application name** : saisissez le nom de l’application (Energy Ease) ou un autre nom facilement identifiable, par exemple `My Home EMS`.
+   - **Application name** : saisissez le nom de l’application (INDEVOLT) ou un autre nom facilement identifiable, par exemple `My Home EMS`.
    - **Company name** : saisissez le nom du domicile créé dans l’application ou un autre identifiant approprié, par exemple `My Home`.
    - **Application description** : saisissez une brève description, par exemple `Data Integration`.
    - **Authorize with OAuth2.0** : sélectionnez **No**.

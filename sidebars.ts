@@ -80,6 +80,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/device-communication',
         'hardware/technical-note/soc-balancing',
         'hardware/technical-note/cluster',
+        'hardware/technical-note/deep-standby',
       ],
     },
     {
@@ -181,6 +182,7 @@ const sidebars: SidebarsConfig = {
             'app/solaredge',
             'app/solax',
             'app/sungrow',
+            'app/solis',
           ],
         },
       ],

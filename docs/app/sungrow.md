@@ -25,7 +25,7 @@ Follow the steps below to create an application in the Sungrow Developer Portal 
 
 5. Fill in the application information:
 
-   - **Application name**: Enter the app name (Energy Ease) or another recognizable name, such as `My Home EMS`.
+   - **Application name**: Enter the app name (INDEVOLT) or another recognizable name, such as `My Home EMS`.
    - **Company name**: Enter the name of the home created in the app or another suitable identifier, such as `My Home`.
    - **Application description**: Enter a brief description, such as `Data Integration`.
    - **Authorize with OAuth2.0**: Select **No**

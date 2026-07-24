@@ -5,6 +5,31 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+
+## V1.4.5
+
+- Amélioration de la gestion de l’énergie à domicile
+- Ajout de nouvelles fonctionnalités de configuration des appareils pour davantage de scénarios d’utilisation
+- Amélioration du suivi énergétique et de l’affichage des données
+- Amélioration des performances et de la stabilité de l’application
+
+---
+
+## V1.4.4
+
+Correction de problèmes connus et amélioration de la sécurité et de la stabilité du système.
+
+---
+
+## V1.4.3
+
+- Ajout de nouvelles fonctionnalités de configuration et de gestion des appareils
+- Amélioration de l’affichage des données et des statistiques des appareils
+- Optimisation du processus de connexion et de configuration des appareils
+- Amélioration des performances et de la stabilité de l’application
+
+---
+
 ## V1.4.0
 
 - Ajout de nouvelles fonctionnalités intelligentes de gestion de l’énergie

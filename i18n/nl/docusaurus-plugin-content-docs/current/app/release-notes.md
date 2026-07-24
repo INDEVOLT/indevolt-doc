@@ -5,6 +5,30 @@ description: INDEVOLT App Release Notes
 
 # Release Notes
 
+## V1.4.5
+
+- De ervaring van energiebeheer in huis verbeterd
+- Nieuwe mogelijkheden voor apparaatconfiguratie toegevoegd voor meer gebruikssituaties
+- Verbeterde energie-inzichten en gegevensweergave
+- Prestaties en stabiliteit van de app verbeterd
+
+---
+
+## V1.4.4
+
+- Bekende problemen opgelost en de beveiliging en stabiliteit van het systeem verbeterd.
+
+---
+
+## V1.4.3
+
+- Nieuwe functies toegevoegd voor apparaatconfiguratie en -beheer
+- Weergave van apparaatgegevens en statistieken verbeterd
+- Verbindings- en installatieprocessen van apparaten vereenvoudigd
+- Prestaties en stabiliteit van de app verbeterd
+
+---
+
 ## V1.4.0
 
 - Nieuwe slimme energiebeheerfuncties toegevoegd

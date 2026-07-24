@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-07-24 | V1.0.17 | Ajout de la [description du mode veille profonde et du mode veille normal](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | Mise à jour de la documentation sur le fonctionnement en cluster des micro-stockages : ajout des instructions de cluster RS485. |
 | 2026-07-03 | V1.0.15 | Ajouter la documentation micro-stockage en allemand   |
 | 2026-06-26 | V1.0.14 | Ajout de la documentation de [Surveillance multi-points des TC pour compteur triphasé](./advanced/three-phase-meter.md)         |

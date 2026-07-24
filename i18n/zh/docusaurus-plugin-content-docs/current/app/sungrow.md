@@ -25,7 +25,7 @@ description: 如何获取 Sungrow iSolarCloud 的 Appkey 和 Secret key。
 
 5. 填写应用信息：
 
-   - **Application name**：输入应用名称（Energy Ease）或其他便于识别的名称，例如 `My Home EMS`。
+   - **Application name**：输入应用名称（INDEVOLT）或其他便于识别的名称，例如 `My Home EMS`。
    - **Company name**：输入 App 中创建的家庭名称或其他合适的标识，例如 `My Home`。
    - **Application description**：输入简短的应用描述，例如 `Data Integration`。
    - **Authorize with OAuth2.0**：选择 **No**。

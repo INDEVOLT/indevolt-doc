@@ -25,7 +25,7 @@ Volg de onderstaande stappen om een applicatie aan te maken in het Sungrow Devel
 
 5. Vul de applicatiegegevens in:
 
-   - **Application name**: voer een applicatienaam in (bijv. Energy Ease) of een andere herkenbare naam, zoals `My Home EMS`.
+   - **Application name**: voer een applicatienaam in (bijv. INDEVOLT) of een andere herkenbare naam, zoals `My Home EMS`.
    - **Company name**: voer de naam van uw huis in de app in of een andere geschikte aanduiding, zoals `My Home`.
    - **Application description**: voer een korte beschrijving in, bijvoorbeeld `Data-integratie`.
    - **Authorize with OAuth2.0**: selecteer **No**.

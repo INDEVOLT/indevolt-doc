@@ -25,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um im Sungrow Developer Portal eine Anwe
 
 5. Füllen Sie die Anwendungsinformationen aus:
 
-   - **Application name**: Geben Sie den App-Namen (Energy Ease) oder einen anderen leicht erkennbaren Namen ein, z. B. `My Home EMS`.
+   - **Application name**: Geben Sie den App-Namen (INDEVOLT) oder einen anderen leicht erkennbaren Namen ein, z. B. `My Home EMS`.
    - **Company name**: Geben Sie den Namen des in der App erstellten Zuhauses oder eine andere geeignete Bezeichnung ein, z. B. `My Home`.
    - **Application description**: Geben Sie eine kurze Beschreibung ein, z. B. `Data Integration`.
    - **Authorize with OAuth2.0**: Wählen Sie **No** aus.

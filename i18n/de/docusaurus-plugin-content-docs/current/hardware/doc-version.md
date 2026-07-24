@@ -7,6 +7,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicherdokumentation
 
 | Aktualisierungsdatum | Versionsnummer | Änderungen |
 | -------------------- | -------------- | ---------- |
+| 2026-07-24 | V1.0.17 | Beschreibung zu [Tiefschlafmodus und normalem Standby-Modus hinzugefügt](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | Aktualisierung der Cluster-Beschreibung für Mikrospeicher: Hinzufügen der Beschreibung für RS485-Cluster-Verbindungen. |
 | 2026-07-03 | V1.0.15 | Deutsche Mikrospeicher-Dokumentation hinzufügen     |
 | 2026-06-26 | V1.0.14 | Hinzugefügt: [CT-Multipositionsüberwachung für Dreiphasenstromzähler](./advanced/three-phase-meter.md)     
