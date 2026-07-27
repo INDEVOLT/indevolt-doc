@@ -14,7 +14,7 @@ description: Frequently Asked Questions and Usage Guide for INDEVOLT Micro Energ
 
   A: We recommend solar panels with:
   - Open-circuit voltage (Voc) between **10–60V**
-  - Short-circuit current (Isc) not exceeding **20A**
+  - Short-circuit current (Isc) not exceeding **20A** 
 </details>
 
 <details className="custom-details" open>
@@ -150,7 +150,7 @@ description: Frequently Asked Questions and Usage Guide for INDEVOLT Micro Energ
   </summary>
 
   A: Set up Charge/Discharge Schedule in the App and select **Solar Only Charging** as the charging mode.
-  
+
   > **Note**: To maintain battery health, when the battery level is extremely low (SOC ≤ 3%) and PV power is insufficient, the system will automatically charge from the grid to protect battery safety.
 </details>
 
@@ -209,14 +209,14 @@ description: Frequently Asked Questions and Usage Guide for INDEVOLT Micro Energ
   </summary>
 
   A: Possible reasons include:
-  
+
   - When the EMS firmware version is lower than 1.01.08, if the Backup port is operating in microinverter mode, the system will disable off-grid discharge on that port to protect the device;
   - When the battery SOC is lower than 5%, the port may also stop supplying power.
 
   It is recommended to check the following:
   - Upgrade the EMS firmware in the App to version 1.01.08 or later;
   - Confirm whether the current battery level is too low.
-  
+
 </details>
 
 <details className="custom-details" open>
@@ -251,7 +251,7 @@ description: Frequently Asked Questions and Usage Guide for INDEVOLT Micro Energ
   </summary>
 
   A: A cluster refers to connecting multiple micro energy storage devices into one unified operating system, allowing multiple devices to work together for power supply, energy storage, and energy management.
-  
+
   How to use it: After adding and configuring the network for all devices in the App, go to the device **Settings** page, select **Cluster**, and follow the instructions to add the devices you want to group together. Once pairing is completed, Cluster Mode will be enabled. You can also configure parameters such as power distribution rules and SOC thresholds on this page.
 
   👉 For detailed instructions, see: [Cluster Guide](./technical-note/cluster.md)
@@ -275,7 +275,7 @@ description: Frequently Asked Questions and Usage Guide for INDEVOLT Micro Energ
   The system output capability varies depending on the cluster configuration method:
   - Coordinated: Each device is independently connected to the grid and handles its own AC input and output. Therefore, each battery group can provide up to 2400W output independently.
   - Centralized: All AC inputs and outputs are centralized through the main device, which connects to the grid and manages output uniformly. After clustering, the maximum output power on the main device side can reach up to 2 × 2400W.
-  
+
   However, the actual configurable output power must also comply with local grid requirements, electrical standards, and regulations.
 </details>
 
