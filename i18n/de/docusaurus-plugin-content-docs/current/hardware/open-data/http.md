@@ -33,10 +33,11 @@ import TabItem from '@theme/TabItem';
 >
 > <Tabs>
 >   <TabItem value="cloud" label="Cloud" default>
->     <img src={require("./img/select_device.png").default} width="200"/>
 >     <img src={require("./img/device_info.png").default} width="200"/>
 >     <img src={require("./img/select_local_api.png").default} width="200"/>
->     <img src={require("./img/local_api.png").default} width="200"/>
+>     <img src={require("./img/connect_device.png").default} width="200"/>
+>     <img src={require("./img/select_http.png").default} width="200"/>
+>     <img src={require("./img/http.png").default} width="200"/>
 >   </TabItem>
 >   <TabItem value="local" label="Lokales Bluetooth">
 >     <img src={require("./img/profile_page.png").default} width="200"/>
@@ -44,7 +45,8 @@ import TabItem from '@theme/TabItem';
 >     <img src={require("./img/connect_device.png").default} width="200"/>
 >     <img src={require("./img/device_connected.png").default} width="200"/>
 >     <img src={require("./img/select_local_api2.png").default} width="200"/>
->     <img src={require("./img/local_api2.png").default} width="200"/>
+>     <img src={require("./img/select_http.png").default} width="200"/>
+>     <img src={require("./img/http.png").default} width="200"/>
 >   </TabItem>
 > </Tabs>
 
@@ -63,7 +65,6 @@ import TabItem from '@theme/TabItem';
 >
 > <Tabs>
 >   <TabItem value="cloud" label="Cloud" default>
->     <img src={require("./img/select_device.png").default} width="200"/>
 >     <img src={require("./img/device_info.png").default} width="200"/>
 >     <img src={require("./img/select_firmware.png").default} width="200"/>
 >     <img src={require("./img/view_firmware_version.png").default} width="200"/>

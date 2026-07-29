@@ -31,10 +31,11 @@ import TabItem from '@theme/TabItem';
 > 
 > <Tabs>
 >   <TabItem value="cloud" label="Cloud" default>
->     <img src={require("./img/select_device.png").default} width="200"/>
 >     <img src={require("./img/device_info.png").default} width="200"/>
 >     <img src={require("./img/select_local_api.png").default} width="200"/>
->     <img src={require("./img/local_api.png").default} width="200"/>
+>     <img src={require("./img/connect_device.png").default} width="200"/>
+>     <img src={require("./img/select_http.png").default} width="200"/>
+>     <img src={require("./img/http.png").default} width="200"/>
 >   </TabItem>
 >   <TabItem value="local" label="Bluetooth">
 >     <img src={require("./img/profile_page.png").default} width="200"/>
@@ -42,7 +43,8 @@ import TabItem from '@theme/TabItem';
 >     <img src={require("./img/connect_device.png").default} width="200"/>
 >     <img src={require("./img/device_connected.png").default} width="200"/>
 >     <img src={require("./img/select_local_api2.png").default} width="200"/>
->     <img src={require("./img/local_api2.png").default} width="200"/>
+>     <img src={require("./img/select_http.png").default} width="200"/>
+>     <img src={require("./img/http.png").default} width="200"/>
 >   </TabItem>
 > </Tabs>
 
@@ -52,8 +54,26 @@ import TabItem from '@theme/TabItem';
 > 
 > | Modèle | Version minimale |
 > | ------ | ---------------- |
-> | BK1600 / BK1600 Ultra | V1.3.0A_R006.072_M4848_00000039 |
-> | SolidFlex 2000 / PowerFlex 2000 | CMS : V1406.07.002E |
+> | BK1600 / BK1600 Ultra          | V1.3.0A_R006.072_M4848_00000039           |
+> | SolidFlex 2000 / PowerFlex 2000 | CMS：V1406.07.002E |
+> | PowerFlex 3000 AC<br />PowerFlex 3000 Hybrid<br />SolidFlex 3000 AC<br />SolidFlex 3000 AC Pro<br />SolidFlex 3000 Hybrid Pro  | CMS: V1409.08.3034  |
+> | SolidFlex 1200 | CMS: V1407.07.202E |
+>
+> <Tabs>
+>   <TabItem value="cloud" label="Cloud" default>
+>     <img src={require("./img/device_info.png").default} width="200"/>
+>     <img src={require("./img/select_firmware.png").default} width="200"/>
+>     <img src={require("./img/view_firmware_version2.png").default} width="200"/>
+>   </TabItem>
+>   <TabItem value="local" label="Local Bluetooth">
+>     <img src={require("./img/profile_page.png").default} width="200"/>
+>     <img src={require("./img/scan_qr_code.png").default} width="200"/>
+>     <img src={require("./img/connect_device.png").default} width="200"/>
+>     <img src={require("./img/device_connected.png").default} width="200"/>
+>     <img src={require("./img/select_firmware2.png").default} width="200"/>
+>     <img src={require("./img/view_firmware_version.png").default} width="200"/>
+>   </TabItem>
+> </Tabs>
 
 ---
 

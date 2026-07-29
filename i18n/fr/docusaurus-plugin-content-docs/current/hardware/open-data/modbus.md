@@ -94,6 +94,14 @@ Pour plus d'informations sur le remplacement, consultez : [Remplacement des acce
 
 La fonction Modbus est désactivée par défaut et doit être activée manuellement dans l'application.
 
+L’appareil peut être configuré pour fonctionner comme serveur Modbus, client Modbus ou les deux. Si l’appareil est configuré comme client, vous devez spécifier l’adresse du serveur.
+
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_modbus.png").default} width="200"/>
+<img src={require("./img/modbus_tcp.png").default} width="200"/>
+
 ### 4.3 Configurer les paramètres de communication
 
 Configurez les paramètres suivants dans le système tiers ou l'outil Modbus :

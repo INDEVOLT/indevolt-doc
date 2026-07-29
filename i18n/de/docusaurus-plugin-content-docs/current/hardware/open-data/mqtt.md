@@ -73,6 +73,12 @@ Stellen Sie vor der Verwendung von MQTT sicher, dass:
 
 Die MQTT-Funktion ist standardmäßig deaktiviert und muss in der App manuell aktiviert werden. Anschließend müssen die MQTT Broker-Informationen konfiguriert werden.
 
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_mqtt.png").default} width="200"/>
+<img src={require("./img/mqtt1.png").default} width="200"/>
+<img src={require("./img/mqtt2.png").default} width="200"/>
 
 ### 3.3 MQTT-Verbindungsparameter
 

@@ -95,7 +95,13 @@ flowchart LR
 
 设备的 Modbus 功能默认关闭，需要在 App 中手动开启。
 
+设备可配置为 Modbus 服务器、Modbus 客户端或同时支持两种模式。如果设备配置为客户端，则需指定服务器地址。
 
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_modbus.png").default} width="200"/>
+<img src={require("./img/modbus_tcp.png").default} width="200"/>
 
 ### 4.3 配置通信参数
 

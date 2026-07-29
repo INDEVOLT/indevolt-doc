@@ -63,8 +63,9 @@ You can configure the local API in the INDEVOLT App:
 <img src={require("./img/scan_qr_code.png").default} width="200"/>
 <img src={require("./img/connect_device.png").default} width="200"/>
 <img src={require("./img/device_connected.png").default} width="200"/>
-<img src={require("./img/select_local_api.png").default} width="200"/>
-<img src={require("./img/local_api.png").default} width="200"/>
+<img src={require("./img/select_local_api2.png").default} width="200"/>
+<img src={require("./img/select_http.png").default} width="200"/>
+<img src={require("./img/http.png").default} width="200"/>
    
 ### 5️⃣ Firmware requirement
 

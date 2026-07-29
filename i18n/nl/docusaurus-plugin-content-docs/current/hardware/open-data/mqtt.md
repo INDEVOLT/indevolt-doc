@@ -75,7 +75,12 @@ Controleer voordat u MQTT gebruikt of:
 
 De MQTT-functie is standaard uitgeschakeld. Deze moet handmatig worden ingeschakeld in de App en de MQTT Broker-gegevens moeten worden geconfigureerd.
 
-
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_mqtt.png").default} width="200"/>
+<img src={require("./img/mqtt1.png").default} width="200"/>
+<img src={require("./img/mqtt2.png").default} width="200"/>
 
 ### 3.3 MQTT-verbindingsparameters
 

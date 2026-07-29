@@ -94,6 +94,13 @@ Eine detaillierte Anleitung zum Austausch finden Sie unter: [Zubehör austausche
 
 Die Modbus-Funktion ist standardmäßig deaktiviert und muss in der App manuell aktiviert werden.
 
+Das Gerät kann als Modbus-Server, Modbus-Client oder für beide Betriebsarten konfiguriert werden. Wenn das Gerät als Client konfiguriert ist, muss die Serveradresse angegeben werden.
+
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_modbus.png").default} width="200"/>
+<img src={require("./img/modbus_tcp.png").default} width="200"/>
 
 ### 4.3 Kommunikationsparameter konfigurieren
 

@@ -92,7 +92,15 @@ For the replacement procedure, refer to: [Accessory Replacement](../advanced/acc
 
 ### 4.2 Enable Modbus
 
-The Modbus function is disabled by default and must be manually enabled in the App.
+The Modbus function is disabled by default and must be enabled manually in the App.
+
+The device can be configured to operate as a Modbus server, client, or both. If the device is configured as a client, you must specify the server address.
+
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_modbus.png").default} width="200"/>
+<img src={require("./img/modbus_tcp.png").default} width="200"/>
 
 ### 4.3 Configure Communication Parameters
 

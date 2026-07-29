@@ -94,6 +94,14 @@ Raadpleeg voor de vervangingsprocedure: [Accessoire vervangen](../advanced/acces
 
 De Modbus-functie is standaard uitgeschakeld en moet handmatig worden ingeschakeld via de App.
 
+Het apparaat kan worden geconfigureerd als Modbus-server, Modbus-client of beide. Als het apparaat als client is geconfigureerd, moet het serveradres worden opgegeven.
+
+<img src={require("./img/device_info.png").default} width="200"/>
+<img src={require("./img/select_local_api.png").default} width="200"/>
+<img src={require("./img/connect_device.png").default} width="200"/>
+<img src={require("./img/select_modbus.png").default} width="200"/>
+<img src={require("./img/modbus_tcp.png").default} width="200"/>
+
 
 ### 4.3 Communicatieparameters configureren
 
