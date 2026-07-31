@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-07-31 | V1.0.18 | Added [RCD Guide](./technical-note/rcd.md) |
 | 2026-07-24 | V1.0.17 | Added [Deep Standby and Normal Standby Description](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | Updated the micro-storage cluster documentation: added RS485 cluster instructions. |
 | 2026-07-03 | V1.0.15 | Add German micro-storage documentation  |
