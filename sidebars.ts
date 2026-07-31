@@ -81,6 +81,7 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/soc-balancing',
         'hardware/technical-note/cluster',
         'hardware/technical-note/deep-standby',
+        'hardware/technical-note/rcd',
       ],
     },
     {
