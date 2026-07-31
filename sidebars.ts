@@ -111,6 +111,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'hardware/open-data/mqtt',
             'hardware/open-data/mqtt-topic',
+            'hardware/open-data/mqtt-data-points',
           ],
         },
         'hardware/open-data/home-assistant',

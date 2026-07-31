@@ -33,10 +33,15 @@ mosquitto_sub -h 127.0.0.1 -t "/test/subtopic" -v
 
 Een enkel Topic kan meerdere gegevenstypen bevatten. De client kan het berichttype onderscheiden via het veld `dataType`.
 
-| dataType     | Beschrijving       |
-| ------------ | ------------------ |
-| gateway_data | Gateway-informatie |
-| battery_data | Batterijgegevens   |
+De Key in het JSON-bericht komt overeen met het gegevenspunt van het apparaat, en de Value vertegenwoordigt de bijbehorende gegevenswaarde. Raadpleeg [MQTT Data Points](./mqtt-data-points.md) voor de gedetailleerde definitie van de gegevenspunten.
+
+| dataType       | Beschrijving                    |
+| -------------- | ------------------------------- |
+| gateway_data   | Gateway-informatie               |
+| battery_data   | Batterijgegevens                |
+| inv_data       | Omvormergegevens                |
+| subdevice_info | Informatie over subapparaten    |
+| subdevice_data | Gegevens van subapparaten       |
 
 **Voorbeeldbericht**
 

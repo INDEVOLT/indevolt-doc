@@ -33,24 +33,57 @@ mosquitto_sub -h 127.0.0.1 -t "/test/subtopic" -v
 
 同一个 Topic 下可能包含多种数据类型，客户端可通过 `dataType` 字段区分消息类型。
 
-| dataType     | 说明     |
-| ------------ | -------- |
-| gateway_data | 网关信息 |
-| battery_data | 电池数据 |
+JSON 消息中的 Key 对应设备数据点位，Value 为对应的数据值。详细数据点定义请参考 [MQTT Data Points](./mqtt-data-points)。
+
+| dataType       | 说明           |
+| -------------- | -------------- |
+| gateway_data   | 网关信息       |
+| battery_data   | 电池数据       |
+| inv_data       | 逆变器数据     |
+| subdevice_info | 子设备信息数据 |
+| subdevice_data | 子设备数据     |
 
 **示例消息**
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="battery" label="battery_data" default>
+   
 ```json
 {
-  "GW_SN": "xxxxxxxx",
-  "dataType": "gateway_data",
-  "firmwareVersion": "V140C.0B.0036",
-  "rssiWifi": "-41",
-  "ssidWifi": "QXTS",
-  "bssidWifi": "",
-  "iP": "190.160.3.167"
+    "GW_SN": "xxxxxxxxxx",
+    "dataType": "battery_data",
+    "1118": 10108,
+    "1109": 10045,
+    "1119": 138,
+    "1120": 10175,
+    "614": 1792,
+    "142": 3.59,
+    ...
 }
 ```
+   
+  </TabItem>
+  <TabItem value="gateway" label="gateway_data">
+
+```json
+{
+    "GW_SN": "xxxxxxxxxx",
+    "dataType": "gateway_data",
+    "firmwareVersion": "V140C.0B.0036",
+    "rssiWifi": "-41",
+    "ssidWifi": "QXTS",
+    "bssidWifi": "",
+    "iP": "190.160.3.167"
+}
+```
+
+  </TabItem>
+</Tabs>
+
+
 
 ---
 

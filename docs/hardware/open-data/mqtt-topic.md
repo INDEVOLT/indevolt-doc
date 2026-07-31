@@ -33,10 +33,15 @@ mosquitto_sub -h 127.0.0.1 -t "/test/subtopic" -v
 
 A single Topic may contain multiple data types. Clients can identify the message type through the `dataType` field.
 
-| dataType     | Description         |
-| ------------ | ------------------- |
-| gateway_data | Gateway information |
-| battery_data | Battery data        |
+The Key in the JSON message corresponds to the device data point, and the Value represents the corresponding data value. For detailed data point definitions, refer to [MQTT Data Points](./mqtt-data-points.md).
+
+| dataType       | Description                |
+| -------------- | -------------------------- |
+| gateway_data   | Gateway information        |
+| battery_data   | Battery data               |
+| inv_data       | Inverter data              |
+| subdevice_info | Sub-device information data |
+| subdevice_data | Sub-device data             |
 
 **Example Message**
 
