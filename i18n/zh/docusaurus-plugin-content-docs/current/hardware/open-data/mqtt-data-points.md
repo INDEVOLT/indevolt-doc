@@ -13,7 +13,7 @@ description: 介绍 INDEVOLT MQTT 消息中的数据点定义、数据类型及�
     <th>R/W</th>
     <th>Unit</th>
     <th>Point Description</th>
-    <th>Enum definition</th>
+    <th>Enum Definition</th>
     <th>Annotation</th>
   </tr></thead>
 <tbody>

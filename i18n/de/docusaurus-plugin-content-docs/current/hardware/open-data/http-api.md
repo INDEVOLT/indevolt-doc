@@ -86,7 +86,7 @@ import TabItem from '@theme/TabItem';
     <th>R/W</th>
     <th>Unit</th>
     <th>Point Description</th>
-    <th>Enum definition</th>
+    <th>Enum Definition</th>
     <th>API</th>
     <th>Annotation</th>
   </tr></thead>

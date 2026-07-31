@@ -13,7 +13,7 @@ description: Définition des points de données MQTT et des formats de données 
     <th>R/W</th>
     <th>Unit</th>
     <th>Point Description</th>
-    <th>Enum definition</th>
+    <th>Enum Definition</th>
     <th>Annotation</th>
   </tr></thead>
 <tbody>

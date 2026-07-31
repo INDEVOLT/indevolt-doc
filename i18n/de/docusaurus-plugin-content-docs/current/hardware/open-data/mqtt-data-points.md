@@ -13,7 +13,7 @@ description: Definition der INDEVOLT MQTT-Datenpunkte und Datenformate.
     <th>R/W</th>
     <th>Unit</th>
     <th>Point Description</th>
-    <th>Enum definition</th>
+    <th>Enum Definition</th>
     <th>Annotation</th>
   </tr></thead>
 <tbody>
