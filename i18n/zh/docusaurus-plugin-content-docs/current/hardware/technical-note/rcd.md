@@ -47,8 +47,7 @@ flowchart LR
 
     RCD1 --> GRID_PORT
 
-    BACKUP_PORT --> RCD2[A / B 型 RCD<br/>漏电保护器]
-    RCD2 --> LOAD[关键负载]
+    BACKUP_PORT --> LOAD[关键负载]
 ```
 
 对于 I 类设备（例如洗衣机、加热器等），发生漏电时外壳可能带电，需要通过继电器将 PE 和 N 相连，建立系统接地参考，再使用 A 型或 B 型 RCD。

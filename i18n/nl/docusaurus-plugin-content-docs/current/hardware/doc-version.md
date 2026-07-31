@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-07-31 | V1.0.18 | [RCD-handleiding](./technical-note/rcd.md) toegevoegd |
 | 2026-07-24 | V1.0.17 | Beschrijving van [diepe stand-bymodus en normale stand-bymodus toegevoegd](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | De clusterbeschrijving voor micro-energieopslag bijgewerkt: ondersteuning voor RS485-clusters toegevoegd. |
 | 2026-07-03 | V1.0.15 | Duitstalige micro-opslagdocumentatie toevoegen    |
