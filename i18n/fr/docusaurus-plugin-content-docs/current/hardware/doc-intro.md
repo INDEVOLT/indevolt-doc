@@ -29,7 +29,7 @@ Si votre installation est terminée et que vous souhaitez comprendre l’utilisa
 Si vous souhaitez optimiser vos modes de consommation, consulter les paramètres ou intégrer le système :
 
 👉 **[Configurer la stratégie énergétique →](./energy-mode/self-consumption.md)**  
-👉 **[Consulter les spécifications techniques →](./geek/power-tech-specs.md)**
+👉 **[Consulter les spécifications techniques →](./tech-specs/power-tech-specs.md)**
 
 ---
 

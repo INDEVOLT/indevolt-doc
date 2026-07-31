@@ -87,19 +87,43 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       collapsed: false,
-      label: 'Technical Information & Capabilities',
+      label: 'OpenData',
       items: [
+        'hardware/open-data/introduction',
         {
           type: 'category',
-          collapsed: false,
-          label: 'Technical Specification',
+          label: 'HTTP/HTTPS',
           items: [
-            'hardware/geek/power-tech-specs',
-            'hardware/geek/battery-tech-specs',
+            'hardware/open-data/http',
+            'hardware/open-data/http-api',
           ],
         },
-        'hardware/geek/open-data',
-        'hardware/geek/home-assistant',
+        {
+          type: 'category',
+          label: 'Modbus',
+          items: [
+            'hardware/open-data/modbus',
+            'hardware/open-data/modbus-register-table',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'MQTT',
+          items: [
+            'hardware/open-data/mqtt',
+            'hardware/open-data/mqtt-topic',
+            'hardware/open-data/mqtt-data-points',
+          ],
+        },
+        'hardware/open-data/home-assistant',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Technical Specification',
+      items: [
+        'hardware/tech-specs/power-tech-specs',
+        'hardware/tech-specs/battery-tech-specs',
       ],
     },
     'hardware/faq-troubleshooting',

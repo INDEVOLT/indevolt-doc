@@ -29,7 +29,7 @@ Wenn Ihr Gerät bereits installiert ist und Sie mehr über die tägliche Nutzung
 Wenn Sie Ihre Energiestrategie optimieren, Geräteeinstellungen einsehen oder Ihr System integrieren möchten:
 
 👉 **[Energiestrategien konfigurieren →](./energy-mode/self-consumption.md)**  
-👉 **[Technische Daten anzeigen →](./geek/power-tech-specs.md)**
+👉 **[Technische Daten anzeigen →](./tech-specs/power-tech-specs.md)**
 
 ---
 

@@ -33,7 +33,7 @@ If your system is already installed and you’d like to learn how to use it in d
 Looking to fine-tune your energy strategy, review technical details, or integrate with other systems?
 
 👉 **[Energy Management Modes →](./energy-mode/self-consumption.md)**  
-👉 **[Technical Specifications →](./geek/power-tech-specs.md)**
+👉 **[Technical Specifications →](./tech-specs/power-tech-specs.md)**
 
 ---
 

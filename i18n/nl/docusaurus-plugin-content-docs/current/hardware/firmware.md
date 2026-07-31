@@ -13,6 +13,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates                                                                                                                                       |
 | --------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/06/30 | V140C.0B.0038 | 1. Optimalisatie van de bedrijfslogica |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimalisatie van de LoRa-communicatielogica |
 | 2026/05/07 | V140B.0B.0035 | 1. Communicatielogica geoptimaliseerd |
 | 2026/04/10 | V140A.0A.0034 | 1. Minuutniveau aangepast tijdschema toegevoegd<br />2. Ondersteuning toegevoegd voor MQTT van derden (nog niet ondersteund in de APP)<br />3. Modbus TCP cloudtoegang toegevoegd (nog niet ondersteund in de APP)<br />4. Tijdsinterval voor dynamische elektriciteitsprijzen aangepast naar 15 minuten<br />5. Wifi- en LoRa-communicatielogica geoptimaliseerd<br />6. Resetfunctie via 10 seconden ingedrukt houden verwijderd en verplaatst naar de APP (nog niet ondersteund in de APP) |
@@ -30,6 +31,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | ---------------- | ------------ | ------------------------ |
+| 2026/06/30  | V0D.00.20 | 1. Sommige parameters geoptimaliseerd |
 | 2026/05/25  | V0D.00.19 | 1. Sommige parameters geoptimaliseerd |
 | 2026/05/06 | V0D.00.18 | 1. Sommige parameters geoptimaliseerd |
 | 2026/01/14 | V0D.00.14 | 1. Weergave van batterijtemperatuurstatus geoptimaliseerd |
@@ -179,6 +181,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/07/22 | V1.22 | 1. Optimalisatie van het inschakelen van het relais bij het nulpunt<br/>2. Optimalisatie van de relaiswerking tijdens het schakelen tussen laden en ontladen, zonder het relais uit te schakelen<br/>3. Beperking van de minimale frequentie van de DCDC-hiccupfunctie tot 100K |
 | 2026/05/22 | V1.21 | 1. Optimalisatie van de bedrijfslogica van het netrelais |
 | 2025/05/08 | V1.20 | / |
 | 2025/05/06 | V1.19 | / |

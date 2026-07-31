@@ -29,7 +29,7 @@ Als je de installatie al hebt voltooid en meer wilt weten over dagelijks gebruik
 Als je energiegebruik wilt optimaliseren, apparaatparameters wilt bekijken of systeemintegraties wilt uitvoeren:
 
 👉 **[Energiebeheer instellen →](./energy-mode/self-consumption.md)**  
-👉 **[Technische specificaties bekijken →](./geek/power-tech-specs.md)**
+👉 **[Technische specificaties bekijken →](./tech-specs/power-tech-specs.md)**
 
 ---
 

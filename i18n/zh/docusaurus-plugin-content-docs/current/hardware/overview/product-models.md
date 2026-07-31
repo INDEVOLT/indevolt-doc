@@ -14,7 +14,6 @@ description: Guide
 - SFA1800
 - PFA2000
 - SolidFlex 1200
-- PowerFlex 1200
 - SolidFlex 3000 Hybrid
 - SolidFlex 3000 AC
 - PowerFlex 3000 Hybrid
@@ -40,7 +39,6 @@ description: Guide
 | PowerFlex 2000        | 磷酸铁锂电池类型 | 2400W | 有PV版   |
 | PowerFlex 2000Eco     | 磷酸铁锂电池类型 | 2400W | 无PV版   |
 | SolidFlex 1200        | 半固态电池类型   | 1200W | 有PV版   |
-| PowerFlex 1200        | 磷酸铁锂电池类型 | 1200W | 有PV版   |
 | SolidFlex 3000 Hybrid | 半固态电池类型   | 3000W | 有PV版   |
 | SolidFlex 3000 AC     | 半固态电池类型   | 3000W | 无PV版   |
 | PowerFlex 3000 Hybrid | 磷酸铁锂电池类型 | 3000W | 有PV版   |

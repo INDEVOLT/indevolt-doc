@@ -11,6 +11,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/06/30 | V140C.0B.0038 | 1. Optimierung der Betriebslogik |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimierung der Lora-Kommunikationslogik |
 | 2026/05/07 | V140B.0B.0035 | 1. Optimierung der Kommunikationslogik |
 | 2026/04/10 | V140A.0A.0034 | 1. Hinzufügen von minutengenauen Zeitplänen<br />2. Unterstützung von Drittanbieter-MQTT (App derzeit nicht unterstützt)<br />3. Hinzufügen von Modbus-TCP-Cloud-Integration (App derzeit nicht unterstützt)<br />4. Änderung des dynamischen Strompreistakts auf 15-Minuten-Intervalle<br />5. Optimierung der WLAN- und Lora-Kommunikation<br />6. Entfernung der 10-Sekunden-Taste zum WLAN-Reset; Funktion wird in die App verlagert (App derzeit nicht unterstützt) |
@@ -28,6 +29,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/06/30  | V0D.00.20 | 1. Optimierung einzelner Parameter |
 | 2026/05/25 | V0D.00.19 | 1. Optimierung einzelner Parameter |
 | 2026/05/06 | V0D.00.18 | 1. Optimierung einzelner Parameter |
 | 2026/01/14 | V0D.00.14 | 1. Verbesserung der Batterietemperaturanzeige |
@@ -171,6 +173,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/07/22 | V1.22 | 1. Optimierung der Nulldurchgangsschaltung des Relais<br/>2. Optimierung des Relaisbetriebs beim Umschalten zwischen Laden und Entladen, ohne das Relais auszuschalten<br/>3. Begrenzung der Mindestfrequenz der DCDC-Hiccup-Funktion auf 100K |
 | 2026/05/22 | V1.21 | 1. Optimierung der Betriebslogik des Netzrelais |
 | 2025/05/08 | V1.20 | / |
 | 2025/05/06 | V1.19 | / |

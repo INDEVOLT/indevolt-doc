@@ -29,7 +29,7 @@ description: INDEVOLT储能设备用户指南概览。
 如果你希望优化用能模式、查看设备参数或进行系统集成：
 
 👉 **[设置用能策略 →](./energy-mode/self-consumption.md)**  
-👉 **[查看技术参数 →](./geek/power-tech-specs.md)**
+👉 **[查看技术参数 →](./tech-specs/power-tech-specs.md)**
 
 ---
 

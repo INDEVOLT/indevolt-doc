@@ -11,6 +11,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version        | Résumé des mises à jour |
 | ------------------- | -------------- | ----------------------- |
+| 2026/06/30 | V140C.0B.0038 | 1. Optimisation de la logique de fonctionnement |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimisation de la logique de communication LoRa |
 | 2026/05/07   | V140B.0B.0035 | 1. Optimisation de la logique de communication |
 | 2026/04/10           | V140A.0A.0034  | 1. Ajout de plans horaires personnalisés à la minute<br />2. Ajout du support MQTT tiers (non pris en charge dans l’application)<br />3. Ajout de l’accès cloud Modbus TCP (non pris en charge dans l’application)<br />4. Passage des tarifs dynamiques à un pas de 15 minutes<br />5. Optimisation de la logique de communication Wi-Fi et LoRa<br />6. Suppression de la réinitialisation Wi-Fi par appui long (10 s sur bouton), désormais disponible dans l’application (non pris en charge pour le moment) |
@@ -28,6 +29,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/06/30  | V0D.00.20 | 1. Optimisation de certains paramètres |
 | 2026/05/25  | V0D.00.19 | 1. Optimisation de certains paramètres |
 | 2026/05/06  | V0D.00.18 | 1. Optimisation de certains paramètres |
 | 2026/01/14           | V0D.00.14  | 1. Optimisation de l’affichage de l’état de température de la batterie |
@@ -177,6 +179,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version | Résumé des mises à jour                                                                                |
 | ------------------- | ------- | ------------------------------------------------------------------------------------------------------ |
+| 2026/07/22 | V1.22 | 1. Optimisation de l'activation du relais au passage par zéro<br/>2. Optimisation du fonctionnement du relais lors de la commutation charge/décharge, sans désactiver le relais<br/>3. Limitation de la fréquence minimale de la protection Hiccup DCDC à 100K |
 | 2026/05/22          | V1.21   | 1. Optimisation de la logique de fonctionnement du relais de raccordement au réseau                    |
 | 2025/05/08          | V1.20   | /                                                                                                      |
 | 2025/05/06          | V1.19   | /                                                                                                      |

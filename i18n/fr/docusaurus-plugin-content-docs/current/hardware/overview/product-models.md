@@ -14,7 +14,6 @@ Ce document présente les principaux modèles de produits suivants :
 - SFA1800  
 - PFA2000  
 - SolidFlex 1200  
-- PowerFlex 1200  
 - SolidFlex 3000 Hybrid  
 - SolidFlex 3000 AC  
 - PowerFlex 3000 Hybrid  
@@ -42,7 +41,6 @@ Exemple avec **PowerFlex 3000 Hybrid** :
 | PowerFlex 2000        | Batterie LiFePO₄       | 2400 W   | Version PV |
 | PowerFlex 2000Eco     | Batterie LiFePO₄       | 2400 W   | Sans PV |
 | SolidFlex 1200        | Batterie semi-solide   | 1200 W   | Version PV |
-| PowerFlex 1200        | Batterie LiFePO₄       | 1200 W   | Version PV |
 | SolidFlex 3000 Hybrid | Batterie semi-solide   | 3000 W   | Version PV |
 | SolidFlex 3000 AC     | Batterie semi-solide   | 3000 W   | Sans PV |
 | PowerFlex 3000 Hybrid | Batterie LiFePO₄       | 3000 W   | Version PV |

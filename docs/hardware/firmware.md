@@ -11,6 +11,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/06/30 | V140C.0B.0038 | 1. Optimized operation logic |
 | 2026/05/07  | V140C.0B.0036 | 1. Optimized LoRa communication logic |
 | 2026/05/07  | V140B.0B.0035 | 1. Optimized communication logic |
 | 2026/04/10 | V140A.0A.0034 | 1. Added minute-level custom scheduling<br />2. Added support for third-party MQTT integration (not yet supported in App)<br />3. Added Modbus TCP cloud access (not yet supported in App)<br />4. Changed dynamic electricity pricing interval to 15 minutes<br />5. Optimized Wi-Fi and LoRa communication logic<br />6. Removed 10s long-press Wi-Fi reset function and moved it to App (not yet supported in App) |
@@ -27,6 +28,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 | ------------ | --------- | -------------- |
+| 2026/06/30  | V0D.00.20 |  1. Optimized some parameters        |
 | 2026/05/25   | V0D.00.19 | 1. Optimized some parameters |
 | 2026/05/06   | V0D.00.18 | 1. Optimized some parameters |
 | 2026/01/14   | V0D.00.14 | 1. Optimized battery temperature status display |
@@ -175,6 +177,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary                                                           |
 | ------------ | ------- | ------------------------------------------------------------------------ |
+| 2026/07/22 | V1.22 | 1. Optimized relay zero-crossing turn-on<br/>2. Optimized relay operation during charge/discharge switching to prevent relay shutdown<br/>3. Limited the minimum frequency of DCDC hiccup protection to 100K |
 | 2026/05/22   | V1.21   | 1. Optimized the grid-tied relay operating logic                         |
 | 2025/05/08   | V1.20   | /                                                                        |
 | 2025/05/06   | V1.19   | /                                                                        |

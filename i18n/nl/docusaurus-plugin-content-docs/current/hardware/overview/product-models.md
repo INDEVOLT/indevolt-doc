@@ -14,7 +14,6 @@ Dit document behandelt de volgende productmodellen:
 - SFA1800  
 - PFA2000  
 - SolidFlex 1200  
-- PowerFlex 1200  
 - SolidFlex 3000 Hybrid  
 - SolidFlex 3000 AC  
 - PowerFlex 3000 Hybrid  
@@ -43,7 +42,6 @@ Neem **PowerFlex 3000 Hybrid** als voorbeeld:
 | PowerFlex 2000         | Lithium-ijzerfosfaat batterijtype | 2400 W | Met PV |
 | PowerFlex 2000Eco      | Lithium-ijzerfosfaat batterijtype | 2400 W | Zonder PV |
 | SolidFlex 1200         | Half-solid batterijtype | 1200 W   | Met PV |
-| PowerFlex 1200         | Lithium-ijzerfosfaat batterijtype | 1200 W | Met PV |
 | SolidFlex 3000 Hybrid  | Half-solid batterijtype | 3000 W   | Met PV |
 | SolidFlex 3000 AC      | Half-solid batterijtype | 3000 W   | Zonder PV |
 | PowerFlex 3000 Hybrid  | Lithium-ijzerfosfaat batterijtype | 3000 W | Met PV |
