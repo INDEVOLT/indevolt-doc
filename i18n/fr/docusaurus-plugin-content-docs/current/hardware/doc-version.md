@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-08-11 | V1.0.19 | Correction de la référence de l’API OpenData : déplacement de 75 points cJSON accessibles en écriture de la section `Indevolt.GetData` vers `Indevolt.SetData`, avec synchronisation de toutes les versions linguistiques. |
 | 2026-07-31 | V1.0.18 | 1. Ajout du [guide RCD](./technical-note/rcd.md) <br/>2. Mise à jour de la documentation OpenData V2.0 |
 | 2026-07-24 | V1.0.17 | Ajout de la [description du mode veille profonde et du mode veille normal](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | Mise à jour de la documentation sur le fonctionnement en cluster des micro-stockages : ajout des instructions de cluster RS485. |

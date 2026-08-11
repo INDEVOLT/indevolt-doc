@@ -106,16 +106,6 @@ import TabItem from '@theme/TabItem';
     <td>Charging Power Limit Range: 100-10800</td>
   </tr>
   <tr>
-    <td>11009</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>ACchargeSpeed</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Charging Power Limit Range: 100-10800</td>
-  </tr>
-  <tr>
     <td>2618</td>
     <td>Num</td>
     <td>R</td>
@@ -123,16 +113,6 @@ import TabItem from '@theme/TabItem';
     <td>GridChargeEnable</td>
     <td>1000:Disable<br/>1001:Enable</td>
     <td>Indevolt.GetData</td>
-    <td>Grid Charging Enable (0 = Disable, 1 = Enable)</td>
-  </tr>
-  <tr>
-    <td>2618</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>GridChargeEnable</td>
-    <td>0:Disable<br/>1:Enable</td>
-    <td>Indevolt.SetData</td>
     <td>Grid Charging Enable (0 = Disable, 1 = Enable)</td>
   </tr>
   <tr>
@@ -415,16 +395,6 @@ import TabItem from '@theme/TabItem';
     <td>BackUpSoc</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Backup SOC (%) Range:0-100</td>
-  </tr>
-  <tr>
-    <td>6505</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>BackUpSoc</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Backup SOC (%) Range:0-100</td>
   </tr>
   <tr>
@@ -1185,16 +1155,6 @@ import TabItem from '@theme/TabItem';
     <td>Maximum Grid Feed-in Power.Range: 0-10800</td>
   </tr>
   <tr>
-    <td>11010</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>FeedBack Power</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Maximum Grid Feed-in Power.Range: 0-10800</td>
-  </tr>
-  <tr>
     <td colspan="8" style={{ textAlign: 'center' }}>Inverter / Info</td>
   </tr>
   <tr>
@@ -1436,26 +1396,6 @@ import TabItem from '@theme/TabItem';
     <td>MeterPu</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Meter Phase U Power</td>
-  </tr>
-  <tr>
-    <td>15203</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>W</td>
-    <td>MeterPu</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Meter Phase U Power</td>
-  </tr>
-  <tr>
-    <td>15204</td>
-    <td>INT</td>
-    <td>W</td>
-    <td></td>
-    <td>MeterPu</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Meter Phase U Power</td>
   </tr>
   <tr>
@@ -1714,32 +1654,6 @@ import TabItem from '@theme/TabItem';
     <td>PV4 Alarm Code</td>
   </tr>
   <tr>
-    <td colspan="8" style={{ textAlign: 'center' }}>Socket / Real Time State</td>
-  </tr>
-  <tr>
-    <td>18000</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>SmartSocketState</td>
-    <td>0:Disconnected<br/>1:Connected</td>
-    <td>Indevolt.SetData</td>
-    <td>Smart Socket Status</td>
-  </tr>
-  <tr>
-    <td colspan="8" style={{ textAlign: 'center' }}>Socket / Real Time Data</td>
-  </tr>
-  <tr>
-    <td>18001</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>SmartSocketP</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Smart Plug Power</td>
-  </tr>
-  <tr>
     <td colspan="8" style={{ textAlign: 'center' }}>System / Info</td>
   </tr>
   <tr>
@@ -1809,16 +1723,6 @@ import TabItem from '@theme/TabItem';
     <td>Deep Sleep Schedule Start Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
   </tr>
   <tr>
-    <td>35001</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Deep Sleep start Time hour-min</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Deep Sleep Schedule Start Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
-  </tr>
-  <tr>
     <td>35002</td>
     <td>Num</td>
     <td>R</td>
@@ -1826,16 +1730,6 @@ import TabItem from '@theme/TabItem';
     <td>Deep Sleep stop Time hour-min</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Deep Sleep Schedule End Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
-  </tr>
-  <tr>
-    <td>35002</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Deep Sleep stop Time hour-min</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Deep Sleep Schedule End Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
   </tr>
   <tr>
@@ -1849,16 +1743,6 @@ import TabItem from '@theme/TabItem';
     <td>Front Panel LED Light Strip Control</td>
   </tr>
   <tr>
-    <td>35005</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>LED light strip enable</td>
-    <td>0:LED Light Strip Off<br/>1:LED Light Strip On<br/>2:LED Low-power Mode (50% brightness)</td>
-    <td>Indevolt.SetData</td>
-    <td>Front Panel LED Light Strip Control</td>
-  </tr>
-  <tr>
     <td>8646</td>
     <td>Num</td>
     <td>R</td>
@@ -1866,16 +1750,6 @@ import TabItem from '@theme/TabItem';
     <td>‌Force Full Charge Interval</td>
     <td>0-60<br/>0:OFF</td>
     <td>Indevolt.GetData</td>
-    <td>Forced Full Charge Interval，Configurable range: 0–60 days. 0 = Disable automatic full charge. Default = 0.</td>
-  </tr>
-  <tr>
-    <td>8646</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>‌Force Full Charge Interval</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Forced Full Charge Interval，Configurable range: 0–60 days. 0 = Disable automatic full charge. Default = 0.</td>
   </tr>
   <tr>
@@ -1889,16 +1763,6 @@ import TabItem from '@theme/TabItem';
     <td>Forced Full Charge Start Time，Default: 00:00. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
   </tr>
   <tr>
-    <td>8647</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>‌Force Full Charge Start Time</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Forced Full Charge Start Time，Default: 00:00. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
-  </tr>
-  <tr>
     <td>2802</td>
     <td>Num</td>
     <td>R</td>
@@ -1906,16 +1770,6 @@ import TabItem from '@theme/TabItem';
     <td>Forced AC charge power</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>AC Charging Power，Charging power when battery SOC falls below Backup SOC. Configurable range: 100–2400 W.</td>
-  </tr>
-  <tr>
-    <td>2802</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Forced AC charge power</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>AC Charging Power，Charging power when battery SOC falls below Backup SOC. Configurable range: 100–2400 W.</td>
   </tr>
   <tr>
@@ -1929,16 +1783,6 @@ import TabItem from '@theme/TabItem';
     <td>SystemMode</td>
     <td>1:Self-consumed Prioritized<br/>4:real-time control<br/>5:Charge/Discharge Schedule</td>
     <td>Indevolt.GetData</td>
-    <td>System operating mode (read/write)</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>SystemMode</td>
-    <td>1:Self-Consumption Mode<br/>4:Real-time Control Mode<br/>6:Custom Time Control Mode (corresponding to control parameter registers 7300–7419)</td>
-    <td>Indevolt.SetData</td>
     <td>System operating mode (read/write)</td>
   </tr>
   <tr>
@@ -1982,16 +1826,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 1 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12197</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 1</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 1 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26001</td>
     <td>Num</td>
     <td>R</td>
@@ -1999,16 +1833,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 2</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 2 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12198</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 2</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 2 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2022,16 +1846,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 3 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12199</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 3</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 3 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26003</td>
     <td>Num</td>
     <td>R</td>
@@ -2039,16 +1853,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 4</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 4 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12200</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 4</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 4 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2062,16 +1866,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 5 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12201</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 5</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 5 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26005</td>
     <td>Num</td>
     <td>R</td>
@@ -2079,16 +1873,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 6</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 6 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12202</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 6</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 6 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2102,16 +1886,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 7 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12203</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 7</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 7 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26007</td>
     <td>Num</td>
     <td>R</td>
@@ -2119,16 +1893,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 8</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 8 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12204</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 8</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 8 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2142,16 +1906,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 9 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12205</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 9</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 9 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26009</td>
     <td>Num</td>
     <td>R</td>
@@ -2159,16 +1913,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 10</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 10 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12206</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 10</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 10 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2182,16 +1926,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 11 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12207</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 11</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 11 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26011</td>
     <td>Num</td>
     <td>R</td>
@@ -2199,16 +1933,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 12</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 12 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12208</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 12</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 12 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2222,16 +1946,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 13 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12209</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 13</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 13 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26013</td>
     <td>Num</td>
     <td>R</td>
@@ -2239,16 +1953,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 14</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 14 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12210</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 14</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 14 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2262,16 +1966,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 15 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12211</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 15</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 15 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26015</td>
     <td>Num</td>
     <td>R</td>
@@ -2279,16 +1973,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 16</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 16 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12212</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 16</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 16 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2302,16 +1986,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 17 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12213</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 17</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 17 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26017</td>
     <td>Num</td>
     <td>R</td>
@@ -2319,16 +1993,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 18</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 18 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12214</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 18</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 18 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2342,16 +2006,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 19 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12215</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 19</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 19 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26019</td>
     <td>Num</td>
     <td>R</td>
@@ -2359,16 +2013,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 20</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 20 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12216</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 20</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 20 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2382,16 +2026,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 21 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12217</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 21</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 21 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26021</td>
     <td>Num</td>
     <td>R</td>
@@ -2399,16 +2033,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 22</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 22 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12218</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 22</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 22 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2422,16 +2046,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 23 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12219</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 23</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 23 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26023</td>
     <td>Num</td>
     <td>R</td>
@@ -2439,16 +2053,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 24</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 24 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12220</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 24</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 24 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2462,16 +2066,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 25 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12221</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 25</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 25 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26025</td>
     <td>Num</td>
     <td>R</td>
@@ -2479,16 +2073,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 26</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 26 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12222</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 26</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 26 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2502,16 +2086,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 27 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12223</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 27</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 27 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26027</td>
     <td>Num</td>
     <td>R</td>
@@ -2519,16 +2093,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 28</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 28 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12224</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 28</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 28 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2542,16 +2106,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 29 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12225</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 29</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 29 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26029</td>
     <td>Num</td>
     <td>R</td>
@@ -2559,16 +2113,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 30</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 30 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12226</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 30</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 30 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2582,16 +2126,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 31 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12227</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 31</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 31 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26031</td>
     <td>Num</td>
     <td>R</td>
@@ -2599,16 +2133,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 32</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 32 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12228</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 32</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 32 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2622,16 +2146,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 33 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12229</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 33</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 33 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26033</td>
     <td>Num</td>
     <td>R</td>
@@ -2639,16 +2153,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 34</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 34 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12230</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 34</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 34 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2662,16 +2166,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 35 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12231</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 35</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 35 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26035</td>
     <td>Num</td>
     <td>R</td>
@@ -2679,16 +2173,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 36</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 36 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12232</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 36</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 36 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2702,16 +2186,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 37 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12233</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 37</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 37 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26037</td>
     <td>Num</td>
     <td>R</td>
@@ -2719,16 +2193,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 38</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 38 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12234</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 38</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 38 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2742,16 +2206,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 39 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12235</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 39</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 39 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26039</td>
     <td>Num</td>
     <td>R</td>
@@ -2759,16 +2213,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 40</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 40 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12236</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 40</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 40 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2782,16 +2226,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 41 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12237</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 41</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 41 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26041</td>
     <td>Num</td>
     <td>R</td>
@@ -2799,16 +2233,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 42</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 42 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12238</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 42</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 42 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2822,16 +2246,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 43 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12239</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 43</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 43 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26043</td>
     <td>Num</td>
     <td>R</td>
@@ -2839,16 +2253,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 44</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 44 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12240</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 44</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 44 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2862,16 +2266,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 45 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12241</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 45</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 45 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26045</td>
     <td>Num</td>
     <td>R</td>
@@ -2879,16 +2273,6 @@ import TabItem from '@theme/TabItem';
     <td>Load point 46</td>
     <td></td>
     <td>Indevolt.GetData</td>
-    <td>Simulated load for Time Slot 46 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12242</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 46</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
     <td>Simulated load for Time Slot 46 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
@@ -2902,16 +2286,6 @@ import TabItem from '@theme/TabItem';
     <td>Simulated load for Time Slot 47 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
   </tr>
   <tr>
-    <td>12243</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 47</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 47 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
     <td>26047</td>
     <td>Num</td>
     <td>R</td>
@@ -2920,139 +2294,6 @@ import TabItem from '@theme/TabItem';
     <td></td>
     <td>Indevolt.GetData</td>
     <td>Simulated load for Time Slot 48 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td>12244</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Load point 48</td>
-    <td></td>
-    <td>Indevolt.SetData</td>
-    <td>Simulated load for Time Slot 48 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
-  </tr>
-  <tr>
-    <td colspan="8" style={{ textAlign: 'center' }}>Real-Time Control<br/> and System Parameter Configuration / Setting</td>
-  </tr>
-  <tr>
-    <td>47005</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>Mode Setting</td>
-    <td>1:Self-consumed prioritized<br/>4:real-time control<br/>5:charge/discharge Schedule</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>47015</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>State Setting(Only available in real-time control)</td>
-    <td>0:Standby<br/>1:Charging<br/>2:Discharging</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>47016</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>W</td>
-    <td>Power Setting(Only available in real-time control)</td>
-    <td>MAX Charging: 50-2400<br/>MAX Discharging:50-2400</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>47017</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td>%</td>
-    <td>SOC Settingt(Only available in real-time control)</td>
-    <td>5-100</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>1147</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>W</td>
-    <td>Max AC Output Power Setting</td>
-    <td>Single Unit: 50–2400 (50–3600)<br/><br/>Dual Wireless Parallel: 50–4800 (50–7200)<br/><br/>Triple Wireless Parallel: 50–7200 (50–10800)<br/><br/>Wired Parallel: 50–3600</td>
-    <td>Indevolt.SetData</td>
-    <td>Single Unit: Maximum output of 2400W (3600W when bypass-connected to microinverters). Supports up to 3 units in parallel.</td>
-  </tr>
-  <tr>
-    <td>1146</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>W</td>
-    <td>Feed-in Power Limit Setting</td>
-    <td>50-2400</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>1143</td>
-    <td>UINT</td>
-    <td>W</td>
-    <td></td>
-    <td>Grid Charging Setting</td>
-    <td>0:Disable<br/>1:Enable</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>1138</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>W</td>
-    <td>Inverter Input Limit Setting</td>
-    <td>Single unit: 50–2400<br/><br/>Two units (wireless parallel): 50–4800<br/><br/>Three units (wireless parallel): 50–7200<br/><br/>Wired parallel: 50–3600</td>
-    <td>Indevolt.SetData</td>
-    <td>Single unit: max 2400; up to 3 units in parallel.</td>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>Load Setting</td>
-    <td>1:Smart Plug<br/>2:Meter<br/>3:Key Load<br/>4:Custom</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>7266</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>Bypass Setting</td>
-    <td>0:Disable<br/>1:Enable</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>1142</td>
-    <td>INT</td>
-    <td>W</td>
-    <td>%</td>
-    <td>Backup SOC Setting</td>
-    <td>5-100</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>7265</td>
-    <td>Enum</td>
-    <td>W</td>
-    <td></td>
-    <td>Light Setting</td>
-    <td>0:Disable<br/>1:Enable</td>
-    <td>Indevolt.SetData</td>
-    <td></td>
   </tr>
   <tr>
     <td colspan="8" style={{ textAlign: 'center' }}>SN</td>
@@ -3938,20 +3179,797 @@ curl -g -X POST -H "Content-Type: application/json" "http://192.168.31.213:8080/
 
 <Tabs>
   <TabItem value="sf2000" label="SolidFlex 2000 / PowerFlex 2000" default>
-    | cJSON 点位 | cJSON 值类型 | 单位 | 说明    | 值        | API |
-    | ----------- | ---------------- | ---- | -------------------- | --------------------------------------|---|
-    | 47005       | Enum             |      | Mode Setting| 1: Self-consumed Prioritized<br />4: Real-time control<br />5: Charge/Discharge Schedule |`Indevolt.SetData`|
-    | 47015       | UINT             |      | State Setting (Only available in real-time control)| 0: Standby<br />1: Charging<br />2: Discharging     |`Indevolt.SetData`|
-    | 47016       | INT              | W    | Power Setting (Only available in real-time control)| MAX Charging: 50–2400<br />MAX Discharging: 50–2400    |`Indevolt.SetData`|
-    | 47017       | UINT             | %    | SOC Setting (Only available in real-time control)| 5-100         |`Indevolt.SetData`|
-    | 1147        | INT              | W    | Max AC Output Power Setting|  50-2400                                  |`Indevolt.SetData`|
-    | 1146        | INT              | W    | Feed-in Power Limit Setting|  50-2400                                  |`Indevolt.SetData`|
-    | 1143        | UINT             |      | Grid Charging Setting| 0: Disable<br />1: Enable                       |`Indevolt.SetData`|
-    | 1138        | INT              | W    | Inverter Input Limit Setting| 100-2400                                 |`Indevolt.SetData`|
-    | 1           | Enum             |      | Load Setting|    1: Smart Plug<br />2: Meter<br />3: Key Load<br />4: Custom     |`Indevolt.SetData`|
-    | 7266        | Enum             |      | Bypass Setting| 0: Disable<br />1: Enable                                        |`Indevolt.SetData`|
-    | 1142        | INT              | %    | Backup SOC Setting|                                                              |`Indevolt.SetData`|
-    | 7265        | Enum             |      | Light Setting| 0: Disable<br />1: Enable                                         |`Indevolt.SetData`|
+
+<table><thead>
+  <tr>
+    <th>cJson Point</th>
+    <th>cJson Value type</th>
+    <th>R/W</th>
+    <th>Unit</th>
+    <th>Point Description</th>
+    <th>Enum Definition</th>
+    <th>API</th>
+    <th>Annotation</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>AC Output / Settings</td>
+  </tr>
+  <tr>
+    <td>11009</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>ACchargeSpeed</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Charging Power Limit Range: 100-10800</td>
+  </tr>
+  <tr>
+    <td>2618</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>GridChargeEnable</td>
+    <td>0:Disable<br/>1:Enable</td>
+    <td>Indevolt.SetData</td>
+    <td>Grid Charging Enable (0 = Disable, 1 = Enable)</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Battery / Settings</td>
+  </tr>
+  <tr>
+    <td>6505</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>BackUpSoc</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Backup SOC (%) Range:0-100</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Grid / Settings</td>
+  </tr>
+  <tr>
+    <td>11010</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>FeedBack Power</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Maximum Grid Feed-in Power.Range: 0-10800</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Meter / Real Time Data</td>
+  </tr>
+  <tr>
+    <td>15203</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>W</td>
+    <td>MeterPu</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Meter Phase U Power</td>
+  </tr>
+  <tr>
+    <td>15204</td>
+    <td>INT</td>
+    <td>W</td>
+    <td></td>
+    <td>MeterPu</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Meter Phase U Power</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Socket / Real Time State</td>
+  </tr>
+  <tr>
+    <td>18000</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>SmartSocketState</td>
+    <td>0:Disconnected<br/>1:Connected</td>
+    <td>Indevolt.SetData</td>
+    <td>Smart Socket Status</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Socket / Real Time Data</td>
+  </tr>
+  <tr>
+    <td>18001</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>SmartSocketP</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Smart Plug Power</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>System / Settings</td>
+  </tr>
+  <tr>
+    <td>35001</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Deep Sleep start Time hour-min</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Deep Sleep Schedule Start Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
+  </tr>
+  <tr>
+    <td>35002</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Deep Sleep stop Time hour-min</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Deep Sleep Schedule End Time，Format example: 0x121E = 18:30. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
+  </tr>
+  <tr>
+    <td>35005</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>LED light strip enable</td>
+    <td>0:LED Light Strip Off<br/>1:LED Light Strip On<br/>2:LED Low-power Mode (50% brightness)</td>
+    <td>Indevolt.SetData</td>
+    <td>Front Panel LED Light Strip Control</td>
+  </tr>
+  <tr>
+    <td>8646</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>‌Force Full Charge Interval</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Forced Full Charge Interval，Configurable range: 0–60 days. 0 = Disable automatic full charge. Default = 0.</td>
+  </tr>
+  <tr>
+    <td>8647</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>‌Force Full Charge Start Time</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Forced Full Charge Start Time，Default: 00:00. High byte = Hour (0–23), Low byte = Minute (0–59).</td>
+  </tr>
+  <tr>
+    <td>2802</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Forced AC charge power</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>AC Charging Power，Charging power when battery SOC falls below Backup SOC. Configurable range: 100–2400 W.</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>System / Mode</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>SystemMode</td>
+    <td>1:Self-Consumption Mode<br/>4:Real-time Control Mode<br/>6:Custom Time Control Mode (corresponding to control parameter registers 7300–7419)</td>
+    <td>Indevolt.SetData</td>
+    <td>System operating mode (read/write)</td>
+  </tr>
+  <tr>
+    <td>12197</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 1</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 1 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12198</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 2</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 2 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12199</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 3</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 3 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12200</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 4</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 4 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12201</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 5</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 5 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12202</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 6</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 6 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12203</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 7</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 7 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12204</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 8</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 8 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12205</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 9</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 9 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12206</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 10</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 10 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12207</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 11</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 11 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12208</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 12</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 12 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12209</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 13</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 13 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12210</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 14</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 14 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12211</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 15</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 15 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12212</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 16</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 16 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12213</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 17</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 17 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12214</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 18</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 18 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12215</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 19</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 19 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12216</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 20</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 20 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12217</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 21</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 21 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12218</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 22</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 22 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12219</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 23</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 23 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12220</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 24</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 24 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12221</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 25</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 25 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12222</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 26</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 26 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12223</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 27</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 27 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12224</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 28</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 28 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12225</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 29</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 29 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12226</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 30</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 30 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12227</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 31</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 31 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12228</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 32</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 32 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12229</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 33</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 33 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12230</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 34</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 34 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12231</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 35</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 35 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12232</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 36</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 36 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12233</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 37</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 37 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12234</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 38</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 38 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12235</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 39</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 39 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12236</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 40</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 40 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12237</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 41</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 41 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12238</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 42</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 42 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12239</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 43</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 43 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12240</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 44</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 44 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12241</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 45</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 45 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12242</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 46</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 46 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12243</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 47</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 47 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td>12244</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Load point 48</td>
+    <td></td>
+    <td>Indevolt.SetData</td>
+    <td>Simulated load for Time Slot 48 (30-minute interval, 48 time slots in total. For simplicity, only the first and last time slots are listed.)</td>
+  </tr>
+  <tr>
+    <td colspan="8" style={{ textAlign: 'center' }}>Real-Time Control<br/> and System Parameter Configuration / Setting</td>
+  </tr>
+  <tr>
+    <td>47005</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>Mode Setting</td>
+    <td>1:Self-consumed prioritized<br/>4:real-time control<br/>5:charge/discharge Schedule</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>47015</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>State Setting(Only available in real-time control)</td>
+    <td>0:Standby<br/>1:Charging<br/>2:Discharging</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>47016</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>W</td>
+    <td>Power Setting(Only available in real-time control)</td>
+    <td>MAX Charging: 50-2400<br/>MAX Discharging:50-2400</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>47017</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td>%</td>
+    <td>SOC Settingt(Only available in real-time control)</td>
+    <td>5-100</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1147</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>W</td>
+    <td>Max AC Output Power Setting</td>
+    <td>Single Unit: 50–2400 (50–3600)<br/><br/>Dual Wireless Parallel: 50–4800 (50–7200)<br/><br/>Triple Wireless Parallel: 50–7200 (50–10800)<br/><br/>Wired Parallel: 50–3600</td>
+    <td>Indevolt.SetData</td>
+    <td>Single Unit: Maximum output of 2400W (3600W when bypass-connected to microinverters). Supports up to 3 units in parallel.</td>
+  </tr>
+  <tr>
+    <td>1146</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>W</td>
+    <td>Feed-in Power Limit Setting</td>
+    <td>50-2400</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1143</td>
+    <td>UINT</td>
+    <td>W</td>
+    <td></td>
+    <td>Grid Charging Setting</td>
+    <td>0:Disable<br/>1:Enable</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1138</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>W</td>
+    <td>Inverter Input Limit Setting</td>
+    <td>Single unit: 50–2400<br/><br/>Two units (wireless parallel): 50–4800<br/><br/>Three units (wireless parallel): 50–7200<br/><br/>Wired parallel: 50–3600</td>
+    <td>Indevolt.SetData</td>
+    <td>Single unit: max 2400; up to 3 units in parallel.</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>Load Setting</td>
+    <td>1:Smart Plug<br/>2:Meter<br/>3:Key Load<br/>4:Custom</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7266</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>Bypass Setting</td>
+    <td>0:Disable<br/>1:Enable</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>1142</td>
+    <td>INT</td>
+    <td>W</td>
+    <td>%</td>
+    <td>Backup SOC Setting</td>
+    <td>5-100</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>7265</td>
+    <td>Enum</td>
+    <td>W</td>
+    <td></td>
+    <td>Light Setting</td>
+    <td>0:Disable<br/>1:Enable</td>
+    <td>Indevolt.SetData</td>
+    <td></td>
+  </tr>
+</tbody></table>
 
   </TabItem>
   <TabItem value="bk1600" label="BK1600 / BK1600 Ultra">

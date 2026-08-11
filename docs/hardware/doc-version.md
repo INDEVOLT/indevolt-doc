@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-08-11 | V1.0.19 | Corrected the OpenData API reference: moved 75 writable cJSON points from the `Indevolt.GetData` section to `Indevolt.SetData`, and synchronized all language versions. |
 | 2026-07-31 | V1.0.18 | 1. Added [RCD Guide](./technical-note/rcd.md)<br/>2. Update OpenData Documentation V2.0  |
 | 2026-07-24 | V1.0.17 | Added [Deep Standby and Normal Standby Description](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | Updated the micro-storage cluster documentation: added RS485 cluster instructions. |
