@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-08-11 | V1.0.19 | De OpenData API-referentie is gecorrigeerd: 75 schrijfbare cJSON-punten zijn van de sectie `Indevolt.GetData` naar `Indevolt.SetData` verplaatst en alle taalversies zijn gesynchroniseerd. |
 | 2026-07-31 | V1.0.18 | 1. [RCD-handleiding](./technical-note/rcd.md) toegevoegd <br/>2. Update van de OpenData-documentatie V2.0|
 | 2026-07-24 | V1.0.17 | Beschrijving van [diepe stand-bymodus en normale stand-bymodus toegevoegd](./technical-note/deep-standby.md) |
 | 2026-07-16 | V1.0.16 | De clusterbeschrijving voor micro-energieopslag bijgewerkt: ondersteuning voor RS485-clusters toegevoegd. |
