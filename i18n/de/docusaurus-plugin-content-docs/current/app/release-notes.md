@@ -5,6 +5,26 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V1.4.7
+
+- KI-Strategie-Erlebnis optimiert und die Detailseite der Strategie neu gestaltet
+- Kurzbefehle für die lokale Direktverbindung zum Gerät hinzugefügt, um die Verwaltungseffizienz zu verbessern
+- Unterstützung für lokalen Zugriff von Drittanbieter-Wechselrichtern (Enphase) hinzugefügt, um die Gerätekompatibilität zu erweitern
+- Netzwerkeinstellungen und Informationsanzeige des Geräts optimiert
+- Bekannte Probleme behoben und die App-Stabilität verbessert
+
+---
+
+## V1.4.6
+
+- Konfiguration des Steckdosentyps hinzugefügt, um weitere Anwendungsszenarien zu unterstützen
+- P1-2WR-Einrichtungsassistent hinzugefügt, um die Gerätekonfiguration zu vereinfachen
+- Datenvisualisierung für klarere Diagramme und Leistungsinformationen optimiert
+- Lokale API-Einstellungen für größere Flexibilität bei der Geräteintegration hinzugefügt
+- Bekannte Probleme behoben und die App-Stabilität verbessert
+
+---
+
 ## V1.4.5
 
 - Optimierte Verwaltung des Energiesystems zu Hause

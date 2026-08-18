@@ -5,6 +5,25 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V1.4.7
+
+- Optimisation de l'expérience de la stratégie IA avec une refonte de la page des détails de la stratégie
+- Ajout de raccourcis pour la connexion locale directe aux appareils afin d'améliorer l'efficacité de la gestion
+- Ajout de la prise en charge de l'accès local aux onduleurs tiers (Enphase), élargissant la compatibilité des appareils
+- Optimisation des paramètres réseau et de l'affichage des informations des appareils
+- Correction de problèmes connus et amélioration de la stabilité de l'application
+
+---
+
+## V1.4.6
+
+- Ajout de la configuration du type de prise pour prendre en charge davantage de scénarios d'utilisation
+- Ajout de l'assistant de configuration P1-2WR pour simplifier le processus de configuration des appareils
+- Optimisation de la présentation des données pour des graphiques et des informations de puissance plus clairs
+- Ajout de paramètres d'API locale pour une plus grande flexibilité d'intégration des appareils
+- Correction de problèmes connus et amélioration de la stabilité de l'application
+
+---
 
 ## V1.4.5
 

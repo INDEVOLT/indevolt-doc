@@ -142,6 +142,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/08/12 | V06.00.12 | Instelling voor kalibratie van volledig opladen toegevoegd |
 | 2025/12/29 | V06.00.09 | Bypass-bedieningsschakelaar toegevoegd |
 | 2025/11/14 | V06.00.08 | Bypass-bedieningsschakelaar toegevoegd |
 | 2025/09/02 | V06.00.06 | / |
@@ -208,6 +209,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/08/12 | V06.00.12 | Instelling voor kalibratie van volledig opladen toegevoegd |
 | 2025/12/29 | V06.00.09 | Bypass-bedieningsschakelaar toegevoegd |
 | 2025/11/14 | V06.00.08 | Bypass-bedieningsschakelaar toegevoegd |
 | 2025/09/02 | V06.00.06 | / |
@@ -238,10 +240,11 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 | 2025/09/29      | V3.17        |
 | 2025/03/07      | V3.16        |
 
-### INV
+### PCS
 
 | Publicatiedatum | Versienummer | Samenvatting van updates                                 |
 | --------------- | ------------ | -------------------------------------------------------- |
+| 2026/08/10      | V2.33        | 1.Bedrijfslogica geoptimaliseerd                         |
 | 2026/05/22      | V2.31        | 1. Optimalisatie van de bedrijfslogica van het netrelais |
 | 2025/08/28      | V2.21        | /                                                        |
 | 2025/06/26      | V2.17        | /                                                        |

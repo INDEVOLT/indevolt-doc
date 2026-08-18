@@ -138,6 +138,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/12 | V06.00.12 | Added full-charge calibration setting |
 | 2025/12/29 | V06.00.09 | Added bypass control switch |
 | 2025/11/14 | V06.00.08 | Added bypass control switch |
 | 2025/09/02 | V06.00.06 | / |
@@ -204,6 +205,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/12 | V06.00.12 | Added full-charge calibration setting |
 | 2025/12/29 | V06.00.09 | Added bypass control switch |
 | 2025/11/14 | V06.00.08 | Added bypass control switch |
 | 2025/09/02 | V06.00.06 | / |
@@ -237,10 +239,11 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 | 2025/03/07   | V3.16   |
 
 
-### INV
+### PCS
 
 | Release Date | Version | Update Summary                                   |
 | ------------ | ------- | ------------------------------------------------ |
+| 2026/08/10   | V2.33   | 1.Optimized operating logic                      |
 | 2025/05/22   | V2.31   | 1. Optimized the grid-tied relay operating logic |
 | 2025/08/28   | V2.21   |                                                  |
 | 2025/06/26   | V2.17   |                                                  |
