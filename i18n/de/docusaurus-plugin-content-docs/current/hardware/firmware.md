@@ -138,6 +138,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/12 | V06.00.12 | Ajout du paramètre de calibrage de charge complète |
 | 2025/12/29 | V06.00.09 | Hinzufügen eines Bypass-Steuerschalters |
 | 2025/11/14 | V06.00.08 | Hinzufügen eines Bypass-Steuerschalters |
 | 2025/09/02 | V06.00.06 | / |
@@ -199,6 +200,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/12 | V06.00.12 | Ajout du paramètre de calibrage de charge complète |
 | 2025/12/29 | V06.00.09 | Hinzufügen eines Bypass-Steuerschalters |
 | 2025/11/14 | V06.00.08 | Hinzufügen eines Bypass-Steuerschalters |
 | 2025/09/02 | V06.00.06 | / |
@@ -228,10 +230,11 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 | 2025/09/29 | V3.17 |
 | 2025/03/07 | V3.16 |
 
-### INV
+### PCS
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/10 | V2.33 | 1.Optimierung der Betriebslogik |
 | 2025/05/22 | V2.31 | 1. Optimierung der Betriebslogik des Netzrelais |
 | 2025/08/28 | V2.21 | / |
 | 2025/06/26 | V2.17 | / |

@@ -5,6 +5,26 @@ description: INDEVOLT App Release Notes
 
 # Release Notes
 
+## V1.4.7
+
+- Ervaring met AI-strategie geoptimaliseerd en de detailpagina van de strategie vernieuwd
+- Snelkoppelingen voor lokale directe verbinding met apparaten toegevoegd om de beheerefficiëntie te verbeteren
+- Ondersteuning voor lokale toegang van omvormers van derden (Enphase) toegevoegd om de apparaatcompatibiliteit uit te breiden
+- Netwerkinstellingen en informatieweergave van apparaten geoptimaliseerd
+- Bekende problemen opgelost en de app-stabiliteit verbeterd
+
+---
+
+## V1.4.6
+
+- Configuratie van het stopcontacttype toegevoegd om meer gebruiksscenario's te ondersteunen
+- P1-2WR installatiewizard toegevoegd om het configuratieproces van apparaten te vereenvoudigen
+- Gegevensvisualisatie geoptimaliseerd voor duidelijkere grafieken en vermogensinformatie
+- Lokale API-instellingen toegevoegd voor meer flexibiliteit bij apparaatintegratie
+- Bekende problemen opgelost en de app-stabiliteit verbeterd
+
+---
+
 ## V1.4.5
 
 - De ervaring van energiebeheer in huis verbeterd

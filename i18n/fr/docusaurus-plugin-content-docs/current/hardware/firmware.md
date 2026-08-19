@@ -140,6 +140,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/08/12 | V06.00.12 | Ajout du paramètre de calibrage de charge complète |
 | 2025/12/29          | V06.00.09 | Ajout du contrôle du bypass |
 | 2025/11/14          | V06.00.08 | Ajout du contrôle du bypass |
 | 2025/09/02          | V06.00.06 | / |
@@ -204,11 +205,12 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 ### Pfile
 
-| Date de publication | Version   | Résumé des mises à jour                                                                      |
-| ------------------- | --------- | -------------------------------------------------------------------------------------------- |
-| 2025/12/29          | V06.00.09 | Ajout du contrôle du bypass                                                                  |
-| 2025/11/14          | V06.00.08 | Ajout du contrôle du bypass                                                                  |
-| 2025/09/02          | V06.00.06 | /                                                                                            |
+| Date de publication | Version   | Résumé des mises à jour                                      |
+| ------------------- | --------- | ------------------------------------------------------------ |
+| 2026/08/12          | V06.00.12 | Ajout du paramètre de calibrage de charge complète           |
+| 2025/12/29          | V06.00.09 | Ajout du contrôle du bypass                                  |
+| 2025/11/14          | V06.00.08 | Ajout du contrôle du bypass                                  |
+| 2025/09/02          | V06.00.06 | /                                                            |
 | 2024/11/20          | V06.00.05 | 1. Mise à jour des points de mesure batterie<br />2. Optimisation de la stratégie temporelle |
 
 
@@ -238,12 +240,13 @@ description: Historique des versions du firmware des équipements de stockage d�
 | 2025/09/29          | V3.17   |
 | 2025/03/07          | V3.16   |
 
-### INV
+### PCS
 
-| Date de publication | Version | Résumé des mises à jour                                                          |
-| ------------------- | ------- | -------------------------------------------------------------------------------- |
+| Date de publication | Version | Résumé des mises à jour                                      |
+| ------------------- | ------- | ------------------------------------------------------------ |
+| 2026/08/10          | V2.33   | Optimisation de la logique de fonctionnement                 |
 | 2025/05/22          | V2.31   | Optimisation de la logique de fonctionnement du relais de raccordement au réseau |
-| 2025/08/28          | V2.21   | /                                                                                |
-| 2025/06/26          | V2.17   | /                                                                                |
-| 2025/06/20          | V2.15   | /                                                                                |
-| 2025/03/07          | V2.07   | /                                                                                |
+| 2025/08/28          | V2.21   | /                                                            |
+| 2025/06/26          | V2.17   | /                                                            |
+| 2025/06/20          | V2.15   | /                                                            |
+| 2025/03/07          | V2.07   | /                                                            |

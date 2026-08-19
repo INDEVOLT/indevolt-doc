@@ -5,6 +5,26 @@ description: INDEVOLT App version update history and feature improvements.
 
 # Release Notes
 
+## V1.4.7
+
+- Optimized the AI strategy experience with a redesigned strategy details page
+- Added quick action shortcuts for local device connection to improve management efficiency
+- Added support for local access of third-party inverters (Enphase), expanding device compatibility
+- Optimized the device network settings and information display
+- Fixed known issues and improved app stability
+
+---
+
+## V1.4.6
+
+- Added socket type configuration to support more usage scenarios
+- Added P1-2WR setup wizard to simplify device configuration
+- Optimized data visualization for clearer charts and power information
+- Added local API settings for greater device integration flexibility
+- Fixed known issues and improved app stability
+
+---
+
 ## V1.4.5
 
 - Improved home energy management experience

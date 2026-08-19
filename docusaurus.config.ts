@@ -111,7 +111,7 @@ const config: Config = {
           position: "left",
           items: [
             {
-              label: "Micro Storage",
+              label: "Plug-in Storage",
               to: "docs/hardware/doc-intro"
             },
             {
@@ -139,7 +139,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Micro Storage",
+              label: "Plug-in Storage",
               to: "docs/hardware/doc-intro"
             },
             {
