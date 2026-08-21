@@ -7,6 +7,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicherdokumentation
 
 | Aktualisierungsdatum | Versionsnummer | Änderungen |
 | -------------------- | -------------- | ---------- |
+| 2026-08-19 | V1.0.20 | Beschreibung zu [Bypass-Steckdose-Mikrowechselrichter-Steuerungshandbuch](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | OpenData-API-Referenz korrigiert: 75 beschreibbare cJSON-Punkte aus dem Abschnitt `Indevolt.GetData` nach `Indevolt.SetData` verschoben und alle Sprachversionen synchronisiert. |
 | 2026-07-31 | V1.0.18 | 1. Neuer Abschnitt [RCD-Anleitung](./technical-note/rcd.md) hinzugefügt<br/>2. Aktualisierung der OpenData-Dokumentation V2.0  |
 | 2026-07-24 | V1.0.17 | Beschreibung zu [Tiefschlafmodus und normalem Standby-Modus hinzugefügt](./technical-note/deep-standby.md) |
