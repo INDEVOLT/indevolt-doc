@@ -5,6 +5,10 @@ description: Replace the WiFi+LAN module and migrate device settings and histori
 
 # Accessory Replacement
 
+<video width="100%" controls>
+  <source src="/video/accessory-replacement-guide.mp4" type="video/mp4" />
+</video>
+
 This guide applies to the following models:
 - PowerFlex 2000
 - PowerFlex 2000 Eco
