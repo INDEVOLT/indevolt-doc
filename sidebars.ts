@@ -83,6 +83,8 @@ const sidebars: SidebarsConfig = {
         'hardware/technical-note/cluster',
         'hardware/technical-note/deep-standby',
         'hardware/technical-note/rcd',
+        'hardware/technical-note/earnings-calculation',
+
       ],
     },
     {
