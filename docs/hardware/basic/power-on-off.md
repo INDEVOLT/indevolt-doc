@@ -34,7 +34,7 @@ It is recommended to shut down the device first in the following situations:
 **Steps:**
 
 1. Confirm that the device is currently in powered-on state.  
-2. **Disconnect the PV input connection and wait for more than 20 seconds** to ensure the system stops PV power input.  
+2. **Disconnect the PV  and AC input connections and wait for more than 20 seconds** to ensure the system  stops power input.  
 3. Press and hold the power button for about 2 seconds.  
 4. The blue LED strip will display an animation converging from both sides toward the center.  
 5. Release the button and the system will begin the shutdown process.  
@@ -44,5 +44,5 @@ It is recommended to shut down the device first in the following situations:
 
 - Do not press the power button repeatedly during startup or shutdown.  
 - If maintenance or wiring work is required after shutdown, wait until the device has completely stopped operating.  
-- If the device will not be used for a long time, it is recommended to shut it down and disconnect external power sources.
+- If the device will not be used for a long time, it is recommended to shut it down and disconnect the PV and AC inputs.
 :::
