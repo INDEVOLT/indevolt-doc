@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-08-24 | V1.0.21 | Added [Explanation of Earnings Calculation Method](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | Added [Bypass Socket Microinverter Control Guide](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | Corrected the OpenData API reference: moved 75 writable cJSON points from the `Indevolt.GetData` section to `Indevolt.SetData`, and synchronized all language versions. |
 | 2026-07-31 | V1.0.18 | 1. Added [RCD Guide](./technical-note/rcd.md)<br/>2. Update OpenData Documentation V2.0  |

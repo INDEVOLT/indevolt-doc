@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-08-24 | V1.0.21 | Beschrijving van [Uitleg over de berekeningsmethode van opbrengsten](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | Beschrijving van [Gids voor micro-omvormerregeling op de bypasspoort](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | De OpenData API-referentie is gecorrigeerd: 75 schrijfbare cJSON-punten zijn van de sectie `Indevolt.GetData` naar `Indevolt.SetData` verplaatst en alle taalversies zijn gesynchroniseerd. |
 | 2026-07-31 | V1.0.18 | 1. [RCD-handleiding](./technical-note/rcd.md) toegevoegd <br/>2. Update van de OpenData-documentatie V2.0|
