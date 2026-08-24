@@ -34,7 +34,7 @@ In folgenden Situationen wird empfohlen, das Gerät zunächst auszuschalten:
 **Vorgehensweise:**
 
 1. Stellen Sie sicher, dass das Gerät eingeschaltet ist.
-2. **Trennen Sie die PV-Eingänge und warten Sie mindestens 20 Sekunden**, damit keine Energieerzeugung mehr erfolgt.
+2. **Trennen Sie die  PV-Eingänge und den AC-Eingang  und warten Sie mindestens 20 Sekunden**, damit keine Energieerzeugung mehr erfolgt.
 3. Halten Sie die Ein-/Aus-Taste etwa 2 Sekunden lang gedrückt.
 4. Die blaue LED-Leiste zeigt eine Animation von außen zur Mitte.
 5. Lassen Sie die Taste los. Das System startet den Abschaltvorgang.
@@ -44,6 +44,6 @@ In folgenden Situationen wird empfohlen, das Gerät zunächst auszuschalten:
 
 - Drücken Sie die Ein-/Aus-Taste während des Start- oder Abschaltvorgangs nicht wiederholt.
 - Warten Sie nach dem Ausschalten, bis das Gerät vollständig heruntergefahren ist, bevor Sie Wartungs- oder Verkabelungsarbeiten durchführen.
-- Wenn das Gerät längere Zeit nicht verwendet wird, empfiehlt es sich, es auszuschalten und von der externen Stromversorgung zu trennen.
+- Wenn das Gerät längere Zeit nicht verwendet wird, empfiehlt es sich, es auszuschalten und die PV-Eingänge und AC-Eingänge zu trennen.
 
 :::

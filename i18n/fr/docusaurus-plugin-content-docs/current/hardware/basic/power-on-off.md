@@ -38,7 +38,7 @@ Dans les situations suivantes, il est recommandé d’arrêter l’appareil avan
 **Étapes :**
 
 1. Vérifiez que l’appareil est en état de fonctionnement.  
-2. **Déconnectez l’entrée photovoltaïque et attendez au moins 20 secondes** afin de garantir l’arrêt de l’injection d’énergie.  
+2. **Déconnectez les entrées photovoltaïque et courant alternatif et attendez au moins 20 secondes** afin de garantir l’arrêt de l’injection d’énergie.  
 3. Maintenez le bouton d’alimentation enfoncé pendant environ 2 secondes.  
 4. La barre LED bleue affiche une animation de convergence des deux côtés vers le centre.  
 5. Relâchez le bouton : le système lance la procédure d’arrêt.  
@@ -50,5 +50,5 @@ Dans les situations suivantes, il est recommandé d’arrêter l’appareil avan
 
 - Pendant les opérations de mise sous tension ou d’arrêt, évitez d’appuyer de manière répétée ou continue sur le bouton d’alimentation.  
 - Après l’arrêt, attendez l’arrêt complet du système avant toute opération de maintenance ou de câblage.  
-- En cas de non-utilisation prolongée, il est recommandé d’arrêter l’appareil et de déconnecter l’alimentation externe.
+- En cas de non-utilisation prolongée, il est recommandé d'arrêter l'appareil et de déconnecter les entrées photovoltaïque et courant alternatif.
 :::
