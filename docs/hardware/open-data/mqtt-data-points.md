@@ -2608,7 +2608,7 @@ description: Definition of INDEVOLT MQTT data points and data formats.
     <td>W</td>
     <td>W</td>
     <td>Power Setting(Only available in real-time control)</td>
-    <td>MAX Charging: 50-2400<br/>MAX Discharging:50-2400</td>
+    <td>Real-time control power. Configurable range: 0-3600 W (single unit); 0-10800 W (parallel system)</td>
     <td></td>
   </tr>
   <tr>
