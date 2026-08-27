@@ -139,7 +139,6 @@ flowchart LR
 | 功能码 | 说明                                     |
 | ------ | ---------------------------------------- |
 | `0x03` | 读取保持寄存器（Read Holding Registers） |
-| `0x04` | 读取输入寄存器（Read Input Registers）   |
 | `0x06` | 写单个寄存器（Write Single Register）    |
 | `0x10` | 写多个寄存器（Write Multiple Registers） |
 

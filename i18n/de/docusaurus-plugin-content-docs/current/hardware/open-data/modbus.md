@@ -139,7 +139,6 @@ Häufige Abfragen können die Kommunikationslast des Geräts erhöhen und die St
 | Funktionscode | Beschreibung                                          |
 | ------------- | ----------------------------------------------------- |
 | `0x03`        | Holding Register lesen (Read Holding Registers)       |
-| `0x04`        | Input Register lesen (Read Input Registers)           |
 | `0x06`        | Einzelnes Register schreiben (Write Single Register)  |
 | `0x10`        | Mehrere Register schreiben (Write Multiple Registers) |
 

@@ -139,7 +139,6 @@ Veelvuldig uitlezen kan de communicatiebelasting van het apparaat verhogen en de
 | Functiecode | Beschrijving                                              |
 | ----------- | --------------------------------------------------------- |
 | `0x03`      | Holding registers lezen (*Read Holding Registers*)        |
-| `0x04`      | Input registers lezen (*Read Input Registers*)            |
 | `0x06`      | Eén register schrijven (*Write Single Register*)          |
 | `0x10`      | Meerdere registers schrijven (*Write Multiple Registers*) |
 

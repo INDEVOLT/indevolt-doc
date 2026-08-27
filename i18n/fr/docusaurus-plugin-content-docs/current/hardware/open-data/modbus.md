@@ -133,7 +133,6 @@ Des lectures trop fréquentes peuvent augmenter la charge de communication de l'
 | Code de fonction | Description                                             |
 | ---------------- | ------------------------------------------------------- |
 | `0x03`           | Lire les registres de maintien (Read Holding Registers) |
-| `0x04`           | Lire les registres d'entrée (Read Input Registers)      |
 | `0x06`           | Écrire un seul registre (Write Single Register)         |
 | `0x10`           | Écrire plusieurs registres (Write Multiple Registers)   |
 

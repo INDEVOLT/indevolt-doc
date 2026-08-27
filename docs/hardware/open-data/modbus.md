@@ -133,7 +133,6 @@ Frequent reading may increase the communication load on the device and affect co
 | Function Code | Description              |
 | ------------- | ------------------------ |
 | `0x03`        | Read Holding Registers   |
-| `0x04`        | Read Input Registers     |
 | `0x06`        | Write Single Register    |
 | `0x10`        | Write Multiple Registers |
 
