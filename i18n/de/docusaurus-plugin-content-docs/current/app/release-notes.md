@@ -5,6 +5,15 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V1.4.8
+
+- KUnterstützung für weitere Währungseinheiten hinzugefügt (¥, €, £, $, kr, zł)
+- Neuer Betriebsmodus für Geräte in Australien hinzugefügt, um lokale Anwendungsszenarien zu unterstützen
+- Hinweis beim Firmware-Upgrade hinzugefügt, der bei bestimmten Firmware-Versionen daran erinnert, das Gerät auszuschalten
+- Bekannte Probleme behoben und die App-Stabilität verbessert
+
+---
+
 ## V1.4.7
 
 - KI-Strategie-Erlebnis optimiert und die Detailseite der Strategie neu gestaltet

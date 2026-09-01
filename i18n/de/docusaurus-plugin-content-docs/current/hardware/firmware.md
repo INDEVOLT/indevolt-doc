@@ -11,6 +11,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/31 | V140E.0B.003E | 1. Lokale Zugriffslogik für Drittanbieter‑Wechselrichter optimiert<br />2. Optimierung der Betriebslogik im Parallelbetrieb |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimierung der Betriebslogik |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimierung der Lora-Kommunikationslogik |
 | 2026/05/07 | V140B.0B.0035 | 1. Optimierung der Kommunikationslogik |
@@ -29,6 +30,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/31  | V0D.00.22 | 1. Optimierung einzelner Parameter |
 | 2026/06/30  | V0D.00.20 | 1. Optimierung einzelner Parameter |
 | 2026/05/25 | V0D.00.19 | 1. Optimierung einzelner Parameter |
 | 2026/05/06 | V0D.00.18 | 1. Optimierung einzelner Parameter |
@@ -44,6 +46,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/31 | V1.01.12 | 1. Optimierung der Betriebslogik im Parallelbetrieb<br />2. Einige bekannte Probleme optimalisiert |
 | 2026/05/12 | V1.01.08 | 1. Optimierung der Betriebslogik im Parallelbetrieb |
 | 2026/02/11 | V1.01.03 | 1. Optimierung der Zwangsnachlade-Logik<br />2. Verbesserung der Zeitplan-Konfiguration<br />3. Optimierung der Batteriekaltstart-Heizlogik<br />4. Optimierung des Parallelbetriebs<br />5. Unterstützung von PFA4000-Batteriemodulen hinzugefügt<br />6. Behebung eines Fehlers, bei dem kein Übergang in den Tiefstandby möglich war |
 | 2026/01/21 | V1.00.58 | 1. Optimierung der Firmware-Update-Zeit<br />2. Optimierung der Leistungsregelung im Parallelbetrieb<br />3. Automatischer Wechsel in den Lademodus bei Netzeinspeisung während AC-Ladeverbot<br />4. Verbesserte Standby-Logik der Batteriemodule |
@@ -60,6 +63,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/24 | V1.00.49 | 1. Optimierung der Betriebslogik |
 | 2026/05/12 | V1.00.45 | 1. Optimierung des Batterie-Schutz- und Betriebsverhaltens |
 | 2026/02/11 | V1.00.42 | 1. Optimierung des SOC-Algorithmus |
 | 2026/01/21 | V1.00.38 | 1. Optimierung des SOC-Algorithmus |
@@ -87,6 +91,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/08/24 | V1.01.77 | 1. Optimierung der Betriebslogik |
 | 2026/05/29 | V1.01.75 | 1. Optimierung des Problems der Leistungsbegrenzung beim Laden mehrerer Batteriemodule |
 | 2026/05/10 | V1.01.73 | 1. Optimierung der Betriebslogik |
 | 2026/03/20 | V1.01.64 | 1. Behebung eines Kommunikationsverlusts bei Batteriemodulen im Tiefstandby |

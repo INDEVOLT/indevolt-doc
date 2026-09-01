@@ -5,6 +5,15 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V1.4.8
+
+- Ajout de la prise en charge d'unités monétaires supplémentaires (¥, €, £, $, kr, zł)
+- Ajout d'un nouveau mode de fonctionnement pour les appareils australiens afin de s'adapter aux scénarios d'utilisation locaux
+- Ajout d'une invite de redémarrage lors de la mise à jour du firmware pour rappeler de couper l'alimentation de l'appareil pour certaines versions
+- Correction de problèmes connus et amélioration de la stabilité de l'application
+
+---
+
 ## V1.4.7
 
 - Optimisation de l'expérience de la stratégie IA avec une refonte de la page des détails de la stratégie
