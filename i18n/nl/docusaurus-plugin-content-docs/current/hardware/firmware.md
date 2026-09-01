@@ -13,6 +13,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates                                                                                                                                       |
 | --------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/08/31 | V140E.0B.003E | 1. Lokale toegangslogica voor externe omvormers geoptimaliseerd<br />2. Optimisation de la logique de fonctionnement en parallèle |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimalisatie van de bedrijfslogica |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimalisatie van de LoRa-communicatielogica |
 | 2026/05/07 | V140B.0B.0035 | 1. Communicatielogica geoptimaliseerd |
@@ -31,6 +32,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | ---------------- | ------------ | ------------------------ |
+| 2026/08/31  | V0D.00.22 | 1. Sommige parameters geoptimaliseerd | 
 | 2026/06/30  | V0D.00.20 | 1. Sommige parameters geoptimaliseerd |
 | 2026/05/25  | V0D.00.19 | 1. Sommige parameters geoptimaliseerd |
 | 2026/05/06 | V0D.00.18 | 1. Sommige parameters geoptimaliseerd |
@@ -46,6 +48,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates                                                                                                                                                                      |
 | --------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/08/31 | V1.01.12 | 1. Optimalisatie van de werking van clustersystemen<br />2. Enkele bekende problemen geoptimaliseerd |
 | 2026/05/12 | V1.01.08 | 1. Optimalisatie van de werking van clustersystemen |
 | 2026/02/11       | V1.01.03     | 1. Logica voor geforceerd opladen geoptimaliseerd<br />2. Tijdschema-instellingen geoptimaliseerd<br />3. Logica voor batterijverwarming bij lage temperatuur geoptimaliseerd<br />4. Parallelle logica geoptimaliseerd<br />5. Compatibiliteit met PFA4000 batterijpakket toegevoegd<br />6. Probleem opgelost waarbij in sommige situaties geen diepe standby kon worden bereikt |
 | 2026/01/21       | V1.00.58     | 1. Firmware-upgradetijd geoptimaliseerd <br />2. Vermogensregeling bij parallel gebruik geoptimaliseerd <br />3. Automatische omschakeling naar laden toegevoegd wanneer netinvoeding wordt gedetecteerd terwijl AC-laden verboden is <br />4. Standby-logica voor batterijpakket toegevoegd |
@@ -62,6 +65,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/08/24 | V1.00.49 | 1. Optimalisatie van de bedrijfslogica |
 | 2026/05/12 | V1.00.45 | 1. Optimalisatie van batterijbescherming en bedrijfslogica |
 | 2026/02/11 | V1.00.42 | 1. SOC-algoritme geoptimaliseerd |
 | 2026/01/21 | V1.00.38 | 1. SOC-algoritme geoptimaliseerd |
@@ -90,6 +94,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/08/24 | V1.01.77 | 1. Optimalisatie van de bedrijfslogica |
 | 2026/05/29 | V1.01.75 | 1. Optimalisatie van een probleem waarbij het laadvermogen bij meerdere batterijpacks soms wordt begrensd |
 | 2026/05/10 | V1.01.73 | 1. Optimalisatie van de bedrijfslogica |
 | 2026/03/20 | V1.01.64 | 1. Probleem opgelost waarbij batterijpacks in diepe standby soms communicatie verliezen |

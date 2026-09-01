@@ -11,6 +11,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version        | Résumé des mises à jour |
 | ------------------- | -------------- | ----------------------- |
+| 2026/08/31 | V140E.0B.003E | 1.Optimisation de la logique d'accès locale pour les onduleurs tiers<br />2.Optimisation de la logique de fonctionnement en parallèle |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimisation de la logique de fonctionnement |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimisation de la logique de communication LoRa |
 | 2026/05/07   | V140B.0B.0035 | 1. Optimisation de la logique de communication |
@@ -29,6 +30,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/08/31  | V0D.00.22 | 1. Optimisation de certains paramètres |
 | 2026/06/30  | V0D.00.20 | 1. Optimisation de certains paramètres |
 | 2026/05/25  | V0D.00.19 | 1. Optimisation de certains paramètres |
 | 2026/05/06  | V0D.00.18 | 1. Optimisation de certains paramètres |
@@ -44,6 +46,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/08/31 | V1.01.12 | 1. Optimisation de la logique de fonctionnement en parallèle<br />2. Optimisation de certains problèmes connus |
 | 2026/05/12 | V1.01.08 | 1. Optimisation de la logique de fonctionnement en parallèle |
 | 2026/02/11           | V1.01.03   | 1. Optimisation de la logique de charge forcée<br />2. Optimisation des plages horaires<br />3. Optimisation du chauffage basse température de la batterie<br />4. Optimisation du fonctionnement en parallèle<br />5. Ajout de compatibilité avec le pack batterie PFA4000<br />6. Correction d’un problème empêchant l’entrée en veille profonde dans certains cas |
 | 2026/01/21           | V1.00.58   | 1. Optimisation du temps de mise à jour firmware<br />2. Optimisation du réglage de puissance en parallèle<br />3. Détection automatique de retour réseau en cas de charge AC interdite<br />4. Amélioration de la logique de veille des batteries |
@@ -60,6 +63,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version  | Résumé des mises à jour                                                                                                         |
 | ------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/08/24          | V1.00.49 | 1. Optimisation de la logique de fonctionnement                                                                                 |
 | 2026/05/12          | V1.00.45 | 1. Optimisation de la logique de protection et de fonctionnement de la batterie                                                 |
 | 2026/02/11          | V1.00.42 | 1. Optimisation de l’algorithme SOC                                                                                             |
 | 2026/01/21          | V1.00.38 | 1. Optimisation de l’algorithme SOC                                                                                             |
@@ -88,6 +92,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/08/24 | V1.01.77 | 1. Optimisation de la logique de fonctionnement |
 | 2026/05/29 | V1.01.75 | 1. Optimisation du problème de limitation de puissance lors de la charge de plusieurs packs de batteries pouvant survenir occasionnellement |
 | 2026/05/10 | V1.01.73 | 1. Optimisation de la logique de fonctionnement |
 | 2026/03/20           | V1.01.64   | 1. Correction d’un problème de perte de communication des packs batterie en veille profonde multi-pack |

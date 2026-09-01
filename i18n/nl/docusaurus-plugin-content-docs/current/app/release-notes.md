@@ -5,6 +5,15 @@ description: INDEVOLT App Release Notes
 
 # Release Notes
 
+## V1.4.8
+
+- Ondersteuning toegevoegd voor extra valuta-eenheden (¥, €, £, $, kr, zł)
+- Nieuwe bedrijfsmodus toegevoegd voor apparaten in Australië om lokale gebruiksscenario's te ondersteunen
+- Herstartmelding bij firmware-upgrades toegevoegd om bij specifieke firmware te herinneren aan het uitschakelen van het apparaat
+- Bekende problemen opgelost en de app-stabiliteit verbeterd
+
+---
+
 ## V1.4.7
 
 - Ervaring met AI-strategie geoptimaliseerd en de detailpagina van de strategie vernieuwd

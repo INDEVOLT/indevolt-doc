@@ -5,6 +5,15 @@ description: INDEVOLT App version update history and feature improvements.
 
 # Release Notes
 
+## V1.4.8
+
+- Added support for additional currency units (¥, €, £, $, kr, zł)
+- Added new operating mode for Australian devices to adapt to local usage scenarios
+- Added firmware upgrade restart prompt to remind users to power off the device for specific firmware versions
+- Fixed known issues and improved app stability
+
+---
+
 ## V1.4.7
 
 - Optimized the AI strategy experience with a redesigned strategy details page

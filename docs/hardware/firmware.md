@@ -11,6 +11,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/31 | V140E.0B.003E | 1. Optimized local access logic for third‑party inverters<br />2.Optimized parallel‑operation logic |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimized operation logic |
 | 2026/05/07  | V140C.0B.0036 | 1. Optimized LoRa communication logic |
 | 2026/05/07  | V140B.0B.0035 | 1. Optimized communication logic |
@@ -28,7 +29,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 | ------------ | --------- | -------------- |
-| 2026/06/30  | V0D.00.20 |  1. Optimized some parameters        |
+| 2026/08/31   | V0D.00.22 |  1. Optimized some parameters        |
+| 2026/06/30   | V0D.00.20 |  1. Optimized some parameters        |
 | 2026/05/25   | V0D.00.19 | 1. Optimized some parameters |
 | 2026/05/06   | V0D.00.18 | 1. Optimized some parameters |
 | 2026/01/14   | V0D.00.14 | 1. Optimized battery temperature status display |
@@ -42,6 +44,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/31 | V1.01.12 | 1. Optimized the operating logic for cluster system scenarios<br />2.Optimized some known issues |
 | 2026/05/12 | V1.01.08 | 1. Optimized the operating logic for cluster system scenarios |
 | 2026/02/11 | V1.01.03 | 1. Optimized forced charging logic<br />2. Optimized scheduling time slot configuration<br />3. Optimized low-temperature battery heating logic<br />4. Optimized parallel operation logic<br />5. Added support for PFA4000 battery pack<br />6. Fixed issue where deep standby could not be entered under certain conditions |
 | 2026/01/21 | V1.00.58 | 1. Optimized firmware upgrade timing<br />2. Optimized parallel power regulation<br />3. Added automatic charging when export is detected while AC charging is disabled<br />4. Added battery standby logic |
@@ -59,6 +62,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/24   | V1.00.49 | 1. Optimized operating logic     |
 | 2026/05/12   | V1.00.45 | 1. Optimized battery protection and operating logic     |
 | 2026/02/11   | V1.00.42 | 1. Optimized SOC algorithm |
 | 2026/01/21   | V1.00.38 | 1. Optimized SOC algorithm |
@@ -87,6 +91,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/08/24 | V1.01.77 | 1. Optimized operating logic  |
 | 2026/05/29 | V1.01.75 | Optimized an issue where charging power could occasionally be limited when multiple battery packs were connected. |
 | 2026/05/10 | V1.01.73 | 1. Optimized operating logic |
 | 2026/03/20 | V1.01.64 | 1. Fixed occasional communication loss of battery pack during deep standby in multi-pack systems |
