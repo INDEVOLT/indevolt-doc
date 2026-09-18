@@ -2667,6 +2667,7 @@ import TabItem from '@theme/TabItem';
     <td>`Indevolt.GetData`</td>
     <td></td>
 </tr>
+
 <tr>
     <td colspan="7" style={{ textAlign: 'center' }}>Firmware Version Information </td>
 </tr>

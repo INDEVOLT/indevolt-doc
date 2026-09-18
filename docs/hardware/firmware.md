@@ -131,6 +131,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/09/16 | V140E.12.104C | 1. Added meter offset configuration<br />2. Added Shelly smart plug control switch<br />3. Added support for P1 meter<br />4. Optimized OpenData HTTP API<br />5. Optimized communication stability|
 | 2026/03/06 | V1408.0C.104A | 1. Added support for Stromleser meter (optical reader)<br />2. Added support for HomeWizard P1 meter<br />3. Added support for Shelly Plug Gen1<br />4. Added meter offset configuration |
 | 2026/01/19 | V1407.0B.1049 | 1. Optimized communication logic |
 | 2025/12/12 | V1406.0B.1047 | 1. Added support for Solarman smart plug, Shelly Plug S MTR Gen3, Shelly 3EM<br />2. Optimized system operation |
@@ -197,6 +198,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/09/16 | V140E.12.104C | 1. Added meter offset configuration<br />2. Added Shelly smart plug control switch<br />3. Added support for P1 meter<br />4. Optimized OpenData HTTP API<br />5. Optimized communication stability|
 | 2026/03/06  | V1408.0C.104A | 1. Added support for Stromleser meter (optical reader)<br />2. Added support for HomeWizard P1 meter<br />3. Added support for Shelly Plug Gen1<br />4. Added meter offset configuration |
 | 2026/01/19 | V1407.0B.1049 | 1. Optimized communication logic |
 | 2025/12/12 | V1406.0B.1047 | 1. Added support for Solarman smart plug, Shelly Plug S MTR Gen3, Shelly 3EM<br />2. Optimized system operation |
@@ -221,6 +223,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/09/16 | V2.00.11 |  1. Optimized the operating logic for bypass socket with microinverter<br />2. Optimized the operating mode logic |
 | 2026/05/22 | V2.00.09 |  1. Optimized power calculation<br />2. Optimized PV operating logic when SOC reaches 100%<br />3. Added an AC charging enable option that is effective only when SOC is below 5%<br />4. Added an Auto Full Charge switch |
 | 2025/11/27 | V2.00.04 | 1. Increased bypass port current limit to 10A |
 | 2025/09/29 | V2.00.03 | 1. Optimized parallel operation scenarios<br />2. Added support for slave unit entering deep standby in wired parallel mode |
@@ -248,6 +251,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary                                   |
 | ------------ | ------- | ------------------------------------------------ |
+| 2026/09/16   | V2.34   | 1.Optimized operating logic                      |
 | 2026/08/10   | V2.33   | 1.Optimized operating logic                      |
 | 2025/05/22   | V2.31   | 1. Optimized the grid-tied relay operating logic |
 | 2025/08/28   | V2.21   |                                                  |

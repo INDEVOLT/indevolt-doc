@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-09-18 | V1.0.22 | Ajout de la [Guide CEM](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Ajout de la [Explication de la méthode de calcul des revenus](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | Ajout de la [Guide de contrôle du micro-onduleur sur la prise de dérivation](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | Correction de la référence de l’API OpenData : déplacement de 75 points cJSON accessibles en écriture de la section `Indevolt.GetData` vers `Indevolt.SetData`, avec synchronisation de toutes les versions linguistiques. |
