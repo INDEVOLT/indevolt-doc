@@ -131,6 +131,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/16 | V140E.12.104C | 1. Hinzufügen von Zähler-Offset-Einstellungen<br />2. Hinzufügen eines Shelly-Steckdosen-Kontrollschalters<br />3. Unterstützung für P1-Zähler hinzufügen<br />4. Optimierung der OpenData HTTP-API<br />5. Optimierung der Kommunikationsstabilität|
 | 2026/03/06 | V1408.0C.104A | 1. Unterstützung für Stromleser-Zähler (Infrarot-Zählerausleser)<br />2. Unterstützung für HomeWizard P1-Zähler<br />3. Unterstützung für Shelly Plug Gen1<br />4. Hinzufügen von Zähler-Offset-Einstellungen |
 | 2026/01/19 | V1407.0B.1049 | 1. Optimierung der Kommunikationslogik |
 | 2025/12/12 | V1406.0B.1047 | 1. Unterstützung von Solarman Smart Plug, Shelly Plug S MTR Gen3 und Shelly 3EM<br />2. Optimierung der Betriebslogik |
@@ -193,6 +194,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/16 | V140E.12.104C | 1. Hinzufügen von Zähler-Offset-Einstellungen<br />2. Hinzufügen eines Shelly-Steckdosen-Kontrollschalters<br />3. Unterstützung für P1-Zähler hinzufügen<br />4. Optimierung der OpenData HTTP-API<br />5. Optimierung der Kommunikationsstabilität|
 | 2026/03/06 | V1408.0C.104A | 1. Unterstützung für Stromleser-Zähler (Infrarot-Zählerausleser)<br />2. Unterstützung für HomeWizard P1-Zähler<br />3. Unterstützung für Shelly Plug Gen1<br />4. Hinzufügen von Zähler-Offset-Einstellungen |
 | 2026/01/19 | V1407.0B.1049 | 1. Optimierung der Kommunikationslogik |
 | 2025/12/12 | V1406.0B.1047 | 1. Unterstützung von Solarman Smart Plug, Shelly Plug S MTR Gen3 und Shelly 3EM<br />2. Optimierung der Betriebslogik |
@@ -215,6 +217,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/16 | V2.00.11 | 1. Optimierung der Betriebslogik für Bypass mit Mikro-Wechselrichter<br />2. Optimierung der Betriebsmoduslogik |
 | 2026/05/22 | V2.00.09 | 1. Optimierung der Leistungsberechnung<br />2. Optimierung der PV-Logik bei 100 % SOC<br />3. AC-Ladefreigabe nur unter SOC 5 %<br />4. Hinzufügen eines automatischen Volllade-Schalters |
 | 2025/11/27 | V2.00.04 | 1. Freigabe der Bypass-Leistung auf 10 A |
 | 2025/09/29 | V2.00.03 | 1. Optimierung der Parallelbetrieb-Logik<br />2. Unterstützung von Tiefstandby für Slave-Geräte im kabelgebundenen Parallelbetrieb |
@@ -239,6 +242,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/16 | V2.34 | 1.Optimierung der Betriebslogik |
 | 2026/08/10 | V2.33 | 1.Optimierung der Betriebslogik |
 | 2025/05/22 | V2.31 | 1. Optimierung der Betriebslogik des Netzrelais |
 | 2025/08/28 | V2.21 | / |

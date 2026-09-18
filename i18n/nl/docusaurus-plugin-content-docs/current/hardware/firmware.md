@@ -134,6 +134,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/09/16 | V140E.12.104C | 1. Instelling voor meter-offset toegevoegd <br />2. Bedieningsschakelaar voor Shelly slimme stekker toegevoegd<br />3. Ondersteuning toegevoegd voor P1-meter<br />4.OpenData HTTP-API geoptimaliseerd<br />5. Communicatiestabiliteit geoptimaliseerd|
 | 2026/03/06 | V1408.0C.104A | 1. Ondersteuning toegevoegd voor stromleser-meter (IR-lezer)<br />2. Ondersteuning toegevoegd voor HomeWizard-meter (P1)<br />3. Ondersteuning toegevoegd voor Shelly Plug Gen1<br />4. Meter-offsetinstelling toegevoegd |
 | 2026/01/19 | V1407.0B.1049 | 1. Communicatielogica geoptimaliseerd |
 | 2025/12/12 | V1406.0B.1047 | 1. Ondersteuning voor Solarman slimme stekker, Shelly Plug S MTR Gen3 en Shelly 3EM<br />2. Werking geoptimaliseerd |
@@ -201,6 +202,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/09/16 | V140E.12.104C | 1. Instelling voor meter-offset toegevoegd <br />2. Bedieningsschakelaar voor Shelly slimme stekker toegevoegd<br />3. Ondersteuning toegevoegd voor P1-meter<br />4.OpenData HTTP-API geoptimaliseerd<br />5. Communicatiestabiliteit geoptimaliseerd|
 | 2026/03/06 | V1408.0C.104A | 1. Ondersteuning toegevoegd voor stromleser-meter (IR-lezer)<br />2. Ondersteuning toegevoegd voor HomeWizard-meter (P1)<br />3. Ondersteuning toegevoegd voor Shelly Plug Gen1<br />4. Meter-offsetinstelling toegevoegd |
 | 2026/01/19 | V1407.0B.1049 | 1. Communicatielogica geoptimaliseerd |
 | 2025/12/12 | V1406.0B.1047 | 1. Ondersteuning voor Solarman slimme stekker, Shelly Plug S MTR Gen3 en Shelly 3EM<br />2. Werking geoptimaliseerd |
@@ -225,6 +227,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | --------------- | ------------ | ------------------------ |
+| 2026/09/16 | V2.00.11 | 1. Optimalisatie van de bedrijfslogica voor bypass met micro-omvormer<br />2. Optimalisatie van de bedrijfsmoduslogica |
 | 2026/05/22 | V2.00.09 | 1. Optimalisatie van vermogensberekening<br />2. Optimalisatie van de PV-logica wanneer de SOC 100% bereikt<br />3. Toegevoegd: AC-laadinschakeling is alleen actief wanneer de SOC onder 5% ligt<br />4. Toegevoegd: automatische volledig-opladen schakelaar |
 | 2025/11/27 | V2.00.04 | 1. Vermogenslimiet bypass-poort verhoogd tot 10 A |
 | 2025/09/29 | V2.00.03 | 1. Parallelle logica geoptimaliseerd<br />2. Ondersteuning voor diepe standby van slave in bekabelde parallelle modus |
@@ -249,7 +252,8 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates                                 |
 | --------------- | ------------ | -------------------------------------------------------- |
-| 2026/08/10      | V2.33        | 1.Bedrijfslogica geoptimaliseerd                         |
+| 2026/09/16      | V2.34        | 1. Optimalisatie van de bedrijfslogica                   |
+| 2026/08/10      | V2.33        | 1. Optimalisatie van de bedrijfslogica                   |
 | 2026/05/22      | V2.31        | 1. Optimalisatie van de bedrijfslogica van het netrelais |
 | 2025/08/28      | V2.21        | /                                                        |
 | 2025/06/26      | V2.17        | /                                                        |

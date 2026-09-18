@@ -132,6 +132,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version        | Résumé des mises à jour |
 | ------------------- | -------------- | ------------------------ |
+| 2026/09/16 | V140E.12.104C | 1. Ajout du réglage d'offset des compteurs<br />2. Ajout d'un interrupteur de commande pour prise intelligente Shelly<br />3. Ajout du support du compteur P1<br />4. Optimisation de l'API HTTP OpenData<br />5. Optimisation de la stabilité de la communication|
 | 2026/03/06            | V1408.0C.104A  | 1. Ajout du support du compteur stromleser (lecteur infrarouge)<br />2. Ajout du support du compteur HomeWizard (P1)<br />3. Ajout du support du Shelly Plug Gen1<br />4. Ajout du réglage d’offset des compteurs |
 | 2026/01/19           | V1407.0B.1049  | 1. Optimisation de la logique de communication |
 | 2025/12/12          | V1406.0B.1047  | 1. Support des prises intelligentes Solarman, Shelly Plug S MTR Gen3, Shelly 3EM<br />2. Optimisation de la logique de fonctionnement |
@@ -199,6 +200,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version        | Résumé des mises à jour |
 | ------------------- | -------------- | ------------------------ |
+| 2026/09/16 | V140E.12.104C | 1. Ajout du réglage d'offset des compteurs<br />2. Ajout d'un interrupteur de commande pour prise intelligente Shelly<br />3. Ajout du support du compteur P1<br />4. Optimisation de l'API HTTP OpenData<br />5. Optimisation de la stabilité de la communication|
 | 2026/03/06            | V1408.0C.104A  | 1. Ajout du support du compteur stromleser (lecteur infrarouge)<br />2. Ajout du support du compteur HomeWizard (P1)<br />3. Ajout du support du Shelly Plug Gen1<br />4. Ajout du réglage d’offset des compteurs |
 | 2026/01/19           | V1407.0B.1049  | 1. Optimisation de la logique de communication |
 | 2025/12/12          | V1406.0B.1047  | 1. Support des prises intelligentes Solarman, Shelly Plug S MTR Gen3, Shelly 3EM<br />2. Optimisation de la logique de fonctionnement |
@@ -223,6 +225,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026-09-16 | V2.00.11 | 1. Optimisation de la logique de fonctionnement du bypass avec micro-onduleur<br />2. Optimisation de la logique du mode de fonctionnement |
 | 2026-05-22 | V2.00.09 | 1. Optimisation du calcul de la puissance<br />2. Optimisation de la logique PV lorsque le SOC atteint 100 %<br />3. Activation de la charge AC limitée aux cas où le SOC est inférieur à 5 %<br />4. Ajout d’un interrupteur de charge complète automatique |
 | 2025/11/27          | V2.00.04  | 1. Levée de la limitation de puissance du bypass à 10 A |
 | 2025/09/29          | V2.00.03  | 1. Optimisation de la logique de scénarios en mode parallèle<br />2. En mode parallèle filaire, support de la mise en veille profonde de l’unité esclave |
@@ -249,6 +252,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version | Résumé des mises à jour                                      |
 | ------------------- | ------- | ------------------------------------------------------------ |
+| 2026/09/16          | V2.34   | Optimisation de la logique de fonctionnement                 |
 | 2026/08/10          | V2.33   | Optimisation de la logique de fonctionnement                 |
 | 2025/05/22          | V2.31   | Optimisation de la logique de fonctionnement du relais de raccordement au réseau |
 | 2025/08/28          | V2.21   | /                                                            |

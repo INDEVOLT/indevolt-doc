@@ -7,6 +7,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicherdokumentation
 
 | Aktualisierungsdatum | Versionsnummer | Änderungen |
 | -------------------- | -------------- | ---------- |
+| 2026-09-18 | V1.0.22 | Beschreibung zu [EMV-Leitfaden](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Beschreibung zu [Hinweise zur Berechnung der Erträge](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | Beschreibung zu [Bypass-Steckdose-Mikrowechselrichter-Steuerungshandbuch](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | OpenData-API-Referenz korrigiert: 75 beschreibbare cJSON-Punkte aus dem Abschnitt `Indevolt.GetData` nach `Indevolt.SetData` verschoben und alle Sprachversionen synchronisiert. |
