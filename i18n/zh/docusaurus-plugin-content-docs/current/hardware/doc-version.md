@@ -7,6 +7,7 @@ description: INDEVOLT储能设备文档版本记录
 
 | 更新日期   | 版本号  | 更新内容                                                                                                                |
 | ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-18 | V1.0.22 | 新增[EMC指南](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | 新增[收益计算方式说明](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | 新增[旁路口接微逆调控说明](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | 修正 OpenData API 参考：将 75 个可写 cJSON 点位从 `Indevolt.GetData` 章节移至 `Indevolt.SetData`，并同步全部语言版本。 |
