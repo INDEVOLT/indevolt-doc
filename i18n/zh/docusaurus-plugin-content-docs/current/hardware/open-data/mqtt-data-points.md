@@ -1409,7 +1409,7 @@ description: 介绍 INDEVOLT MQTT 消息中的数据点定义、数据类型及�
   <tr>
     <td colspan="7" style={{ textAlign: 'center' }}>PV / Real Time State</td>
   </tr>
-    <tr style="color:#999;">
+    <tr style={{ color: '#999' }}>
     <td><s>7119</s></td>
     <td>Enum</td>
     <td>R</td>
@@ -1419,7 +1419,7 @@ description: 介绍 INDEVOLT MQTT 消息中的数据点定义、数据类型及�
     <td>Indevolt.GetData</td>
     <td>PV1 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td><s>7124</s></td>
     <td>Enum</td>
     <td>R</td>
@@ -1429,7 +1429,7 @@ description: 介绍 INDEVOLT MQTT 消息中的数据点定义、数据类型及�
     <td>Indevolt.GetData</td>
     <td>PV2 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26911 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td><s>7126</s></td>
     <td>Enum</td>
     <td>R</td>
@@ -1439,7 +1439,7 @@ description: 介绍 INDEVOLT MQTT 消息中的数据点定义、数据类型及�
     <td>Indevolt.GetData</td>
     <td>PV3 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26912 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td><s>7127</s></td>
     <td>Enum</td>
     <td>R</td>

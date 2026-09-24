@@ -1569,7 +1569,7 @@ import TabItem from '@theme/TabItem';
   <tr>
     <td colspan="8" style={{ textAlign: 'center' }}>PV / Real Time State</td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td>7119</td>
     <td>Enum</td>
     <td>R</td>
@@ -1579,7 +1579,7 @@ import TabItem from '@theme/TabItem';
     <td>Indevolt.GetData</td>
     <td>PV1 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td>7124</td>
     <td>Enum</td>
     <td>R</td>
@@ -1589,7 +1589,7 @@ import TabItem from '@theme/TabItem';
     <td>Indevolt.GetData</td>
     <td>PV2 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26911 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td>7126</td>
     <td>Enum</td>
     <td>R</td>
@@ -1599,7 +1599,7 @@ import TabItem from '@theme/TabItem';
     <td>Indevolt.GetData</td>
     <td>PV3 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26912 instead.</strong></td>
   </tr>
-  <tr style="color:#999;">
+  <tr style={{ color: '#999' }}>
     <td>7127</td>
     <td>Enum</td>
     <td>R</td>
