@@ -200,7 +200,7 @@ description: INDEVOLT 微储 Modbus 寄存器结构与映射说明
 |                 | STANDBY               | 1010  |            |              |       | R              | PV      | Real Time State | Before V1.4    | Standby                                                      |
 |                 | TEST                  | 1011  |            |              |       | R              | PV      | Real Time State | Before V1.4    | Test Mode                                                    |
 | 2268            | DCSt                  |       | enum16     |              |       | R              | PV      | Real Time State | Before V1.4    | PV3 Operating Status                                         |
-|                 | OFF                   | 1001  |            |              |       |                | PV      | Real Time State | Before V1.4    | Powered Off                                                  |
+|                 | OFF                   | 1003  |            |              |       |                | PV      | Real Time State | Before V1.4    | Powered Off                                                  |
 |                 | SLEEPING              | 1004  |            |              |       |                | PV      | Real Time State | Before V1.4    | Sleep                                                        |
 |                 | STARTING              | 1005  |            |              |       |                | PV      | Real Time State | Before V1.4    | Starting                                                     |
 |                 | MPPT                  | 1006  |            |              |       |                | PV      | Real Time State | Before V1.4    | Running                                                      |
