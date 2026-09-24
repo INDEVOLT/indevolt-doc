@@ -1408,40 +1408,80 @@ description: Definition of INDEVOLT MQTT data points and data formats.
   <tr>
     <td colspan="7" style={{ textAlign: 'center' }}>PV / Real Time State</td>
   </tr>
-  <tr>
+  <tr style="color:#999;">
     <td>7119</td>
     <td>Enum</td>
     <td>R</td>
     <td></td>
     <td>DCSt</td>
     <td>1:Powered Off<br/>2:Sleep<br/>3:Starting<br/>4:Running<br/>5:Power-Limited Operation<br/>6:Shutting Down<br/>7:Fault<br/>8:Standby<br/>9:Test Mode</td>
-    <td>PV1 Operating Status</td>
+    <td>PV1 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
   </tr>
-  <tr>
+  <tr style="color:#999;">
     <td>7124</td>
     <td>Enum</td>
     <td>R</td>
     <td></td>
     <td>DCSt</td>
     <td>1:Powered Off<br/>2:Sleep<br/>3:Starting<br/>4:Running<br/>5:Power-Limited Operation<br/>6:Shutting Down<br/>7:Fault<br/>8:Standby<br/>9:Test Mode</td>
-    <td>PV2 Operating Status</td>
+    <td>PV2 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
   </tr>
-  <tr>
+  <tr style="color:#999;">
     <td>7126</td>
     <td>Enum</td>
     <td>R</td>
     <td></td>
     <td>DCSt</td>
     <td>1:Powered Off<br/>2:Sleep<br/>3:Starting<br/>4:Running<br/>5:Power-Limited Operation<br/>6:Shutting Down<br/>7:Fault<br/>8:Standby<br/>9:Test Mode</td>
-    <td>PV3 Operating Status</td>
+    <td>PV3 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
   </tr>
-  <tr>
+  <tr style="color:#999;">
     <td>7127</td>
     <td>Enum</td>
     <td>R</td>
     <td></td>
     <td>DCSt</td>
     <td>1:Powered Off<br/>2:Sleep<br/>3:Starting<br/>4:Running<br/>5:Power-Limited Operation<br/>6:Shutting Down<br/>7:Fault<br/>8:Standby<br/>9:Test Mode</td>
+    <td>PV4 Operating Status<br/><strong>⚠️ BREAKING: Deprecated since V0D.00.23.Use point 26910 instead.</strong></td>
+  </tr>
+  <tr>
+    <td>26910</td>
+    <td>Enum</td>
+    <td>R</td>
+    <td></td>
+    <td>DCSt</td>
+    <td>1000:Connected<br/>1001:Disconnected<br/>1003:OFF<br/>1004:SLEEPING<br/>1005:STARTING<br/>1006:MPPT<br/>1007:THROTTLED<br/>1008:SHUTTING_DOWN<br/>1009:FAULT<br/>1010:STANDBY<br/>1011:TEST</td>
+    <td>Indevolt.GetData</td>
+    <td>PV1 Operating Status</td>
+  </tr>
+  <tr>
+    <td>26911</td>
+    <td>Enum</td>
+    <td>R</td>
+    <td></td>
+    <td>DCSt</td>
+      <td>1000:Connected<br/>1001:Disconnected<br/>1003:OFF<br/>1004:SLEEPING<br/>1005:STARTING<br/>1006:MPPT<br/>1007:THROTTLED<br/>1008:SHUTTING_DOWN<br/>1009:FAULT<br/>1010:STANDBY<br/>1011:TEST</td>
+    <td>Indevolt.GetData</td>
+    <td>PV2 Operating Status</td>
+  </tr>
+  <tr>
+    <td>26912</td>
+    <td>Enum</td>
+    <td>R</td>
+    <td></td>
+    <td>DCSt</td>
+    <td>1000:Connected<br/>1001:Disconnected<br/>1003:OFF<br/>1004:SLEEPING<br/>1005:STARTING<br/>1006:MPPT<br/>1007:THROTTLED<br/>1008:SHUTTING_DOWN<br/>1009:FAULT<br/>1010:STANDBY<br/>1011:TEST</td>
+    <td>Indevolt.GetData</td>
+    <td>PV3 Operating Status</td>
+  </tr>
+    <tr>
+    <td>26913</td>
+    <td>Enum</td>
+    <td>R</td>
+    <td></td>
+    <td>DCSt</td>
+    <td>1000:Connected<br/>1001:Disconnected<br/>1003:OFF<br/>1004:SLEEPING<br/>1005:STARTING<br/>1006:MPPT<br/>1007:THROTTLED<br/>1008:SHUTTING_DOWN<br/>1009:FAULT<br/>1010:STANDBY<br/>1011:TEST</td>
+    <td>Indevolt.GetData</td>
     <td>PV4 Operating Status</td>
   </tr>
   <tr>
