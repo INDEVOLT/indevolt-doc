@@ -1,60 +1,53 @@
 ---
 title: SolarEdge
-description: So erhalten Sie den SolarEdge API-Schlüssel und die Site-ID
+description: So erhalten Sie die SolarEdge Client ID und das Client Secret
 ---
 
-# So erhalten Sie den SolarEdge API-Schlüssel und die Site-ID
+# So erhalten Sie die SolarEdge Client ID und das Client Secret
 
-Es gibt drei Möglichkeiten, den SolarEdge API-Schlüssel und die Site-ID zu erhalten:
+Bevor Sie SolarEdge-Geräte verwenden, aktualisieren Sie bitte Ihre INDEVOLT App auf die neueste Version.
 
-- **Option 1**: Melden Sie sich bei Ihrem [SolarEdge-Monitoring-Konto](https://monitoring.solaredge.com/) an und rufen Sie die Daten selbst ab.
-- **Option 2**: Kontaktieren Sie Ihren Installateur per E-Mail und bitten Sie um Administratorzugang oder um die Bereitstellung von API-Schlüssel und Site-ID.
-- **Option 3**: Fordern Sie die Informationen über den [SolarEdge-Chat-Support](https://www.solaredge.com/us/support) an.
+Wenn Sie SolarEdge in der INDEVOLT App verbinden, müssen Sie zunächst die **Client ID** und das **Client Secret** eingeben. Nach der Eingabe werden Sie von der INDEVOLT App zur SolarEdge-Seite weitergeleitet. Melden Sie sich dort mit Ihrem SolarEdge-Konto an und schließen Sie die Autorisierung ab.
 
----
+> **Hinweis**
+>
+> Der kostenlose SolarEdge-API-Tarif umfasst **2.000 Credits pro Monat**. Daher werden die Gerätedaten standardmäßig etwa alle **15 Minuten** aktualisiert.
 
-## Option 1: Selbst abrufen
+## Wie erhalten Sie die SolarEdge Client ID und das Client Secret?
 
 ### Schritt 1
 
-Melden Sie sich bei Ihrem [SolarEdge-Monitoring-Konto](https://monitoring.solaredge.com/) an.
+Rufen Sie die [SolarEdge Developer Console](https://developer.solaredge.com/) auf und melden Sie sich mit Ihrem bestehenden SolarEdge-Konto an.
 
 ### Schritt 2
 
-Wenn Ihr Konto über **Admin** verfügt, erscheint im oberen Menü ein **Admin**-Link. Klicken Sie darauf, um den Admin-Bereich zu öffnen.
+Erstellen Sie in der Developer Console eine Anwendung vom Typ **Site Access**.
 
 <img src={require("./img/solaredge_step2.png").default} />
 
-<details open>
-  <summary>**Problem**: Der Menüpunkt „Admin“ wird nicht angezeigt? Wechseln Sie zu Option 2.</summary>
-
-  **Lösung**:
-  - (Empfohlen) Beantragen Sie den Administratorzugang per E-Mail bei Ihrem Installateur;
-  - Bitten Sie Ihren Installateur, Ihren **API-Schlüssel** abzurufen und Ihnen zuzusenden.
-
-</details>
-
 ### Schritt 3
 
-Klicken Sie im **Admin**-Bereich auf **Site Access** und anschließend auf **Access Control**. Siehe Screenshot unten.
+Klicken Sie auf den Namen der erstellten Anwendung, um die **Settings**-Seite zu öffnen.
 
 <img src={require("./img/solaredge_step3.png").default} />
 
+Legen Sie auf der **Settings**-Seite die folgenden beiden URLs als INDEVOLT-Domain fest:
+
+- **Allowed Redirect URL(s)**: `https://manosdatahubse.indevolt.com`
+- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.indevolt.com`
+
+> **Hinweis**
+>
+> Stellen Sie sicher, dass die oben genannten URLs korrekt eingegeben wurden. Andernfalls kann die SolarEdge-Autorisierung möglicherweise nicht abgeschlossen werden.
+
 ### Schritt 4
 
-- Scrollen Sie zum Bereich „API Access“;
-- Aktivieren Sie das Kontrollkästchen „I have read, understood…“;
-- Klicken Sie auf **Save**;
-- Bestätigen Sie mit **Ok**;
-- Doppelklicken Sie auf den Schlüsselcode, um den vollständigen **API-Schlüssel** zu kopieren;
-- Kopieren Sie die **Site-ID**.
+Öffnen Sie die **Credentials**-Seite, um Ihre **Client ID** und Ihr **Client Secret** anzuzeigen.
 
-### Schritt 5
+<img src={require("./img/solaredge_step4.png").default} />
 
-Fügen Sie den **API-Schlüssel** und die **Site-ID** in die entsprechenden Felder der INDEVOLT App ein.
+Wenn Sie das **Client Secret** nicht finden können, klicken Sie auf **Regenerate Secret**, um ein neues Client Secret zu generieren.
 
-:::note
-1. Das Klicken auf „New key“ kann eine bestehende API-Verbindung unterbrechen.
-2. Verwenden Sie denselben API-Schlüssel nicht in mehreren Anwendungen, um Ratenbegrenzungen zu vermeiden.
-3. Nach dem Eintragen der Daten kann es 5–10 Minuten dauern, bis die Gerätenummer in der SolarEdge-Liste angezeigt wird.
-:::
+> **Hinweis**
+>
+> Verwenden Sie nach der Neugenerierung des Client Secrets das neue Client Secret, um die Autorisierung abzuschließen.

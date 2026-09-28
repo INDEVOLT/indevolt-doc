@@ -7,6 +7,8 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-09-28 | V1.0.24 | Updated the SolarEdge integration process |
+| 2026-09-24 | V1.0.23 | Updated the OpenData documentation:<br />Updated the PV status data points |
 | 2026-09-18 | V1.0.22 | Added [EMC Guide](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Added [Explanation of Earnings Calculation Method](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | Added [Bypass Socket Microinverter Control Guide](./technical-note/microinverter-control.md) |
