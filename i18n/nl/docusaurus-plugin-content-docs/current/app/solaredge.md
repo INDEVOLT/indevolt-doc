@@ -1,53 +1,62 @@
 ---
 title: SolarEdge
-description: Hoe u de SolarEdge Client ID en Client Secret verkrijgt
+description: Hoe u een SolarEdge API Key en Site ID verkrijgt
 ---
 
-# Hoe u de SolarEdge Client ID en Client Secret verkrijgt
+# Hoe u een SolarEdge API Key en Site ID verkrijgt
 
-Voordat u SolarEdge-apparaten gebruikt, moet u uw INDEVOLT App bijwerken naar de nieuwste versie.
+Er zijn drie manieren om een SolarEdge API Key en Site ID te verkrijgen:
 
-Wanneer u SolarEdge in de INDEVOLT App verbindt, moet u eerst de **Client ID** en **Client Secret** invoeren. Nadat u deze gegevens hebt ingevoerd, wordt u vanuit de INDEVOLT App doorgestuurd naar de SolarEdge-pagina. Meld u aan bij uw SolarEdge-account en voltooi de autorisatie.
+- **Methode 1**: Log in op uw [SolarEdge Monitoring Platform-account](https://monitoring.solaredge.com/) en verkrijg deze gegevens zelf.
+- **Methode 2**: Neem per e-mail contact op met uw installateur en vraag om beheerdersrechten of om de API Key en Site ID rechtstreeks aan u te verstrekken.
+- **Methode 3**: Vraag de gegevens aan via de [online klantenservice van SolarEdge](https://www.solaredge.com/us/support).
 
-> **Opmerking**
->
-> Het gratis SolarEdge API-abonnement biedt **2.000 credits per maand**. Daarom worden apparaatgegevens standaard ongeveer elke **15 minuten** bijgewerkt.
+---
 
-## Hoe verkrijgt u de SolarEdge Client ID en Client Secret?
+## Methode 1: Zelf verkrijgen
 
 ### Stap 1
 
-Ga naar de [SolarEdge Developer Console](https://developer.solaredge.com/) en meld u aan met uw bestaande SolarEdge-account.
+Log in op uw [SolarEdge Monitoring Platform-account](https://monitoring.solaredge.com/).
 
 ### Stap 2
 
-Maak in de Developer Console een applicatie van het type **Site Access**.
+Als uw account over **Admin**-rechten beschikt, ziet u bovenaan het menu de optie **Admin**. Klik hierop om de beheerpagina te openen.
 
 <img src={require("./img/solaredge_step2.png").default} />
 
+<details open>
+  <summary>**Probleem:** Ziet u de menuoptie Admin niet? Raadpleeg dan methode 2.</summary>
+
+  **Oplossing:**
+  - (Aanbevolen) Vraag uw installateur per e-mail om beheerdersrechten toe te kennen;
+  - Vraag uw installateur om de **API Key** voor u op te halen en toe te sturen. Indien nodig kunt u een link naar deze pagina meesturen als referentie.
+
+</details>
+
 ### Stap 3
 
-Klik op de naam van de aangemaakte applicatie om de pagina **Settings** te openen.
+Ga op de pagina **Admin** naar **Site Access** → **Access Control**, zoals weergegeven in de onderstaande afbeelding.
 
 <img src={require("./img/solaredge_step3.png").default} />
 
-Stel op de pagina **Settings** de volgende twee URL's in als INDEVOLT-domein:
-
-- **Allowed Redirect URL(s)**: `https://manosdatahubse.indevolt.com`
-- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.indevolt.com`
-
-> **Opmerking**
->
-> Zorg ervoor dat de bovenstaande URL's correct zijn ingevuld. Anders kan de SolarEdge-autorisatie mislukken.
-
 ### Stap 4
 
-Ga naar de pagina **Credentials** om uw **Client ID** en **Client Secret** te bekijken.
+- Scroll naar de sectie **API Access**;
+- Vink **“I have read, understood…”** aan;
+- Klik op **Save** om de instellingen op te slaan;
+- Klik in het pop-upvenster op **Ok**;
+- Dubbelklik op de lange sleutel om de volledige **API Key** te kopiëren;
+- Kopieer daarnaast ook de **Site ID**.
 
-<img src={require("./img/solaredge_step4.png").default} />
+### Stap 5
 
-Als u de **Client Secret** niet kunt vinden, klikt u op **Regenerate Secret** om een nieuwe Client Secret te genereren.
+Voer vervolgens de **API Key** en **Site ID** in de daarvoor bestemde velden in de INDEVOLT App in.
 
-> **Opmerking**
->
-> Gebruik na het opnieuw genereren van de Client Secret de nieuwe Client Secret om de autorisatie te voltooien.
+:::note
+
+1. Door op **New key** te klikken kunnen bestaande API-verbindingen ongeldig worden. In dat geval moet u de nieuwe API Key opnieuw invoeren in de betreffende toepassingen.
+2. Om API-limieten te voorkomen, wordt aanbevolen dezelfde API niet gelijktijdig in meerdere applicaties te gebruiken.
+3. Nadat de gegevens zijn ingevuld en het apparaat online is, kan het 5 tot 10 minuten duren voordat het serienummer (SN) zichtbaar wordt in de SolarEdge-apparatenlijst.
+
+:::

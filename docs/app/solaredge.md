@@ -1,53 +1,60 @@
 ---
 title: SolarEdge
-description: How to Get SolarEdge Client ID and Client Secret
+description: How to get SolarEdge API Key and Site ID
 ---
 
-# How to Get SolarEdge Client ID and Client Secret
+# How to get SolarEdge API Key and Site ID
 
-Before using SolarEdge devices, please update your INDEVOLT App to the latest version.
+There are three options to get SolarEdge API Key and Site ID:
 
-When connecting SolarEdge in the INDEVOLT App, you need to enter your **Client ID** and **Client Secret** first. After entering them, the INDEVOLT App will redirect you to the SolarEdge page, where you can log in to your SolarEdge account and complete the authorization.
+- **Option 1**: Get them yourself by logging in to your [SolarEdge monitoring account](https://monitoring.solaredge.com/).
+- **Option 2**: Contact your installer by email and ask them to grant you admin access or provide your API Key and Site ID.
+- **Option 3**: Request the information from [SolarEdge chat support](https://www.solaredge.com/us/support).
 
-> **Note**
->
-> The free SolarEdge API plan provides **2,000 credits per month**, so device data is updated approximately every **15 minutes** by default.
+---
 
-## How to Get SolarEdge Client ID and Client Secret?
+## Option 1: Get them yourself
 
-### Step 1
+**Step 1**
 
-Go to the [SolarEdge Developer Console](https://developer.solaredge.com/) and sign in with your existing SolarEdge account.
+Log in to your [SolarEdge monitoring account](https://monitoring.solaredge.com/).
 
-### Step 2
+**Step 2**
 
-Create a **Site Access** type application in the Developer Console.
+If your account has **Admin** permissions, an **Admin** link will appear in the top menu. Click it to access the **Admin** area.
 
 <img src={require("./img/solaredge_step2.png").default} />
 
-### Step 3
+<details open>
+  <summary>**Problem**: I don’t see the “Admin” menu item! If this is the case, move on to **Option 2**.</summary>
 
-Click the name of the application you created to open the **Settings** page.
+  **Solution**: You can either:
+  - _(preferred)_ Request “Admin access” to your account by emailing your installer. 
+  - Ask your installer to retrieve and send you your **API Key**. You can send them a link to this page in case they don’t know how to.
+
+</details>
+
+**Step 3**
+
+Once you’re in the **Admin** area, click **Site Access**, then **Access Control**. Refer to the screenshot below.
 
 <img src={require("./img/solaredge_step3.png").default} />
 
-On the **Settings** page, set the following two URLs to the INDEVOLT domain:
+**Step 4**
 
-- **Allowed Redirect URL(s)**: `https://manosdatahubse.indevolt.com`
-- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.indevolt.com`
+- Scroll down to the “API Access” area.
+- **Check the box** "I have read, understood…".
+- **Click Save**.
+- After clicking save, click the "Ok" box that pops up.
+- To copy the **entire API Key**, double-click on the long key code. Copy and paste it.
+- Copy the **Site ID**.
 
-> **Note**
->
-> Make sure the URLs above are entered correctly. Otherwise, the SolarEdge authorization may fail.
+**Step 5**
 
-### Step 4
+You’ve done it! You can paste the **API Key** or **Site ID** into the required fields in the INDEVOLT App. 
 
-Go to the **Credentials** page to find your **Client ID** and **Client Secret**.
-
-<img src={require("./img/solaredge_step4.png").default} />
-
-If you cannot find the **Client Secret**, click **Regenerate Secret** to generate a new one.
-
-> **Note**
->
-> After regenerating the Client Secret, use the new Client Secret to complete the authorization.
+:::note
+1. if you ever click “New key” it may break an existing API connection that is working. If that’s the case, you may need to re-send the new API Key.
+2. To avoid triggering API rate limits and ensure your device data can be updated normally, please refrain from using the same API across multiple applications.
+3. After **API Key** or **Site ID** is filled and SolarEdge device is online, you might need to wait for 5-10 minutes to see the device SN under SolarEdge device list.
+:::
