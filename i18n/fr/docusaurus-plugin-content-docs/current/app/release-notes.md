@@ -5,6 +5,16 @@ description: Historique des mises à jour et améliorations des fonctionnalités
 
 # Notes de version
 
+## V1.4.9
+
+- Ajout d’une fonction d’évaluation de l’application permettant aux utilisateurs de partager leur expérience
+- Optimisation des paramètres de tarification personnalisée de l’électricité et ajout de la fonction d’étalonnage des prix
+- Optimisation de l’affichage des sources de données sur la page d’accueil, avec indication des appareils sources et des relations entre les données
+- Ajout des paramètres de l’interrupteur anti-injection et du contrôle de la demande
+- Optimisation des programmes personnalisés avec amélioration des paramètres et de l’expérience d’interaction
+
+---
+
 ## V1.4.8
 
 - Ajout de la prise en charge d'unités monétaires supplémentaires (¥, €, £, $, kr, zł)

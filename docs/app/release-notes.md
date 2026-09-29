@@ -5,6 +5,15 @@ description: INDEVOLT App version update history and feature improvements.
 
 # Release Notes
 
+## V1.4.9
+
+- Added app rating functionality to allow users to provide feedback on their experience
+- Optimized custom electricity pricing settings and added price calibration
+- Optimized data source display on the Home page to show source devices and data relationships
+- Added anti-backflow switch and demand control settings
+- Optimized custom schedules with improved settings and interaction experience
+---
+
 ## V1.4.8
 
 - Added support for additional currency units (¥, €, £, $, kr, zł)

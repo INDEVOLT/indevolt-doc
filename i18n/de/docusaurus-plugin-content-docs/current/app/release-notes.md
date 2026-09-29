@@ -5,6 +5,16 @@ description: Versionsverlauf und Funktionsverbesserungen der Energy-Ease-App.
 
 # Versionshinweise
 
+## V1.4.9
+
+- Bewertungsfunktion für die App hinzugefügt, damit Nutzer ihr Nutzungserlebnis bewerten können
+- Benutzerdefinierte Strompreiseinstellungen optimiert und eine Funktion zur Preiskalibrierung hinzugefügt
+- Anzeige der Datenquellen auf der Startseite optimiert, einschließlich der Quellgeräte und Datenbeziehungen
+- Einstellungen für den Rückspeiseschutz und die Bedarfssteuerung hinzugefügt
+- Benutzerdefinierte Zeitpläne optimiert und die Einstellungen sowie das Interaktionserlebnis verbessert
+
+---
+
 ## V1.4.8
 
 - KUnterstützung für weitere Währungseinheiten hinzugefügt (¥, €, £, $, kr, zł)

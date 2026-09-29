@@ -5,6 +5,16 @@ description: INDEVOLT App Release Notes
 
 # Release Notes
 
+## V1.4.9
+
+- App-beoordelingsfunctie toegevoegd, zodat gebruikers feedback over hun gebruikservaring kunnen geven
+- Aangepaste instellingen voor elektriciteitsprijzen geoptimaliseerd en een functie voor prijsafstemming toegevoegd
+- Weergave van gegevensbronnen op de startpagina geoptimaliseerd, inclusief bronapparaten en gegevensrelaties
+- Instellingen voor anti-teruglevering en vraagbeheer toegevoegd
+- Aangepaste schema's geoptimaliseerd en de instellingen en interactie-ervaring verbeterd
+
+---
+
 ## V1.4.8
 
 - Ondersteuning toegevoegd voor extra valuta-eenheden (¥, €, £, $, kr, zł)
