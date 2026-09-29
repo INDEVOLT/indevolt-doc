@@ -7,7 +7,6 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
-| 2026-09-28 | V1.0.24 | Mise à jour du processus d’intégration de l’API SolarEdge |
 | 2026-09-24 | V1.0.23 | Mise à jour de la documentation OpenData :<br />1. Mise à jour des points de données d’état PV |
 | 2026-09-18 | V1.0.22 | Ajout de la [Guide CEM](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Ajout de la [Explication de la méthode de calcul des revenus](./technical-note/earnings-calculation.md) |

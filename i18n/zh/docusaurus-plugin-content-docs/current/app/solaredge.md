@@ -1,54 +1,60 @@
 ---
 title: SolarEdge
-description: 如何获取 SolarEdge Client ID 和 Client Secret
+description: 如何获取 SolarEdge API Key 和 Site ID
 ---
 
-# 如何获取 SolarEdge Client ID 和 Client Secret
+# 如何获取 SolarEdge API Key 和 Site ID
 
-使用 SolarEdge 设备前，请先将 INDEVOLT App 更新至最新版本。
+获取 SolarEdge API Key 和 Site ID 有三种方式：
 
-在 INDEVOLT App 中连接 SolarEdge 时，您需要先填写 **Client ID** 和 **Client Secret**。填写完成后，INDEVOLT App 会跳转至 SolarEdge 页面，登录您的 SolarEdge 账号并完成授权。
+- **方式一**：登录您的 [SolarEdge 监控平台账号](https://monitoring.solaredge.com/) 自行获取。
+- **方式二**：通过邮件联系安装商，请其为您开通管理员权限，或直接向您提供 API Key 和 Site ID。
+- **方式三**：通过 [SolarEdge 在线客服](https://www.solaredge.com/us/support) 申请相关信息。
 
-> **注意**
->
-> SolarEdge 免费 API 计划每月提供 **2000 credits**，因此设备数据默认约每 **15 分钟**更新一次。
+---
 
-## 如何获取 SolarEdge Client ID 和 Client Secret？
+## 方式一：自行获取
 
 ### 第一步
 
-进入 [SolarEdge Developer Console](https://developer.solaredge.com/)，使用您现有的 SolarEdge 账号登录。
+登录您的 [SolarEdge 监控平台账号](https://monitoring.solaredge.com/)。
 
 ### 第二步
 
-在 Developer Console 中创建一个 **Site Access** 类型的应用。
+如果您的账号拥有 **Admin** 权限，顶部菜单中会显示 **Admin** 入口。点击进入 **Admin** 管理页面。
 
 <img src={require("./img/solaredge_step2.png").default} />
 
+<details open>
+  <summary>**问题**：未看到“Admin”菜单项？请参考方式二。</summary>
+
+  **解决方案**：
+  - （推荐）通过邮件向安装商申请管理员权限；
+  - 请安装商为您获取并发送 **API Key**，必要时可将本页面链接发送给对方参考。
+
+</details>
+
 ### 第三步
 
-点击已创建的应用名称，进入应用的 **Settings** 设置页面。
+进入 **Admin** 页面后，依次点击 **Site Access** → **Access Control**，参考下图操作。
 
 <img src={require("./img/solaredge_step3.png").default} />
 
-在 **Settings** 页面中，将以下两个地址设置为 INDEVOLT 的域名：
-
-- **Allowed Redirect URL(s)**：`https://manosdatahubse.indevolt.com`
-- **Allowed Returned URL(s) (Optional)**：`https://manosdatahubse.indevolt.com`
-
-> **注意**
->
-> 请确保上述地址填写正确，否则可能无法完成 SolarEdge 授权。
-
 ### 第四步
 
-进入 **Credentials** 页面，查看您的 **Client ID** 和 **Client Secret**。
+- 滚动至 “API Access” 区域；
+- 勾选 **“I have read, understood…”**；
+- 点击 **Save** 保存；
+- 在弹出的窗口中点击 **Ok**；
+- 双击长串密钥以复制完整的 **API Key**；
+- 同时复制 **Site ID**。
 
-<img src={require("./img/solaredge_step4.png").default} />
+### 第五步
 
-如果无法找到 **Client Secret**，可以点击 **Regenerate Secret** 重新生成。
+完成以上步骤后，将 **API Key** 和 **Site ID** 填入 INDEVOLT App 对应位置即可。
 
-> **注意**
->
-> 重新生成 Client Secret 后，请使用新的 Client Secret 完成后续授权。
-
+:::note
+1. 点击 “New key” 可能会导致当前可用的 API 连接失效，如遇此情况需重新提交新的 API Key。
+2. 为避免触发 API 调用限制，请勿在多个应用中同时使用同一个 API。
+3. 填写完成后，在设备在线状态下，可能需要等待 5–10 分钟，才能在 SolarEdge 设备列表中看到设备序列号。
+:::

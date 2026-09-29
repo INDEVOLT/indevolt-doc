@@ -7,7 +7,6 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
-| 2026-09-28 | V1.0.24 | Het SolarEdge-integratieproces bijgewerkt |
 | 2026-09-24 | V1.0.23 | OpenData-documentatie bijgewerkt:<br />1. PV-statusgegevenspunten bijgewerkt |
 | 2026-09-18 | V1.0.22 | Beschrijving van [EMC-gids](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Beschrijving van [Uitleg over de berekeningsmethode van opbrengsten](./technical-note/earnings-calculation.md) |
