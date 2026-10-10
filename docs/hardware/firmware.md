@@ -29,6 +29,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 | ------------ | --------- | -------------- |
+| 2026/09/20   | V0D.00.23 |  1. Optimized some parameters        |
 | 2026/08/31   | V0D.00.22 |  1. Optimized some parameters        |
 | 2026/06/30   | V0D.00.20 |  1. Optimized some parameters        |
 | 2026/05/25   | V0D.00.19 | 1. Optimized some parameters |

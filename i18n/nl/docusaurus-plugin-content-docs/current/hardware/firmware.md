@@ -32,6 +32,7 @@ description: Firmwareversiegeschiedenis van INDEVOLT energieopslagsystemen
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |
 | ---------------- | ------------ | ------------------------ |
+| 2026/09/20  | V0D.00.23 | 1. Sommige parameters geoptimaliseerd | 
 | 2026/08/31  | V0D.00.22 | 1. Sommige parameters geoptimaliseerd | 
 | 2026/06/30  | V0D.00.20 | 1. Sommige parameters geoptimaliseerd |
 | 2026/05/25  | V0D.00.19 | 1. Sommige parameters geoptimaliseerd |
