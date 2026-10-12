@@ -52,6 +52,7 @@ const sidebars: SidebarsConfig = {
         'hardware/energy-mode/charge-discharge-schedule',
         'hardware/energy-mode/real-time-control',
         'hardware/energy-mode/price-strategy',
+        'hardware/energy-mode/AI-strategy',
       ],
     },
     {
