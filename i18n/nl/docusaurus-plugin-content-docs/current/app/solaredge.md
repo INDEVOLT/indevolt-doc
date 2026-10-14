@@ -1,53 +1,96 @@
 ---
 title: SolarEdge
-description: Hoe u de SolarEdge Client ID en Client Secret verkrijgt
+description: Zo voegt u de V2-autorisatie voor SolarEdge toe
 ---
 
-# Hoe u de SolarEdge Client ID en Client Secret verkrijgt
+# Zo voegt u de V2-autorisatie toe
 
-Voordat u SolarEdge-apparaten gebruikt, moet u uw INDEVOLT App bijwerken naar de nieuwste versie.
+:::note Voordat u begint
+- Werk uw INDEVOLT-app bij naar **V1.4.11** of hoger.
+- Het gratis SolarEdge API-abonnement omvat **2.000 credits per maand**. Gegevens worden daarom slechts ongeveer elke **15 minuten** bijgewerkt.
+- Volgens de [officiële SolarEdge-documentatie](https://api-docs.solaredge.com/) wordt **V1 op 1 november 2026 beëindigd**. Als u nog de V1-API (apiKey + siteId) gebruikt, voegt u deze V2-autorisatie dan vóór **1 november 2026** toe.
+:::
 
-Wanneer u SolarEdge in de INDEVOLT App verbindt, moet u eerst de **Client ID** en **Client Secret** invoeren. Nadat u deze gegevens hebt ingevoerd, wordt u vanuit de INDEVOLT App doorgestuurd naar de SolarEdge-pagina. Meld u aan bij uw SolarEdge-account en voltooi de autorisatie.
+## 1. Maak een ontwikkelaarsaccount aan
 
-> **Opmerking**
->
-> Het gratis SolarEdge API-abonnement biedt **2.000 credits per maand**. Daarom worden apparaatgegevens standaard ongeveer elke **15 minuten** bijgewerkt.
+Ga naar [developer.solaredge.com](https://developer.solaredge.com/) en meld u aan met uw SolarEdge-inloggegevens. Heeft u nog geen SolarEdge-account? Registreer u dan om een nieuw account aan te maken. In beide gevallen wordt u gevraagd een ontwikkelaarsaccountprofiel in te vullen:
 
-## Hoe verkrijgt u de SolarEdge Client ID en Client Secret?
+| Veld | Wat u invult |
+|-------|---------------|
+| Company Name | Uw naam of een projectnaam (alleen Engelse letters en cijfers, zonder accenten), bijv. 'Maya Smith' of 'Solar Dashboard Project' |
+| Industry type | 'Other / Hobbyist' is prima |
+| Expected monthly API usage | 'Low — personal project' is prima |
 
-### Stap 1
+:::info
+U bent nu de **accountbeheerder** van een nieuw ontwikkelaarsaccount met automatisch ingerichte **gratis laag** (2.000 credits/maand, 10 CPM, 1 app). Uw persoonlijke account blijft ongewijzigd.
+:::
 
-Ga naar de [SolarEdge Developer Console](https://developer.solaredge.com/) en meld u aan met uw bestaande SolarEdge-account.
+## 2. Maak een Site Access-applicatie aan
 
-### Stap 2
+Klik in de console op **Create Application** en voer vervolgens de drie stappen uit:
 
-Maak in de Developer Console een applicatie van het type **Site Access**.
+1. **Naam en service** — Geef de app bijvoorbeeld de naam 'My Home Dashboard'. Beschrijving: 'Personal solar data integration'. Service: **Monitoring API**.
+2. **Toegangstype** — Kies **Site Access** (Fleet Access is niet beschikbaar zonder installateurprofiel op uw account).
+3. **OAuth-configuratie** — Vul de onderstaande velden in. Uw **Client ID** en **Client Secret** worden vervolgens gegenereerd.
 
-<img src={require("./img/solaredge_step2.png").default} />
+| Instelling | Waarde |
+|---------|-------|
+| Origin URL | *leeg laten* |
+| Redirect URI | `https://manosdatahubse.indevolt.com` |
+| Returned URL | `https://manosdatahubse.indevolt.com` |
+| Scopes | **SITE_DATA** + **DEVICE_DATA** |
 
-### Stap 3
+:::caution Bewaar uw secret nu
+Kopieer het **Client Secret** onmiddellijk — het wordt **slechts één keer** weergegeven. Sla het op in een `.env`-bestand of een wachtwoordmanager.
+:::
 
-Klik op de naam van de aangemaakte applicatie om de pagina **Settings** te openen.
+## 3. Controleer uw applicatieconfiguratie
 
-<img src={require("./img/solaredge_step3.png").default} />
+**Zorg ervoor dat het applicatietype 'SITE ACCESS' is:**
 
-Stel op de pagina **Settings** de volgende twee URL's in als INDEVOLT-domein:
+<img src={require("./img/solaredge_step2.png").default} style={{ maxWidth: "700px" }} />
 
-- **Allowed Redirect URL(s)**: `https://manosdatahubse.indevolt.com`
-- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.indevolt.com`
+**Klik op de applicatienaam en open de pagina Settings:**
 
-> **Opmerking**
->
-> Zorg ervoor dat de bovenstaande URL's correct zijn ingevuld. Anders kan de SolarEdge-autorisatie mislukken.
+<img src={require("./img/solaredge_step3.png").default} style={{ maxWidth: "400px" }} />
 
-### Stap 4
+Controleer of de **Allowed Redirect URL(s)** en **Allowed Returned URL(s) (Optional)** ons domein gebruiken: `https://manosdatahubse.indevolt.com`.
 
-Ga naar de pagina **Credentials** om uw **Client ID** en **Client Secret** te bekijken.
+**Klik op Credentials** om uw Client ID en Client Secret te controleren:
 
-<img src={require("./img/solaredge_step4.png").default} />
+<img src={require("./img/solaredge_step4.png").default} style={{ maxWidth: "700px" }} />
 
-Als u de **Client Secret** niet kunt vinden, klikt u op **Regenerate Secret** om een nieuwe Client Secret te genereren.
+:::tip
+Kunt u het Client Secret niet vinden? Klik op **Regenerate Secret** om een nieuw Client Secret aan te maken.
+:::
 
-> **Opmerking**
->
-> Gebruik na het opnieuw genereren van de Client Secret de nieuwe Client Secret om de autorisatie te voltooien.
+## 4. Voeg uw V2-autorisatie toe via de INDEVOLT-app
+
+Ga in de INDEVOLT-app naar **Home → Add device → SolarEdge → Add Access** om de autorisatie te starten.
+
+**1. Voer uw Client ID en Client Secret in:**
+
+<img src={require("./img/solaredge_auth_bind.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**2. Klik op Bind** — u wordt doorgestuurd naar de SolarEdge-aanmeldpagina:
+
+<img src={require("./img/solaredge_auth_login.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**3. Meld u aan** met uw SolarEdge-e-mailadres en wachtwoord.
+
+**4. Klik op Approve** om te autoriseren:
+
+<img src={require("./img/solaredge_auth_approve.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**5. Bevestiging** — u zou een pagina met `{"result": true, "message":"OK"}` moeten zien:
+
+<img src={require("./img/solaredge_auth_success.jpeg").default} style={{ maxWidth: "240px" }} />
+
+:::tip Klaar!
+Ga terug in de INDEVOLT-app naar **My Profile → Energy Integrations** — SolarEdge zou als verbonden moeten worden weergegeven.
+:::
+
+## Opmerkingen
+
+- Als u eerst de autorisatie op INDEVOLT voltooit en daarna het **CLIENT SECRET** op het SolarEdge-portaal opnieuw genereert, wordt de autorisatie op INDEVOLT ongeldig. Voer **Deauthorize** voor SolarEdge op INDEVOLT uit en autoriseer opnieuw met het nieuwste Client Secret.
+- Vanwege de creditlimiet worden gegevens overdag slechts ongeveer elke **15 minuten** bijgewerkt. Bij het eerste toevoegen van SolarEdge-omvormers duurt het even voordat het apparaat beschikbaar is.
