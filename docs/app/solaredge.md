@@ -1,53 +1,96 @@
 ---
 title: SolarEdge
-description: How to Get SolarEdge Client ID and Client Secret
+description: How to add V2 authorization for SolarEdge
 ---
 
-# How to Get SolarEdge Client ID and Client Secret
+# How to add V2 authorization?
 
-Before using SolarEdge devices, please update your INDEVOLT App to the latest version.
+:::note Before you start
+- Update your INDEVOLT APP to **V1.4.11** or later.
+- The free SolarEdge API plan is **2,000 credits/month**, so data updates about every **15 minutes**.
+- According to [SolarEdge's official document](https://api-docs.solaredge.com/), **V1 will be deprecated on November 1, 2026**. If you are still using the V1 API (apiKey + siteId), please add this V2 authorization before **November 1, 2026**.
+:::
 
-When connecting SolarEdge in the INDEVOLT App, you need to enter your **Client ID** and **Client Secret** first. After entering them, the INDEVOLT App will redirect you to the SolarEdge page, where you can log in to your SolarEdge account and complete the authorization.
+## 1. Create a developer account
 
-> **Note**
->
-> The free SolarEdge API plan provides **2,000 credits per month**, so device data is updated approximately every **15 minutes** by default.
+Go to [developer.solaredge.com](https://developer.solaredge.com/) and sign in with your homeowner SolarEdge credentials. If you don't have a SolarEdge account yet, sign up to create one. Either way, you'll be prompted to fill in a developer-account profile:
 
-## How to Get SolarEdge Client ID and Client Secret?
+| Field | What to enter |
+|-------|---------------|
+| Company Name | Your name or a project name (English letters and numbers only, no accents), e.g. "Maya Smith" or "Solar Dashboard Project" |
+| Industry type | "Other / Hobbyist" is fine |
+| Expected monthly API usage | "Low — personal project" is fine |
 
-### Step 1
+:::info
+You're now the **Account Admin** of a fresh developer account with the **Free tier** auto-provisioned (2,000 credits/month, 10 CPM, 1 app). Your homeowner account stays untouched.
+:::
 
-Go to the [SolarEdge Developer Console](https://developer.solaredge.com/) and sign in with your existing SolarEdge account.
+## 2. Create a Site Access application
 
-### Step 2
+In the console, click **Create Application**, then complete the three steps:
 
-Create a **Site Access** type application in the Developer Console.
+1. **Name & service** — Name it something like "My Home Dashboard." Description: "Personal solar data integration." Service: **Monitoring API**.
+2. **Access type** — Choose **Site Access** (Fleet Access won't be available without an installer profile on your account).
+3. **OAuth config** — Fill in the fields below, then your **Client ID** and **Client Secret** will be generated.
 
-<img src={require("./img/solaredge_step2.png").default} />
+| Setting | Value |
+|---------|-------|
+| Origin URL | *leave blank* |
+| Redirect URI | `https://manosdatahubse.indevolt.com` |
+| Returned URL | `https://manosdatahubse.indevolt.com` |
+| Scopes | **SITE_DATA** + **DEVICE_DATA** |
 
-### Step 3
+:::caution Save your secret now
+Copy the **Client Secret** right away — it's shown **only once**. Drop it into a `.env` file or a secrets manager.
+:::
 
-Click the name of the application you created to open the **Settings** page.
+## 3. Double check your application configurations
 
-<img src={require("./img/solaredge_step3.png").default} />
+**Make sure the application type is "SITE ACCESS":**
 
-On the **Settings** page, set the following two URLs to the INDEVOLT domain:
+<img src={require("./img/solaredge_step2.png").default} style={{ maxWidth: "700px" }} />
 
-- **Allowed Redirect URL(s)**: `https://manosdatahubse.indevolt.com`
-- **Allowed Returned URL(s) (Optional)**: `https://manosdatahubse.indevolt.com`
+**Click the application name and open the Settings page:**
 
-> **Note**
->
-> Make sure the URLs above are entered correctly. Otherwise, the SolarEdge authorization may fail.
+<img src={require("./img/solaredge_step3.png").default} style={{ maxWidth: "400px" }} />
 
-### Step 4
+Verify that the **Allowed Redirect URL(s)** and **Allowed Returned URL(s) (Optional)** use our domain: `https://manosdatahubse.indevolt.com`.
 
-Go to the **Credentials** page to find your **Client ID** and **Client Secret**.
+**Click Credentials** to check your Client ID and Client Secret:
 
-<img src={require("./img/solaredge_step4.png").default} />
+<img src={require("./img/solaredge_step4.png").default} style={{ maxWidth: "700px" }} />
 
-If you cannot find the **Client Secret**, click **Regenerate Secret** to generate a new one.
+:::tip
+Can't find the Client Secret? Click **Regenerate Secret** to create a new one.
+:::
 
-> **Note**
->
-> After regenerating the Client Secret, use the new Client Secret to complete the authorization.
+## 4. Add your v2 authorization from INDEVOLT app
+
+In the INDEVOLT APP, go to **Home → Add device → SolarEdge → Add Access** to start authorizing.
+
+**1. Enter your Client ID and Client Secret:**
+
+<img src={require("./img/solaredge_auth_bind.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**2. Click Bind** — you'll be redirected to the SolarEdge sign-in page:
+
+<img src={require("./img/solaredge_auth_login.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**3. Sign in** with your SolarEdge email and password.
+
+**4. Click Approve** to authorize:
+
+<img src={require("./img/solaredge_auth_approve.jpeg").default} style={{ maxWidth: "240px" }} />
+
+**5. Confirmation** — you should see a page containing `{"result": true, "message":"OK"}`:
+
+<img src={require("./img/solaredge_auth_success.jpeg").default} style={{ maxWidth: "240px" }} />
+
+:::tip Done!
+Go back to **My Profile → Energy Integrations** in the INDEVOLT APP — SolarEdge will show as connected.
+:::
+
+## Notes
+
+- If you finish the authorization on INDEVOLT first and later regenerate the **CLIENT SECRET** on the SolarEdge portal, the authorization on INDEVOLT becomes invalid. **Deauthorize** SolarEdge on INDEVOLT, then authorize again with the latest Client Secret.
+- Due to the credit limit, data updates only every **15 minutes** during daylight. When first adding SolarEdge inverters, it takes a while before the device becomes available.
