@@ -82,6 +82,10 @@ Dans l'application INDEVOLT, accédez à **Home → Add device → SolarEdge →
 
 <img src={require("./img/solaredge_auth_approve.jpeg").default} style={{ maxWidth: "240px" }} />
 
+:::tip
+Si vous ne voyez pas la page avec le bouton **Approve**, revenez à l'application INDEVOLT et cliquez à nouveau sur **Bind** — vous serez alors redirigé vers cette page.
+:::
+
 **5. Confirmation** — vous devriez voir une page contenant `{"result": true, "message":"OK"}` :
 
 <img src={require("./img/solaredge_auth_success.jpeg").default} style={{ maxWidth: "240px" }} />
