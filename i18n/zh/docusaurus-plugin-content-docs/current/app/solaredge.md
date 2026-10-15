@@ -82,6 +82,10 @@ description: 如何添加 SolarEdge V2 授权
 
 <img src={require("./img/solaredge_auth_approve.jpeg").default} style={{ maxWidth: "240px" }} />
 
+:::tip
+如果您看不到带有 **Approve** 按钮的页面，请返回 INDEVOLT App 并再次点击 **Bind**，系统将重新跳转到此页面。
+:::
+
 **5. 确认** —— 您应看到包含 `{"result": true, "message":"OK"}` 的页面：
 
 <img src={require("./img/solaredge_auth_success.jpeg").default} style={{ maxWidth: "240px" }} />
