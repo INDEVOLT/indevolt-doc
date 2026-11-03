@@ -11,6 +11,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/10/19 | V1500.0B.0041 | 1. Fixed an issue where data could occasionally not be received after LoRa meter pairing<br />2. Optimized P1 meter communication anomalies<br />3. Optimized part of the communication logic |
 | 2026/08/31 | V140E.0B.003E | 1. Optimized local access logic for third‑party inverters<br />2.Optimized parallel‑operation logic |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimized operation logic |
 | 2026/05/07  | V140C.0B.0036 | 1. Optimized LoRa communication logic |
@@ -29,6 +30,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version   | Update Summary |
 | ------------ | --------- | -------------- |
+| 2026/10/20 | V0D.00.25 | 1. Added some parameters |
+| 2026/10/19 | V0D.00.24 | 1. Optimized some parameters |
 | 2026/09/20   | V0D.00.23 |  1. Optimized some parameters        |
 | 2026/08/31   | V0D.00.22 |  1. Optimized some parameters        |
 | 2026/06/30   | V0D.00.20 |  1. Optimized some parameters        |
@@ -45,7 +48,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
-| 2026/08/31 | V1.01.12 | 1. Optimized the operating logic for cluster system scenarios<br />2.Optimized some known issues |
+| 2026/10/12 | V1.01.15 | 1. Optimized scenarios with directly connected PV in parallel operation<br />2. Fixed an issue where charging did not resume after weak light recovery from deep standby |
+| 2026/08/13 | V1.01.12 | 1. Optimized the operating logic for cluster system scenarios<br />2.Optimized some known issues |
 | 2026/05/12 | V1.01.08 | 1. Optimized the operating logic for cluster system scenarios |
 | 2026/02/11 | V1.01.03 | 1. Optimized forced charging logic<br />2. Optimized scheduling time slot configuration<br />3. Optimized low-temperature battery heating logic<br />4. Optimized parallel operation logic<br />5. Added support for PFA4000 battery pack<br />6. Fixed issue where deep standby could not be entered under certain conditions |
 | 2026/01/21 | V1.00.58 | 1. Optimized firmware upgrade timing<br />2. Optimized parallel power regulation<br />3. Added automatic charging when export is detected while AC charging is disabled<br />4. Added battery standby logic |
@@ -63,7 +67,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
-| 2026/08/24   | V1.00.49 | 1. Optimized operating logic     |
+| 2026/07/22   | V1.00.49 | 1. Optimized operating logic     |
 | 2026/05/12   | V1.00.45 | 1. Optimized battery protection and operating logic     |
 | 2026/02/11   | V1.00.42 | 1. Optimized SOC algorithm |
 | 2026/01/21   | V1.00.38 | 1. Optimized SOC algorithm |
@@ -78,7 +82,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
-| 2026/05/12   | V1.00.45 | 1. Optimized battery protection and operating logic     |
+| 2026/07/22   | V1.10.49 | 1. Optimized operating logic     |
+| 2026/05/12   | V1.10.45 | 1. Optimized battery protection and operating logic     |
 | 2026/02/11   | V1.10.42 | 1. Optimized SOC algorithm |
 | 2026/01/21   | V1.10.38 | 1. Optimized SOC algorithm |
 | 2025/11/28   | V1.10.35 | 1. Optimized upgrade logic |
@@ -92,7 +97,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
-| 2026/08/24 | V1.01.77 | 1. Optimized operating logic  |
+| 2026/07/22 | V1.01.77 | 1. Optimized operating logic  |
 | 2026/05/29 | V1.01.75 | Optimized an issue where charging power could occasionally be limited when multiple battery packs were connected. |
 | 2026/05/10 | V1.01.73 | 1. Optimized operating logic |
 | 2026/03/20 | V1.01.64 | 1. Fixed occasional communication loss of battery pack during deep standby in multi-pack systems |
@@ -112,6 +117,8 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/09/30 | V1.43 | 1. Fixed an issue where the bypass port could disconnect under certain conditions<br />2. Optimized inverter operating logic |
+| 2026/07/22 | V1.41 | 1. Optimized operating logic under weak PV light (not applicable to ECO models) |
 | 2026/05/12  | V1.38  | 1. Added support for off-grid microinverters (max: 1200)<br />2. Optimized the issue where the grid relay could occasionally fail to close under certain operating conditions.<br />3. Optimized the issue where an abnormal alarm could occasionally occur after PV charging reached full capacity. |
 | 2026/04/10 | V1.36 | 1. Optimized inverter issue where it may not charge/discharge during grid-tied operation |
 | 2026/02/11 | V1.35 | 1. Optimized charging logic |
@@ -156,6 +163,7 @@ description: INDEVOLT Energy Storage Device Firmware Release Notes
 
 | Release Date | Version | Update Summary |
 | ------------ | ------- | -------------- |
+| 2026/09/16 | V1.00.20 | 1. Added AC charging switch<br />2. Fixed an issue where PV excess power could exceed the export limit after battery full charge in time schedule mode<br />3. Added reverse power charging switch |
 | 2026/05/22 | V1.00.19 | 1. Optimized power calculation<br />2. Optimized PV operating logic when SOC reaches 100%<br />3. Added an AC charging enable option that is effective only when SOC is below 5%<br />4. Added an Auto Full Charge switch |
 | 2026/02/09 | V1.00.16 | 1. Added PV power sharing between units during parallel operation<br />2. Optimized real-time control logic |
 | 2025/08/28 | V1.00.14 | 1. System optimization: improved multi-device stability and power allocation<br />2. Feature enhancement: added critical load protection, scheduled full-charge maintenance, deep standby mode (replaces shutdown), extending battery lifespan<br />3. User experience improvement: more flexible wake-up conditions and smarter grid/off-grid operation<br />4. Logging & upgrade: added shutdown records; settings retained during upgrades<br />5. Protocol updated to latest internal communication version |

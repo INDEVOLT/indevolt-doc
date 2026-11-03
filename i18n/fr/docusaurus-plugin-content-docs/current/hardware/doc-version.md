@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-11-04 | V1.0.25 | Mise à jour de l'historique des versions du firmware du micro-stockage |
 | 2026-10-28 | V1.0.24 | Ajout de la [Guide d’utilisation de la limitation des pics](./technical-note/Peak-Shaving.md)|
 | 2026-09-24 | V1.0.23 | Mise à jour de la documentation OpenData :<br />1. Mise à jour des points de données d’état PV |
 | 2026-09-18 | V1.0.22 | Ajout de la [Guide CEM](./technical-note/emc-guide.md) |

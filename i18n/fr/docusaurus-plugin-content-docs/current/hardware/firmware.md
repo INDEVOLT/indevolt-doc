@@ -11,6 +11,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version        | Résumé des mises à jour |
 | ------------------- | -------------- | ----------------------- |
+| 2026/10/19 | V1500.0B.0041 | 1. Correction d'un problème où les données n'étaient parfois pas reçues après l'appairage du compteur LoRa<br />2. Optimisation des anomalies de communication du compteur P1<br />3. Optimisation d'une partie de la logique de communication |
 | 2026/08/31 | V140E.0B.003E | 1.Optimisation de la logique d'accès locale pour les onduleurs tiers<br />2.Optimisation de la logique de fonctionnement en parallèle |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimisation de la logique de fonctionnement |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimisation de la logique de communication LoRa |
@@ -30,6 +31,8 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/10/20 | V0D.00.25 | 1. Ajout de certains paramètres |
+| 2026/10/19 | V0D.00.24 | 1. Optimisation de certains paramètres |
 | 2026/09/20  | V0D.00.23 | 1. Optimisation de certains paramètres |
 | 2026/08/31  | V0D.00.22 | 1. Optimisation de certains paramètres |
 | 2026/06/30  | V0D.00.20 | 1. Optimisation de certains paramètres |
@@ -47,7 +50,8 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
-| 2026/08/31 | V1.01.12 | 1. Optimisation de la logique de fonctionnement en parallèle<br />2. Optimisation de certains problèmes connus |
+| 2026/10/12 | V1.01.15 | 1. Optimisation des scénarios avec PV direct en mode parallèle<br />2. Correction d'un problème où la reprise après faible ensoleillement en veille profonde ne lançait pas la charge |
+| 2026/08/13 | V1.01.12 | 1. Optimisation de la logique de fonctionnement en parallèle<br />2. Optimisation de certains problèmes connus |
 | 2026/05/12 | V1.01.08 | 1. Optimisation de la logique de fonctionnement en parallèle |
 | 2026/02/11           | V1.01.03   | 1. Optimisation de la logique de charge forcée<br />2. Optimisation des plages horaires<br />3. Optimisation du chauffage basse température de la batterie<br />4. Optimisation du fonctionnement en parallèle<br />5. Ajout de compatibilité avec le pack batterie PFA4000<br />6. Correction d’un problème empêchant l’entrée en veille profonde dans certains cas |
 | 2026/01/21           | V1.00.58   | 1. Optimisation du temps de mise à jour firmware<br />2. Optimisation du réglage de puissance en parallèle<br />3. Détection automatique de retour réseau en cas de charge AC interdite<br />4. Amélioration de la logique de veille des batteries |
@@ -64,7 +68,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version  | Résumé des mises à jour                                                                                                         |
 | ------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| 2026/08/24          | V1.00.49 | 1. Optimisation de la logique de fonctionnement                                                                                 |
+| 2026/07/22          | V1.00.49 | 1. Optimisation de la logique de fonctionnement                                                                                 |
 | 2026/05/12          | V1.00.45 | 1. Optimisation de la logique de protection et de fonctionnement de la batterie                                                 |
 | 2026/02/11          | V1.00.42 | 1. Optimisation de l’algorithme SOC                                                                                             |
 | 2026/01/21          | V1.00.38 | 1. Optimisation de l’algorithme SOC                                                                                             |
@@ -79,6 +83,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version  | Résumé des mises à jour                                                                                                         |
 | ------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 2026/07/22          | V1.10.49 | 1. Optimisation de la logique de fonctionnement                                                                                 |
 | 2026/05/12          | V1.10.45 | 1. Optimisation de la logique de protection et de fonctionnement de la batterie                                                 |
 | 2026/02/11          | V1.10.42 | 1. Optimisation de l’algorithme SOC                                                                                             |
 | 2026/01/21          | V1.10.38 | 1. Optimisation de l’algorithme SOC                                                                                             |
@@ -86,14 +91,14 @@ description: Historique des versions du firmware des équipements de stockage d�
 | 2025/10/04          | V1.10.33 | 1. Optimisation de l’auto-diagnostic<br />2. Optimisation de la consommation en veille<br />3. Ajout de la logique de précharge |
 | 2025/07/31          | V1.10.30 | 1. Optimisation de la détection de charge, stabilité de communication et protection de décharge                                 |
 | 2025/06/16          | V1.10.25 | /                                                                                                                               |
-| 2025/06/04          | V1.10.22 | /                                                                                                                               |
+| 2025/05/30          | V1.10.22 | /                                                                                                                               |
 
 
 ### DCDC
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
-| 2026/08/24 | V1.01.77 | 1. Optimisation de la logique de fonctionnement |
+| 2026/07/22 | V1.01.77 | 1. Optimisation de la logique de fonctionnement |
 | 2026/05/29 | V1.01.75 | 1. Optimisation du problème de limitation de puissance lors de la charge de plusieurs packs de batteries pouvant survenir occasionnellement |
 | 2026/05/10 | V1.01.73 | 1. Optimisation de la logique de fonctionnement |
 | 2026/03/20           | V1.01.64   | 1. Correction d’un problème de perte de communication des packs batterie en veille profonde multi-pack |
@@ -113,6 +118,8 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version | Résumé des mises à jour |
 | ------------------- | ------- | ------------------------ |
+| 2026/09/30 | V1.43 | 1. Correction d'un problème où le bypass pouvait se déconnecter dans certaines conditions<br />2. Optimisation de la logique de fonctionnement de l'onduleur |
+| 2026/07/22 | V1.41 | 1. Optimisation de la logique de fonctionnement sous faible ensoleillement (ne s'applique pas aux modèles ECO) |
 | 2026/05/12 | V1.38 | 1. Ajout de la prise en charge des micro-onduleurs hors réseau (max : 1200 W)<br />2. Optimisation du problème de défaillance possible de l’activation du relais de raccordement au réseau dans certains scénarios<br />3. Optimisation d’un problème où une erreur pouvait être signalée après la charge complète du PV |
 | 2026/04/10           | V1.36   | 1. Correction d’un problème de non charge/décharge aléatoire en mode connecté au réseau |
 | 2026/02/11           | V1.35   | 1. Optimisation de la logique de charge |
@@ -158,6 +165,7 @@ description: Historique des versions du firmware des équipements de stockage d�
 
 | Date de publication | Version   | Résumé des mises à jour |
 | ------------------- | --------- | ------------------------ |
+| 2026/09/16 | V1.00.20 | 1. Ajout d’un interrupteur de charge AC<br />2. Correction d’un problème où, après charge complète de la batterie en mode planification horaire, l’excédent PV dépassait la limite de puissance injectée au réseau<br />3. Ajout d’un interrupteur de charge par puissance inversée |
 | 2026/05/22 | V1.00.19 | 1. Optimisation du calcul de la puissance<br />2. Optimisation de la logique PV lorsque le SOC est à 100 %<br />3. Ajout d’une condition : l’activation de la charge AC ne s’applique que lorsque le SOC est inférieur à 5 %<br />4. Ajout d’un interrupteur de charge complète automatique |
 | 2026/02/09            | V1.00.16  | 1. En mode parallèle, autorisation du surplus PV vers une autre unité pour charge<br />2. Optimisation de la logique du mode contrôle temps réel |
 | 2025/08/28           | V1.00.14  | 1. Optimisation système : amélioration de la stabilité et de la répartition de puissance en réseau multi-appareils<br />2. Ajout de fonctions intelligentes : protection des charges critiques, maintenance par charge complète programmée, veille profonde (remplace l’arrêt), prolongation de la durée de vie batterie<br />3. Amélioration de l’expérience utilisateur : conditions de réveil plus flexibles, expérience plus intelligente en mode connecté au réseau et hors réseau<br />4. Ajout des journaux d’arrêt système, conservation automatique des paramètres lors des mises à jour<br />5. Mise à jour du protocole de communication interne |

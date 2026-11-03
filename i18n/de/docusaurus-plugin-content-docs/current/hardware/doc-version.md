@@ -7,7 +7,8 @@ description: Versionsverlauf der INDEVOLT-Energiespeicherdokumentation
 
 | Aktualisierungsdatum | Versionsnummer | Änderungen |
 | -------------------- | -------------- | ---------- |
-| 2026-10-18 | V1.0.24 | Beschreibung zu [Bedienungsanleitung Spitzenlastbegrenzung](./technical-note/Peak-Shaving.md) |
+| 2026-11-04 | V1.0.25 | Firmware-Versionsverlauf des Speichers aktualisiert |
+| 2026-10-28 | V1.0.24 | Beschreibung zu [Bedienungsanleitung Spitzenlastbegrenzung](./technical-note/Peak-Shaving.md) |
 | 2026-09-24 | V1.0.23 | Aktualisierung der OpenData-Dokumentation:<br />1. Aktualisierung der PV-Status-Datenpunkte |
 | 2026-09-18 | V1.0.22 | Beschreibung zu [EMV-Leitfaden](./technical-note/emc-guide.md) |
 | 2026-08-24 | V1.0.21 | Beschreibung zu [Hinweise zur Berechnung der Erträge](./technical-note/earnings-calculation.md) |
