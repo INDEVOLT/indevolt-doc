@@ -395,3 +395,58 @@ div[class^="announcementBar_"] {
   background: var(--ifm-color-primary);
   color: white;
 }
+
+/* =====================================================
+   Peak Shaving / 需量控制 专属样式
+   仅作用于含 #indevolt-peak-shaving 标记的单一文档页，
+   通过 :has() 缩放到该页，不影响全站其它页面。
+   浏览器不支持 :has() 时本页自动回退为默认样式。
+   ===================================================== */
+article.markdown:has(#indevolt-peak-shaving) table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+article.markdown:has(#indevolt-peak-shaving) table th,
+article.markdown:has(#indevolt-peak-shaving) table td {
+  border: none;
+  border-right: 1px solid var(--ifm-border-color);
+  border-bottom: 1px solid var(--ifm-border-color);
+}
+article.markdown:has(#indevolt-peak-shaving) table th:last-child,
+article.markdown:has(#indevolt-peak-shaving) table td:last-child {
+  border-right: none;
+}
+article.markdown:has(#indevolt-peak-shaving) table tbody tr:last-child td {
+  border-bottom: none;
+}
+article.markdown:has(#indevolt-peak-shaving) table thead th {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-heading-color);
+  font-weight: 600;
+}
+article.markdown:has(#indevolt-peak-shaving) table tbody tr {
+  transition: background 0.15s ease;
+}
+article.markdown:has(#indevolt-peak-shaving) table tbody tr:hover {
+  background: rgba(18, 175, 250, 0.05);
+}
+html[data-theme="dark"] article.markdown:has(#indevolt-peak-shaving) table tbody tr:hover {
+  background: rgba(18, 175, 250, 0.12);
+}
+html[data-theme="dark"] article.markdown:has(#indevolt-peak-shaving) table thead th {
+  background: #23262b;
+}
+
+article.markdown:has(#indevolt-peak-shaving) blockquote {
+  border-left: 4px solid var(--ifm-color-primary-light);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  padding: 0.6rem 1.1rem;
+  margin: 1rem 0;
+  color: var(--ifm-secondary-text-color);
+}
