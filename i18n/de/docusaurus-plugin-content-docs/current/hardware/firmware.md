@@ -11,6 +11,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/10/19 | V1500.0B.0041 | 1. Behebung eines Problems, bei dem nach der Kopplung eines LoRa-Stromzählers gelegentlich keine Daten empfangen wurden<br />2. Optimierung der P1-Zähler-Kommunikationsstörungen<br />3. Optimierung eines Teils der Kommunikationslogik |
 | 2026/08/31 | V140E.0B.003E | 1. Lokale Zugriffslogik für Drittanbieter‑Wechselrichter optimiert<br />2. Optimierung der Betriebslogik im Parallelbetrieb |
 | 2026/06/30 | V140C.0B.0038 | 1. Optimierung der Betriebslogik |
 | 2026/05/07 | V140C.0B.0036 | 1. Optimierung der Lora-Kommunikationslogik |
@@ -30,6 +31,8 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/10/20 | V0D.00.25 | 1. Hinzufügen einiger Parameter |
+| 2026/10/19 | V0D.00.24 | 1. Optimierung einiger Parameter |
 | 2026/09/20  | V0D.00.23 | 1. Optimierung einzelner Parameter |
 | 2026/08/31  | V0D.00.22 | 1. Optimierung einzelner Parameter |
 | 2026/06/30  | V0D.00.20 | 1. Optimierung einzelner Parameter |
@@ -47,7 +50,8 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
-| 2026/08/31 | V1.01.12 | 1. Optimierung der Betriebslogik im Parallelbetrieb<br />2. Einige bekannte Probleme optimalisiert |
+| 2026/10/12 | V1.01.15 | 1. Optimierung von Szenarien mit direkt angeschlossenem PV im Parallelbetrieb<br />2. Behebung eines Problems, bei dem nach schwacher PV-Einstrahlung im Tiefstandby kein Ladevorgang startete |
+| 2026/08/13 | V1.01.12 | 1. Optimierung der Betriebslogik im Parallelbetrieb<br />2. Einige bekannte Probleme optimalisiert |
 | 2026/05/12 | V1.01.08 | 1. Optimierung der Betriebslogik im Parallelbetrieb |
 | 2026/02/11 | V1.01.03 | 1. Optimierung der Zwangsnachlade-Logik<br />2. Verbesserung der Zeitplan-Konfiguration<br />3. Optimierung der Batteriekaltstart-Heizlogik<br />4. Optimierung des Parallelbetriebs<br />5. Unterstützung von PFA4000-Batteriemodulen hinzugefügt<br />6. Behebung eines Fehlers, bei dem kein Übergang in den Tiefstandby möglich war |
 | 2026/01/21 | V1.00.58 | 1. Optimierung der Firmware-Update-Zeit<br />2. Optimierung der Leistungsregelung im Parallelbetrieb<br />3. Automatischer Wechsel in den Lademodus bei Netzeinspeisung während AC-Ladeverbot<br />4. Verbesserte Standby-Logik der Batteriemodule |
@@ -64,7 +68,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
-| 2026/08/24 | V1.00.49 | 1. Optimierung der Betriebslogik |
+| 2026/07/22 | V1.00.49 | 1. Optimierung der Betriebslogik |
 | 2026/05/12 | V1.00.45 | 1. Optimierung des Batterie-Schutz- und Betriebsverhaltens |
 | 2026/02/11 | V1.00.42 | 1. Optimierung des SOC-Algorithmus |
 | 2026/01/21 | V1.00.38 | 1. Optimierung des SOC-Algorithmus |
@@ -78,6 +82,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/07/22 | V1.10.49 | 1. Optimierung der Betriebslogik |
 | 2026/05/12 | V1.10.45 | 1. Optimierung des Batterie-Schutz- und Betriebsverhaltens |
 | 2026/02/11 | V1.10.42 | 1. Optimierung des SOC-Algorithmus |
 | 2026/01/21 | V1.10.38 | 1. Optimierung des SOC-Algorithmus |
@@ -85,14 +90,14 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 | 2025/10/04 | V1.10.33 | 1. Optimierung der Selbsttestlogik<br />2. Verbesserung des Standby-Verbrauchs<br />3. Hinzufügen der Vorladefunktion |
 | 2025/07/31 | V1.10.30 | 1. Optimierung der Ladeerkennung, Stabilität der Update-Kommunikation und Verbesserung des Entladeschutzes |
 | 2025/06/16 | V1.10.25 | / |
-| 2025/06/04 | V1.10.23 | / |
+| 2025/05/30 | V1.10.22 | / |
 
 
 ### DCDC
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
-| 2026/08/24 | V1.01.77 | 1. Optimierung der Betriebslogik |
+| 2026/07/22 | V1.01.77 | 1. Optimierung der Betriebslogik |
 | 2026/05/29 | V1.01.75 | 1. Optimierung des Problems der Leistungsbegrenzung beim Laden mehrerer Batteriemodule |
 | 2026/05/10 | V1.01.73 | 1. Optimierung der Betriebslogik |
 | 2026/03/20 | V1.01.64 | 1. Behebung eines Kommunikationsverlusts bei Batteriemodulen im Tiefstandby |
@@ -112,6 +117,8 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/30 | V1.43 | 1. Behebung eines Problems, bei dem der Bypass in bestimmten Szenarien gelegentlich getrennt wurde<br />2. Optimierung der Wechselrichter-Betriebslogik |
+| 2026/07/22 | V1.41 | 1. Optimierung der Betriebslogik bei schwacher PV-Einstrahlung (gilt nicht für ECO-Modelle) |
 | 2026/05/12 | V1.38 | 1. Unterstützung für netzunabhängige Mikro-Wechselrichter (max. 1200 W)<br />2. Behebung eines Problems mit fehlerhafter Netzanbindung in bestimmten Szenarien<br />3. Optimierung eines Fehlalarms nach vollständiger PV-Ladung |
 | 2026/04/10 | V1.36 | 1. Behebung eines Problems, bei dem der Wechselrichter im Netzbetrieb nicht lädt/entlädt |
 | 2026/02/11 | V1.35 | 1. Optimierung der Ladelogik |
@@ -155,6 +162,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicher-Firmware
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
 | ---------------------- | -------------- | ------------------- |
+| 2026/09/16 | V1.00.20 | 1. Hinzufügen eines AC-Ladschalters<br />2. Behebung eines Problems, bei dem nach Vollladung im Zeitplan-Modus der PV-Überschuss die Netzeinspeise-Grenzleistung überschritt<br />3. Hinzufügen eines Rückflussleistungs-Ladeschalters |
 | 2026/05/22 | V1.00.19 | 1. Optimierung der Leistungsberechnung<br />2. Optimierung der PV-Logik bei 100 % SOC<br />3. AC-Ladefreigabe nur unter SOC 5 %<br />4. Hinzufügen eines automatischen Volllade-Schalters |
 | 2026/02/09 | V1.00.16 | 1. PV-Überschussweiterleitung an andere Geräte im Parallelbetrieb<br />2. Optimierung der Logik im Echtzeit-Steuerungsmodus |
 | 2025/08/28 | V1.00.14 | 1. Systemoptimierung: Verbesserung der Stabilität und Leistungsaufteilung im Multi-Geräte-Verbund<br />2. Funktionsverbesserung: Hinzufügen von kritischem Lastschutz, planmäßiger Vollladung zur Wartung sowie Tiefstandby (ersetzt Abschaltung), zur Verlängerung der Batterielebensdauer<br />3. Benutzererlebnis: flexiblere Aufweckbedingungen und intelligenteres Verhalten im Netz-/Inselbetrieb<br />4. Protokollierung & Upgrade: Hinzufügen von Abschaltprotokollen; Einstellungen bleiben nach Updates erhalten<br />5. Protokoll-Update: interne Kommunikationsprotokolle aktualisiert |

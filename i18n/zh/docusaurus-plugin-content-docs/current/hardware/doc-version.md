@@ -5,30 +5,31 @@ description: INDEVOLT储能设备文档版本记录
 
 # 文档版本记录
 
-| 更新日期   | 版本号  | 更新内容                                                                                                                |
-| ---------- | ------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2026-10-28 | V1.0.24 | 新增[需量控制使用指南](./technical-note/Peak-Shaving.md) |
-| 2026-09-24 | V1.0.23 | 更新 OpenData 文档：<br />1.更新 PV 状态点位 |
-| 2026-09-18 | V1.0.22 | 新增[EMC指南](./technical-note/emc-guide.md) |
+| 更新日期   | 版本号  | 更新内容                                                     |
+| ---------- | ------- | ------------------------------------------------------------ |
+| 2026-11-4  | V1.0.25 | 1、更新微储固件版本记录                                      |
+| 2026-10-28 | V1.0.24 | 新增[需量控制使用指南](./technical-note/Peak-Shaving.md)     |
+| 2026-09-24 | V1.0.23 | 更新 OpenData 文档：<br />1.更新 PV 状态点位                 |
+| 2026-09-18 | V1.0.22 | 新增[EMC指南](./technical-note/emc-guide.md)                 |
 | 2026-08-24 | V1.0.21 | 新增[收益计算方式说明](./technical-note/earnings-calculation.md) |
 | 2026-08-19 | V1.0.20 | 新增[旁路口接微逆调控说明](./technical-note/microinverter-control.md) |
 | 2026-08-11 | V1.0.19 | 修正 OpenData API 参考：将 75 个可写 cJSON 点位从 `Indevolt.GetData` 章节移至 `Indevolt.SetData`，并同步全部语言版本。 |
-| 2026-07-31 | V1.0.18 | 1. 新增[RCD 说明](./technical-note/rcd.md)  <br/>2. 更新 OpenData 文档 V2.0                  |
+| 2026-07-31 | V1.0.18 | 1. 新增[RCD 说明](./technical-note/rcd.md)  <br/>2. 更新 OpenData 文档 V2.0 |
 | 2026-07-24 | V1.0.17 | 新增[深度待机与普通待机说明](./technical-note/deep-standby.md) |
-| 2026-07-16 | V1.0.16 | 更新微储并机说明：增加 485 并机说明                                                                                         |
-| 2026-07-03 | V1.0.15 | 新增德语微储文档                                                                                                        |
-| 2026-06-26 | V1.0.14 | 新增[三相电表 CT 多位置监测](./advanced/three-phase-meter.md)                                                           |
+| 2026-07-16 | V1.0.16 | 更新微储并机说明：增加 485 并机说明                          |
+| 2026-07-03 | V1.0.15 | 新增德语微储文档                                             |
+| 2026-06-26 | V1.0.14 | 新增[三相电表 CT 多位置监测](./advanced/three-phase-meter.md) |
 | 2026-06-22 | V1.0.13 | 更新 OpenData 文档：<br /> 1. 新增 BK1600 系列数据点（设备 SN、固件版本、电池温度、光伏功率 / 电流 / 电压）及控制点位。 |
-| 2026-06-18 | V1.0.12 | 新增[第三方逆变器双计量方案](./advanced/third-party-inverter-dual-metering.md)                                          |
-| 2026-06-11 | V1.0.11 | 1. 新增[第三方逆变器接入说明](./advanced/third-party-inverter.md) <br />2. 新增荷兰语、法语微储文档                     |
-| 2026-06-08 | V1.0.10 | 1. 新增[配件更换说明](./advanced/accessory-replacement.md) <br />2. 更新微储固件版本记录                                |
-| 2026-05-18 | V1.0.9  | 1. 新增[并机说明](./technical-note/cluster.md) <br />2. 更新微储固件版本记录                                            |
-| 2026-05-08 | V1.0.8  | 新增[电池 SOC 均衡说明](./technical-note/soc-balancing.md)                                                              |
-| 2026-04-24 | V1.0.7  | 1. 新增[微储与外部设备通信说明](./technical-note/device-communication.md)<br />2. 补充微储固件版本记录                  |
-| 2026-04-23 | V1.0.6  | 1. 新增[旁路口说明](./technical-note/bypass.md)<br />2. 暂时移除错误 FAQ                                                |
-| 2026-04-17 | V1.0.5  | 新增[光伏/电池温度降额说明](./technical-note/thermal-derating.md)                                                       |
-| 2026-03-26 | V1.0.4  | 更新 OpenData 文档：<br />1. 补充部分点位的注释说明<br />2. 新增可读取的点位<br />3. 优化了部分点位的设置范围           |
-| 2026-03-25 | V1.0.3  | 增加[LoRa接入说明](./technical-note/lora.md)                                                                            |
-| 2026-03-18 | V1.0.2  | 增加[补电逻辑说明](./technical-note/recharge.md)、[电量校准说明](./technical-note/energy-calibration.md)                |
-| 2026-03-10 | V1.0.1  | 增加[待机功耗说明](./technical-note/standby-power.md)                                                                   |
-| 2026-03-03 | V1.0.0  | 初始版本                                                                                                                |
+| 2026-06-18 | V1.0.12 | 新增[第三方逆变器双计量方案](./advanced/third-party-inverter-dual-metering.md) |
+| 2026-06-11 | V1.0.11 | 1. 新增[第三方逆变器接入说明](./advanced/third-party-inverter.md) <br />2. 新增荷兰语、法语微储文档 |
+| 2026-06-08 | V1.0.10 | 1. 新增[配件更换说明](./advanced/accessory-replacement.md) <br />2. 更新微储固件版本记录 |
+| 2026-05-18 | V1.0.9  | 1. 新增[并机说明](./technical-note/cluster.md) <br />2. 更新微储固件版本记录 |
+| 2026-05-08 | V1.0.8  | 新增[电池 SOC 均衡说明](./technical-note/soc-balancing.md)   |
+| 2026-04-24 | V1.0.7  | 1. 新增[微储与外部设备通信说明](./technical-note/device-communication.md)<br />2. 补充微储固件版本记录 |
+| 2026-04-23 | V1.0.6  | 1. 新增[旁路口说明](./technical-note/bypass.md)<br />2. 暂时移除错误 FAQ |
+| 2026-04-17 | V1.0.5  | 新增[光伏/电池温度降额说明](./technical-note/thermal-derating.md) |
+| 2026-03-26 | V1.0.4  | 更新 OpenData 文档：<br />1. 补充部分点位的注释说明<br />2. 新增可读取的点位<br />3. 优化了部分点位的设置范围 |
+| 2026-03-25 | V1.0.3  | 增加[LoRa接入说明](./technical-note/lora.md)                 |
+| 2026-03-18 | V1.0.2  | 增加[补电逻辑说明](./technical-note/recharge.md)、[电量校准说明](./technical-note/energy-calibration.md) |
+| 2026-03-10 | V1.0.1  | 增加[待机功耗说明](./technical-note/standby-power.md)        |
+| 2026-03-03 | V1.0.0  | 初始版本                                                     |
