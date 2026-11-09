@@ -3,6 +3,10 @@
     "message": "Nächste",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Firmware": {
+    "message": "Firmware-Versionsverlauf",
+    "description": "The label for category Firmware in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Daily Use": {
     "message": "Tägliche Nutzung",
     "description": "The label for category Daily Use in sidebar tutorialSidebar"

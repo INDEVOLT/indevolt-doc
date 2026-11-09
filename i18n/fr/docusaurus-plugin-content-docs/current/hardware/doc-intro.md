@@ -41,6 +41,6 @@ Si vous souhaitez optimiser vos modes de consommation, consulter les paramètres
 
 ## Informations complémentaires
 
-- **[Consulter les mises à jour du firmware](./firmware.md)**
+- **[Consulter les mises à jour du firmware](./firmware/pg2000series.md)**
 - **[Maintenance](./maintenance.md)**
 - **[Glossaire](./glossary.md)**

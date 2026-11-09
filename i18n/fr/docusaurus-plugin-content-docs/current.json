@@ -3,6 +3,10 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Firmware": {
+    "message": "Historique des versions du firmware",
+    "description": "The label for category Firmware in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
     "message": "Découvrez votre système de micro-stockage",
     "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"
