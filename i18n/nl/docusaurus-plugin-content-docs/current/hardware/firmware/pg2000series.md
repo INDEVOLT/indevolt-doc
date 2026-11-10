@@ -5,6 +5,14 @@ description: PG2000Series Firmwareversiegeschiedenis
 
 # PG2000Series
 
+:::info[Toepassingsbereik]
+Deze firmware wordt per productserie uitgebracht en is niet benoemd naar een enkel model. De volgende modellen binnen dezelfde serie delen dezelfde firmware:
+
+**SolidFlex 2000, SolidFlex 2000Eco, PowerFlex 2000, PowerFlex 2000Eco**
+
+Het firmwarepakket bevat de firmware van de modules CMS, Pfile, EMS, BMS MB, INV, DCDC. Elk module wordt afzonderlijk bijgewerkt; raadpleeg indien nodig het betreffende gedeelte.
+:::
+
 ### CMS
 
 
@@ -95,3 +103,22 @@ description: PG2000Series Firmwareversiegeschiedenis
 | 2025/09/16 | V1.22 | / |
 | 2025/07/08 | V1.21 | 1. Laden geoptimaliseerd<br />2. Onderspanningsbeveiliging aangepast<br />3. Overstroombeveiliging geüpgraded<br />4. Aangepast aan meerdere regionale regelgeving<br />5. Off-grid controle verbeterd<br />6. Prestaties bij zwak net geoptimaliseerd<br />7. Standaard regionale instellingen toegevoegd |
 | 2025/06/02 | V1.16 | / |
+
+### DCDC
+
+| Publicatiedatum | Versienummer | Samenvatting van updates |
+| --------------- | ------------ | ------------------------ |
+| 2026/07/22 | V1.01.77 | 1. Optimalisatie van de bedrijfslogica |
+| 2026/05/29 | V1.01.75 | 1. Optimalisatie van een probleem waarbij het laadvermogen bij meerdere batterijpacks soms wordt begrensd |
+| 2026/05/10 | V1.01.73 | 1. Optimalisatie van de bedrijfslogica |
+| 2026/03/20 | V1.01.64 | 1. Probleem opgelost waarbij batterijpacks in diepe standby soms communicatie verliezen |
+| 2026/03/04 | V1.01.62 | 1. Communicatie met batterijpacks geoptimaliseerd |
+| 2026/02/11 | V1.01.61 | 1. Communicatie met batterijpacks geoptimaliseerd |
+| 2026/01/21 | V1.01.59 | 1. Probleem opgelost met SOC-ongelijkheid bij lage ontlaadvermogens |
+| 2025/11/28 | V1.01.54 | 1. Probleem opgelost bij PV-beperking in bepaalde omstandigheden<br />2. Upgrade-logica geoptimaliseerd |
+| 2025/11/04 | V1.01.51 | 1. Logica van bypass-poort geoptimaliseerd |
+| 2025/10/14 | V1.01.48 | 1. PV-laadlogica geoptimaliseerd<br />2. Werking van verwarmingsfolie geoptimaliseerd |
+| 2025/08/27 | V1.01.39 | / |
+| 2025/07/31 | V1.01.36 | 1. Terugstroombeveiliging toegevoegd<br />2. Ontlaadvermogen geoptimaliseerd<br />3. Probleem met overlaadstroom opgelost<br />4. Intelligente detectie bij zwak licht toegevoegd<br />5. Overbelastingsbeveiliging versterkt |
+| 2025/06/17 | V1.01.28 | / |
+| 2025/06/04 | V1.01.23 | / |

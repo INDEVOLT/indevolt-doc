@@ -5,6 +5,14 @@ description: PG3000Series Historique des versions du firmware
 
 # PG3000Series
 
+:::info[Périmètre]
+Ce firmware est publié par série de produits et non nommé d’après un modèle unique. Les modèles suivants d’une même série partagent le même ensemble de firmwares :
+
+**SolidFlex 3000 Hybrid, SolidFlex 3000 AC, PowerFlex 3000 Hybrid, PowerFlex 3000 AC, SolidFlex 3000 Hybrid Pro, SolidFlex 3000 AC Pro**
+
+Le paquet de firmware contient les firmwares des modules CMS, Pfile, EMS, PCS, BMS MB, DCDC MB. Chaque module est mis à jour indépendamment ; consultez la section correspondante selon vos besoins.
+:::
+
 ### CMS
 
 | Date de publication | Version | Résumé des mises à jour |

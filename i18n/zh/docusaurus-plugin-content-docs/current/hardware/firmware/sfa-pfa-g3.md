@@ -5,6 +5,14 @@ description: SFA/PFA_G3 固件版本记录
 
 # SFA/PFA_G3
 
+:::info[适用范围]
+本固件按产品系列发布，不以单个型号命名。同一系列内的以下型号共用同一套固件：
+
+**SFA3600、PFA4000、PFA4000S、SFA4000、SFA4000S**
+
+固件包内含 BMS SLAVE、DCDC Slave 等各模块固件，各模块版本独立更新，请按需查询相关内容。
+:::
+
 ### BMS SLAVE
 
 

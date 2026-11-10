@@ -5,6 +5,14 @@ description: PG2000Series Historique des versions du firmware
 
 # PG2000Series
 
+:::info[Périmètre]
+Ce firmware est publié par série de produits et non nommé d’après un modèle unique. Les modèles suivants d’une même série partagent le même ensemble de firmwares :
+
+**SolidFlex 2000, SolidFlex 2000Eco, PowerFlex 2000, PowerFlex 2000Eco**
+
+Le paquet de firmware contient les firmwares des modules CMS, Pfile, EMS, BMS MB, INV, DCDC. Chaque module est mis à jour indépendamment ; consultez la section correspondante selon vos besoins.
+:::
+
 ### CMS
 
 | Date de publication | Version        | Résumé des mises à jour |
@@ -94,3 +102,23 @@ description: PG2000Series Historique des versions du firmware
 | 2025/09/16          | V1.22   | / |
 | 2025/07/08            | V1.21   | 1. Optimisation de la charge<br />2. Ajustement de la protection sous-tension<br />3. Amélioration de la protection surintensité<br />4. Adaptation aux réglementations multi-régions<br />5. Amélioration des performances réseau faible<br />6. Paramètres de réglementation par défaut |
 | 2025/06/02            | V1.16   | / |
+
+
+### DCDC
+
+| Date de publication | Version | Résumé des mises à jour |
+| ------------------- | ------- | ----------------------- |
+| 2026/07/22 | V1.01.77 | 1. Optimisation de la logique de fonctionnement |
+| 2026/05/29 | V1.01.75 | 1. Optimisation du problème de limitation de puissance lors de la charge de plusieurs packs de batteries |
+| 2026/05/10 | V1.01.73 | 1. Optimisation de la logique de fonctionnement |
+| 2026/03/20 | V1.01.64 | 1. Correction d'un problème de perte de communication des packs de batteries en veille profonde multi-pack |
+| 2026/03/04 | V1.01.62 | 1. Optimisation de la communication des packs de batteries |
+| 2026/02/11 | V1.01.61 | 1. Optimisation de la communication des packs de batteries |
+| 2026/01/21 | V1.01.59 | 1. Correction d'un déséquilibre SOC causé par une décharge à faible puissance |
+| 2025/11/28 | V1.01.54 | 1. Correction de limitation PV dans certains scénarios<br />2. Optimisation de la logique de mise à jour |
+| 2025/11/04 | V1.01.51 | 1. Optimisation de la logique du port bypass |
+| 2025/10/14 | V1.01.48 | 1. Optimisation de la logique de charge PV<br />2. Optimisation de la logique du film chauffant |
+| 2025/08/27 | V1.01.39 | / |
+| 2025/07/31 | V1.01.36 | 1. Ajout de la protection contre le courant inverse, optimisation de la puissance de décharge, correction des surintensités en charge, détection intelligente de faible luminosité, renforcement de la protection contre les surcharges |
+| 2025/06/17 | V1.01.28 | / |
+| 2025/06/04 | V1.01.23 | / |

@@ -5,6 +5,14 @@ description: SFA/PFA_G3 Firmwareversiegeschiedenis
 
 # SFA/PFA_G3
 
+:::info[Toepassingsbereik]
+Deze firmware wordt per productserie uitgebracht en is niet benoemd naar een enkel model. De volgende modellen binnen dezelfde serie delen dezelfde firmware:
+
+**SFA3600, PFA4000, PFA4000S, SFA4000, SFA4000S**
+
+Het firmwarepakket bevat de firmware van de modules BMS SLAVE, DCDC Slave. Elk module wordt afzonderlijk bijgewerkt; raadpleeg indien nodig het betreffende gedeelte.
+:::
+
 ### BMS SLAVE
 
 | Publicatiedatum | Versienummer | Samenvatting van updates |

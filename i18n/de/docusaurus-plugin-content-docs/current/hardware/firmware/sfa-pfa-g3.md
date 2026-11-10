@@ -5,6 +5,14 @@ description: SFA/PFA_G3 Firmware-Versionsverlauf
 
 # SFA/PFA_G3
 
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**SFA3600, PFA4000, PFA4000S, SFA4000, SFA4000S**
+
+Das Firmware-Paket enthält die Firmware der Module BMS SLAVE, DCDC Slave. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
 ### BMS SLAVE
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |

@@ -5,6 +5,14 @@ description: BK1600 Ultra Historique des versions du firmware
 
 # BK1600 Ultra
 
+:::info[Périmètre]
+Ce firmware est publié par série de produits et non nommé d’après un modèle unique. Les modèles suivants d’une même série partagent le même ensemble de firmwares :
+
+**Indevolt BK1600 Ultra**
+
+Le paquet de firmware contient les firmwares des modules CMS, Pfile, EMS, BMS, MPPT, PCS. Chaque module est mis à jour indépendamment ; consultez la section correspondante selon vos besoins.
+:::
+
 ### CMS
 
 | Date de publication | Version        | Résumé des mises à jour |

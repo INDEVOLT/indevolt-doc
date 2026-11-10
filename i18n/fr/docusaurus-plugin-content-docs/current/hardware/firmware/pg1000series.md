@@ -5,6 +5,14 @@ description: PG1000Series Historique des versions du firmware
 
 # PG1000Series
 
+:::info[Périmètre]
+Ce firmware est publié par série de produits et non nommé d’après un modèle unique. Les modèles suivants d’une même série partagent le même ensemble de firmwares :
+
+**SolidFlex 1200**
+
+Le paquet de firmware contient les firmwares des modules CMS, Pfile, EMS, INV, BMS MB. Chaque module est mis à jour indépendamment ; consultez la section correspondante selon vos besoins.
+:::
+
 ### CMS
 
 | Date de publication | Version | Résumé des mises à jour |

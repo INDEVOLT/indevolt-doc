@@ -5,6 +5,14 @@ description: SFA/PFA Historique des versions du firmware
 
 # SFA/PFA
 
+:::info[Périmètre]
+Ce firmware est publié par série de produits et non nommé d’après un modèle unique. Les modèles suivants d’une même série partagent le même ensemble de firmwares :
+
+**SFA1800, PFA2000**
+
+Le paquet de firmware contient les firmwares des modules BMS SLAVE, DCDC. Chaque module est mis à jour indépendamment ; consultez la section correspondante selon vos besoins.
+:::
+
 ### BMS SLAVE
 
 | Date de publication | Version | Résumé des mises à jour |

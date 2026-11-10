@@ -5,6 +5,14 @@ description: PG3000Series 固件版本记录
 
 # PG3000Series
 
+:::info[适用范围]
+本固件按产品系列发布，不以单个型号命名。同一系列内的以下型号共用同一套固件：
+
+**SolidFlex 3000 Hybrid、SolidFlex 3000 AC、PowerFlex 3000 Hybrid、PowerFlex 3000 AC、SolidFlex 3000 Hybrid Pro、SolidFlex 3000 AC Pro**
+
+固件包内含 CMS、Pfile、EMS、PCS、BMS MB、DCDC MB 等各模块固件，各模块版本独立更新，请按需查询相关内容。
+:::
+
 ### CMS
 
 

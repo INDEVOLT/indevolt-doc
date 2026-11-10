@@ -5,6 +5,14 @@ description: PG1000Series Firmware-Versionsverlauf
 
 # PG1000Series
 
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**SolidFlex 1200**
+
+Das Firmware-Paket enthält die Firmware der Module CMS, Pfile, EMS, INV, BMS MB. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
 ### CMS
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |

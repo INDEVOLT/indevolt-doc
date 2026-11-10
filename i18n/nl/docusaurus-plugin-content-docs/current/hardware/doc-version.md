@@ -7,6 +7,7 @@ description: Versiegeschiedenis van de INDEVOLT documentatie
 
 | Datum bijgewerkt | Versie | Wijzigingen |
 | ---------------- | ------- | ------------ |
+| 2026-11-10 | V1.0.26 | 1. Firmwareversiegeschiedenis van de series 1000, 3000 en SFA&PFA toegevoegd |
 | 2026-11-04 | V1.0.25 | Firmwareversiegeschiedenis van het micro-opslagsysteem bijgewerkt |
 | 2026-10-28 | V1.0.24 | Beschrijving van [Handleiding Pieklastbegrenzing](./technical-note/Peak-Shaving.md) |
 | 2026-09-24 | V1.0.23 | OpenData-documentatie bijgewerkt:<br />1. PV-statusgegevenspunten bijgewerkt |

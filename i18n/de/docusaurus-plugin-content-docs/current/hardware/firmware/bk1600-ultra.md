@@ -5,6 +5,14 @@ description: BK1600 Ultra Firmware-Versionsverlauf
 
 # BK1600 Ultra
 
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**Indevolt BK1600 Ultra**
+
+Das Firmware-Paket enthält die Firmware der Module CMS, Pfile, EMS, BMS, MPPT, PCS. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
 ### CMS
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |

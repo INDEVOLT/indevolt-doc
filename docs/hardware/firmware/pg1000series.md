@@ -5,6 +5,14 @@ description: PG1000Series Firmware Release Notes
 
 # PG1000Series
 
+:::info[Scope]
+This firmware is released by product series, not named after a single model. The following models in the same series share the same firmware set:
+
+**SolidFlex 1200**
+
+The firmware package contains the firmware of the CMS, Pfile, EMS, INV, BMS MB modules. Each module is updated independently, so refer to the relevant section as needed.
+:::
+
 ### CMS
 
 | Release Date | Version | Update Summary |

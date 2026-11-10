@@ -5,6 +5,14 @@ description: SFA/PFA_G2 Firmware-Versionsverlauf
 
 # SFA/PFA_G2
 
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**SFA1800, PFA2000**
+
+Das Firmware-Paket enthält die Firmware der Module BMS SLAVE, DCDC. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
 ### BMS SLAVE
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |

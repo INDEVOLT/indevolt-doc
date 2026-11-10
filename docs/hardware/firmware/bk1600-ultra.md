@@ -5,6 +5,14 @@ description: BK1600 Ultra Firmware Release Notes
 
 # BK1600 Ultra
 
+:::info[Scope]
+This firmware is released by product series, not named after a single model. The following models in the same series share the same firmware set:
+
+**Indevolt BK1600 Ultra**
+
+The firmware package contains the firmware of the CMS, Pfile, EMS, BMS, MPPT, PCS modules. Each module is updated independently, so refer to the relevant section as needed.
+:::
+
 ### CMS
 
 | Release Date | Version | Update Summary |

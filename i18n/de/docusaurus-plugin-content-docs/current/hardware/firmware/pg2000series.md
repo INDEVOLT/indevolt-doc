@@ -5,6 +5,14 @@ description: PG2000Series Firmware-Versionsverlauf
 
 # PG2000Series
 
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**SolidFlex 2000, SolidFlex 2000Eco, PowerFlex 2000, PowerFlex 2000Eco**
+
+Das Firmware-Paket enthält die Firmware der Module CMS, Pfile, EMS, BMS MB, INV, DCDC. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
 ### CMS
 
 | Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
@@ -93,3 +101,22 @@ description: PG2000Series Firmware-Versionsverlauf
 | 2025/09/16 | V1.22 | / |
 | 2025/07/08 | V1.21 | Optimierung von Ladeverhalten, Unterspannungsschutz, Überstromschutz, Anpassung an regionale Vorschriften, verbesserte Off-Grid-Leistung, optimierte Schwachnetz-Fähigkeit, Standardisierung der Regler |
 | 2025/06/02 | V1.16 | / |
+
+### DCDC
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/07/22 | V1.01.77 | 1. Optimierung der Betriebslogik |
+| 2026/05/29 | V1.01.75 | 1. Optimierung des Problems der Leistungsbegrenzung beim Laden mehrerer Batteriemodule |
+| 2026/05/10 | V1.01.73 | 1. Optimierung der Betriebslogik |
+| 2026/03/20 | V1.01.64 | 1. Behebung eines Kommunikationsverlusts bei Batteriemodulen im Tiefstandby |
+| 2026/03/04 | V1.01.62 | 1. Optimierung der Kommunikation mit Batteriemodulen |
+| 2026/02/11 | V1.01.61 | 1. Optimierung der Kommunikation mit Batteriemodulen |
+| 2026/01/21 | V1.01.59 | 1. Behebung von SOC-Ungleichgewicht bei geringer Entladeleistung |
+| 2025/11/28 | V1.01.54 | 1. Behebung von PV-Leistungsbegrenzung in bestimmten Szenarien<br />2. Optimierung der Update-Logik |
+| 2025/11/04 | V1.01.51 | 1. Optimierung der Bypass-Logik |
+| 2025/10/14 | V1.01.48 | 1. Optimierung der PV-Lade- und Heizfolienlogik |
+| 2025/08/27 | V1.01.39 | / |
+| 2025/07/31 | V1.01.36 | 1. Einführung von Rückstromschutz, Optimierung der Entladeleistung, Lösung von Überstromproblemen beim Laden, intelligente Schwachlicht-Erkennung, verbesserter Überlastschutz |
+| 2025/06/17 | V1.01.28 | / |
+| 2025/06/04 | V1.01.23 | / |

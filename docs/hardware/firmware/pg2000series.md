@@ -5,6 +5,14 @@ description: PG2000Series Firmware Release Notes
 
 # PG2000Series
 
+:::info[Scope]
+This firmware is released by product series, not named after a single model. The following models in the same series share the same firmware set:
+
+**SolidFlex 2000, SolidFlex 2000Eco, PowerFlex 2000, PowerFlex 2000Eco**
+
+The firmware package contains the firmware of the CMS, Pfile, EMS, BMS MB, INV, DCDC modules. Each module is updated independently, so refer to the relevant section as needed.
+:::
+
 ### CMS
 
 | Release Date | Version | Update Summary |
@@ -93,3 +101,22 @@ description: PG2000Series Firmware Release Notes
 | 2025/09/16 | V1.22 | / |
 | 2025/07/08 | V1.21 | Optimized charging; improved undervoltage protection; upgraded overcurrent protection; adapted to multiple regional regulations; enhanced off-grid control; improved weak grid performance; default compliance settings |
 | 2025/06/02 | V1.16 | / |
+
+### DCDC
+
+| Release Date | Version | Update Summary |
+| ------------ | ------- | -------------- |
+| 2026/07/22 | V1.01.77 | 1. Optimized operating logic |
+| 2026/05/29 | V1.01.75 | 1. Optimized the issue where charging power could occasionally be limited when multiple battery packs were charged |
+| 2026/05/10 | V1.01.73 | 1. Optimized operating logic |
+| 2026/03/20 | V1.01.64 | 1. Fixed occasional communication loss of battery packs during deep standby in multi-pack systems |
+| 2026/03/04 | V1.01.62 | 1. Optimized battery pack communication |
+| 2026/02/11 | V1.01.61 | 1. Optimized battery pack communication |
+| 2026/01/21 | V1.01.59 | 1. Fixed SOC imbalance caused by low-power discharge |
+| 2025/11/28 | V1.01.54 | 1. Fixed PV limitation issues in some conditions<br />2. Optimized upgrade logic |
+| 2025/11/04 | V1.01.51 | 1. Optimized bypass port logic |
+| 2025/10/14 | V1.01.48 | 1. Optimized PV charging logic<br />2. Optimized heating film operating logic |
+| 2025/08/27 | V1.01.39 | / |
+| 2025/07/31 | V1.01.36 | 1. Added reverse current protection, optimized discharge power, fixed charging overcurrent issues, added intelligent low-light detection, enhanced overload protection |
+| 2025/06/17 | V1.01.28 | / |
+| 2025/06/04 | V1.01.23 | / |
