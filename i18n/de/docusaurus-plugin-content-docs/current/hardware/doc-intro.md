@@ -41,6 +41,6 @@ Wenn Sie Ihre Energiestrategie optimieren, Geräteeinstellungen einsehen oder Ih
 
 ## Weitere Informationen
 
-- **[Firmware-Änderungsprotokoll anzeigen](./firmware.md)**
+- **[Firmware-Änderungsprotokoll anzeigen](./firmware/pg2000series.md)**
 - **[Wartung und Pflege](./maintenance.md)**
 - **[Glossar](./glossary.md)**

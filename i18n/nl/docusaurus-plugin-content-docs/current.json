@@ -3,6 +3,10 @@
     "message": "Volgende",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Firmware": {
+    "message": "Firmwareversiegeschiedenis",
+    "description": "The label for category Firmware in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Know Your Micro Storage System": {
     "message": "Leer uw micro-opslagsysteem kennen",
     "description": "The label for category Know Your Micro Storage System in sidebar tutorialSidebar"

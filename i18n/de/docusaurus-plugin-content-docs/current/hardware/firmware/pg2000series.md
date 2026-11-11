@@ -1,0 +1,122 @@
+---
+title: PG2000Series
+description: PG2000Series Firmware-Versionsverlauf
+---
+
+# PG2000Series
+
+:::info[Geltungsbereich]
+Diese Firmware wird je Produktserie veröffentlicht und nicht nach einem einzelnen Modell benannt. Die folgenden Modelle derselben Serie teilen denselben Firmware-Satz:
+
+**SolidFlex 2000, SolidFlex 2000Eco, PowerFlex 2000, PowerFlex 2000Eco**
+
+Das Firmware-Paket enthält die Firmware der Module CMS, Pfile, EMS, BMS MB, INV, DCDC. Jedes Modul wird unabhängig aktualisiert; bitte den jeweiligen Abschnitt beachten.
+:::
+
+### CMS
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/10/19 | V1500.0B.0041 | 1. Behebung eines Problems, bei dem nach der Kopplung eines LoRa-Stromzählers gelegentlich keine Daten empfangen wurden<br />2. Optimierung der P1-Zähler-Kommunikationsstörungen<br />3. Optimierung eines Teils der Kommunikationslogik |
+| 2026/08/31 | V140E.0B.003E | 1. Lokale Zugriffslogik für Drittanbieter‑Wechselrichter optimiert<br />2. Optimierung der Betriebslogik im Parallelbetrieb |
+| 2026/06/30 | V140C.0B.0038 | 1. Optimierung der Betriebslogik |
+| 2026/05/07 | V140C.0B.0036 | 1. Optimierung der Lora-Kommunikationslogik |
+| 2026/05/07 | V140B.0B.0035 | 1. Optimierung der Kommunikationslogik |
+| 2026/04/10 | V140A.0A.0034 | 1. Hinzufügen von minutengenauen Zeitplänen<br />2. Unterstützung von Drittanbieter-MQTT (App derzeit nicht unterstützt)<br />3. Hinzufügen von Modbus-TCP-Cloud-Integration (App derzeit nicht unterstützt)<br />4. Änderung des dynamischen Strompreistakts auf 15-Minuten-Intervalle<br />5. Optimierung der WLAN- und Lora-Kommunikation<br />6. Entfernung der 10-Sekunden-Taste zum WLAN-Reset; Funktion wird in die App verlagert (App derzeit nicht unterstützt) |
+| 2026/03/03 | V1408.09.0031 | 1. Unterstützung von Stromzähler mit Infrarot-Auslesung (Stromleser)<br />2. Unterstützung von HomeWizard P1-Zählern<br />3. Unterstützung von Shelly Plug Gen1<br />4. Hinzufügen von Zähler-Offset-Einstellungen<br />5. Optimierung der Kommunikationslogik |
+| 2026/01/15 | V1407.08.002F | 1. Optimierung der OpenData-Aufruflogik |
+| 2026/01/15 | V1406.07.002E | 1. Optimierung der Kommunikationslogik |
+| 2025/12/12 | V1406.07.002B | 1. Unterstützung von Solarman Smart Plug, Shelly Plug S MTR Gen3 und Shelly 3EM<br />2. Optimierung der Betriebslogik |
+| 2025/10/27 | V1401.05.0022 | 1. Optimierung von Parallelbetrieb und OpenData |
+| 2025/09/24 | V1400.04.001F | 1. Unterstützung von Solarman P1-Zählerintegration<br />2. Optimierung der OpenData-Steuerlogik<br />3. Optimierung der Versionsnummernstruktur |
+| 2025/07/31 | V1.3.0A_R00D.032_M4801_00000019 | 1. Optimierung des 4G-/WLAN-Ressourcenmanagements<br />2. Verbesserung der verbundenen Gerätesignale<br />3. Erweiterte Geräteintegration: Unterstützung von SOLARMAN-Zählern<br />4. Erhöhte Systemstabilität<br />5. Optimierung der Bluetooth-Konfiguration |
+| 2025/05/29 | V1.3.07_R00D.002_M4801_00000014 | / |
+
+
+### Pfile
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/10/20 | V0D.00.25 | 1. Hinzufügen einiger Parameter |
+| 2026/10/19 | V0D.00.24 | 1. Optimierung einiger Parameter |
+| 2026/09/20  | V0D.00.23 | 1. Optimierung einzelner Parameter |
+| 2026/08/31  | V0D.00.22 | 1. Optimierung einzelner Parameter |
+| 2026/06/30  | V0D.00.20 | 1. Optimierung einzelner Parameter |
+| 2026/05/25 | V0D.00.19 | 1. Optimierung einzelner Parameter |
+| 2026/05/06 | V0D.00.18 | 1. Optimierung einzelner Parameter |
+| 2026/01/14 | V0D.00.14 | 1. Verbesserung der Batterietemperaturanzeige |
+| 2026/01/09 | V0D.00.13 | 1. Verbesserung der Batterietemperaturanzeige |
+| 2025/12/25 | V0D.00.11 | 1. Hinzufügen der AC-Nachladeleistungs-Einstellung |
+| 2025/11/14 | V0D.00.08 | 1. Optimierung der Steuerung der LED-Leiste |
+| 2025/10/27 | V0D.00.06 | 1. Hinzufügen von Registern für Batteriepaket 6, AC-Kopplungsenergie, Standby-zu-Schlaf-Steuerung, Bypass-Aktivierung sowie netzgebundene und netzunabhängige Ausgangsenergie<br />2. Anpassung des PV4-Alarmcodes<br />3. Entfernung redundanter LED-Steuerpunkte |
+| 2025/09/24 | V0D.00.03 | 1. Hinzufügen neuer Steuerbits<br />2. Optimierung der Berechnungslogik |
+
+
+### EMS
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/10/12 | V1.01.15 | 1. Optimierung von Szenarien mit direkt angeschlossenem PV im Parallelbetrieb<br />2. Behebung eines Problems, bei dem nach schwacher PV-Einstrahlung im Tiefstandby kein Ladevorgang startete |
+| 2026/08/13 | V1.01.12 | 1. Optimierung der Betriebslogik im Parallelbetrieb<br />2. Einige bekannte Probleme optimalisiert |
+| 2026/05/12 | V1.01.08 | 1. Optimierung der Betriebslogik im Parallelbetrieb |
+| 2026/02/11 | V1.01.03 | 1. Optimierung der Zwangsnachlade-Logik<br />2. Verbesserung der Zeitplan-Konfiguration<br />3. Optimierung der Batteriekaltstart-Heizlogik<br />4. Optimierung des Parallelbetriebs<br />5. Unterstützung von PFA4000-Batteriemodulen hinzugefügt<br />6. Behebung eines Fehlers, bei dem kein Übergang in den Tiefstandby möglich war |
+| 2026/01/21 | V1.00.58 | 1. Optimierung der Firmware-Update-Zeit<br />2. Optimierung der Leistungsregelung im Parallelbetrieb<br />3. Automatischer Wechsel in den Lademodus bei Netzeinspeisung während AC-Ladeverbot<br />4. Verbesserte Standby-Logik der Batteriemodule |
+| 2025/12/10 | V1.00.57 | 1. Optimierung der PV-Leistungsverteilung im Parallelbetrieb<br />2. Verbesserung der PV-Priorität im Echtzeitmodus<br />3. Optimierung der Update-Logik<br />4. Beenden des Tiefstandby per kurzem Tastendruck hinzugefügt |
+| 2025/11/28 | V1.00.55 | 1. Optimierung der Update-Logik |
+| 2025/11/04 | V1.00.50 | 1. Optimierung des Tiefstandby-Modus (20 W bei offenem Bypass, 8 W bei geschlossenem Bypass)<br />2. Verbesserung der LED-Animation beim Ausschalten<br />3. Optimierung der Notstrom-SOC-Logik<br />4. Verbesserung der Update-Logik<br />5. Optimierung der PV-Logik<br />6. Verbesserung der Standby-Parameter im Echtzeitmodus<br />7. Reduzierung des Gesamtenergieverbrauchs<br />8. Unterstützung für fünftes Erweiterungsbatteriemodul (App derzeit nicht unterstützt, Hardware funktioniert) |
+| 2025/10/14 | V1.00.48 | 1. EPS-Modus als Standard beim Einschalten des Off-Grid-Ports<br />2. Einführung eines kritischen Lastmodus (App nicht verfügbar)<br />3. Automatische Volllade-Kalibrierung alle 15 Tage<br />4. Umstellung der Netzleistung auf AC-Leitungsmessung<br />5. Einführung eines Echtzeitsteuerungsmodus (App nicht verfügbar)<br />6. Optimierung des Tiefstandby-Modus<br />7. Verbesserung des Parallelbetriebs<br />8. Reduzierung des Standby-Verbrauchs |
+| 2025/08/04 | V1.00.43 | 1. Einführung von Parallelbetrieb, Netzparameter- und Grid-Regel-Einstellungen; Erhöhung der Einspeiseleistung auf 3600 W<br />2. LED-Steuerung und Bypass-Relais-Optimierung<br />3. Erhöhung der Entladeleistung auf 0,6P; Optimierung der SOC-Verteilung mehrerer Batteriemodule; AC-Ladeleistung standardmäßig 2400 W<br />4. Verbesserung des Niedriglade-SOC (2,8 %), Heiz- und MOS-Temperatursteuerung<br />5. Verbesserung des Überlastschutzes und Fehlerverhaltens<br />6. Firmware-Update ab SOC ≥ 5 % erlaubt; Optimierung der Abschalt- und Protokollfunktionen<br />7. Verbesserung von Echtzeit- und Zeitsteuerungsmodus |
+| 2025/06/17 | V1.00.35 | / |
+| 2025/06/04 | V1.00.32 | / |
+
+
+### BMS MB
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/07/22 | V1.00.49 | 1. Optimierung der Betriebslogik |
+| 2026/05/12 | V1.00.45 | 1. Optimierung des Batterie-Schutz- und Betriebsverhaltens |
+| 2026/02/11 | V1.00.42 | 1. Optimierung des SOC-Algorithmus |
+| 2026/01/21 | V1.00.38 | 1. Optimierung des SOC-Algorithmus |
+| 2025/11/28 | V1.00.35 | 1. Optimierung der Update-Logik |
+| 2025/10/04 | V1.00.33 | 1. Optimierung der Selbsttestlogik<br />2. Verbesserung des Standby-Verbrauchs<br />3. Hinzufügen der Vorladefunktion |
+| 2025/07/31 | V1.00.30 | 1. Optimierung der Ladeerkennung, Stabilität der Update-Kommunikation und Verbesserung des Entladeschutzes |
+| 2025/06/16 | V1.00.25 | / |
+| 2025/05/30 | V1.00.22 | / |
+
+### INV
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/09/30 | V1.43 | 1. Behebung eines Problems, bei dem der Bypass in bestimmten Szenarien gelegentlich getrennt wurde<br />2. Optimierung der Wechselrichter-Betriebslogik |
+| 2026/07/22 | V1.41 | 1. Optimierung der Betriebslogik bei schwacher PV-Einstrahlung (gilt nicht für ECO-Modelle) |
+| 2026/05/12 | V1.38 | 1. Unterstützung für netzunabhängige Mikro-Wechselrichter (max. 1200 W)<br />2. Behebung eines Problems mit fehlerhafter Netzanbindung in bestimmten Szenarien<br />3. Optimierung eines Fehlalarms nach vollständiger PV-Ladung |
+| 2026/04/10 | V1.36 | 1. Behebung eines Problems, bei dem der Wechselrichter im Netzbetrieb nicht lädt/entlädt |
+| 2026/02/11 | V1.35 | 1. Optimierung der Ladelogik |
+| 2026/01/21 | V1.34 | 1. Behebung eines Problems mit Bypass-Trennung in bestimmten Szenarien |
+| 2025/12/10 | V1.32 | 1. Optimierung des Echtzeitsteuerungsmodus |
+| 2025/11/04 | V1.30 | 1. Unterstützung eines fünften Erweiterungsbatteriemoduls (App derzeit nicht unterstützt) |
+| 2025/10/21 | V1.29 | / |
+| 2025/10/04 | V1.28 | 1. Optimierung des Inselnetzschutzes, der Off-Grid-Entladung und der Leistungsreduzierung |
+| 2025/09/16 | V1.22 | / |
+| 2025/07/08 | V1.21 | Optimierung von Ladeverhalten, Unterspannungsschutz, Überstromschutz, Anpassung an regionale Vorschriften, verbesserte Off-Grid-Leistung, optimierte Schwachnetz-Fähigkeit, Standardisierung der Regler |
+| 2025/06/02 | V1.16 | / |
+
+### DCDC
+
+| Veröffentlichungsdatum | Versionsnummer | Änderungsübersicht |
+| ---------------------- | -------------- | ------------------- |
+| 2026/07/22 | V1.01.77 | 1. Optimierung der Betriebslogik |
+| 2026/05/29 | V1.01.75 | 1. Optimierung des Problems der Leistungsbegrenzung beim Laden mehrerer Batteriemodule |
+| 2026/05/10 | V1.01.73 | 1. Optimierung der Betriebslogik |
+| 2026/03/20 | V1.01.64 | 1. Behebung eines Kommunikationsverlusts bei Batteriemodulen im Tiefstandby |
+| 2026/03/04 | V1.01.62 | 1. Optimierung der Kommunikation mit Batteriemodulen |
+| 2026/02/11 | V1.01.61 | 1. Optimierung der Kommunikation mit Batteriemodulen |
+| 2026/01/21 | V1.01.59 | 1. Behebung von SOC-Ungleichgewicht bei geringer Entladeleistung |
+| 2025/11/28 | V1.01.54 | 1. Behebung von PV-Leistungsbegrenzung in bestimmten Szenarien<br />2. Optimierung der Update-Logik |
+| 2025/11/04 | V1.01.51 | 1. Optimierung der Bypass-Logik |
+| 2025/10/14 | V1.01.48 | 1. Optimierung der PV-Lade- und Heizfolienlogik |
+| 2025/08/27 | V1.01.39 | / |
+| 2025/07/31 | V1.01.36 | 1. Einführung von Rückstromschutz, Optimierung der Entladeleistung, Lösung von Überstromproblemen beim Laden, intelligente Schwachlicht-Erkennung, verbesserter Überlastschutz |
+| 2025/06/17 | V1.01.28 | / |
+| 2025/06/04 | V1.01.23 | / |

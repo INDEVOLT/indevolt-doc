@@ -41,6 +41,6 @@ Als je energiegebruik wilt optimaliseren, apparaatparameters wilt bekijken of sy
 
 ## Meer informatie
 
-- **[Bekijk firmware-updates](./firmware.md)**
+- **[Bekijk firmware-updates](./firmware/pg2000series.md)**
 - **[Onderhoud](./maintenance.md)**
 - **[Woordenlijst](./glossary.md)**

@@ -134,7 +134,21 @@ const sidebars: SidebarsConfig = {
     'hardware/faq-troubleshooting',
     'hardware/maintenance',
     'hardware/glossary',
-    'hardware/firmware',
+    {
+      type: 'category',
+      label: 'Firmware',
+      collapsed: false,
+      items: [
+        'hardware/firmware/pg1000series',
+        'hardware/firmware/pg2000series',
+        'hardware/firmware/pg3000series',
+        'hardware/firmware/bk1600',
+        'hardware/firmware/bk1600-ultra',
+        'hardware/firmware/sfa-pfa',
+        'hardware/firmware/sfa-pfa-g2',
+        'hardware/firmware/sfa-pfa-g3',
+      ],
+    },
     'hardware/doc-version'
   ],
   appSidebar: [

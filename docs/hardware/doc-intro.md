@@ -45,6 +45,6 @@ Looking to fine-tune your energy strategy, review technical details, or integrat
 
 ## Additional Resources
 
-- **[Firmware Release Notes](./firmware.md)**  
+- **[Firmware Release Notes](./firmware/pg2000series.md)**  
 - **[Maintenance and Storage](./maintenance.md)**  
 - **[Glossary](./glossary.md)**

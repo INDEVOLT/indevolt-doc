@@ -41,7 +41,7 @@ description: INDEVOLT储能设备用户指南概览。
 
 ## 更多信息
 
-- **[查看固件更新记录](./firmware.md)**
+- **[查看固件更新记录](./firmware/pg2000series.md)**
 - **[维护保养](./maintenance.md)**
 - **[术语表](./glossary.md)**
 

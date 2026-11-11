@@ -7,6 +7,7 @@ description: Versionsverlauf der INDEVOLT-Energiespeicherdokumentation
 
 | Aktualisierungsdatum | Versionsnummer | Änderungen |
 | -------------------- | -------------- | ---------- |
+| 2026-11-10 | V1.0.26 | 1. Firmware-Versionsverlauf der Serien 1000, 3000 und SFA&PFA hinzugefügt |
 | 2026-11-04 | V1.0.25 | Firmware-Versionsverlauf des Speichers aktualisiert |
 | 2026-10-28 | V1.0.24 | Beschreibung zu [Bedienungsanleitung Spitzenlastbegrenzung](./technical-note/Peak-Shaving.md) |
 | 2026-09-24 | V1.0.23 | Aktualisierung der OpenData-Dokumentation:<br />1. Aktualisierung der PV-Status-Datenpunkte |
