@@ -1,92 +1,123 @@
 ---
-title: 快速上手
-description: Indevolt储能设备安装与初次使用指南
+title: 快速开始
+description: Indevolt 储能设备安装与首次使用指南
 ---
 
-# 快速上手
+# 快速开始
 
-本文档适用于 SolidFlex 2000 / PowerFlex 2000 储能设备，介绍从开箱到首次投入使用的完整流程。内容包括安装前检查、设备安装、首次开机以及 App 添加设备等步骤。
+本文档内容作为通用安装指导。**相关型号的差异点在全文中以 💡 提示块标注**，请根据您购买的型号对照阅读。
 
 :::warning
 
-在操作前，请先阅读 **[安全须知](./safety.md)** 以确保安全。
+操作前请先阅读**[安全须知](./safety.md)**，以确保安全。
 
 :::
 
+---
 
-## 准备工具
+## 装箱清单
 
-在安装设备前，请准备以下工具：
-   
-<img src={require("./img/tools.png").default} width="480"/>
+**电源模块 ：**
+
+<img src={require("./img/power-packing-list.png").default} width="800"/>
+
+**电池模块（可选） ：**
+
+<img src={require("./img/battery-packing-list.png").default} width="800"/>
+
+> 💡 **型号差异提示**：**无 PV 端口**的机型（AC / Eco 机型）不包含 MC4 工具。
 
 ---
 
-## 开箱与配件清单核对
+## 安装
 
-1. 确保包装完整无损。
-2. 打开包装盒，逐一取出设备及配件。  
-3. 对照清单确认无缺件或损坏。   
-   <img src={require("./img/power-packing-list.png").default} width="960"/>
-   
-   > 如果您还选购了电池模块，请对照以下清单  
-   <img src={require("./img/battery-packing-list.png").default} width="960"/>
+### 选择安装位置
 
----
+- 请勿在阳光直射、火源或易爆物品附近安装各模块。
+- 确保安装位置远离洪水等潜在危险。
+- 建议在海拔 2000 m 以下的环境中使用。
 
-## 设备安装说明
+### 测量间距
 
-:::info
-- 请勿将模块安装在阳光直射、靠近明火或易燃易爆物品的区域。
-- 确保安装位置免受洪水等潜在危害的影响。
-- 建议在海拔2000米以下的环境中使用。
-- 保持安装位置通风良好，方便散热。  
-:::
+为散热和安全绝缘预留足够空间。
 
-**步骤1：测量距离**
-
-根据实际设备配置计算所需安装空间，确保设备安装后留有足够的散热和安全绝缘空间。
+1. 根据待安装的设备配置选择合适的安装空间。
 
 <img src={require("./img/system-size.png").default} width="720"/>
+
+> 💡 **型号差异提示**：其他系列使用不同的扩展电池和容量值：
+>
+> | 电源模块 | 扩展电池 |
+> | ---------------------------- | ----------------- |
+> | SolidFlex 2000/Eco | 1,792 Wh |
+> | PowerFlex 2000/Eco | 2,009 Wh |
+> | SolidFlex 3000 Hybrid/AC | 1,792 Wh |
+> | SolidFlex 3000 Hybrid/AC Pro | 2,009.6 Wh |
+> | PowerFlex 3000 Hybrid/AC | 2,016 Wh |
+>
+> | 电池模块 | 扩展电池 |
+> | --- | --- |
+> | SFA 1800 | 1,792 Wh |
+> | SFA 3600 | 3,584 Wh |
+> | PFA 2000 | 2,016 Wh |
+> | PFA 4000 | 4,032 Wh |
+
+2. 设备尺寸信息：
+
 <img src={require("./img/device-size.png").default} width="600"/>
 
-**步骤2：固定设备**
 
-以下示例以 **1 个电源模块 + 2 个电池模块** 为例：
 
-1. 在最底部的扩展电池模块底部安装 4 个支撑脚。
+注意：以下组件不包含在包装内。请确保在安装和电气连接前准备就绪。
+
+<img src={require("./img/tools.png").default} width="480"/>
+
+### 安装步骤
+
+以下步骤以一个电源模块和两个电池模块的安装为例。
+
+1. 在扩展电池底部安装四个支撑脚。
    <img src={require("./img/installation-step1.png").default} width="360"/>
-2. 设备背面（散热片区域）必须保持至少 30 mm 的间隙，以确保通风良好并实现高效散热。
-   <img src={require("./img/installation-step2.png").default} width="360"/>
-3. 调整设备底部四个支撑脚的高度，使设备保持水平状态，并使用水平仪进行校准。
-   <img src={require("./img/installation-step3.png").default} width="480"/>
-4. 拆除以下位置的防护盖：
-   - 电源模块底部的防护盖
-   - 中间电池模块顶部和底部的防护盖
 
-   :::warning
-   请勿拆除最底部扩展电池的防护盖，以免造成设备损坏。
-   :::
+2. 设备背部（散热器区域）必须保持至少 30 mm 的最小间隙，以确保充分通风和高效散热。
+   <img src={require("./img/installation-step2.png").default} width="360"/>
+
+3. 调节设备底部四个支撑脚的高度，确保设备处于水平位置，并使用水平仪进行校准。
+   <img src={require("./img/installation-step3.png").default} width="480"/>
+
+4. 取下电源模块底部的保护盖，以及中间电池模块顶部和底部的保护盖。
 
    <img src={require("./img/installation-step4.png").default} width="600"/>
 
-5. 将扩展电池模块对准对应接口，逐个向上叠放，并将电源模块安装在最上方。
-   <img src={require("./img/installation-step5.png").default} width="240"/>
-6. 使用 M4 十字螺钉，将 L 形墙面固定支架安装在电源模块下方的第一个扩展电池模块两侧。
-   <img src={require("./img/installation-step6.png").default} width="240"/>
-7. 在电源模块与电池模块叠放完成后，使用 M4 十字螺钉将两个模块固定在一起。
-   <img src={require("./img/installation-step7.png").default} width="480"/>
-8. 在墙面两侧标记钻孔位置，使用直径 Ø8 mm 的钻头钻孔，孔深约 60 mm。
-   <img src={require("./img/installation-step8.png").default} width="480"/>
-9.  使用锤子将 M5×60 自攻螺钉配套的塑料膨胀套敲入孔中，然后使用十字螺丝刀将螺钉拧紧，将 L 形墙面固定支架牢固固定在墙面上。
-    <img src={require("./img/installation-step9.png").default} width="480"/>
+   :::warning
 
+   安装底部电池包时，请保持橡胶塞原位，以防止进水损坏。
+
+   请注意不要取下最底部扩展电池的保护盖，以免损坏设备！
+   :::
+
+5. 将扩展电池包依次堆叠，电源模块置于顶部，并连接两个对应的连接器。
+   <img src={require("./img/installation-step5.png").default} width="300"/>
+
+6. 使用 M4 十字盘头螺丝将 L 形墙壁支架固定在电源模块下方第一个扩展电池的两侧。
+   <img src={require("./img/installation-step6.png").default} width="300"/>
+
+7. 电源模块和电池模块安装完成后，使用 M4 十字盘头螺丝将两个模块固定。
+
+   <img src={require("./img/installation-step7.png").default} width="480"/>
+
+8. 在两侧标记钻孔位置，使用 φ8 钻头钻孔，深度为 60 mm。
+
+   <img src={require("./img/installation-step8.png").default} width="480"/>
+
+9. 用锤子将 M5×60 自攻螺丝的塑料胀塞敲入孔中，然后用十字螺丝刀将 M5×60 自攻螺丝拧紧固定到 L 形墙壁支架上。
+   <img src={require("./img/installation-step9.png").default} width="480"/>
+
+   本产品包含一个双重隔离变压器，符合安全要求，无需测量方阵接地绝缘电阻或检测方阵故障电流。
 
 :::info
 
-本产品内置双重隔离变压器，符合相关安全要求，无需测量光伏阵列的接地绝缘电阻，也无需检测阵列故障电流。
-
-主机连接必须接入已接地的电源插座，否则可能存在触电风险。如无法使用接地插座，应对设备外壳进行接地处理，设备接地点位置如下图所示。
+电源连接必须接入已接地的插座，否则存在触电风险。或者，应将外壳接地。接地点如下图所示。
 
 <img src={require("./img/installation-step10.png").default} width="240"/>
 
@@ -95,57 +126,95 @@ description: Indevolt储能设备安装与初次使用指南
 ---
 
 ## 电气连接
-   
-:::info
-- 交流并网电源的安装须符合当地法规；若超出允许范围，建议聘请专业电工进行操作。
+
+### 连接电缆
+
+:::info 💡 型号差异提示
+
+以下 PV 连接说明仅适用于有 PV 端口的机型。
+
+无 PV 端口的 Eco 和 AC 机型不适用于本节内容。
+
 :::
 
-以下连接步骤以配套四块太阳能板的标准场景为例。
+以下步骤以配备四块太阳能板的系统安装为例。
+
 <img src={require("./img/connect-cables.png").default} width="960"/>
 
-**步骤 1：连接电网**
+:::info 💡 型号差异提示：并网馈电功率
 
-1. 使用产品随附的带安全插头的电源线（5米）。
-2. 将电源线一端接入主机的 GRID IN/OUT 端口。
-3. 将电源线另一端的插头接入家庭或现场的电源插座。
+逆变器的标准交流输出功率限制为 800 W。如果您希望提高此数值，必须由合格电工对装置进行检查，以确认其符合现行安全要求。检查完成后，您可以在 INDEVOLT 应用中申请将功率提升至 3000 W。
+
+**SolidFlex 2000/Eco 和 PowerFlex 2000/Eco** 的功率上限可提升至 **2400 W**。
+
+:::
+
+#### 步骤 1：连接电网
+
+1. 使用随附的带安全插头的电源线，将电源模块连接到家中的电源插座。
 
 <img src={require("./img/connect-grid.png").default} width="720"/>
 
-**步骤 2：连接太阳能板**
+#### 步骤 2：连接太阳能板
 
-:::info
-ECO型号不配备光伏端口，不适用本步骤。
-:::
+配备四个独立的最大功率点跟踪（MPPT）单元。每个光伏输入作为一个独立的 MPPT 运行。
 
-使用光伏延长线，将每组太阳能板的正负极输出端分别接入主机对应的 PV输入接口（标有PV1, PV2等）。
+- 开路电压（Voc）：每个 PV 输入 < 60 V
+- 短路电流（Isc）：每个 PV 输入 < 20 A
 
-<img src={require("./img/connect-pv.png").default} width="480"/>
+> 💡 **型号差异提示**：SolidFlex 3000 Hybrid / SolidFlex 3000 Hybrid Pro 手册中标明“短路电流（Isc）：每个 PV 输入 < 22 A”。
+
+- 为获得最佳效率，我们建议太阳能线缆长度不超过 3 m，以减少传输损耗。
+
+- 组件的正极（+）和负极（–）端子必须连接到同一个 PV 输入。
+
+  <img src={require("./img/connect-pv.png").default} width="480"/>
 
 :::warning
-严禁将两个或多个组件串联连接，否则可能导致输入电压超过60V并损坏设备。
+
+注意：
+当电池模块发生故障时，系统将锁定。该锁定无法自动恢复，需要专业售后服务处理。经专业售后确认满足要求后，系统功能方可恢复。
+
 :::
 
-:::info
-当主机发生故障时，系统将在15分钟内自动尝试恢复。若恢复失败，需由专业售后人员处理。经专业售后确认符合要求后，系统功能方可恢复。
-:::
+### 电力系统
+
+该设备可用于单相或三相家庭系统：
+
+<img src={require("./img/electricity-system.png").default} width="720"/>
+
+### 交流耦合连接
+
+如果您已有微型逆变器，也可以通过交流耦合将微型逆变器的输出连接到设备的 Backup 端子。此时，PV 输入将通过微型逆变器为负载供电。当功率超过 3000 W（可通过 APP 调整）时，设备将与微型逆变器断开连接。
+
+注意：AC /Eco 机型仅支持通过微型逆变器连接太阳能组件，没有 PV 端口。
+
+> 💡 **型号差异提示**：对于 SolidFlex 2000/Eco 和 PowerFlex 2000/Eco，此交流耦合连接的断开阈值为 **2400 W** 而非 3000 W（可通过 APP 调整）。
+
+<img src={require("./img/AC-coupled Connection 1.png").default} width="480"/>
+
+<img src={require("./img/AC-coupled Connection 2.png").default} width="480"/>
 
 ---
 
 ## 开机
 
-找到位于主机左侧的 ON/OFF 按键，长按2秒。主机启动时，机身正面的蓝色LED指示灯将被点亮，并以从中心向上下扩散的动效显示。
+找到主机左侧的 ON/OFF 按钮，长按 2 秒。
+
+设备启动时，前面板上的蓝色 LED 指示灯将以从中心向两侧扩散的动画点亮。
+
 <img src={require("./img/power-on.png").default} width="360"/>
 <img src={require("./img/power-on-led-state.png").default} width="240"/>
 
 ---
 
-## 使用 App
+## INDEVOLT APP
 
 通过 INDEVOLT App，您可以：
 
-- 实时查看设备运行状态和当前功率
-- 了解电池剩余电量与充放电情况
-- 查看家庭的日/周/月/年发电与用电统计
-- 设置用能策略、定时计划或执行固件升级
+- 实时监控设备运行状态和当前功率
+- 查看电池电量和充放电状态
+- 查看每日/每周/每月/每年的发电与用电统计
+- 配置能源策略、计划任务，并执行固件升级
 
-📥 初次使用 App 时，请先完成[下载安装、账号注册与设备添加](../app/installation.md)。
+📥 首次使用时，请先完成 [App 下载、账号注册和设备设置](https://docs.indevolt.com/docs/app/installation)。
