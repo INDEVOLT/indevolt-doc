@@ -7,6 +7,7 @@ description: Version history of INDEVOLT energy storage device documentation
 
 | Date       | Version | Updates                                                  |
 | ---------- | ------- | -------------------------------------------------------- |
+| 2026-11-13 | V1.0.27 | 1. Update content for quick Start, including multi-language versions. |
 | 2026-11-10 | V1.0.26 | 1. Added firmware release notes for the 1000 series, 3000 series and SFA&PFA series |
 | 2026-11-04 | V1.0.25 | Updated micro-storage firmware release notes |
 | 2026-10-28 | V1.0.24 | Added [Peak Shaving](./technical-note/Peak-Shaving.md) |

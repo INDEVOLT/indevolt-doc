@@ -7,6 +7,7 @@ description: Historique des versions de la documentation des équipements de sto
 
 | Date de mise à jour | Version | Contenu de la mise à jour |
 | ------------------- | ------- | -------------------------- |
+| 2026-11-13 | V1.0.27 | 1. Mise à jour du contenu de Prise en main rapide, y compris les versions multilingues |
 | 2026-11-10 | V1.0.26 | 1. Ajout de l'historique des versions du firmware des séries 1000, 3000 et SFA&PFA |
 | 2026-11-04 | V1.0.25 | Mise à jour de l'historique des versions du firmware du micro-stockage |
 | 2026-10-28 | V1.0.24 | Ajout de la [Guide d’utilisation de la limitation des pics](./technical-note/Peak-Shaving.md)|

@@ -1,155 +1,220 @@
 ---
-title: Prise en main rapide
-description: Guide d’installation et de première utilisation des équipements de stockage d’énergie Indevolt
+title: Démarrage rapide
+description: Guide d'installation et de première utilisation du stockage d'énergie Indevolt
 ---
 
-# Prise en main rapide
+# Démarrage rapide
 
-Ce document s’applique aux équipements de stockage d’énergie **SolidFlex 2000 / PowerFlex 2000** et décrit le processus complet, du déballage à la première mise en service. Il comprend la vérification avant installation, l’installation de l’équipement, la première mise sous tension ainsi que l’ajout du dispositif dans l’application.
+Le contenu de ce document constitue le manuel d'utilisation général. **Les différences des modèles sont signalées par des remarques 💡 dans tout le document.** Veuillez vous reporter aux remarques correspondant au modèle que vous avez acheté.
 
 :::warning
-Avant toute manipulation, veuillez lire les **[Consignes de sécurité](./safety.md)** afin de garantir une utilisation sûre.
+
+Avant toute utilisation, veuillez d'abord lire les **[Consignes de sécurité](./safety.md)** pour garantir votre sécurité.
+
 :::
-
-## Outils nécessaires
-
-Avant d’installer l’équipement, veuillez préparer les outils suivants :
-
-<img src={require("./img/tools.png").default} width="480"/>
 
 ---
 
-## Déballage et vérification des accessoires
+## Liste de colisage
 
-1. Vérifiez que l’emballage est intact et non endommagé.  
-2. Ouvrez la boîte et retirez soigneusement l’équipement et les accessoires.  
-3. Vérifiez la liste des composants pour vous assurer qu’il n’y a ni pièce manquante ni dommage.  
+**Module d'alimentation :**
 
-<img src={require("./img/power-packing-list.png").default} width="960"/>
+<img src={require("./img-fr/power-packing-list.png").default} width="800"/>
 
-> Si vous avez également acheté un module batterie, veuillez vérifier la liste suivante :  
-<img src={require("./img/battery-packing-list.png").default} width="960"/>
+**Module batterie (en option) :**
+
+<img src={require("./img-fr/battery-packing-list.png").default} width="800"/>
+
+> 💡 **Remarque sur les différences entre modèles** : les modèles **sans port PV** (modèles AC / Eco) n'incluent Outil de démontage du connecteur MC4.
 
 ---
 
-## Instructions d’installation
+## Installation
 
-:::info
-- Ne pas installer le module dans une zone exposée au soleil direct, à proximité de flammes ou de matériaux inflammables ou explosifs.  
-- S’assurer que l’emplacement d’installation est protégé contre les risques tels que les inondations.  
-- Utilisation recommandée à une altitude inférieure à 2000 m.  
-- Maintenir une bonne ventilation pour assurer une dissipation thermique adéquate.  
-:::
+### Choix de l'emplacement
 
-### Étape 1 : Mesure de l’espace
+- Ne pas installer près de la lumière directe du soleil, du feu ou de matériaux explosifs.
+- L'emplacement doit être protégé contre les risques d'inondation.
+- Utiliser sous les 2000 m d'altitude max.
 
-Déterminez l’espace nécessaire en fonction de la configuration réelle afin de garantir une distance suffisante pour la dissipation thermique et la sécurité électrique.
+### Jeux d'encombrement
 
-<img src={require("./img/system-size.png").default} width="720"/>
-<img src={require("./img/device-size.png").default} width="600"/>
+Réserver un espace suffisant pour la dissipation thermique et l'isolation électrique.
 
-### Étape 2 : Fixation de l’équipement
+1. Sélectionner l'espace d'installation approprié en fonction de la configuration de l'appareil à installer.
 
-Exemple basé sur une configuration de **1 module principal + 2 modules batterie** :
+<img src={require("./img-fr/system-size.png").default} width="720"/>
 
-1. Installer 4 pieds de support sous le module batterie d’extension inférieur.  
-   <img src={require("./img/installation-step1.png").default} width="360"/>
+> 💡 **Remarque sur les différences entre modèles** : les autres séries utilisent des batteries d'extension et des valeurs de capacité différentes :
+>
+> | Module d'alimentation | Batterie d'extension |
+> | ---------------------------- | ----------------- |
+> | SolidFlex 2000/Eco | 1792 Wh |
+> | PowerFlex 2000/Eco | 2009 Wh |
+> | SolidFlex 3000 Hybrid/AC | 1792 Wh |
+> | SolidFlex 3000 Hybrid/AC Pro | 2009,6 Wh |
+> | PowerFlex 3000 Hybrid/AC | 2016 Wh |
+>
+> | Module batterie | Batterie d'extension |
+> | --- | --- |
+> | SFA 1800 | 1792 Wh |
+> | SFA 3600 | 3584 Wh |
+> | PFA 2000 | 2016 Wh |
+> | PFA 4000 | 4032 Wh |
 
-2. Un espace libre d’au moins 30 mm doit être maintenu à l’arrière de l’appareil (zone du dissipateur thermique) afin d’assurer une ventilation adéquate et une dissipation thermique efficace.  
-   <img src={require("./img/installation-step2.png").default} width="360"/>
+2. Dimensions du produit :
 
-3. Ajuster les quatre pieds afin de garantir que l’équipement soit parfaitement horizontal à l’aide d’un niveau à bulle.  
-   <img src={require("./img/installation-step3.png").default} width="480"/>
+<img src={require("./img-fr/device-size.png").default} width="600"/>
 
-4. Retirer les caches de protection suivants :  
-   - Cache inférieur du module principal  
-   - Cache supérieur et inférieur des modules batterie intermédiaires  
+
+
+Remarque : Les composants suivants ne sont pas inclus dans ce colis. Veuillez vous assurer qu'ils sont prêts avant l'installation et le raccordement électrique.
+
+<img src={require("./img-fr/tools.png").default} width="480"/>
+
+### Installation
+
+Les étapes suivantes décrivent l'installation d'un module d'alimentation et de deux batteries d'extension à titre d'exemple.
+
+1. Installez quatre pieds de support au bas de la batterie d'extension.
+   <img src={require("./img-fr/installation-step1.png").default} width="360"/>
+
+2. Un espace libre minimum de 30 mm doit être respecté à l'arrière de l'appareil (zone du dissipateur thermique) afin de garantir une ventilation adéquate et une dissipation thermique efficace.
+   <img src={require("./img-fr/installation-step2.png").default} width="360"/>
+
+3. Ajuster la hauteur des quatre pieds de support au bas de l'appareil pour s'assurer qu'il soit horizontal, en calibrant à l'aide d'un niveau à bulle.
+   <img src={require("./img-fr/installation-step3.png").default} width="480"/>
+
+4. Enlever le capuchon de protection du bas du module d'alimentation, ainsi que les capuchons de protection du haut et du bas du module de batterie central.
+
+   <img src={require("./img-fr/installation-step4.png").default} width="600"/>
 
    :::warning
-   Ne pas retirer le cache du module batterie d’extension inférieur afin d’éviter tout dommage matériel.
+
+   Lors de l'installation du module de batterie inférieur, maintenez le bouchon en caoutchouc en place pour éviter tout dommage causé par l'eau.
+
+   Attention : Ne pas enlever le capuchon de protection du module de batterie d'extension le plus bas pour éviter d'endommager l'appareil !
    :::
 
-   <img src={require("./img/installation-step4.png").default} width="600"/>
+5. Empiler les modules de batterie d'extension les uns après les autres, avec le module d'alimentation en haut. Pour cela, il faut connecter les deux connecteurs correspondants.
+   <img src={require("./img-fr/installation-step5.png").default} width="300"/>
 
-5. Aligner les modules batterie d’extension avec les interfaces correspondantes et les empiler verticalement, puis installer le module principal en haut.  
-   <img src={require("./img/installation-step5.png").default} width="240"/>
+6. Fixer le support mural en forme de L sur les deux côtés du premier module de batterie d'extension sous le module d'alimentation à l'aide de vis Phillips M4.
+   <img src={require("./img-fr/installation-step6.png").default} width="300"/>
 
-6. Fixer les supports muraux en forme de L des deux côtés du premier module batterie sous le module principal à l’aide de vis cruciformes M4.  
-   <img src={require("./img/installation-step6.png").default} width="240"/>
+7. Après l'installation du module d'alimentation et des modules de batterie, fixer les 2 modules avec des vis Phillips M4.
 
-7. Une fois les modules empilés, fixer le module principal et les modules batterie entre eux avec des vis M4.  
-   <img src={require("./img/installation-step7.png").default} width="480"/>
+   <img src={require("./img-fr/installation-step7.png").default} width="480"/>
 
-8. Marquer les points de perçage sur le mur, percer des trous de Ø8 mm avec une profondeur d’environ 60 mm.  
-   <img src={require("./img/installation-step8.png").default} width="480"/>
+8. Marquer la position des trous à percer sur les deux côtés et utiliser une perceuse avec un foret de φ8 mm et une profondeur de 60 mm.
 
-9. Insérer les chevilles d’expansion M5×60 dans les trous à l’aide d’un marteau, puis fixer solidement les supports muraux avec un tournevis cruciforme.  
-   <img src={require("./img/installation-step9.png").default} width="480"/>
+   <img src={require("./img-fr/installation-step8.png").default} width="480"/>
+
+9. Insérer le manchon en plastique de la vis auto-taillant M5×60 dans le trou à l'aide d'un marteau, puis serrer la vis auto-taillant M5×60 dans le support mural en forme de L à l'aide d'un tournevis Phillips.
+   <img src={require("./img-fr/installation-step9.png").default} width="480"/>
+
+   Ce produit contient un transformateur à double isolation qui respecte les exigences de sécurité sans avoir besoin de mesurer la résistance d'isolation de la terre du tableau photovoltaïque ou de détecter les courants de défaut du tableau.
 
 :::info
-Ce produit intègre un transformateur d’isolation double conforme aux normes de sécurité. Il n’est pas nécessaire de mesurer la résistance d’isolement du champ photovoltaïque ni de détecter les courants de défaut.
 
-L’unité principale doit être connectée à une prise de terre fiable. Sinon, il existe un risque de choc électrique. Si une prise mise à la terre n’est pas disponible, la mise à la terre du boîtier doit être réalisée. Le point de mise à la terre est indiqué ci-dessous.
+La connexion au réseau doit être connectée à une prise de terre, sinon il y a un grand risque d'électrocution. Autre possibilité, le boîtier doit être mis à la terre. Le point de mise à la terre est indiqué ci-dessous.
 
-<img src={require("./img/installation-step10.png").default} width="240"/>
+<img src={require("./img-fr/installation-step10.png").default} width="240"/>
+
 :::
 
 ---
 
-## Connexions électriques
+## Raccordement électrique
 
-:::info
-- L’installation du raccordement au réseau AC doit respecter les réglementations locales. En cas de dépassement des limites autorisées, l’intervention d’un électricien qualifié est recommandée.
+### Connexion des câbles
+
+:::info 💡 Remarque sur les différences entre modèles
+
+Les instructions de connexion PV suivantes s'appliquent uniquement aux modèles non-Eco et non-AC.
+
+Les modèles Eco et AC, qui ne disposent pas de port PV, ne sont pas concernés par cette section.
+
 :::
 
-Les étapes suivantes décrivent un scénario standard avec quatre panneaux photovoltaïques.
+Les étapes suivantes décrivent l'installation d'un système avec quatre panneaux solaires à titre d'exemple.
 
-<img src={require("./img/connect-cables.png").default} width="960"/>
+<img src={require("./img-fr/connect-cables.png").default} width="960"/>
 
-### Étape 1 : Connexion au réseau
+:::info 💡 Remarque sur les différences entre modèles : puissance d'injection réseau
 
-1. Utiliser le câble d’alimentation fourni avec prise de sécurité (5 m).  
-2. Connecter une extrémité au port GRID IN/OUT du module principal.  
-3. Brancher l’autre extrémité à une prise secteur domestique ou sur site.  
+La puissance de sortie CA standard de l'onduleur est limitée à 800 W. Si vous souhaitez augmenter cette valeur, l'installation doit être inspectée par un électricien qualifié afin de confirmer sa conformité aux exigences de sécurité en vigueur. À l'issue de cette inspection, vous pouvez faire une demande via l'application INDEVOLT afin d'augmenter la puissance à 3000 W.
 
-<img src={require("./img/connect-grid.png").default} width="720"/>
+Les manuels des **SolidFlex 2000/Eco et PowerFlex 2000/Eco** décrivent la même procédure avec une limite pouvant être augmentée à **2400 W** à la place.
 
-### Étape 2 : Connexion des panneaux photovoltaïques
-
-:::info
-Le modèle ECO ne dispose pas de ports photovoltaïques et ne nécessite pas cette étape.
 :::
 
-Utiliser les câbles d’extension PV pour connecter les sorties positives et négatives de chaque groupe de panneaux aux entrées PV correspondantes du module principal (PV1, PV2, etc.).
+#### Étape 1 : Raccorder le réseau
 
-<img src={require("./img/connect-pv.png").default} width="480"/>
+1. Connectez le module d'alimentation à une prise secteur à domicile en utilisant le câble d'alimentation avec la prise de sécurité fournie.
+
+<img src={require("./img-fr/connect-grid.png").default} width="720"/>
+
+#### Étape 2 : Raccorder les panneaux solaires
+
+Dispose de quatre unités indépendantes de suivi du point de puissance maximale (MPPT). Chaque entrée photovoltaïque fonctionne comme un MPPT distinct.
+
+- Tension en circuit ouvert (Voc) : < 60 V par entrée PV.
+- Courant de court-circuit (Isc) : < 20 A par entrée PV.
+
+> 💡 **Remarque sur les différences entre modèles** : les manuels des SolidFlex 3000 Hybrid / SolidFlex 3000 Hybrid Pro indiquent « Courant de court-circuit (Isc) : < 22 A par entrée PV ».
+
+- Pour une efficacité optimale, nous recommandons d'utiliser des câbles solaires d'une longueur maximale de 3 m afin de réduire les pertes de transmission.
+
+- Les bornes positive (+) et négative (–) d'un module doivent être connectées à la même entrée PV.
+
+  <img src={require("./img-fr/connect-pv.png").default} width="480"/>
 
 :::warning
-Il est strictement interdit de connecter plusieurs modules en série, cela pourrait dépasser une tension d’entrée de 60 V et endommager l’équipement.
+
+Remarque :
+En cas de panne du module de batterie, le système se verrouillera. Ce verrouillage ne peut pas être restauré automatiquement et nécessite l'assistance du service après-vente. La fonctionnalité du système sera rétablie après confirmation par le service après-vente que les conditions sont remplies.
+
 :::
 
-:::info
-En cas de panne du module principal, le système tentera une récupération automatique dans un délai de 15 minutes. Si la récupération échoue, une intervention du service après-vente est requise. Le système ne pourra reprendre son fonctionnement qu’après validation par un technicien qualifié.
-:::
+### Système électrique
+
+L'appareil peut être utilisé dans des systèmes domestiques monophasés ou triphasés :
+
+<img src={require("./img-fr/electricity-system.png").default} width="720"/>
+
+### Connexion en CA
+
+Si vous disposez déjà d'un micro-onduleur, vous pouvez également coupler la sortie du micro-onduleur au terminal de secours de l'appareil via un couplage en CA. À ce moment-là, l'entrée PV alimentera la charge via le micro-onduleur. Si la puissance dépasse 3000 W (ce seuil peut être ajusté via l'application), l'appareil se déconnectera du micro-onduleur.
+
+Remarque : Les modèles AC / Eco ne supportent la connexion aux modules solaires que via des micro-onduleurs et ne disposent pas de port PV.
+
+> 💡 **Remarque sur les différences entre modèles** : pour les SolidFlex 2000/Eco et PowerFlex 2000/Eco, le seuil de déconnexion de ce couplage en CA est de **2400 W** au lieu de 3000 W (ajustable via l'application).
+
+<img src={require("./img-fr/AC-coupled Connection 1.png").default} width="480"/>
+
+<img src={require("./img-fr/AC-coupled Connection 2.png").default} width="480"/>
 
 ---
 
 ## Mise sous tension
 
-Localisez le bouton ON/OFF sur le côté gauche du module principal et maintenez-le enfoncé pendant 2 secondes. Lors du démarrage, le voyant LED bleu en façade s’allume avec un effet lumineux du centre vers le haut et le bas.
+Localisez le bouton ON/OFF sur le côté gauche de l'unité principale et maintenez-le enfoncé pendant 2 secondes.
 
-<img src={require("./img/power-on.png").default} width="360"/>
-<img src={require("./img/power-on-led-state.png").default} width="240"/>
+Au démarrage, le voyant LED bleu du panneau avant s'allume avec une animation s'étendant du centre vers les extrémités.
+
+<img src={require("./img-fr/power-on.png").default} width="360"/>
+<img src={require("./img-fr/power-on-led-state.png").default} width="240"/>
 
 ---
 
-## Utilisation de l’application
+## INDEVOLT APP
 
-Avec l’application INDEVOLT, vous pouvez :
+Avec l'application INDEVOLT, vous pouvez :
 
-- Consulter en temps réel l’état de fonctionnement et la puissance actuelle  
-- Suivre le niveau de charge et de décharge de la batterie  
-- Visualiser les statistiques de production et de consommation (jour / semaine / mois / année)  
-- Configurer des stratégies énergétiques, des plannings ou effectuer des mises à jour firmware  
+- surveiller en temps réel l'état de fonctionnement des appareils et la puissance actuelle
+- vérifier le niveau de batterie et l'état de charge/décharge
+- consulter les statistiques quotidiennes/hebdomadaires/mensuelles/annuelles de production et de consommation d'énergie
+- configurer des stratégies et des planifications énergétiques et effectuer des mises à niveau du firmware
 
-📥 Lors de la première utilisation, veuillez suivre les étapes de [téléchargement, création de compte et ajout de l’appareil](../app/installation.md).
+📥 Pour une première utilisation, veuillez d'abord compléter le [téléchargement de l'application, la création de compte et la configuration de l'appareil](https://docs.indevolt.com/docs/app/installation).
