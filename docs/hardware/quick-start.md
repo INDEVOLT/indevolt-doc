@@ -1,98 +1,125 @@
 ---
 title: Quick Start
-description: Installation and First-Time Setup Guide for Indevolt Micro Energy Storage Devices
+description: Indevolt energy storage device installation and first-use guide
 ---
 
 # Quick Start
 
-This document applies to **SolidFlex 2000 / PowerFlex 2000** energy storage devices and provides a complete workflow from unboxing to first-time operation. It covers pre-installation checks, device installation, initial startup, and adding the device to the app.
+The content of this document serves as the general user manual. **Differences of the models are highlighted as 💡 notes throughout this document.** Please match the notes according to the model you purchased.
 
 :::warning
 
-Before proceeding, please read **[Safety Information](./safety.md)** carefully to ensure safe operation.
+Before operation, please read the **[Safety Instructions](./safety.md)** first to ensure safety.
 
 :::
 
+---
 
-## Required Tools
+## Packing List
 
-Before installation, please prepare the following tools:
+**Power Module :**
+
+<img src={require("./img/power-packing-list.png").default} width="800"/>
+
+**Battery Module (optional) :**
+
+<img src={require("./img/battery-packing-list.png").default} width="800"/>
+
+> 💡 **Model difference note**:  models **without a PV port** (AC / Eco models) do not include MC4 Connector Removal Tool.
+
+---
+
+## Installation
+
+### Select installation location
+
+- Do not install the modules near direct sunlight, fire or explosive materials.
+- Ensure that the location is protected from potential hazards such as flooding.
+- Recommended for use at altitudes below 2000m.
+
+### Measure the distance
+
+Reserve sufficient space for heat dissipation and safety insulation.
+
+1. Select the appropriate installation space depending on the device configuration to be installed.
+
+<img src={require("./img/system-size.png").default} width="720"/>
+
+> 💡 **Model difference note**: Other series use different expansion batteries and capacity values:
+>
+> | Module Power                 | Expansion Battery |
+> | ---------------------------- | ----------------- |
+> | SolidFlex 2000/Eco           | 1,792 Wh          |
+> | PowerFlex 2000/Eco           | 2,009Wh           |
+> | SolidFlex 3000 Hybrid/AC     | 1,792 Wh          |
+> | SolidFlex 3000 Hybrid/AC Pro | 2,009.6Wh         |
+> | PowerFlex 3000 Hybrid/AC     | 2,016Wh           |
+>
+> | Module Battery | Expansion Battery |
+> | --- | --- |
+> | SFA 1800 | 1,792 Wh |
+> | SFA 3600 | 3,584 Wh |
+> | PFA 2000 | 2,016 Wh |
+> | PFA 4000 | 4,032 Wh |
+
+2. Device Size Information: 
+
+<img src={require("./img/device-size.png").default} width="600"/>
+
+
+
+Note: The following components are not included in this package. Please make sure that they are ready before installation and electrical connection.
 
 <img src={require("./img/tools.png").default} width="480"/>
 
----
+### Installation
 
-## Unboxing & Packing List
+The following steps describe the installation of a power module and two battery modules as an example.
 
-1. Ensure the packaging is intact and undamaged.  
-2. Open the box and remove the device and accessories one by one.  
-3. Check all items against the packing list to confirm there are no missing or damaged parts.  
-   <img src={require("./img/power-packing-list.png").default} width="960"/>
-
-   > If you also purchased battery modules, please check against the following list:  
-   <img src={require("./img/battery-packing-list.png").default} width="960"/>
-
----
-
-## Installation Instructions
-
-:::info
-- Do not install the module in areas exposed to direct sunlight, near open flames, or close to flammable or explosive materials.  
-- Ensure the installation location is protected from potential hazards such as flooding.  
-- Recommended for use at altitudes below 2000 meters.  
-- Ensure good ventilation for proper heat dissipation.  
-:::
-
-**Step 1: Measure the distance**
-
-Calculate the required installation space based on your actual configuration, ensuring sufficient clearance for heat dissipation and electrical safety.
-
-<img src={require("./img/system-size.png").default} width="720"/>
-<img src={require("./img/device-size.png").default} width="600"/>
-
-**Step 2: Secure the Device**
-
-The following example uses **1 power module + 2 battery modules**:
-
-1. Install four support feet on the bottom of the lowest expansion battery module.  
+1. Install four support feet on the bottom of the expansion battery.
    <img src={require("./img/installation-step1.png").default} width="360"/>
 
-2.  A minimum clearance of 30 mm must be maintained at the rear of the device(heatsink area) to ensure adequate ventilation and efficient heat dissipation. 
+2. A minimum clearance of 30 mm must be maintained at the rear of the device (heatsink area) to ensure adequate ventilation and efficient heat dissipation.
    <img src={require("./img/installation-step2.png").default} width="360"/>
 
-3. Adjust the four support feet to level the device. Use a spirit level for calibration.  
+3. Adjust the height of the four support feet at the bottom of the equipment to ensure it is in a level position, calibrate using a level.
    <img src={require("./img/installation-step3.png").default} width="480"/>
 
-4. Remove the protective caps from:  
-   - The bottom of the power module  
-   - The top and bottom of the middle battery module  
-
-   :::warning
-   Do not remove the protective caps of the bottom expansion battery module, as this may cause device damage.
-   :::
+4. Remove the bottom protective cap of the power module, as well as removing the protective caps at the top and bottom of the middle battery module.
 
    <img src={require("./img/installation-step4.png").default} width="600"/>
 
-5. Align the expansion battery modules with the corresponding connectors and stack them upward one by one. Install the power module on top.  
-   <img src={require("./img/installation-step5.png").default} width="240"/>
+   :::warning
 
-6. Use M4 Phillips screws to install the L-shaped wall mounting brackets on both sides of the first expansion battery module beneath the power module.  
-   <img src={require("./img/installation-step6.png").default} width="240"/>
+   When installing the bottom battery pack, keep the rubber plug in place to prevent water damage.
 
-7. After stacking the power and battery modules, secure them together using M4 Phillips screws.  
+   Please be careful not to remove the protective cap of the bottom most expansion battery to avoid damage to the device!
+   :::
+
+5. Stack the expansion battery packs one after another with the power module on top, connecting the two corresponding connectors.
+   <img src={require("./img/installation-step5.png").default} width="300"/>
+
+6. Attach the L-shaped wall bracket to both sides of the first expansion battery under the power module using M4 Phillips screws.
+   <img src={require("./img/installation-step6.png").default} width="300"/>
+
+7. After the power module and battery module are installed, Secure the two modules using M4 Phillips screws.
+
    <img src={require("./img/installation-step7.png").default} width="480"/>
 
-8. Mark drilling positions on both sides of the wall. Drill holes using an Ø8 mm drill bit to a depth of approximately 60 mm.  
+8. Mark the position of the drill holes on both sides and use a drill with a φ8 drill bit and a depth of 60 mm.
+
    <img src={require("./img/installation-step8.png").default} width="480"/>
 
-9. Insert the plastic expansion sleeves (for M5×60 self-tapping screws) into the holes with a hammer, then tighten the screws with a Phillips screwdriver to firmly secure the L-shaped wall brackets to the wall.  
+9. Use a hammer to insert the plastic sleeve of the M5×60 self-tapping screw into the hole, and then use a Phillips screwdriver to fasten the M5×60 self-tapping screw to the L-shaped wall mounting bracket.
    <img src={require("./img/installation-step9.png").default} width="480"/>
+
+   This product contains a dual isolation transformer that complies with safety requirements without 
+
+   requiring measurement of the array grounding insulation resistance or detection of array fault currents.
 
 :::info
 
-This product features a built-in dual isolation transformer that complies with relevant safety requirements. There is no need to measure the grounding insulation resistance of the PV array or test array fault currents.
-
-The main unit must be connected to a grounded power outlet to prevent electric shock risks. If a grounded outlet is unavailable, the device enclosure must be properly grounded. The grounding point is shown below.
+The mains connection must be connected to an earthed socket, otherwise there is a risk of electric shock. Alternatively, the housing should be earthed. The earthing point is shown below.
 
 <img src={require("./img/installation-step10.png").default} width="240"/>
 
@@ -100,47 +127,81 @@ The main unit must be connected to a grounded power outlet to prevent electric s
 
 ---
 
-## Electrical Connections
+## Electrical Connection
 
-:::info
-- Installation of the AC grid connection must comply with local regulations. If beyond permitted limits, consult a qualified electrician.
+### Connecting the cables
+
+:::info 💡 Model difference note
+
+The following PV connection instructions apply only to No-Eco and No-AC model. 
+
+Eco and AC models, which do not have a PV port, are not covered in this section.
+
 :::
 
-The following example illustrates a standard configuration with four solar panels.
+The following steps describe the installation of a system with four solar panels as an example.
 
 <img src={require("./img/connect-cables.png").default} width="960"/>
 
-### Step 1: Connect to the Grid
+:::info 💡 Model difference note: Grid feed-in power
 
-1. Use the supplied power cable with safety plug (5 meters).  
-2. Connect one end of the cable to the GRID IN/OUT port on the main unit.  
-3. Plug the other end into a household or on-site power outlet.
+The standard AC output power of the inverter is limited to 800 W. Should you wish to increase this value, the installation must be inspected by a qualified electrician to confirm compliance with current safety requirements. Following this inspection, you may apply within the INDEVOLT application to increase the power to 3000 W.
+
+The **SolidFlex 2000/Eco and PowerFlex 2000/Eco** manuals state the same procedure with a limit that can be increased to **2400 W** instead.
+
+:::
+
+#### Step 1: Connect the Grid
+
+1. Connect the power module to a power socket at home using the mains cable with safety plug supplied.
 
 <img src={require("./img/connect-grid.png").default} width="720"/>
 
-### Step 2: Connect Solar Panels
+#### Step 2: Connect the Solar Panels
 
-:::info
-The ECO model does not include PV ports and does not apply to this step.
-:::
+Features four independent Maximum Power Point Tracking (MPPT) units. Each photovoltaic input operates as a separate MPPT.
 
-Use PV extension cables to connect the positive and negative outputs of each solar panel group to the corresponding PV input ports on the main unit (labeled PV1, PV2, etc.).
+- Open-circuit voltage (Voc): < 60 V per PV input
+- Short-circuit current (Isc): < 20 A per PV input
 
-<img src={require("./img/connect-pv.png").default} width="480"/>
+> 💡 **Model difference note**: The SolidFlex 3000 Hybrid / SolidFlex 3000 Hybrid Pro manuals specify "Short-circuit current (Isc): < 22 A per PV input".
+
+- For optimum efficiency, we recommend solar cables with a maximum length of 3 m to reduce transmission losses.
+
+- The positive (+) and negative (–) terminals of a module must be connected to the same PV input.
+
+  <img src={require("./img/connect-pv.png").default} width="480"/>
 
 :::warning
-Do not connect two or more solar panels in series, as this may cause the input voltage to exceed 60V and damage the device.
+
+NOTE:
+When the battery module malfunctions, the system will lock. This lock cannot be automatically restored and requires professional after-sales service. The system function will be resumed after confirmation by professional after-sales that it meets the requirements.
+
 :::
 
-:::info
-If the main unit encounters a fault, the system will automatically attempt recovery within 15 minutes. If recovery fails, professional after-sales service is required. System functionality will only be restored after confirmation by authorized service personnel.
-:::
+### Electricity system
+
+The device can be used in single-phase or three-phase household systems:
+
+<img src={require("./img/electricity-system.png").default} width="720"/>
+
+### AC-coupled Connection
+
+If you already have a micro-inverter, you can also couple the output of the micro-inverter to the Backup Terminal of the device via AC-coupled. At this time, the PV input will be provided to the load through the micro-inverter. If the power exceeds 3000W (can be adjusted through the APP), the device will disconnect from the micro-inverter. 
+
+Note: AC /Eco model only support connection to solar modules via micro-inverters and do not have a PV port.
+
+> 💡 **Model difference note**: For the SolidFlex 2000/Eco and PowerFlex 2000/Eco, the disconnect threshold of this AC-coupled connection is **2400 W** instead of 3000 W (can be adjusted through the APP).
+
+<img src={require("./img/AC-coupled Connection 1.png").default} width="480"/>
+
+<img src={require("./img/AC-coupled Connection 2.png").default} width="480"/>
 
 ---
 
 ## Power On
 
-Locate the ON/OFF button on the left side of the main unit and press and hold for 2 seconds.  
+Locate the ON/OFF button on the left side of the main unit and press and hold for 2 seconds.
 
 When the unit starts, the blue LED indicator on the front panel will illuminate with an animation spreading outward from the center.
 
@@ -149,13 +210,13 @@ When the unit starts, the blue LED indicator on the front panel will illuminate 
 
 ---
 
-## Using the App
+## INDEVOLT APP
 
 With the INDEVOLT App, you can:
 
-- Monitor real-time device status and current power  
-- Check battery level and charge/discharge status  
-- View daily/weekly/monthly/yearly energy generation and consumption statistics  
-- Configure energy strategies, schedules, and perform firmware upgrades  
+- Monitor real-time device status and current power
+- Check battery level and charge/discharge status
+- View daily/weekly/monthly/yearly energy generation and consumption statistics
+- Configure energy strategies, schedules, and perform firmware upgrades
 
-📥 For first-time use, please complete the [App download, account registration, and device setup](../app/installation.md).
+📥 For first-time use, please complete the [App download, account registration, and device setup](https://docs.indevolt.com/docs/app/installation).
