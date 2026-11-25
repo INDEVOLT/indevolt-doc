@@ -1,9 +1,9 @@
 ---
-title: Démarrage rapide
+title: Prise en main rapide
 description: Guide d'installation et de première utilisation du stockage d'énergie Indevolt
 ---
 
-# Démarrage rapide
+# Prise en main rapide
 
 Le contenu de ce document constitue le manuel d'utilisation général. **Les différences des modèles sont signalées par des remarques 💡 dans tout le document.** Veuillez vous reporter aux remarques correspondant au modèle que vous avez acheté.
 

@@ -1,9 +1,9 @@
 ---
-title: Snelstartgids
+title: Snel aan de slag
 description: Installatie- en eerste gebruiksgids voor Indevolt energieopslag
 ---
 
-# Snelstartgids
+# Snel aan de slag
 
 De inhoud van dit document dient als algemene gebruikershandleiding. **De modelverschillen worden in het hele document gemarkeerd met 💡 opmerkingen.** Raadpleeg de opmerkingen die horen bij het model dat u heeft aangeschaft.
 
