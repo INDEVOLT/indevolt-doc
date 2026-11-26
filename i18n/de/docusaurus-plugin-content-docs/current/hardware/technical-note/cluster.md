@@ -103,7 +103,6 @@ Die folgenden Modelle werden als Haupt- oder Nebengerät unterstützt:
 - Die Cluster-Funktion zwischen SolidFlex / PowerFlex Modellen und der BK-Serie wurde nicht vollständig validiert und wird daher nicht empfohlen. SolidFlex- und PowerFlex-Modelle können jedoch miteinander zu einem Cluster verbunden werden.
 - Im Cluster-Betrieb:
   - Der Anschluss von PV-Modulen über den **PV-Anschluss** wird unterstützt.
-  - Die Funktion zum Anschluss von Mikro-Wechselrichtern und Lasten über den **Backup-Anschluss** befindet sich noch in der Optimierung und wird derzeit nicht vollständig unterstützt.
 
 :::
 
