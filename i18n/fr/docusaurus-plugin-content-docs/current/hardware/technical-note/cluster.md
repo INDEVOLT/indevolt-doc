@@ -103,7 +103,6 @@ Les modèles suivants peuvent être utilisés comme appareil principal ou second
 - Le fonctionnement en cluster entre les modèles SolidFlex / PowerFlex et la série BK n’a pas été entièrement validé et n’est donc pas recommandé. Toutefois, les modèles SolidFlex et PowerFlex peuvent être utilisés ensemble dans un même cluster.
 - En mode cluster :
   - Les panneaux photovoltaïques peuvent être connectés via les interfaces **PV**
-  - La connexion de micro-onduleurs et de charges via l’interface **Backup** est encore en cours d’optimisation et n’est pas totalement prise en charge pour le moment
 
 :::
 

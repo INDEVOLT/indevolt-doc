@@ -103,7 +103,6 @@ De volgende modellen kunnen worden gebruikt als hoofd- of subapparaat:
 - De clusterwerking tussen SolidFlex / PowerFlex-modellen en de BK-serie is niet volledig gevalideerd en wordt daarom niet aanbevolen. SolidFlex- en PowerFlex-modellen kunnen echter met elkaar in een cluster worden gecombineerd.
 - Tijdens clustergebruik:
   - Ondersteunt het systeem aansluiting van zonnepanelen via de **PV-interface**
-  - Wordt ondersteuning voor micro-omvormers en belastingen via de **Backup-interface** nog verder geoptimaliseerd en is deze momenteel nog niet volledig beschikbaar
 
 :::
 

@@ -107,7 +107,6 @@ The following models can be used as main or sub units:
 - Mixed clusters combining SolidFlex / PowerFlex series and BK series have not been fully validated and is not recommended. However, SolidFlex and PowerFlex series models can be connected in parallel with each other.
 - During cluster operation:
   - PV input through the **PV port** is supported
-  - Connecting microinverters or loads through the **Backup port** is still under optimization and is not yet fully supported
 
 :::
 
